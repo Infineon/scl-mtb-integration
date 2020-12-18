@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="group__group__bsp__wifi" kind="group">
+    <compoundname>group_bsp_wifi</compoundname>
+    <title>WiFi Initialization</title>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="group__group__bsp__wifi_1ga24ad5371221b9b7690a5470add6f0e3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>cy_rslt_t</type>
+        <definition>cy_rslt_t cybsp_wifi_init_primary</definition>
+        <argsstring>(whd_interface_t *interface)</argsstring>
+        <name>cybsp_wifi_init_primary</name>
+        <param>
+          <type><ref refid="whd_8h_1a2e544c482ddbb690bbb95ce7174e79a0" kindref="member">whd_interface_t</ref> *</type>
+          <declname>interface</declname>
+        </param>
+        <briefdescription>
+<para>Initializes the primary interface for the WiFi driver on the board. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function does the following:<linebreak/>
+ 1) Initializes the WiFi driver.<linebreak/>
+ 2) Turns on the WiFi chip.</para>
+<para><simplesect kind="note"><para>This function cannot be called multiple times. If the interface needs to be reinitialized, <ref refid="group__group__bsp__wifi_1ga77555750b014230bd78143aefb9f379b" kindref="member">cybsp_wifi_deinit</ref> must be called before calling this function again.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="out">interface</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Interface to be initialized </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>CY_RSLT_SUCCESS for successful initialization or error if initialization failed. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/cybsp_wifi.h" line="59" column="11" declfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/cybsp_wifi.h" declline="59" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="group__group__bsp__wifi_1ga13b5648cec341b96068e2b372388eea4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>cy_rslt_t</type>
+        <definition>cy_rslt_t cybsp_wifi_init_secondary</definition>
+        <argsstring>(whd_interface_t *interface, whd_mac_t *mac_address)</argsstring>
+        <name>cybsp_wifi_init_secondary</name>
+        <param>
+          <type><ref refid="whd_8h_1a2e544c482ddbb690bbb95ce7174e79a0" kindref="member">whd_interface_t</ref> *</type>
+          <declname>interface</declname>
+        </param>
+        <param>
+          <type><ref refid="structwhd__mac__t" kindref="compound">whd_mac_t</ref> *</type>
+          <declname>mac_address</declname>
+        </param>
+        <briefdescription>
+<para>This function initializes and adds a secondary interface to the WiFi driver. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="note"><para>This function does not initialize the WiFi driver or turn on the WiFi chip. That is required to be done by first calling <ref refid="group__group__bsp__wifi_1ga24ad5371221b9b7690a5470add6f0e3f" kindref="member">cybsp_wifi_init_primary</ref>.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="out">interface</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Interface to be initialized </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">mac_address</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Mac address for secondary interface </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>CY_RSLT_SUCCESS for successful initialization or error if initialization failed. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/cybsp_wifi.h" line="69" column="11" declfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/cybsp_wifi.h" declline="69" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="group__group__bsp__wifi_1ga77555750b014230bd78143aefb9f379b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>cy_rslt_t</type>
+        <definition>cy_rslt_t cybsp_wifi_deinit</definition>
+        <argsstring>(whd_interface_t interface)</argsstring>
+        <name>cybsp_wifi_deinit</name>
+        <param>
+          <type><ref refid="whd_8h_1a2e544c482ddbb690bbb95ce7174e79a0" kindref="member">whd_interface_t</ref></type>
+          <declname>interface</declname>
+        </param>
+        <briefdescription>
+<para>De-initializes all WiFi interfaces and the WiFi driver. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function does the following:<linebreak/>
+ 1) Deinitializes all WiFi interfaces and WiFi driver.<linebreak/>
+ 2) Turns off the WiFi chip.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">interface</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Interface to be de-initialized. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>CY_RSLT_SUCCESS for successful de-initialization or error if de-initialization failed. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/cybsp_wifi.h" line="79" column="11" declfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/cybsp_wifi.h" declline="79" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="group__group__bsp__wifi_1ga9f2fb2176d21e958727a75821b346e47" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="whd_8h_1ac45015d82e65db891b463066873eca4f" kindref="member">whd_driver_t</ref></type>
+        <definition>whd_driver_t cybsp_get_wifi_driver</definition>
+        <argsstring>(void)</argsstring>
+        <name>cybsp_get_wifi_driver</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Gets the wifi driver instance initialized by the driver. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This should only be called after being initialized by <ref refid="group__group__bsp__wifi_1ga24ad5371221b9b7690a5470add6f0e3f" kindref="member">cybsp_wifi_init_primary()</ref> and before being deinitialized by <ref refid="group__group__bsp__wifi_1ga77555750b014230bd78143aefb9f379b" kindref="member">cybsp_wifi_deinit()</ref>. This is also the only time where the driver reference is valid.</para>
+<para><simplesect kind="return"><para>Wifi driver instance pointer. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/cybsp_wifi.h" line="88" column="14" declfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/cybsp_wifi.h" declline="88" declcolumn="14"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="group__group__bsp__wifi_1ga1ddf3533adfa2e8f298f7edab7a8fa0c" prot="public" static="no">
+        <name>CYBSP_RSLT_WIFI_INIT_FAILED</name>
+        <initializer>(CY_RSLT_CREATE(CY_RSLT_TYPE_ERROR, CY_RSLT_MODULE_BOARD_LIB_WHD_INTEGRATION, 0))</initializer>
+        <briefdescription>
+<para>Initialization of the WiFi driver failed. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/cybsp_wifi.h" line="43" column="9" bodyfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/cybsp_wifi.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__group__bsp__wifi_1gab868840379127847a984d02327620dd4" prot="public" static="no">
+        <name>CYBSP_RSLT_WIFI_SDIO_ENUM_TIMEOUT</name>
+        <initializer>(CY_RSLT_CREATE(CY_RSLT_TYPE_ERROR, CY_RSLT_MODULE_BOARD_LIB_WHD_INTEGRATION, 1))</initializer>
+        <briefdescription>
+<para>SDIO enumeration failed. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/cybsp_wifi.h" line="46" column="9" bodyfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/cybsp_wifi.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Basic integration code for interfacing the WiFi Host Driver (WHD) with the Board Support Packages (BSPs). </para>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

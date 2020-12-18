@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="structwhd__coex__config__t" kind="struct" language="C++" prot="public">
+    <compoundname>whd_coex_config_t</compoundname>
+    <includes local="no">whd_types.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwhd__coex__config__t_1afcc1e187cd7f285de8d56162fbbb52bb" prot="public" static="no" mutable="no">
+        <type><ref refid="structwhd__btc__lescan__params__t" kindref="compound">whd_btc_lescan_params_t</ref></type>
+        <definition>whd_btc_lescan_params_t le_scan_params</definition>
+        <argsstring></argsstring>
+        <name>le_scan_params</name>
+        <briefdescription>
+<para>LE Scan Parameters. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_types.h" line="1014" column="29" bodyfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_types.h" bodystart="1014" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Structure for coex config parameters which can be set by application. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>whd_btc_lescan_params_t</label>
+        <link refid="structwhd__btc__lescan__params__t"/>
+      </node>
+      <node id="1">
+        <label>whd_coex_config_t</label>
+        <link refid="structwhd__coex__config__t"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>le_scan_params</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_types.h" line="1013" column="1" bodyfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_types.h" bodystart="1012" bodyend="1015"/>
+    <listofallmembers>
+      <member refid="structwhd__coex__config__t_1afcc1e187cd7f285de8d56162fbbb52bb" prot="public" virt="non-virtual"><scope>whd_coex_config_t</scope><name>le_scan_params</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

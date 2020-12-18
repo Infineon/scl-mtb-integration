@@ -1,1 +1,0 @@
-# scl-mtb-integration

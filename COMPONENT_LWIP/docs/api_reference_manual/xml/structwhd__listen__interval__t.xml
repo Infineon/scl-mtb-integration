@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="structwhd__listen__interval__t" kind="struct" language="C++" prot="public">
+    <compoundname>whd_listen_interval_t</compoundname>
+    <includes local="no">whd_types.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwhd__listen__interval__t_1a59de6cdff8214507260f142834f20cee" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t beacon</definition>
+        <argsstring></argsstring>
+        <name>beacon</name>
+        <briefdescription>
+<para>Listen interval in beacon periods. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_types.h" line="762" column="13" bodyfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_types.h" bodystart="762" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__listen__interval__t_1a011e406e7bba2200194b90d308ea2e82" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t dtim</definition>
+        <argsstring></argsstring>
+        <name>dtim</name>
+        <briefdescription>
+<para>Listen interval in DTIM periods <linebreak/>
+ </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_types.h" line="763" column="13" bodyfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_types.h" bodystart="763" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__listen__interval__t_1af001610277052191979db17c0133c933" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t assoc</definition>
+        <argsstring></argsstring>
+        <name>assoc</name>
+        <briefdescription>
+<para>Listen interval as sent to APs <linebreak/>
+ </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_types.h" line="764" column="14" bodyfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_types.h" bodystart="764" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Structure for storing 802.11 powersave listen interval values. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_types.h" line="761" column="1" bodyfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_types.h" bodystart="760" bodyend="765"/>
+    <listofallmembers>
+      <member refid="structwhd__listen__interval__t_1af001610277052191979db17c0133c933" prot="public" virt="non-virtual"><scope>whd_listen_interval_t</scope><name>assoc</name></member>
+      <member refid="structwhd__listen__interval__t_1a59de6cdff8214507260f142834f20cee" prot="public" virt="non-virtual"><scope>whd_listen_interval_t</scope><name>beacon</name></member>
+      <member refid="structwhd__listen__interval__t_1a011e406e7bba2200194b90d308ea2e82" prot="public" virt="non-virtual"><scope>whd_listen_interval_t</scope><name>dtim</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

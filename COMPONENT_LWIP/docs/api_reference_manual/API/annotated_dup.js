@@ -1,0 +1,27 @@
+var annotated_dup =
+[
+    [ "whd_ap_info_t", "structwhd__ap__info__t.html", "structwhd__ap__info__t" ],
+    [ "whd_band_list_t", "structwhd__band__list__t.html", "structwhd__band__list__t" ],
+    [ "whd_btc_lescan_params_t", "structwhd__btc__lescan__params__t.html", "structwhd__btc__lescan__params__t" ],
+    [ "whd_buffer_funcs_t", "structwhd__buffer__funcs.html", "structwhd__buffer__funcs" ],
+    [ "whd_coex_config_t", "structwhd__coex__config__t.html", "structwhd__coex__config__t" ],
+    [ "whd_event_eth_hdr_t", "structwhd__event__eth__hdr__t.html", "structwhd__event__eth__hdr__t" ],
+    [ "whd_event_ether_header_t", "structwhd__event__ether__header__t.html", "structwhd__event__ether__header__t" ],
+    [ "whd_event_msg", "structwhd__event__msg.html", "structwhd__event__msg" ],
+    [ "whd_event_t", "structwhd__event__t.html", "structwhd__event__t" ],
+    [ "whd_init_config_t", "structwhd__init__config__t.html", "structwhd__init__config__t" ],
+    [ "whd_listen_interval_t", "structwhd__listen__interval__t.html", "structwhd__listen__interval__t" ],
+    [ "whd_mac_t", "structwhd__mac__t.html", "structwhd__mac__t" ],
+    [ "whd_maclist_t", "structwhd__maclist__t.html", "structwhd__maclist__t" ],
+    [ "whd_netif_funcs_t", "structwhd__netif__funcs.html", "structwhd__netif__funcs" ],
+    [ "whd_oob_config_t", "structwhd__oob__config__t.html", "structwhd__oob__config__t" ],
+    [ "whd_packet_filter_t", "structwhd__packet__filter__t.html", "structwhd__packet__filter__t" ],
+    [ "whd_scan_extended_params_t", "structwhd__scan__extended__params__t.html", "structwhd__scan__extended__params__t" ],
+    [ "whd_scan_result_t", "structwhd__scan__result__t.html", "structwhd__scan__result__t" ],
+    [ "whd_sdio_config_t", "structwhd__sdio__config__t.html", "structwhd__sdio__config__t" ],
+    [ "whd_spi_config_t", "structwhd__spi__config__t.html", "structwhd__spi__config__t" ],
+    [ "whd_ssid_t", "structwhd__ssid__t.html", "structwhd__ssid__t" ],
+    [ "whd_sync_scan_result_t", "structwhd__sync__scan__result__t.html", "structwhd__sync__scan__result__t" ],
+    [ "whd_wep_key_t", "structwhd__wep__key__t.html", "structwhd__wep__key__t" ],
+    [ "wl_bss_info_t", "structwl__bss__info__t.html", "structwl__bss__info__t" ]
+];

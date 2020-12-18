@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="structwhd__ssid__t" kind="struct" language="C++" prot="public">
+    <compoundname>whd_ssid_t</compoundname>
+    <includes local="no">whd_types.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwhd__ssid__t_1ab2b3adeb2a67e656ff030b56727fd0ac" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t length</definition>
+        <argsstring></argsstring>
+        <name>length</name>
+        <briefdescription>
+<para>SSID length. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_types.h" line="390" column="13" bodyfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_types.h" bodystart="390" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__ssid__t_1aa88a4115b417ed84082f85ab347f4b02" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t value[SSID_NAME_SIZE]</definition>
+        <argsstring>[SSID_NAME_SIZE]</argsstring>
+        <name>value</name>
+        <briefdescription>
+<para>SSID name (AP name) <linebreak/>
+ </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_types.h" line="391" column="13" bodyfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_types.h" bodystart="391" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Structure for storing a Service Set Identifier (i.e. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Name of Access Point) </para>
+    </detaileddescription>
+    <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_types.h" line="389" column="1" bodyfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_types.h" bodystart="388" bodyend="392"/>
+    <listofallmembers>
+      <member refid="structwhd__ssid__t_1ab2b3adeb2a67e656ff030b56727fd0ac" prot="public" virt="non-virtual"><scope>whd_ssid_t</scope><name>length</name></member>
+      <member refid="structwhd__ssid__t_1aa88a4115b417ed84082f85ab347f4b02" prot="public" virt="non-virtual"><scope>whd_ssid_t</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

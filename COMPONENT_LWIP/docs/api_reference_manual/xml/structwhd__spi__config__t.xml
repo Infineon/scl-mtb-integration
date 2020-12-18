@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="structwhd__spi__config__t" kind="struct" language="C++" prot="public">
+    <compoundname>whd_spi_config_t</compoundname>
+    <includes local="no">whd_types.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwhd__spi__config__t_1a65649e24a48dbfcf74a6e3b0ea729181" prot="public" static="no" mutable="no">
+        <type><ref refid="whd__types_8h_1a7cd94a03f2e7e6aab7217ed559c7a0ac" kindref="member">whd_bool_t</ref></type>
+        <definition>whd_bool_t is_spi_normal_mode</definition>
+        <argsstring></argsstring>
+        <name>is_spi_normal_mode</name>
+        <briefdescription>
+<para>Default is false. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_types.h" line="978" column="16" bodyfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_types.h" bodystart="978" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__spi__config__t_1a5fa87ee1769d21a2bf8a871ab7f4d1bb" prot="public" static="no" mutable="no">
+        <type><ref refid="structwhd__oob__config__t" kindref="compound">whd_oob_config_t</ref></type>
+        <definition>whd_oob_config_t oob_config</definition>
+        <argsstring></argsstring>
+        <name>oob_config</name>
+        <briefdescription>
+<para>Out-of-band interrupt configuration. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_types.h" line="979" column="22" bodyfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_types.h" bodystart="979" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Structure for SPI config parameters which can be set by application during whd power up. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>whd_oob_config_t</label>
+        <link refid="structwhd__oob__config__t"/>
+      </node>
+      <node id="1">
+        <label>whd_spi_config_t</label>
+        <link refid="structwhd__spi__config__t"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>oob_config</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_types.h" line="976" column="1" bodyfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_types.h" bodystart="975" bodyend="980"/>
+    <listofallmembers>
+      <member refid="structwhd__spi__config__t_1a65649e24a48dbfcf74a6e3b0ea729181" prot="public" virt="non-virtual"><scope>whd_spi_config_t</scope><name>is_spi_normal_mode</name></member>
+      <member refid="structwhd__spi__config__t_1a5fa87ee1769d21a2bf8a871ab7f4d1bb" prot="public" virt="non-virtual"><scope>whd_spi_config_t</scope><name>oob_config</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

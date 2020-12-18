@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="indexpage" kind="page">
+    <compoundname>index</compoundname>
+    <title>Overview</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>SCL MTB Integration is a library which translates Wi-Fi Host Driver (WHD) APIs to Subsystems Communication Layer (SCL) APIs. Applications using WHD can use SCL with the help of SCL MTB Integration. The library APIs are thread-safe.</para>
+<sect1 id="index_1section_features">
+<title>Features and Functionality</title>
+<para>The current implementation has the following features and functionality:<itemizedlist>
+<listitem><para>STA mode. AP and connecurrent AP+STA modes are not supported</para>
+</listitem><listitem><para>lwIP network stack, FreeRTOS and Wi-Fi Connection Manager to join and communication with a network</para>
+</listitem></itemizedlist>
+</para>
+<para>The following APIs are supported <programlisting><codeline><highlight class="normal">whd_wifi_set_ioctl_value</highlight></codeline>
+<codeline><highlight class="normal">whd_wifi_get_bss_info</highlight></codeline>
+<codeline><highlight class="normal">whd_wifi_is_ready_to_transceive</highlight></codeline>
+<codeline><highlight class="normal">whd_wifi_on</highlight></codeline>
+<codeline><highlight class="normal">whd_wifi_join</highlight></codeline>
+<codeline><highlight class="normal">cybsp_wifi_init_primary</highlight></codeline>
+<codeline><highlight class="normal">whd_wifi_get_mac_address</highlight></codeline>
+<codeline><highlight class="normal">whd_wifi_register_multicast_address</highlight></codeline>
+<codeline><highlight class="normal">whd_network_send_ethernet_data</highlight></codeline>
+<codeline><highlight class="normal">whd_management_set_event_handler</highlight></codeline>
+<codeline><highlight class="normal">whd_wifi_leave</highlight></codeline>
+<codeline><highlight class="normal">whd_wifi_deregister_event_handler</highlight></codeline>
+<codeline><highlight class="normal">whd_wifi_scan</highlight></codeline>
+</programlisting></para>
+</sect1>
+<sect1 id="index_1section_folder_structure">
+<title>Folder Structure</title>
+<para><itemizedlist>
+<listitem><para>/inc - contains WHD API Files</para>
+</listitem><listitem><para>/src - contains WHD to SCL translation API files</para>
+</listitem><listitem><para>/docs - contains documentation</para>
+</listitem></itemizedlist>
+</para>
+</sect1>
+<sect1 id="index_1section_scl_architecture">
+<title>SCL MTB Integration Architecture</title>
+<para><image type="html" name="scl_mtb_integration_architecture.JPG"></image>
+</para>
+</sect1>
+<sect1 id="index_1section_supported_platforms">
+<title>Supported Platforms</title>
+<para>This library and its features are supported on the following Cypress platforms:<itemizedlist>
+<listitem><para>CYSBSYSKIT-01 Rapid IoT Connect Platform RP01 Feather Kit</para>
+</listitem></itemizedlist>
+</para>
+</sect1>
+<sect1 id="index_1section_dependencies">
+<title>Dependent Libraries</title>
+<para><itemizedlist>
+<listitem><para>scl </para>
+</listitem></itemizedlist>
+</para>
+</sect1>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

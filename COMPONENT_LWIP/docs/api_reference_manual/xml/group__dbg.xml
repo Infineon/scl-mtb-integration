@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="group__dbg" kind="group">
+    <compoundname>dbg</compoundname>
+    <title>WHD Wi-Fi Debug API</title>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="group__dbg_1gab4a8c97085b18321d8d682b1578edf7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint32_t</type>
+        <definition>uint32_t whd_wifi_get_bss_info</definition>
+        <argsstring>(whd_interface_t ifp, wl_bss_info_t *bi)</argsstring>
+        <name>whd_wifi_get_bss_info</name>
+        <param>
+          <type><ref refid="whd_8h_1a2e544c482ddbb690bbb95ce7174e79a0" kindref="member">whd_interface_t</ref></type>
+          <declname>ifp</declname>
+        </param>
+        <param>
+          <type><ref refid="structwl__bss__info__t" kindref="compound">wl_bss_info_t</ref> *</type>
+          <declname>bi</declname>
+        </param>
+        <briefdescription>
+<para>Retrives the bss info. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ifp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pointer to handle instance of whd interface </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bi</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A pointer to the structure <ref refid="structwl__bss__info__t" kindref="compound">wl_bss_info_t</ref></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>WHD_SUCCESS or Error code </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_wifi_api.h" line="619" column="17" declfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_wifi_api.h" declline="619" declcolumn="17"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>WHD APIs which allows debugging like, printing whd log information, getting whd stats, etc. </para>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

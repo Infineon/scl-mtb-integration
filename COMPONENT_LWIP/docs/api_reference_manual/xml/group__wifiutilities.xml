@@ -1,0 +1,358 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="group__wifiutilities" kind="group">
+    <compoundname>wifiutilities</compoundname>
+    <title>WHD Wi-Fi Utility API</title>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="group__wifiutilities_1gaf82eda2ff9979b1bc053a6d7f1f4b125" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint32_t</type>
+        <definition>uint32_t whd_wifi_get_rssi</definition>
+        <argsstring>(whd_interface_t ifp, int32_t *rssi)</argsstring>
+        <name>whd_wifi_get_rssi</name>
+        <param>
+          <type><ref refid="whd_8h_1a2e544c482ddbb690bbb95ce7174e79a0" kindref="member">whd_interface_t</ref></type>
+          <declname>ifp</declname>
+        </param>
+        <param>
+          <type>int32_t *</type>
+          <declname>rssi</declname>
+        </param>
+        <briefdescription>
+<para>Retrieve the latest RSSI value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ifp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pointer to handle instance of whd interface </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>rssi</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The location where the RSSI value will be stored</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>WHD_SUCCESS if the RSSI was successfully retrieved Error code if the RSSI was not retrieved </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_wifi_api.h" line="253" column="17" declfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_wifi_api.h" declline="253" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__wifiutilities_1ga8a634822973adc75a61a05eb2b664ef5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint32_t</type>
+        <definition>uint32_t whd_wifi_get_mac_address</definition>
+        <argsstring>(whd_interface_t ifp, whd_mac_t *mac)</argsstring>
+        <name>whd_wifi_get_mac_address</name>
+        <param>
+          <type><ref refid="whd_8h_1a2e544c482ddbb690bbb95ce7174e79a0" kindref="member">whd_interface_t</ref></type>
+          <declname>ifp</declname>
+        </param>
+        <param>
+          <type><ref refid="structwhd__mac__t" kindref="compound">whd_mac_t</ref> *</type>
+          <declname>mac</declname>
+        </param>
+        <briefdescription>
+<para>Retrieves the current Media Access Control (MAC) address (or Ethernet hardware address) of the 802.11 device. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ifp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pointer to handle instance of whd interface </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mac</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pointer to a variable that the current MAC address will be written to</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>WHD_SUCCESS or Error code </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_wifi_api.h" line="308" column="17" declfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_wifi_api.h" declline="308" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__wifiutilities_1ga52d3190589758d9fd36a7b27a9d08f28" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint32_t</type>
+        <definition>uint32_t whd_wifi_get_bssid</definition>
+        <argsstring>(whd_interface_t ifp, whd_mac_t *bssid)</argsstring>
+        <name>whd_wifi_get_bssid</name>
+        <param>
+          <type><ref refid="whd_8h_1a2e544c482ddbb690bbb95ce7174e79a0" kindref="member">whd_interface_t</ref></type>
+          <declname>ifp</declname>
+        </param>
+        <param>
+          <type><ref refid="structwhd__mac__t" kindref="compound">whd_mac_t</ref> *</type>
+          <declname>bssid</declname>
+        </param>
+        <briefdescription>
+<para>Get the BSSID of the interface. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ifp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pointer to the whd_interface_t </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bssid</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Returns the BSSID address (mac address) if associated</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>WHD_SUCCESS or Error code </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_wifi_api.h" line="317" column="17" declfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_wifi_api.h" declline="317" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__wifiutilities_1gab36ff07aa1d825c0366c82ce003dd9f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint32_t</type>
+        <definition>uint32_t whd_wifi_register_multicast_address</definition>
+        <argsstring>(whd_interface_t ifp, const whd_mac_t *mac)</argsstring>
+        <name>whd_wifi_register_multicast_address</name>
+        <param>
+          <type><ref refid="whd_8h_1a2e544c482ddbb690bbb95ce7174e79a0" kindref="member">whd_interface_t</ref></type>
+          <declname>ifp</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structwhd__mac__t" kindref="compound">whd_mac_t</ref> *</type>
+          <declname>mac</declname>
+        </param>
+        <briefdescription>
+<para>Registers interest in a multicast address. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Once a multicast address has been registered, all packets detected on the medium destined for that address are forwarded to the host. Otherwise they are ignored.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ifp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pointer to handle instance of whd interface </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mac</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Ethernet MAC address</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>WHD_SUCCESS if the address was registered successfully Error code if the address was not registered </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_wifi_api.h" line="505" column="17" declfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_wifi_api.h" declline="505" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__wifiutilities_1gad092a543b73e91c7090875ccb940e01f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint32_t</type>
+        <definition>uint32_t whd_wifi_unregister_multicast_address</definition>
+        <argsstring>(whd_interface_t ifp, const whd_mac_t *mac)</argsstring>
+        <name>whd_wifi_unregister_multicast_address</name>
+        <param>
+          <type><ref refid="whd_8h_1a2e544c482ddbb690bbb95ce7174e79a0" kindref="member">whd_interface_t</ref></type>
+          <declname>ifp</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structwhd__mac__t" kindref="compound">whd_mac_t</ref> *</type>
+          <declname>mac</declname>
+        </param>
+        <briefdescription>
+<para>Unregisters interest in a multicast address. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Once a multicast address has been unregistered, all packets detected on the medium destined for that address are ignored.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ifp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pointer to handle instance of whd interface </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mac</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Ethernet MAC address</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>WHD_SUCCESS if the address was unregistered successfully Error code if the address was not unregistered </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_wifi_api.h" line="518" column="17" declfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_wifi_api.h" declline="518" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__wifiutilities_1ga07144bbc68755481708752962538ee6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint32_t</type>
+        <definition>uint32_t whd_wifi_is_ready_to_transceive</definition>
+        <argsstring>(whd_interface_t ifp)</argsstring>
+        <name>whd_wifi_is_ready_to_transceive</name>
+        <param>
+          <type><ref refid="whd_8h_1a2e544c482ddbb690bbb95ce7174e79a0" kindref="member">whd_interface_t</ref></type>
+          <declname>ifp</declname>
+        </param>
+        <briefdescription>
+<para>Determines if a particular interface is ready to transceive ethernet packets. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ifp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pointer to handle instance of whd interface</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>WHD_SUCCESS if the interface is ready to transceive ethernet packets WHD_NOTFOUND no AP with a matching SSID was found WHD_NOT_AUTHENTICATED Matching AP was found but it won&apos;t let you authenticate. This can occur if this device is in the block list on the AP. WHD_NOT_KEYED Device has authenticated and associated but has not completed the key exchange. This can occur if the passphrase is incorrect. Error code if the interface is not ready to transceive ethernet packets </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_wifi_api.h" line="532" column="17" declfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_wifi_api.h" declline="532" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__wifiutilities_1gaaf7be7d8099507426f52ecff8f716543" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint32_t</type>
+        <definition>uint32_t whd_wifi_manage_custom_ie</definition>
+        <argsstring>(whd_interface_t ifp, whd_custom_ie_action_t action, const uint8_t *oui, uint8_t subtype, const void *data, uint16_t length, uint16_t which_packets)</argsstring>
+        <name>whd_wifi_manage_custom_ie</name>
+        <param>
+          <type><ref refid="whd_8h_1a2e544c482ddbb690bbb95ce7174e79a0" kindref="member">whd_interface_t</ref></type>
+          <declname>ifp</declname>
+        </param>
+        <param>
+          <type><ref refid="whd__types_8h_1a8be1026494a86f0ceeebb2dcbf092cbd" kindref="member">whd_custom_ie_action_t</ref></type>
+          <declname>action</declname>
+        </param>
+        <param>
+          <type>const uint8_t *</type>
+          <declname>oui</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>subtype</declname>
+        </param>
+        <param>
+          <type>const void *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>length</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>which_packets</declname>
+        </param>
+        <briefdescription>
+<para>Manage the addition and removal of custom IEs. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ifp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pointer to handle instance of whd interface </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>action</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the action to take (add or remove IE) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>oui</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the oui of the custom IE </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>subtype</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the IE sub-type </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a pointer to the buffer that hold the custom IE </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>length</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the length of the buffer pointed to by &apos;data&apos; </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>which_packets</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A mask to indicate in which all packets this IE should be included. See whd_ie_packet_flag_t.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>WHD_SUCCESS if the custom IE action was successful Error code if the custom IE action failed </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_wifi_api.h" line="549" column="17" declfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_wifi_api.h" declline="549" declcolumn="17"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Allows WHD to perform utility operations </para>
+    </detaileddescription>
+  </compounddef>
+</doxygen>
