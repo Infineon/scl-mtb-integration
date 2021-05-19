@@ -4,6 +4,12 @@
 See the [README.md](./README.md) for a complete description of the SCL MTB Integration.
 
 ## Changelog
+### v1.0.2
+* Added utils file
+
+### v1.0.1
+* Updated the folder structure
+
 ### v1.0.0
 * Initial release for SCL MTB Integration.
 

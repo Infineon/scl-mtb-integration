@@ -391,17 +391,6 @@ extern uint32_t whd_wifi_get_associated_client_list(whd_interface_t ifp, void *c
  */
 extern uint32_t whd_wifi_deauth_sta(whd_interface_t ifp, whd_mac_t *mac, whd_dot11_reason_code_t reason);
 
-/** Retrieves AP information
- *
- *  @param  ifp            Pointer to handle instance of whd interface
- *  @param  ap_info        Returns a whd_bss_info_t structure containing AP details
- *  @param  security       Authentication type
- *
- *  @return WHD_SUCCESS    if the AP info was successfully retrieved
- *          Error code     if the AP info was not successfully retrieved
- */
-extern uint32_t whd_wifi_get_ap_info(whd_interface_t ifp, whd_bss_info_t *ap_info, whd_security_t *security);
-
 /** Set the beacon interval.
  *
  *  Note that the value needs to be set before ap_start in order to beacon interval to take effect.

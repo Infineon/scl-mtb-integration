@@ -241,7 +241,7 @@ static void *scl_shim_event_handler_t(const scl_event_header_t *event_header,
         {
             for (j = 0; scl_whd_event_list[i].events[j] != WLC_E_NONE; ++j)
             {
-                if ( (scl_whd_event_list[i].events[j] == event_header->event_type) )
+                if (scl_whd_event_list[i].events[j] == event_header->event_type)
                 {
                     /* Correct event type has been found - call the handler function and exit loop */
                     scl_whd_event_list[i].handler_user_data =
@@ -482,3 +482,35 @@ uint32_t whd_wifi_stop_ap(whd_interface_t ifp)
 {
     return WHD_SUCCESS;
 }
+void *whd_cdc_get_iovar_buffer(whd_driver_t whd_driver,
+                               whd_buffer_t *buffer,
+                               uint16_t data_length,
+                               const char *name)
+{
+    return NULL;
+}
+whd_result_t whd_cdc_send_iovar(whd_interface_t ifp, cdc_command_type_t type,
+                                whd_buffer_t send_buffer_hnd,
+                                whd_buffer_t *response_buffer_hnd)
+{
+    return WHD_SUCCESS;
+}
+uint32_t whd_wifi_get_ap_info(whd_interface_t ifp, whd_bss_info_t *ap_info, whd_security_t *security)
+{
+    return WHD_SUCCESS;
+}
+uint32_t whd_wifi_get_associated_client_list(whd_interface_t ifp, void *client_list_buffer,
+                                                    uint16_t buffer_length)
+{
+    return WHD_SUCCESS;
+}
+uint32_t whd_wifi_init_ap(whd_interface_t ifp, whd_ssid_t *ssid, whd_security_t auth_type,
+                                 const uint8_t *security_key, uint8_t key_length, uint8_t channel)
+{
+    return WHD_SUCCESS;
+}
+uint32_t whd_wifi_start_ap(whd_interface_t ifp)
+{
+    return WHD_SUCCESS;
+}
+
