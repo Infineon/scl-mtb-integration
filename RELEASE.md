@@ -4,6 +4,11 @@
 See the [README.md](./README.md) for a complete description of the SCL MTB Integration.
 
 ## Changelog
+### v1.1.0
+* Fixed a bug in scan API
+
+* Fixed minor memory leakage issue
+
 ### v1.0.2
 * Added utils file
 

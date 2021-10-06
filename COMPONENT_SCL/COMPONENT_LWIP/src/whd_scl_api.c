@@ -200,6 +200,7 @@ void whd_network_send_ethernet_data(whd_interface_t ifp, whd_buffer_t buffer)
     scl_tx_buffer_from_lwip.buffer = buffer;
     scl_tx_buffer_from_lwip.size = scl_buffer_get_current_piece_size(buffer);
     scl_network_send_ethernet_data(scl_tx_buffer_from_lwip);
+    scl_buffer_release(buffer,0);
 }
 
 whd_result_t whd_management_set_event_handler(whd_interface_t ifp, const whd_event_num_t *event_nums,
@@ -363,18 +364,13 @@ void scl_scan_callback(scl_scan_result_t *result_ptr, void *user_data, scl_scan_
         }
         memcpy(scan_ie_ptr,(*p_result_scan)->ie_ptr,(*p_result_scan)->ie_len);
         (*p_result_scan)->ie_ptr = scan_ie_ptr;
+        whd_scan_callback(p_result_scan, user_data, (whd_scan_status_t)status);
     }
     if (status == SCL_SCAN_COMPLETED_SUCCESSFULLY) {
-
-        /* sending a temporary scan result since the scan is already completed */
-        whd_scan_result_t temp_scan_result;
-        memset(&temp_scan_result, 0, sizeof(whd_scan_result_t));
-        *p_result_scan = &temp_scan_result;
         free(scan_ie_ptr);
         scan_ie_ptr = NULL;
+        whd_scan_callback(NULL, user_data, (whd_scan_status_t)status);
     }
-    
-    whd_scan_callback(p_result_scan, user_data, (whd_scan_status_t)status);
 }
 uint32_t whd_wifi_scan(whd_interface_t ifp,
                               whd_scan_type_t scan_type,
