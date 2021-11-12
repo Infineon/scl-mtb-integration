@@ -242,6 +242,90 @@ extern uint32_t whd_wifi_join_specific(whd_interface_t ifp, const whd_scan_resul
  *  @{
  */
 
+/** Set the current channel on the WLAN radio
+ *
+ *  @note  On most WLAN devices this will set the channel for both AP *AND* STA
+ *        (since there is only one radio - it cannot be on two channels simulaneously)
+ *
+ *  @param   ifp           Pointer to handle instance of whd interface
+ *  @param   channel       The desired channel
+ *
+ *  @return  WHD_SUCCESS   if the channel was successfully set
+ *           Error code    if the channel was not successfully set
+ */
+extern uint32_t whd_wifi_set_channel(whd_interface_t ifp, uint32_t channel);
+
+/** Get the current channel on the WLAN radio
+ *
+ *  @note On most WLAN devices this will get the channel for both AP *AND* STA
+ *       (since there is only one radio - it cannot be on two channels simulaneously)
+ *
+ *  @param   ifp            Pointer to handle instance of whd interface
+ *  @param   channel        Pointer to receive the current channel
+ *
+ *  @return  WHD_SUCCESS    if the channel was successfully retrieved
+ *           Error code     if the channel was not successfully retrieved
+ */
+extern uint32_t whd_wifi_get_channel(whd_interface_t ifp, uint32_t *channel);
+
+/** Gets the supported channels
+ *
+ *  @param   ifp                 Pointer to handle instance of whd interface
+ *  @param   channel_list        Buffer to store list of the supported channels
+ *                               and max channel is WL_NUMCHANNELS
+ *
+ *  @return  WHD_SUCCESS         if the active connections was successfully read
+ *           WHD_ERROR           if the active connections was not successfully read
+ */
+extern uint32_t whd_wifi_get_channels(whd_interface_t ifp, whd_list_t *channel_list);
+
+
+/** Set the passphrase
+ *
+ *  @param   ifp            Pointer to handle instance of whd interface
+ *  @param   security_key   The security key (passphrase) which is to be set
+ *  @param   key_length     length of the key
+ *
+ *  @return  WHD_SUCCESS    when the key is set
+ *           Error code     if an error occurred
+ */
+extern uint32_t whd_wifi_set_passphrase(whd_interface_t ifp, const uint8_t *security_key, uint8_t key_length);
+
+/** Set the SAE password
+ *
+ *  @param   ifp            Pointer to handle instance of whd interface
+ *  @param   security_key   The security key (password) which is to be set
+ *  @param   key_length     length of the key
+ *
+ *  @return  WHD_SUCCESS    when the key is set
+ *           Error code     if an error occurred
+ */
+extern uint32_t whd_wifi_sae_password(whd_interface_t ifp, const uint8_t *security_key, uint8_t key_length);
+
+/** Enable WHD internal supplicant and set WPA2 passphrase in case of WPA3/WPA2 transition mode
+ *
+ *  @param   ifp                Pointer to handle instance of whd interface
+ *  @param   security_key_psk   The security key (passphrase) which is to be set
+ *  @param   psk_length         length of the key
+ *  @param   auth_type          Authentication type: @ref WHD_SECURITY_WPA3_WPA2_PSK
+ *
+ *  @return  WHD_SUCCESS        when the supplicant variable and wpa2 passphrase is set
+ *           Error code         if an error occurred
+ */
+extern uint32_t whd_wifi_enable_sup_set_passphrase(whd_interface_t ifp, const uint8_t *security_key_psk,
+                                                   uint8_t psk_length, whd_security_t auth_type);
+
+
+/** Enable WHD internal supplicant
+ *
+ *  @param   ifp            Pointer to handle instance of whd interface
+ *  @param   auth_type      Authentication type
+ *
+ *  @return  WHD_SUCCESS    when the supplicant variable is set
+ *           Error code     if an error occurred
+ */
+extern uint32_t whd_wifi_enable_supplicant(whd_interface_t ifp, whd_security_t auth_type);
+
 /** Retrieve the latest RSSI value
  *
  *  @param   ifp           Pointer to handle instance of whd interface

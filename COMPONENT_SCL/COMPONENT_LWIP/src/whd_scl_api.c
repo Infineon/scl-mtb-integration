@@ -393,7 +393,17 @@ uint32_t whd_wifi_scan(whd_interface_t ifp,
     }
     return WHD_TIMEOUT;
 }
+
+whd_interface_t whd_get_primary_interface(whd_driver_t whd_driver) {
+    return (whd_interface_t)WHD_STA_ROLE;
+}
+
 /* APIs to be supported in future */
+
+uint32_t whd_wifi_get_channels(whd_interface_t ifp, whd_list_t *channel_list) {
+    return WHD_WLAN_UNSUPPORTED;
+}
+
 cy_rslt_t cybsp_wifi_init_secondary(whd_interface_t* interface, whd_mac_t* mac_address)
 {
     return CY_RSLT_SUCCESS;

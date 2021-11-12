@@ -1,5 +1,5 @@
 /*
- * Copyright 2020 Cypress Semiconductor Corporation
+ * Copyright 2021, Cypress Semiconductor Corporation (an Infineon company)
  * SPDX-License-Identifier: Apache-2.0
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -21,6 +21,8 @@
  */
 
 #include <stdint.h>
+
+#include "cybsp.h"
 #include "cy_result.h"
 #include "cyhal_hw_types.h"
 
@@ -58,17 +60,23 @@ extern "C"
 /**
  * Suppress unused parameter warning
  */
+#ifndef UNUSED_PARAMETER
 #define UNUSED_PARAMETER(x) ( (void)(x) )
+#endif
 
 /**
  * Suppress unused variable warning
  */
+#ifndef UNUSED_VARIABLE
 #define UNUSED_VARIABLE(x) ( (void)(x) )
+#endif
 
 /**
  * Suppress unused variable warning occurring due to an assert which is disabled in release mode
  */
+#ifndef REFERENCE_DEBUG_ONLY_VARIABLE
 #define REFERENCE_DEBUG_ONLY_VARIABLE(x) ( (void)(x) )
+#endif
 
 /******************************************************
 *@cond               Type Definitions
@@ -88,6 +96,7 @@ typedef struct whd_tko_status whd_tko_status_t;
 ******************************************************/
 
 #define WIFI_IE_OUI_LENGTH    (3)    /**< OUI length for Information Element */
+#define VNDR_IE_MAX_LEN       255    /**< vendor IE max length, without ID and len */
 
 /* Below constants are used to allocate the buffer pool by the application */
 
@@ -386,6 +395,15 @@ typedef struct
 {
     uint8_t octet[6]; /**< Unique 6-byte MAC address */
 } whd_mac_t;
+
+/**
+ * Structure for storing the supported channels.
+ */
+typedef struct
+{
+    uint32_t count;             /**< Number of channels */
+    uint32_t element[1];        /**< Channel element */
+} whd_list_t;
 
 /**
  * Structure for storing a Service Set Identifier (i.e. Name of Access Point)
@@ -760,7 +778,8 @@ typedef struct wl_bss_info_struct
     /* variable length Information Elements */
 } wl_bss_info_t;
 
-/** Structure for storing 802.11 powersave listen interval values 
+/** 
+ * Structure for storing 802.11 powersave listen interval values 
  */
 typedef struct
 {
@@ -853,6 +872,7 @@ typedef uint32_t whd_result_t;
 #define WHD_CLM_BLOB_DLOAD_ERROR         WHD_RESULT_CREATE(1068)   /**< CLM blob download failed */
 #define WHD_HAL_ERROR                    WHD_RESULT_CREATE(1069)   /**< WHD HAL Error */
 #define WHD_RTOS_STATIC_MEM_LIMIT        WHD_RESULT_CREATE(1070)   /**< Exceeding the RTOS static objects memory */
+#define WHD_NO_REGISTER_FUNCTION_POINTER WHD_RESULT_CREATE(1071)   /**< No register function pointer */
 
 #define WLAN_ENUM_OFFSET 2000            /**< WLAN enum offset for WHD_WLAN error processing */
 
@@ -985,6 +1005,16 @@ typedef struct whd_spi_config
 } whd_spi_config_t;
 
 /**
+ * Structure for M2M config parameters which can be set by application during whd power up
+ */
+typedef struct whd_m2m_config
+{
+    /* Bus config */
+    whd_bool_t is_normal_mode; /**< Default is false */
+} whd_m2m_config_t;
+
+
+/**
  * Enumeration of applicable packet mask bits for custom Information Elements (IEs)
  */
 typedef enum
@@ -995,7 +1025,10 @@ typedef enum
     VENDOR_IE_AUTH_RESPONSE = 0x8,  /**< Denotes authentication response packet */
     VENDOR_IE_PROBE_REQUEST = 0x10, /**< Denotes probe request packet           */
     VENDOR_IE_ASSOC_REQUEST = 0x20, /**< Denotes association request packet     */
-    VENDOR_IE_CUSTOM = 0x100        /**< Denotes a custom IE(Information Element) identifier */
+    VENDOR_IE_CUSTOM = 0x100,       /**< Denotes a custom IE(Information Element) identifier */
+    VENDOR_IE_UNKNOWN = ~(VENDOR_IE_BEACON | VENDOR_IE_PROBE_RESPONSE | VENDOR_IE_ASSOC_RESPONSE | \
+                          VENDOR_IE_AUTH_RESPONSE | VENDOR_IE_PROBE_REQUEST | VENDOR_IE_ASSOC_REQUEST | \
+                          VENDOR_IE_CUSTOM)
 } whd_ie_packet_flag_t;
 
 /**
