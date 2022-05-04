@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwl__led__info__t" kind="struct" language="C++" prot="public">
+    <compoundname>wl_led_info_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwl__led__info__t_1aafd95f8c7a99b9189ede7cdf0871ebe8" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t index</definition>
+        <argsstring></argsstring>
+        <name>index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="477" column="14" bodyfile="source/whd_wlioctl.h" bodystart="477" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__led__info__t_1acc599580342d872ed9f1db3e8334e11f" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t behavior</definition>
+        <argsstring></argsstring>
+        <name>behavior</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="478" column="14" bodyfile="source/whd_wlioctl.h" bodystart="478" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__led__info__t_1abe1d7ac227a4bd83b055dfaa95ec6f1a" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t activehi</definition>
+        <argsstring></argsstring>
+        <name>activehi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="479" column="13" bodyfile="source/whd_wlioctl.h" bodystart="479" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="475" column="1" bodyfile="source/whd_wlioctl.h" bodystart="476" bodyend="480"/>
+    <listofallmembers>
+      <member refid="structwl__led__info__t_1abe1d7ac227a4bd83b055dfaa95ec6f1a" prot="public" virt="non-virtual"><scope>wl_led_info_t</scope><name>activehi</name></member>
+      <member refid="structwl__led__info__t_1acc599580342d872ed9f1db3e8334e11f" prot="public" virt="non-virtual"><scope>wl_led_info_t</scope><name>behavior</name></member>
+      <member refid="structwl__led__info__t_1aafd95f8c7a99b9189ede7cdf0871ebe8" prot="public" virt="non-virtual"><scope>wl_led_info_t</scope><name>index</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

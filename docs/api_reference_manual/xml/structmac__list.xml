@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structmac__list" kind="struct" language="C++" prot="public">
+    <compoundname>mac_list</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structmac__list_1a86988a65e0d3ece7990c032c159786d6" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t count</definition>
+        <argsstring></argsstring>
+        <name>count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="598" column="14" bodyfile="source/whd_wlioctl.h" bodystart="598" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structmac__list_1a0b57f724ca77f42cc97e43f973f464b9" prot="public" static="no" mutable="no">
+        <type><ref refid="structwl__ether__addr__t" kindref="compound">wl_ether_addr_t</ref></type>
+        <definition>wl_ether_addr_t ea[1]</definition>
+        <argsstring>[1]</argsstring>
+        <name>ea</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="599" column="21" bodyfile="source/whd_wlioctl.h" bodystart="599" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mac_list</label>
+        <link refid="structmac__list"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>ea</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>wl_ether_addr_t</label>
+        <link refid="structwl__ether__addr__t"/>
+      </node>
+    </collaborationgraph>
+    <location file="source/whd_wlioctl.h" line="596" column="1" bodyfile="source/whd_wlioctl.h" bodystart="597" bodyend="600"/>
+    <listofallmembers>
+      <member refid="structmac__list_1a86988a65e0d3ece7990c032c159786d6" prot="public" virt="non-virtual"><scope>mac_list</scope><name>count</name></member>
+      <member refid="structmac__list_1a0b57f724ca77f42cc97e43f973f464b9" prot="public" virt="non-virtual"><scope>mac_list</scope><name>ea</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

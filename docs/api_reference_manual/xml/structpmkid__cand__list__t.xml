@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structpmkid__cand__list__t" kind="struct" language="C++" prot="public">
+    <compoundname>pmkid_cand_list_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structpmkid__cand__list__t_1ac0e261f895bc0854f6ef8383feaced71" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t npmkid_cand</definition>
+        <argsstring></argsstring>
+        <name>npmkid_cand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="472" column="14" bodyfile="source/whd_wlioctl.h" bodystart="472" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structpmkid__cand__list__t_1af8c530fd923fae1b93e197407580813a" prot="public" static="no" mutable="no">
+        <type><ref refid="structpmkid__cand__t" kindref="compound">pmkid_cand_t</ref></type>
+        <definition>pmkid_cand_t pmkid_cand[1]</definition>
+        <argsstring>[1]</argsstring>
+        <name>pmkid_cand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="473" column="18" bodyfile="source/whd_wlioctl.h" bodystart="473" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>pmkid_cand_list_t</label>
+        <link refid="structpmkid__cand__list__t"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>pmkid_cand</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pmkid_cand_t</label>
+        <link refid="structpmkid__cand__t"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>BSSID</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>wl_ether_addr_t</label>
+        <link refid="structwl__ether__addr__t"/>
+      </node>
+    </collaborationgraph>
+    <location file="source/whd_wlioctl.h" line="470" column="1" bodyfile="source/whd_wlioctl.h" bodystart="471" bodyend="474"/>
+    <listofallmembers>
+      <member refid="structpmkid__cand__list__t_1ac0e261f895bc0854f6ef8383feaced71" prot="public" virt="non-virtual"><scope>pmkid_cand_list_t</scope><name>npmkid_cand</name></member>
+      <member refid="structpmkid__cand__list__t_1af8c530fd923fae1b93e197407580813a" prot="public" virt="non-virtual"><scope>pmkid_cand_list_t</scope><name>pmkid_cand</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

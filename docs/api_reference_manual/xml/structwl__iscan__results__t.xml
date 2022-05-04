@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwl__iscan__results__t" kind="struct" language="C++" prot="public">
+    <compoundname>wl_iscan_results_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwl__iscan__results__t_1ade20423e91627f07e610924cb0081623" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t status</definition>
+        <argsstring></argsstring>
+        <name>status</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="178" column="14" bodyfile="source/whd_wlioctl.h" bodystart="178" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__iscan__results__t_1a74b978d88f13e22062bf3c25be9709bd" prot="public" static="no" mutable="no">
+        <type><ref refid="structwl__scan__results__t" kindref="compound">wl_scan_results_t</ref></type>
+        <definition>wl_scan_results_t results</definition>
+        <argsstring></argsstring>
+        <name>results</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="179" column="23" bodyfile="source/whd_wlioctl.h" bodystart="179" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="4">
+        <label>whd_mac_t</label>
+        <link refid="structwhd__mac__t"/>
+      </node>
+      <node id="3">
+        <label>wl_bss_info_t</label>
+        <link refid="structwl__bss__info__t"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>BSSID</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>wl_iscan_results_t</label>
+        <link refid="structwl__iscan__results__t"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>results</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>wl_scan_results_t</label>
+        <link refid="structwl__scan__results__t"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>bss_info</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="source/whd_wlioctl.h" line="176" column="1" bodyfile="source/whd_wlioctl.h" bodystart="177" bodyend="180"/>
+    <listofallmembers>
+      <member refid="structwl__iscan__results__t_1a74b978d88f13e22062bf3c25be9709bd" prot="public" virt="non-virtual"><scope>wl_iscan_results_t</scope><name>results</name></member>
+      <member refid="structwl__iscan__results__t_1ade20423e91627f07e610924cb0081623" prot="public" virt="non-virtual"><scope>wl_iscan_results_t</scope><name>status</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

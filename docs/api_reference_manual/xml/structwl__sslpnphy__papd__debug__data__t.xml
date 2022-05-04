@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwl__sslpnphy__papd__debug__data__t" kind="struct" language="C++" prot="public">
+    <compoundname>wl_sslpnphy_papd_debug_data_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwl__sslpnphy__papd__debug__data__t_1ac4db13f9227cba91f6c0ff4f13201925" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t psat_pwr</definition>
+        <argsstring></argsstring>
+        <name>psat_pwr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3279" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3279" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__sslpnphy__papd__debug__data__t_1ac0f09bc54ee2c484888f5b14531be5c2" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t psat_indx</definition>
+        <argsstring></argsstring>
+        <name>psat_indx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3280" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3280" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__sslpnphy__papd__debug__data__t_1afa0cdf43df6ee89bd46e7c132e6f293a" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t final_idx</definition>
+        <argsstring></argsstring>
+        <name>final_idx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3281" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3281" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__sslpnphy__papd__debug__data__t_1a74eff4b80127228d728d230601c73ce2" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t start_idx</definition>
+        <argsstring></argsstring>
+        <name>start_idx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3282" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3282" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__sslpnphy__papd__debug__data__t_1ad170ccea1f28858606109b5fa1f21bcf" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t min_phase</definition>
+        <argsstring></argsstring>
+        <name>min_phase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3283" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3283" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__sslpnphy__papd__debug__data__t_1a2356b4d0aff4f674239ad3ccc574a4cc" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t voltage</definition>
+        <argsstring></argsstring>
+        <name>voltage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3284" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3284" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__sslpnphy__papd__debug__data__t_1a64d67c7a0daa7db501c94c8c3a47cef5" prot="public" static="no" mutable="no">
+        <type>int8_t</type>
+        <definition>int8_t temperature</definition>
+        <argsstring></argsstring>
+        <name>temperature</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3285" column="12" bodyfile="source/whd_wlioctl.h" bodystart="3285" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="3277" column="1" bodyfile="source/whd_wlioctl.h" bodystart="3278" bodyend="3286"/>
+    <listofallmembers>
+      <member refid="structwl__sslpnphy__papd__debug__data__t_1afa0cdf43df6ee89bd46e7c132e6f293a" prot="public" virt="non-virtual"><scope>wl_sslpnphy_papd_debug_data_t</scope><name>final_idx</name></member>
+      <member refid="structwl__sslpnphy__papd__debug__data__t_1ad170ccea1f28858606109b5fa1f21bcf" prot="public" virt="non-virtual"><scope>wl_sslpnphy_papd_debug_data_t</scope><name>min_phase</name></member>
+      <member refid="structwl__sslpnphy__papd__debug__data__t_1ac0f09bc54ee2c484888f5b14531be5c2" prot="public" virt="non-virtual"><scope>wl_sslpnphy_papd_debug_data_t</scope><name>psat_indx</name></member>
+      <member refid="structwl__sslpnphy__papd__debug__data__t_1ac4db13f9227cba91f6c0ff4f13201925" prot="public" virt="non-virtual"><scope>wl_sslpnphy_papd_debug_data_t</scope><name>psat_pwr</name></member>
+      <member refid="structwl__sslpnphy__papd__debug__data__t_1a74eff4b80127228d728d230601c73ce2" prot="public" virt="non-virtual"><scope>wl_sslpnphy_papd_debug_data_t</scope><name>start_idx</name></member>
+      <member refid="structwl__sslpnphy__papd__debug__data__t_1a64d67c7a0daa7db501c94c8c3a47cef5" prot="public" virt="non-virtual"><scope>wl_sslpnphy_papd_debug_data_t</scope><name>temperature</name></member>
+      <member refid="structwl__sslpnphy__papd__debug__data__t_1a2356b4d0aff4f674239ad3ccc574a4cc" prot="public" virt="non-virtual"><scope>wl_sslpnphy_papd_debug_data_t</scope><name>voltage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

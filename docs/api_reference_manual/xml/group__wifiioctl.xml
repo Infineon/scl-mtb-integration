@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="group__wifiioctl" kind="group">
     <compoundname>wifiioctl</compoundname>
     <title>WHD Wi-Fi IOCTL Set/Get API</title>
@@ -10,7 +10,7 @@
         <argsstring>(whd_interface_t ifp, uint32_t ioctl, uint32_t value)</argsstring>
         <name>whd_wifi_set_ioctl_value</name>
         <param>
-          <type><ref refid="whd_8h_1a2e544c482ddbb690bbb95ce7174e79a0" kindref="member">whd_interface_t</ref></type>
+          <type>whd_interface_t</type>
           <declname>ifp</declname>
         </param>
         <param>
@@ -56,7 +56,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_wifi_api.h" line="568" column="17" declfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_wifi_api.h" declline="568" declcolumn="17"/>
+        <location file="source/whd_wifi_api.h" line="732" column="17" declfile="source/whd_wifi_api.h" declline="732" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__wifiioctl_1ga817655c1372b8c87608b204105f06937" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -64,7 +64,7 @@
         <argsstring>(whd_interface_t ifp, uint32_t ioctl, uint32_t *value)</argsstring>
         <name>whd_wifi_get_ioctl_value</name>
         <param>
-          <type><ref refid="whd_8h_1a2e544c482ddbb690bbb95ce7174e79a0" kindref="member">whd_interface_t</ref></type>
+          <type>whd_interface_t</type>
           <declname>ifp</declname>
         </param>
         <param>
@@ -110,7 +110,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_wifi_api.h" line="578" column="17" declfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_wifi_api.h" declline="578" declcolumn="17"/>
+        <location file="source/whd_wifi_api.h" line="742" column="17" declfile="source/whd_wifi_api.h" declline="742" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__wifiioctl_1ga5d7aec7622caacf4a0642cf1da1fa647" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -118,7 +118,7 @@
         <argsstring>(whd_interface_t ifp, uint32_t ioctl, void *buffer, uint16_t buffer_length)</argsstring>
         <name>whd_wifi_set_ioctl_buffer</name>
         <param>
-          <type><ref refid="whd_8h_1a2e544c482ddbb690bbb95ce7174e79a0" kindref="member">whd_interface_t</ref></type>
+          <type>whd_interface_t</type>
           <declname>ifp</declname>
         </param>
         <param>
@@ -176,7 +176,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_wifi_api.h" line="589" column="17" declfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_wifi_api.h" declline="589" declcolumn="17"/>
+        <location file="source/whd_wifi_api.h" line="753" column="17" declfile="source/whd_wifi_api.h" declline="753" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__wifiioctl_1gab1a4c2ae9163408ae92b3f292ee2807f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -184,7 +184,7 @@
         <argsstring>(whd_interface_t ifp, uint32_t ioctl, uint8_t *out_buffer, uint16_t out_length)</argsstring>
         <name>whd_wifi_get_ioctl_buffer</name>
         <param>
-          <type><ref refid="whd_8h_1a2e544c482ddbb690bbb95ce7174e79a0" kindref="member">whd_interface_t</ref></type>
+          <type>whd_interface_t</type>
           <declname>ifp</declname>
         </param>
         <param>
@@ -242,13 +242,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_wifi_api.h" line="600" column="17" declfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_wifi_api.h" declline="600" declcolumn="17"/>
+        <location file="source/whd_wifi_api.h" line="764" column="17" declfile="source/whd_wifi_api.h" declline="764" declcolumn="17"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
+<para>Set and get IOCTL values. </para>
     </briefdescription>
     <detaileddescription>
-<para>Set and get IOCTL values </para>
     </detaileddescription>
   </compounddef>
 </doxygen>

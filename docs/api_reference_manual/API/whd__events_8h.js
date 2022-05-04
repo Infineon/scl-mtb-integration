@@ -1,9 +1,5 @@
 var whd__events_8h =
 [
-    [ "whd_event_eth_hdr_t", "structwhd__event__eth__hdr__t.html", "structwhd__event__eth__hdr__t" ],
-    [ "whd_event_ether_header_t", "structwhd__event__ether__header__t.html", "structwhd__event__ether__header__t" ],
-    [ "whd_event_msg", "structwhd__event__msg.html", "structwhd__event__msg" ],
-    [ "whd_event_t", "structwhd__event__t.html", "structwhd__event__t" ],
     [ "WLC_E_NONE", "whd__events_8h.html#a5608426af7320ce9e54a8a500fc044e9", null ],
     [ "WLC_E_SET_SSID", "whd__events_8h.html#ae370e84bd9ed3b3cde25919287673298", null ],
     [ "WLC_E_AUTH", "whd__events_8h.html#a2e0540e8fe3f44be75575247648e1c7f", null ],
@@ -41,7 +37,7 @@ var whd__events_8h =
     [ "WLC_E_STATUS_INVALID", "whd__events_8h.html#ac597fcbff37082363669370113a7628b", null ],
     [ "WLC_SUP_STATUS_OFFSET", "whd__events_8h.html#ac97c29fe35bab5af9cc08a9eb1fedffc", null ],
     [ "WHD_MSG_IFNAME_MAX", "whd__events_8h.html#ac94cc32da29a68641af2b000d883cd6a", null ],
-    [ "whd_event_handler_t", "group__event.html#ga9c74af353c83a8f77097acbc65362b07", null ],
+    [ "whd_event_handler_t", "group__event.html#ga140bef247bc6273b94a0408caa4edfb8", null ],
     [ "sup_auth_status_t", "whd__events_8h.html#a4c148823d74095f48ea78213ad1cfeff", [
       [ "WLC_SUP_DISCONNECTED", "whd__events_8h.html#a4c148823d74095f48ea78213ad1cfeffac9bc0eb3bd21bc5189a4a46793ea7680", null ],
       [ "WLC_SUP_CONNECTING", "whd__events_8h.html#a4c148823d74095f48ea78213ad1cfeffa8ac4d7e7fb55b33bb65316c9ba42f147", null ],

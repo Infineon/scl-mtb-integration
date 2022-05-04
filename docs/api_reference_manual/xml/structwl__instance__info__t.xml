@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwl__instance__info__t" kind="struct" language="C++" prot="public">
+    <compoundname>wl_instance_info_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwl__instance__info__t_1a9ed36c4f5392e9f1819ec7c9eb9aff80" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t instance</definition>
+        <argsstring></argsstring>
+        <name>instance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="640" column="14" bodyfile="source/whd_wlioctl.h" bodystart="640" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__instance__info__t_1a56246f186b01511ad559d14a77397a33" prot="public" static="no" mutable="no">
+        <type>int8_t</type>
+        <definition>int8_t brand[WL_BRAND_MAX]</definition>
+        <argsstring>[WL_BRAND_MAX]</argsstring>
+        <name>brand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="641" column="12" bodyfile="source/whd_wlioctl.h" bodystart="641" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="638" column="1" bodyfile="source/whd_wlioctl.h" bodystart="639" bodyend="642"/>
+    <listofallmembers>
+      <member refid="structwl__instance__info__t_1a56246f186b01511ad559d14a77397a33" prot="public" virt="non-virtual"><scope>wl_instance_info_t</scope><name>brand</name></member>
+      <member refid="structwl__instance__info__t_1a9ed36c4f5392e9f1819ec7c9eb9aff80" prot="public" virt="non-virtual"><scope>wl_instance_info_t</scope><name>instance</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

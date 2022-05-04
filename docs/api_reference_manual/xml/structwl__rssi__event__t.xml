@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwl__rssi__event__t" kind="struct" language="C++" prot="public">
+    <compoundname>wl_rssi_event_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwl__rssi__event__t_1a43bfba7d713145ed2458a15563e95f09" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rate_limit_msec</definition>
+        <argsstring></argsstring>
+        <name>rate_limit_msec</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3398" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3398" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__rssi__event__t_1acb3b22459c9f34ed40b57344f1e55bbc" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t num_rssi_levels</definition>
+        <argsstring></argsstring>
+        <name>num_rssi_levels</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3399" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3399" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__rssi__event__t_1a5ee1374a720fd21257c36c031b1f3362" prot="public" static="no" mutable="no">
+        <type>int8_t</type>
+        <definition>int8_t rssi_levels[MAX_RSSI_LEVELS]</definition>
+        <argsstring>[MAX_RSSI_LEVELS]</argsstring>
+        <name>rssi_levels</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3400" column="12" bodyfile="source/whd_wlioctl.h" bodystart="3400" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="3396" column="1" bodyfile="source/whd_wlioctl.h" bodystart="3397" bodyend="3401"/>
+    <listofallmembers>
+      <member refid="structwl__rssi__event__t_1acb3b22459c9f34ed40b57344f1e55bbc" prot="public" virt="non-virtual"><scope>wl_rssi_event_t</scope><name>num_rssi_levels</name></member>
+      <member refid="structwl__rssi__event__t_1a43bfba7d713145ed2458a15563e95f09" prot="public" virt="non-virtual"><scope>wl_rssi_event_t</scope><name>rate_limit_msec</name></member>
+      <member refid="structwl__rssi__event__t_1a5ee1374a720fd21257c36c031b1f3362" prot="public" virt="non-virtual"><scope>wl_rssi_event_t</scope><name>rssi_levels</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

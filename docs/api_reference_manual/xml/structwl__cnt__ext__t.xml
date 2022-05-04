@@ -1,0 +1,281 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwl__cnt__ext__t" kind="struct" language="C++" prot="public">
+    <compoundname>wl_cnt_ext_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwl__cnt__ext__t_1ab6d7b6f8c2ceaba7acda80aaf05f4899" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t version</definition>
+        <argsstring></argsstring>
+        <name>version</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2785" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2785" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ext__t_1a1892eba2086d12ac2b09005aeb09ea3b" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t length</definition>
+        <argsstring></argsstring>
+        <name>length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2786" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2786" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ext__t_1a2315e90d6ce44ecadfa775c89f583a1b" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rxampdu_sgi</definition>
+        <argsstring></argsstring>
+        <name>rxampdu_sgi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2787" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2787" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ext__t_1acd572c9f1b1451fdf6cbb393efbfdcf5" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rxampdu_stbc</definition>
+        <argsstring></argsstring>
+        <name>rxampdu_stbc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2788" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2788" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ext__t_1a97548605ec9d2b0aa9635c90975bb244" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rxmpdu_sgi</definition>
+        <argsstring></argsstring>
+        <name>rxmpdu_sgi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2789" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2789" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ext__t_1a3673f74b4e4386636377fc03dd9ee615" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rxmpdu_stbc</definition>
+        <argsstring></argsstring>
+        <name>rxmpdu_stbc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2790" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2790" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ext__t_1a4b1112214e84ccf9102893172039d0fc" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rxmcs0_40M</definition>
+        <argsstring></argsstring>
+        <name>rxmcs0_40M</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2791" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2791" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ext__t_1aa266bd22800069e7b476745d373b75c8" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rxmcs1_40M</definition>
+        <argsstring></argsstring>
+        <name>rxmcs1_40M</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2792" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2792" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ext__t_1aac6917b4ff1967cb74b5fdb0a5855329" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rxmcs2_40M</definition>
+        <argsstring></argsstring>
+        <name>rxmcs2_40M</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2793" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2793" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ext__t_1a55cc716f5456e3259b860da22ef588d9" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rxmcs3_40M</definition>
+        <argsstring></argsstring>
+        <name>rxmcs3_40M</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2794" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2794" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ext__t_1af648881e09017de7502a4270f2c2d751" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rxmcs4_40M</definition>
+        <argsstring></argsstring>
+        <name>rxmcs4_40M</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2795" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2795" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ext__t_1a69641318238527ea6d3bb87172e14347" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rxmcs5_40M</definition>
+        <argsstring></argsstring>
+        <name>rxmcs5_40M</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2796" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2796" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ext__t_1a308a4f558f153198aaa819efb62aebc6" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rxmcs6_40M</definition>
+        <argsstring></argsstring>
+        <name>rxmcs6_40M</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2797" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2797" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ext__t_1a35a4640e66d0f6844b2f45dd4af7d9d5" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rxmcs7_40M</definition>
+        <argsstring></argsstring>
+        <name>rxmcs7_40M</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2798" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2798" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ext__t_1ac1d0f68340ccdaaee954b1fce714ad22" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rxmcs32_40M</definition>
+        <argsstring></argsstring>
+        <name>rxmcs32_40M</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2799" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2799" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ext__t_1a90d6d4f9b5e1116bb8a742974509e151" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t txfrmsnt_20Mlo</definition>
+        <argsstring></argsstring>
+        <name>txfrmsnt_20Mlo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2800" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2800" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ext__t_1a79ea23a603a636f0d250529929ecd77b" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t txfrmsnt_20Mup</definition>
+        <argsstring></argsstring>
+        <name>txfrmsnt_20Mup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2801" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2801" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ext__t_1aab49a0ca2d79fe5da6724f992009cf21" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t txfrmsnt_40M</definition>
+        <argsstring></argsstring>
+        <name>txfrmsnt_40M</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2802" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2802" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ext__t_1ad447f530ac76bc51d64e4f0f3b1ed407" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rx_20ul</definition>
+        <argsstring></argsstring>
+        <name>rx_20ul</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2803" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2803" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="2783" column="1" bodyfile="source/whd_wlioctl.h" bodystart="2784" bodyend="2804"/>
+    <listofallmembers>
+      <member refid="structwl__cnt__ext__t_1a1892eba2086d12ac2b09005aeb09ea3b" prot="public" virt="non-virtual"><scope>wl_cnt_ext_t</scope><name>length</name></member>
+      <member refid="structwl__cnt__ext__t_1ad447f530ac76bc51d64e4f0f3b1ed407" prot="public" virt="non-virtual"><scope>wl_cnt_ext_t</scope><name>rx_20ul</name></member>
+      <member refid="structwl__cnt__ext__t_1a2315e90d6ce44ecadfa775c89f583a1b" prot="public" virt="non-virtual"><scope>wl_cnt_ext_t</scope><name>rxampdu_sgi</name></member>
+      <member refid="structwl__cnt__ext__t_1acd572c9f1b1451fdf6cbb393efbfdcf5" prot="public" virt="non-virtual"><scope>wl_cnt_ext_t</scope><name>rxampdu_stbc</name></member>
+      <member refid="structwl__cnt__ext__t_1a4b1112214e84ccf9102893172039d0fc" prot="public" virt="non-virtual"><scope>wl_cnt_ext_t</scope><name>rxmcs0_40M</name></member>
+      <member refid="structwl__cnt__ext__t_1aa266bd22800069e7b476745d373b75c8" prot="public" virt="non-virtual"><scope>wl_cnt_ext_t</scope><name>rxmcs1_40M</name></member>
+      <member refid="structwl__cnt__ext__t_1aac6917b4ff1967cb74b5fdb0a5855329" prot="public" virt="non-virtual"><scope>wl_cnt_ext_t</scope><name>rxmcs2_40M</name></member>
+      <member refid="structwl__cnt__ext__t_1ac1d0f68340ccdaaee954b1fce714ad22" prot="public" virt="non-virtual"><scope>wl_cnt_ext_t</scope><name>rxmcs32_40M</name></member>
+      <member refid="structwl__cnt__ext__t_1a55cc716f5456e3259b860da22ef588d9" prot="public" virt="non-virtual"><scope>wl_cnt_ext_t</scope><name>rxmcs3_40M</name></member>
+      <member refid="structwl__cnt__ext__t_1af648881e09017de7502a4270f2c2d751" prot="public" virt="non-virtual"><scope>wl_cnt_ext_t</scope><name>rxmcs4_40M</name></member>
+      <member refid="structwl__cnt__ext__t_1a69641318238527ea6d3bb87172e14347" prot="public" virt="non-virtual"><scope>wl_cnt_ext_t</scope><name>rxmcs5_40M</name></member>
+      <member refid="structwl__cnt__ext__t_1a308a4f558f153198aaa819efb62aebc6" prot="public" virt="non-virtual"><scope>wl_cnt_ext_t</scope><name>rxmcs6_40M</name></member>
+      <member refid="structwl__cnt__ext__t_1a35a4640e66d0f6844b2f45dd4af7d9d5" prot="public" virt="non-virtual"><scope>wl_cnt_ext_t</scope><name>rxmcs7_40M</name></member>
+      <member refid="structwl__cnt__ext__t_1a97548605ec9d2b0aa9635c90975bb244" prot="public" virt="non-virtual"><scope>wl_cnt_ext_t</scope><name>rxmpdu_sgi</name></member>
+      <member refid="structwl__cnt__ext__t_1a3673f74b4e4386636377fc03dd9ee615" prot="public" virt="non-virtual"><scope>wl_cnt_ext_t</scope><name>rxmpdu_stbc</name></member>
+      <member refid="structwl__cnt__ext__t_1a90d6d4f9b5e1116bb8a742974509e151" prot="public" virt="non-virtual"><scope>wl_cnt_ext_t</scope><name>txfrmsnt_20Mlo</name></member>
+      <member refid="structwl__cnt__ext__t_1a79ea23a603a636f0d250529929ecd77b" prot="public" virt="non-virtual"><scope>wl_cnt_ext_t</scope><name>txfrmsnt_20Mup</name></member>
+      <member refid="structwl__cnt__ext__t_1aab49a0ca2d79fe5da6724f992009cf21" prot="public" virt="non-virtual"><scope>wl_cnt_ext_t</scope><name>txfrmsnt_40M</name></member>
+      <member refid="structwl__cnt__ext__t_1ab6d7b6f8c2ceaba7acda80aaf05f4899" prot="public" virt="non-virtual"><scope>wl_cnt_ext_t</scope><name>version</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

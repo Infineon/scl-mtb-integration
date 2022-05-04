@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structbdc__header__t" kind="struct" language="C++" prot="public">
+    <compoundname>bdc_header_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structbdc__header__t_1aa2585d779da0ab21273a8d92de9a0ebe" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t flags</definition>
+        <argsstring></argsstring>
+        <name>flags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_cdc_bdc.h" line="75" column="13" bodyfile="source/whd_cdc_bdc.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structbdc__header__t_1a0ad043071ccc7a261d79a759dc9c6f0c" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t priority</definition>
+        <argsstring></argsstring>
+        <name>priority</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_cdc_bdc.h" line="76" column="13" bodyfile="source/whd_cdc_bdc.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structbdc__header__t_1af5832b014375b58f4cb5545879ae3ef4" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t flags2</definition>
+        <argsstring></argsstring>
+        <name>flags2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_cdc_bdc.h" line="77" column="13" bodyfile="source/whd_cdc_bdc.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structbdc__header__t_1a06326f04147280cb0f94ebbc65cb111e" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t data_offset</definition>
+        <argsstring></argsstring>
+        <name>data_offset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_cdc_bdc.h" line="78" column="13" bodyfile="source/whd_cdc_bdc.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_cdc_bdc.h" line="73" column="1" bodyfile="source/whd_cdc_bdc.h" bodystart="74" bodyend="80"/>
+    <listofallmembers>
+      <member refid="structbdc__header__t_1a06326f04147280cb0f94ebbc65cb111e" prot="public" virt="non-virtual"><scope>bdc_header_t</scope><name>data_offset</name></member>
+      <member refid="structbdc__header__t_1aa2585d779da0ab21273a8d92de9a0ebe" prot="public" virt="non-virtual"><scope>bdc_header_t</scope><name>flags</name></member>
+      <member refid="structbdc__header__t_1af5832b014375b58f4cb5545879ae3ef4" prot="public" virt="non-virtual"><scope>bdc_header_t</scope><name>flags2</name></member>
+      <member refid="structbdc__header__t_1a0ad043071ccc7a261d79a759dc9c6f0c" prot="public" virt="non-virtual"><scope>bdc_header_t</scope><name>priority</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwl__p2p__scan__t" kind="struct" language="C++" prot="public">
+    <compoundname>wl_p2p_scan_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwl__p2p__scan__t_1a1d127017fb298b889f4ba24752d08b8e" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3478" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3478" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__p2p__scan__t_1a72aca6ea6d8153b28ea8f139b932ec3e" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t reserved[3]</definition>
+        <argsstring>[3]</argsstring>
+        <name>reserved</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3479" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3479" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="3476" column="1" bodyfile="source/whd_wlioctl.h" bodystart="3477" bodyend="3481"/>
+    <listofallmembers>
+      <member refid="structwl__p2p__scan__t_1a72aca6ea6d8153b28ea8f139b932ec3e" prot="public" virt="non-virtual"><scope>wl_p2p_scan_t</scope><name>reserved</name></member>
+      <member refid="structwl__p2p__scan__t_1a1d127017fb298b889f4ba24752d08b8e" prot="public" virt="non-virtual"><scope>wl_p2p_scan_t</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

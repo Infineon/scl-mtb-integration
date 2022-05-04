@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwl__msglevel2" kind="struct" language="C++" prot="public">
+    <compoundname>wl_msglevel2</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwl__msglevel2_1a864f755b7008df85b29726891bdd4fbd" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t low</definition>
+        <argsstring></argsstring>
+        <name>low</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2907" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2907" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__msglevel2_1a0d90a9fe74bca2dccde7f81cddfdf7b0" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t high</definition>
+        <argsstring></argsstring>
+        <name>high</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2908" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2908" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="2905" column="1" bodyfile="source/whd_wlioctl.h" bodystart="2906" bodyend="2909"/>
+    <listofallmembers>
+      <member refid="structwl__msglevel2_1a0d90a9fe74bca2dccde7f81cddfdf7b0" prot="public" virt="non-virtual"><scope>wl_msglevel2</scope><name>high</name></member>
+      <member refid="structwl__msglevel2_1a864f755b7008df85b29726891bdd4fbd" prot="public" virt="non-virtual"><scope>wl_msglevel2</scope><name>low</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

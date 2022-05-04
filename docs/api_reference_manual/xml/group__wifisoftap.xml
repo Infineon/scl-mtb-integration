@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="group__wifisoftap" kind="group">
     <compoundname>wifisoftap</compoundname>
     <title>WHD Wi-Fi SoftAP API</title>
@@ -10,7 +10,7 @@
         <argsstring>(whd_interface_t ifp, whd_bss_info_t *ap_info, whd_security_t *security)</argsstring>
         <name>whd_wifi_get_ap_info</name>
         <param>
-          <type><ref refid="whd_8h_1a2e544c482ddbb690bbb95ce7174e79a0" kindref="member">whd_interface_t</ref></type>
+          <type>whd_interface_t</type>
           <declname>ifp</declname>
         </param>
         <param>
@@ -56,7 +56,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_wifi_api.h" line="273" column="17" declfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_wifi_api.h" declline="273" declcolumn="17"/>
+        <location file="source/whd_wifi_api.h" line="400" column="17" declfile="source/whd_wifi_api.h" declline="400" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__wifisoftap_1ga647aebc1d86708017fd11029e2e1a51c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -64,7 +64,7 @@
         <argsstring>(whd_interface_t ifp, whd_ssid_t *ssid, whd_security_t auth_type, const uint8_t *security_key, uint8_t key_length, uint8_t channel)</argsstring>
         <name>whd_wifi_init_ap</name>
         <param>
-          <type><ref refid="whd_8h_1a2e544c482ddbb690bbb95ce7174e79a0" kindref="member">whd_interface_t</ref></type>
+          <type>whd_interface_t</type>
           <declname>ifp</declname>
         </param>
         <param>
@@ -146,7 +146,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_wifi_api.h" line="338" column="17" declfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_wifi_api.h" declline="338" declcolumn="17"/>
+        <location file="source/whd_wifi_api.h" line="465" column="17" declfile="source/whd_wifi_api.h" declline="465" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__wifisoftap_1ga3c9aa99add3f6a6d13e9092bd6e1246b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -154,7 +154,7 @@
         <argsstring>(whd_interface_t ifp)</argsstring>
         <name>whd_wifi_start_ap</name>
         <param>
-          <type><ref refid="whd_8h_1a2e544c482ddbb690bbb95ce7174e79a0" kindref="member">whd_interface_t</ref></type>
+          <type>whd_interface_t</type>
           <declname>ifp</declname>
         </param>
         <briefdescription>
@@ -167,7 +167,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_wifi_api.h" line="347" column="17" declfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_wifi_api.h" declline="347" declcolumn="17"/>
+        <location file="source/whd_wifi_api.h" line="474" column="17" declfile="source/whd_wifi_api.h" declline="474" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__wifisoftap_1ga2c6c28512678dc57dabb641c41e30d41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -175,7 +175,7 @@
         <argsstring>(whd_interface_t ifp)</argsstring>
         <name>whd_wifi_stop_ap</name>
         <param>
-          <type><ref refid="whd_8h_1a2e544c482ddbb690bbb95ce7174e79a0" kindref="member">whd_interface_t</ref></type>
+          <type>whd_interface_t</type>
           <declname>ifp</declname>
         </param>
         <briefdescription>
@@ -197,7 +197,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_wifi_api.h" line="356" column="17" declfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_wifi_api.h" declline="356" declcolumn="17"/>
+        <location file="source/whd_wifi_api.h" line="483" column="17" declfile="source/whd_wifi_api.h" declline="483" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__wifisoftap_1ga32982684d093a173a6e578856b581d29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -205,7 +205,7 @@
         <argsstring>(whd_interface_t ifp, uint32_t *max_assoc)</argsstring>
         <name>whd_wifi_ap_get_max_assoc</name>
         <param>
-          <type><ref refid="whd_8h_1a2e544c482ddbb690bbb95ce7174e79a0" kindref="member">whd_interface_t</ref></type>
+          <type>whd_interface_t</type>
           <declname>ifp</declname>
         </param>
         <param>
@@ -239,7 +239,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_wifi_api.h" line="367" column="17" declfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_wifi_api.h" declline="367" declcolumn="17"/>
+        <location file="source/whd_wifi_api.h" line="494" column="17" declfile="source/whd_wifi_api.h" declline="494" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__wifisoftap_1ga9e974ab0fcc24698d01a5abc3e2c1dbb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -247,7 +247,7 @@
         <argsstring>(whd_interface_t ifp, void *client_list_buffer, uint16_t buffer_length)</argsstring>
         <name>whd_wifi_get_associated_client_list</name>
         <param>
-          <type><ref refid="whd_8h_1a2e544c482ddbb690bbb95ce7174e79a0" kindref="member">whd_interface_t</ref></type>
+          <type>whd_interface_t</type>
           <declname>ifp</declname>
         </param>
         <param>
@@ -293,7 +293,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_wifi_api.h" line="378" column="17" declfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_wifi_api.h" declline="378" declcolumn="17"/>
+        <location file="source/whd_wifi_api.h" line="505" column="17" declfile="source/whd_wifi_api.h" declline="505" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__wifisoftap_1gad9ad2649c18db8773351a5938e7930e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -301,7 +301,7 @@
         <argsstring>(whd_interface_t ifp, whd_mac_t *mac, whd_dot11_reason_code_t reason)</argsstring>
         <name>whd_wifi_deauth_sta</name>
         <param>
-          <type><ref refid="whd_8h_1a2e544c482ddbb690bbb95ce7174e79a0" kindref="member">whd_interface_t</ref></type>
+          <type>whd_interface_t</type>
           <declname>ifp</declname>
         </param>
         <param>
@@ -347,7 +347,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_wifi_api.h" line="392" column="17" declfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_wifi_api.h" declline="392" declcolumn="17"/>
+        <location file="source/whd_wifi_api.h" line="519" column="17" declfile="source/whd_wifi_api.h" declline="519" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__wifisoftap_1gaf2758fcc1028704d801b16d77b96a345" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -355,7 +355,7 @@
         <argsstring>(whd_interface_t ifp, uint16_t interval)</argsstring>
         <name>whd_wifi_ap_set_beacon_interval</name>
         <param>
-          <type><ref refid="whd_8h_1a2e544c482ddbb690bbb95ce7174e79a0" kindref="member">whd_interface_t</ref></type>
+          <type>whd_interface_t</type>
           <declname>ifp</declname>
         </param>
         <param>
@@ -390,7 +390,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_wifi_api.h" line="414" column="17" declfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_wifi_api.h" declline="414" declcolumn="17"/>
+        <location file="source/whd_wifi_api.h" line="530" column="17" declfile="source/whd_wifi_api.h" declline="530" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__wifisoftap_1ga57c57ad4d5acf499e90ff8db020fa2d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -398,7 +398,7 @@
         <argsstring>(whd_interface_t ifp, uint16_t interval)</argsstring>
         <name>whd_wifi_ap_set_dtim_interval</name>
         <param>
-          <type><ref refid="whd_8h_1a2e544c482ddbb690bbb95ce7174e79a0" kindref="member">whd_interface_t</ref></type>
+          <type>whd_interface_t</type>
           <declname>ifp</declname>
         </param>
         <param>
@@ -433,13 +433,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_wifi_api.h" line="425" column="17" declfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_wifi_api.h" declline="425" declcolumn="17"/>
+        <location file="source/whd_wifi_api.h" line="541" column="17" declfile="source/whd_wifi_api.h" declline="541" declcolumn="17"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
+<para>Wi-Fi APIs to perform SoftAP related functionalities. </para>
     </briefdescription>
     <detaileddescription>
-<para>Wi-Fi APIs to perform SoftAP related functionalities </para>
     </detaileddescription>
   </compounddef>
 </doxygen>

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwl__dot11__assoc__req" kind="struct" language="C++" prot="public">
+    <compoundname>wl_dot11_assoc_req</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwl__dot11__assoc__req_1a4d6a7cc78819fe901fa45a1b51266e18" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t capability</definition>
+        <argsstring></argsstring>
+        <name>capability</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="483" column="14" bodyfile="source/whd_wlioctl.h" bodystart="483" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__dot11__assoc__req_1ac41795d83a2faeed240edd7910044257" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t listen</definition>
+        <argsstring></argsstring>
+        <name>listen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="484" column="14" bodyfile="source/whd_wlioctl.h" bodystart="484" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="481" column="1" bodyfile="source/whd_wlioctl.h" bodystart="482" bodyend="485"/>
+    <listofallmembers>
+      <member refid="structwl__dot11__assoc__req_1a4d6a7cc78819fe901fa45a1b51266e18" prot="public" virt="non-virtual"><scope>wl_dot11_assoc_req</scope><name>capability</name></member>
+      <member refid="structwl__dot11__assoc__req_1ac41795d83a2faeed240edd7910044257" prot="public" virt="non-virtual"><scope>wl_dot11_assoc_req</scope><name>listen</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

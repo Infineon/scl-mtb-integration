@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwl__ioctl__t" kind="struct" language="C++" prot="public">
+    <compoundname>wl_ioctl_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwl__ioctl__t_1a5e9712b08d7cbf6091f9e5334ff97b5d" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t cmd</definition>
+        <argsstring></argsstring>
+        <name>cmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="611" column="14" bodyfile="source/whd_wlioctl.h" bodystart="611" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__ioctl__t_1a5bc5fa69bee375df074734a2c4858604" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* buf</definition>
+        <argsstring></argsstring>
+        <name>buf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="612" column="10" bodyfile="source/whd_wlioctl.h" bodystart="612" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__ioctl__t_1a96bbf959016e4411c9e6b9812a8be60a" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t len</definition>
+        <argsstring></argsstring>
+        <name>len</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="613" column="14" bodyfile="source/whd_wlioctl.h" bodystart="613" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__ioctl__t_1abe44906969c2193c2020d0e6d96ad156" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t set</definition>
+        <argsstring></argsstring>
+        <name>set</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="614" column="13" bodyfile="source/whd_wlioctl.h" bodystart="614" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__ioctl__t_1a5e1ebda31e026934b2091d2d0051818a" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t used</definition>
+        <argsstring></argsstring>
+        <name>used</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="615" column="14" bodyfile="source/whd_wlioctl.h" bodystart="615" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__ioctl__t_1a6803e9e6e777abc5d0e6e779581dc5d8" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t needed</definition>
+        <argsstring></argsstring>
+        <name>needed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="616" column="14" bodyfile="source/whd_wlioctl.h" bodystart="616" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="609" column="1" bodyfile="source/whd_wlioctl.h" bodystart="610" bodyend="617"/>
+    <listofallmembers>
+      <member refid="structwl__ioctl__t_1a5bc5fa69bee375df074734a2c4858604" prot="public" virt="non-virtual"><scope>wl_ioctl_t</scope><name>buf</name></member>
+      <member refid="structwl__ioctl__t_1a5e9712b08d7cbf6091f9e5334ff97b5d" prot="public" virt="non-virtual"><scope>wl_ioctl_t</scope><name>cmd</name></member>
+      <member refid="structwl__ioctl__t_1a96bbf959016e4411c9e6b9812a8be60a" prot="public" virt="non-virtual"><scope>wl_ioctl_t</scope><name>len</name></member>
+      <member refid="structwl__ioctl__t_1a6803e9e6e777abc5d0e6e779581dc5d8" prot="public" virt="non-virtual"><scope>wl_ioctl_t</scope><name>needed</name></member>
+      <member refid="structwl__ioctl__t_1abe44906969c2193c2020d0e6d96ad156" prot="public" virt="non-virtual"><scope>wl_ioctl_t</scope><name>set</name></member>
+      <member refid="structwl__ioctl__t_1a5e1ebda31e026934b2091d2d0051818a" prot="public" virt="non-virtual"><scope>wl_ioctl_t</scope><name>used</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

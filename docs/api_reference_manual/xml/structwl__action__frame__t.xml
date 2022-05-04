@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwl__action__frame__t" kind="struct" language="C++" prot="public">
+    <compoundname>wl_action_frame_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwl__action__frame__t_1a18126e1568dd7aa3472439a2aa995626" prot="public" static="no" mutable="no">
+        <type><ref refid="structwl__ether__addr__t" kindref="compound">wl_ether_addr_t</ref></type>
+        <definition>wl_ether_addr_t da</definition>
+        <argsstring></argsstring>
+        <name>da</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="52" column="21" bodyfile="source/whd_wlioctl.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__action__frame__t_1a8aed22e2c7b283705ec82e0120515618" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t len</definition>
+        <argsstring></argsstring>
+        <name>len</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="53" column="14" bodyfile="source/whd_wlioctl.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__action__frame__t_1a097d1daa9ed2d399b5d9436402744098" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t packetId</definition>
+        <argsstring></argsstring>
+        <name>packetId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="54" column="14" bodyfile="source/whd_wlioctl.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__action__frame__t_1a7ffe23ed79dcf9a9755e0af3430dbe87" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t data[ACTION_FRAME_SIZE]</definition>
+        <argsstring>[ACTION_FRAME_SIZE]</argsstring>
+        <name>data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="55" column="13" bodyfile="source/whd_wlioctl.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>wl_action_frame_t</label>
+        <link refid="structwl__action__frame__t"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>da</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>wl_ether_addr_t</label>
+        <link refid="structwl__ether__addr__t"/>
+      </node>
+    </collaborationgraph>
+    <location file="source/whd_wlioctl.h" line="50" column="1" bodyfile="source/whd_wlioctl.h" bodystart="51" bodyend="56"/>
+    <listofallmembers>
+      <member refid="structwl__action__frame__t_1a18126e1568dd7aa3472439a2aa995626" prot="public" virt="non-virtual"><scope>wl_action_frame_t</scope><name>da</name></member>
+      <member refid="structwl__action__frame__t_1a7ffe23ed79dcf9a9755e0af3430dbe87" prot="public" virt="non-virtual"><scope>wl_action_frame_t</scope><name>data</name></member>
+      <member refid="structwl__action__frame__t_1a8aed22e2c7b283705ec82e0120515618" prot="public" virt="non-virtual"><scope>wl_action_frame_t</scope><name>len</name></member>
+      <member refid="structwl__action__frame__t_1a097d1daa9ed2d399b5d9436402744098" prot="public" virt="non-virtual"><scope>wl_action_frame_t</scope><name>packetId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

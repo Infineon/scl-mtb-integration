@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwl__pkt__filter__t" kind="struct" language="C++" prot="public">
+    <compoundname>wl_pkt_filter_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwl__pkt__filter__t_1abaabdc509cdaba7df9f56c6c76f3ae19" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3210" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3210" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__pkt__filter__t_1ad44b615021ed3ccb734fcaf583ef4a03" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3211" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3211" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__pkt__filter__t_1acb5a2a5d87d4d7d1e2cf917f090f22ac" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t negate_match</definition>
+        <argsstring></argsstring>
+        <name>negate_match</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3212" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3212" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__pkt__filter__t_1a2c8e0b6f9ce18600bcf92042812b1822" prot="public" static="no" mutable="no">
+        <type><ref refid="structwl__pkt__filter__pattern__t" kindref="compound">wl_pkt_filter_pattern_t</ref></type>
+        <definition>wl_pkt_filter_pattern_t pattern</definition>
+        <argsstring></argsstring>
+        <name>pattern</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3215" column="33" bodyfile="source/whd_wlioctl.h" bodystart="3215" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__pkt__filter__t_1ad13c26f6a39ba4d1af0f3f9eb39cb42b" prot="public" static="no" mutable="no">
+        <type>union wl_pkt_filter_t::@5</type>
+        <definition>union wl_pkt_filter_t::@5 u</definition>
+        <argsstring></argsstring>
+        <name>u</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3216" column="7"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>wl_pkt_filter_pattern_t</label>
+        <link refid="structwl__pkt__filter__pattern__t"/>
+      </node>
+      <node id="1">
+        <label>wl_pkt_filter_t</label>
+        <link refid="structwl__pkt__filter__t"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>pattern</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="source/whd_wlioctl.h" line="3208" column="1" bodyfile="source/whd_wlioctl.h" bodystart="3209" bodyend="3217"/>
+    <listofallmembers>
+      <member refid="structwl__pkt__filter__t_1abaabdc509cdaba7df9f56c6c76f3ae19" prot="public" virt="non-virtual"><scope>wl_pkt_filter_t</scope><name>id</name></member>
+      <member refid="structwl__pkt__filter__t_1acb5a2a5d87d4d7d1e2cf917f090f22ac" prot="public" virt="non-virtual"><scope>wl_pkt_filter_t</scope><name>negate_match</name></member>
+      <member refid="structwl__pkt__filter__t_1a2c8e0b6f9ce18600bcf92042812b1822" prot="public" virt="non-virtual"><scope>wl_pkt_filter_t</scope><name>pattern</name></member>
+      <member refid="structwl__pkt__filter__t_1ad44b615021ed3ccb734fcaf583ef4a03" prot="public" virt="non-virtual"><scope>wl_pkt_filter_t</scope><name>type</name></member>
+      <member refid="structwl__pkt__filter__t_1ad13c26f6a39ba4d1af0f3f9eb39cb42b" prot="public" virt="non-virtual"><scope>wl_pkt_filter_t</scope><name>u</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

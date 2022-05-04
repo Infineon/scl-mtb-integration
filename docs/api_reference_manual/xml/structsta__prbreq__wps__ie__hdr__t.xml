@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structsta__prbreq__wps__ie__hdr__t" kind="struct" language="C++" prot="public">
+    <compoundname>sta_prbreq_wps_ie_hdr_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsta__prbreq__wps__ie__hdr__t_1ac1dfe4bb1978846ad2f5b02c19957edd" prot="public" static="no" mutable="no">
+        <type><ref refid="structwl__ether__addr__t" kindref="compound">wl_ether_addr_t</ref></type>
+        <definition>wl_ether_addr_t staAddr</definition>
+        <argsstring></argsstring>
+        <name>staAddr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3415" column="21" bodyfile="source/whd_wlioctl.h" bodystart="3415" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsta__prbreq__wps__ie__hdr__t_1add68a178ed89c40afc23c57ab558bd0c" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t ieLen</definition>
+        <argsstring></argsstring>
+        <name>ieLen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3416" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3416" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>sta_prbreq_wps_ie_hdr_t</label>
+        <link refid="structsta__prbreq__wps__ie__hdr__t"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>staAddr</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>wl_ether_addr_t</label>
+        <link refid="structwl__ether__addr__t"/>
+      </node>
+    </collaborationgraph>
+    <location file="source/whd_wlioctl.h" line="3413" column="1" bodyfile="source/whd_wlioctl.h" bodystart="3414" bodyend="3417"/>
+    <listofallmembers>
+      <member refid="structsta__prbreq__wps__ie__hdr__t_1add68a178ed89c40afc23c57ab558bd0c" prot="public" virt="non-virtual"><scope>sta_prbreq_wps_ie_hdr_t</scope><name>ieLen</name></member>
+      <member refid="structsta__prbreq__wps__ie__hdr__t_1ac1dfe4bb1978846ad2f5b02c19957edd" prot="public" virt="non-virtual"><scope>sta_prbreq_wps_ie_hdr_t</scope><name>staAddr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

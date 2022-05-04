@@ -1,0 +1,308 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structtspec__arg__t" kind="struct" language="C++" prot="public">
+    <compoundname>tspec_arg_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structtspec__arg__t_1ab6d7b6f8c2ceaba7acda80aaf05f4899" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t version</definition>
+        <argsstring></argsstring>
+        <name>version</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2977" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2977" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structtspec__arg__t_1a1892eba2086d12ac2b09005aeb09ea3b" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t length</definition>
+        <argsstring></argsstring>
+        <name>length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2978" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2978" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structtspec__arg__t_1a8fac2498fe5bd106b35d43af5bc91f6f" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t flag</definition>
+        <argsstring></argsstring>
+        <name>flag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2979" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2979" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structtspec__arg__t_1a4578965f4f32ac2c24caddb44232b9af" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="structtsinfo__arg" kindref="compound">tsinfo_arg</ref></type>
+        <definition>struct tsinfo_arg tsinfo</definition>
+        <argsstring></argsstring>
+        <name>tsinfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2980" column="21" bodyfile="source/whd_wlioctl.h" bodystart="2980" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structtspec__arg__t_1a538947f773b8002576e0ccb7b46fed84" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t nom_msdu_size</definition>
+        <argsstring></argsstring>
+        <name>nom_msdu_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2981" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2981" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structtspec__arg__t_1a247ae63c9a90e9ac37d8c41d06a04674" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t max_msdu_size</definition>
+        <argsstring></argsstring>
+        <name>max_msdu_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2982" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2982" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structtspec__arg__t_1a5c1a231c8731f0e8d4c7adb3014d2b01" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t min_srv_interval</definition>
+        <argsstring></argsstring>
+        <name>min_srv_interval</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2983" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2983" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structtspec__arg__t_1a0ebc8d9168bb079c3410c5b6e4cd33d2" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t max_srv_interval</definition>
+        <argsstring></argsstring>
+        <name>max_srv_interval</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2984" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2984" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structtspec__arg__t_1a4f67027d07bc3adb59467073294326e4" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t inactivity_interval</definition>
+        <argsstring></argsstring>
+        <name>inactivity_interval</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2985" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2985" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structtspec__arg__t_1abdfe8446109531cb65c07c2445478548" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t suspension_interval</definition>
+        <argsstring></argsstring>
+        <name>suspension_interval</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2986" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2986" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structtspec__arg__t_1af476d6f237c98b0a7d6329a4e54f5ee4" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t srv_start_time</definition>
+        <argsstring></argsstring>
+        <name>srv_start_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2987" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2987" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structtspec__arg__t_1affaedb57c531bc5441604de5cc1b2257" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t min_data_rate</definition>
+        <argsstring></argsstring>
+        <name>min_data_rate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2988" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2988" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structtspec__arg__t_1a0674e501b611fe3dc1dde6328d18eb8a" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t mean_data_rate</definition>
+        <argsstring></argsstring>
+        <name>mean_data_rate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2989" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2989" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structtspec__arg__t_1a74530495ea7185e1c7c89be397e12c9a" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t peak_data_rate</definition>
+        <argsstring></argsstring>
+        <name>peak_data_rate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2990" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2990" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structtspec__arg__t_1aded632a6c28ed2529a08aff8fe3cb2ab" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t max_burst_size</definition>
+        <argsstring></argsstring>
+        <name>max_burst_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2991" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2991" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structtspec__arg__t_1a37c7faa69af604514ef83bb1c3188167" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t delay_bound</definition>
+        <argsstring></argsstring>
+        <name>delay_bound</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2992" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2992" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structtspec__arg__t_1ac67703965adaf8a97f709a0a14ea05a4" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t min_phy_rate</definition>
+        <argsstring></argsstring>
+        <name>min_phy_rate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2993" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2993" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structtspec__arg__t_1a084c9de00a46693de37133b02466f8d4" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t surplus_bw</definition>
+        <argsstring></argsstring>
+        <name>surplus_bw</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2994" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2994" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structtspec__arg__t_1a41e33593a280111c61991a4c8546ebb4" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t medium_time</definition>
+        <argsstring></argsstring>
+        <name>medium_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2995" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2995" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structtspec__arg__t_1af4c116e249b109ded342c6ae740980ef" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t dialog_token</definition>
+        <argsstring></argsstring>
+        <name>dialog_token</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2996" column="13" bodyfile="source/whd_wlioctl.h" bodystart="2996" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>tsinfo_arg</label>
+        <link refid="structtsinfo__arg"/>
+      </node>
+      <node id="1">
+        <label>tspec_arg_t</label>
+        <link refid="structtspec__arg__t"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>tsinfo</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="source/whd_wlioctl.h" line="2975" column="1" bodyfile="source/whd_wlioctl.h" bodystart="2976" bodyend="2997"/>
+    <listofallmembers>
+      <member refid="structtspec__arg__t_1a37c7faa69af604514ef83bb1c3188167" prot="public" virt="non-virtual"><scope>tspec_arg_t</scope><name>delay_bound</name></member>
+      <member refid="structtspec__arg__t_1af4c116e249b109ded342c6ae740980ef" prot="public" virt="non-virtual"><scope>tspec_arg_t</scope><name>dialog_token</name></member>
+      <member refid="structtspec__arg__t_1a8fac2498fe5bd106b35d43af5bc91f6f" prot="public" virt="non-virtual"><scope>tspec_arg_t</scope><name>flag</name></member>
+      <member refid="structtspec__arg__t_1a4f67027d07bc3adb59467073294326e4" prot="public" virt="non-virtual"><scope>tspec_arg_t</scope><name>inactivity_interval</name></member>
+      <member refid="structtspec__arg__t_1a1892eba2086d12ac2b09005aeb09ea3b" prot="public" virt="non-virtual"><scope>tspec_arg_t</scope><name>length</name></member>
+      <member refid="structtspec__arg__t_1aded632a6c28ed2529a08aff8fe3cb2ab" prot="public" virt="non-virtual"><scope>tspec_arg_t</scope><name>max_burst_size</name></member>
+      <member refid="structtspec__arg__t_1a247ae63c9a90e9ac37d8c41d06a04674" prot="public" virt="non-virtual"><scope>tspec_arg_t</scope><name>max_msdu_size</name></member>
+      <member refid="structtspec__arg__t_1a0ebc8d9168bb079c3410c5b6e4cd33d2" prot="public" virt="non-virtual"><scope>tspec_arg_t</scope><name>max_srv_interval</name></member>
+      <member refid="structtspec__arg__t_1a0674e501b611fe3dc1dde6328d18eb8a" prot="public" virt="non-virtual"><scope>tspec_arg_t</scope><name>mean_data_rate</name></member>
+      <member refid="structtspec__arg__t_1a41e33593a280111c61991a4c8546ebb4" prot="public" virt="non-virtual"><scope>tspec_arg_t</scope><name>medium_time</name></member>
+      <member refid="structtspec__arg__t_1affaedb57c531bc5441604de5cc1b2257" prot="public" virt="non-virtual"><scope>tspec_arg_t</scope><name>min_data_rate</name></member>
+      <member refid="structtspec__arg__t_1ac67703965adaf8a97f709a0a14ea05a4" prot="public" virt="non-virtual"><scope>tspec_arg_t</scope><name>min_phy_rate</name></member>
+      <member refid="structtspec__arg__t_1a5c1a231c8731f0e8d4c7adb3014d2b01" prot="public" virt="non-virtual"><scope>tspec_arg_t</scope><name>min_srv_interval</name></member>
+      <member refid="structtspec__arg__t_1a538947f773b8002576e0ccb7b46fed84" prot="public" virt="non-virtual"><scope>tspec_arg_t</scope><name>nom_msdu_size</name></member>
+      <member refid="structtspec__arg__t_1a74530495ea7185e1c7c89be397e12c9a" prot="public" virt="non-virtual"><scope>tspec_arg_t</scope><name>peak_data_rate</name></member>
+      <member refid="structtspec__arg__t_1af476d6f237c98b0a7d6329a4e54f5ee4" prot="public" virt="non-virtual"><scope>tspec_arg_t</scope><name>srv_start_time</name></member>
+      <member refid="structtspec__arg__t_1a084c9de00a46693de37133b02466f8d4" prot="public" virt="non-virtual"><scope>tspec_arg_t</scope><name>surplus_bw</name></member>
+      <member refid="structtspec__arg__t_1abdfe8446109531cb65c07c2445478548" prot="public" virt="non-virtual"><scope>tspec_arg_t</scope><name>suspension_interval</name></member>
+      <member refid="structtspec__arg__t_1a4578965f4f32ac2c24caddb44232b9af" prot="public" virt="non-virtual"><scope>tspec_arg_t</scope><name>tsinfo</name></member>
+      <member refid="structtspec__arg__t_1ab6d7b6f8c2ceaba7acda80aaf05f4899" prot="public" virt="non-virtual"><scope>tspec_arg_t</scope><name>version</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

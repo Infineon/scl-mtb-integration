@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwl__rateset__args__t" kind="struct" language="C++" prot="public">
+    <compoundname>wl_rateset_args_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwl__rateset__args__t_1a86988a65e0d3ece7990c032c159786d6" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t count</definition>
+        <argsstring></argsstring>
+        <name>count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="192" column="14" bodyfile="source/whd_wlioctl.h" bodystart="192" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__rateset__args__t_1a8521ab9b865b6d1f136b857db60b5414" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t rates[WL_MAXRATES_IN_SET]</definition>
+        <argsstring>[WL_MAXRATES_IN_SET]</argsstring>
+        <name>rates</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="193" column="13" bodyfile="source/whd_wlioctl.h" bodystart="193" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__rateset__args__t_1a02b8133c880fef9c0cbd902be7f27687" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t mcs[WL_MAXRATES_IN_SET]</definition>
+        <argsstring>[WL_MAXRATES_IN_SET]</argsstring>
+        <name>mcs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="194" column="13" bodyfile="source/whd_wlioctl.h" bodystart="194" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="190" column="1" bodyfile="source/whd_wlioctl.h" bodystart="191" bodyend="195"/>
+    <listofallmembers>
+      <member refid="structwl__rateset__args__t_1a86988a65e0d3ece7990c032c159786d6" prot="public" virt="non-virtual"><scope>wl_rateset_args_t</scope><name>count</name></member>
+      <member refid="structwl__rateset__args__t_1a02b8133c880fef9c0cbd902be7f27687" prot="public" virt="non-virtual"><scope>wl_rateset_args_t</scope><name>mcs</name></member>
+      <member refid="structwl__rateset__args__t_1a8521ab9b865b6d1f136b857db60b5414" prot="public" virt="non-virtual"><scope>wl_rateset_args_t</scope><name>rates</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

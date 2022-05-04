@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwhd__buffer__header__t" kind="struct" language="C++" prot="public">
+    <compoundname>whd_buffer_header_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwhd__buffer__header__t_1ab041671f19b07226331347a815aaae9d" prot="public" static="no" mutable="no">
+        <type><ref refid="whd__types_8h_1a0767ab3fb805f164a11b58473c308053" kindref="member">whd_buffer_queue_ptr_t</ref></type>
+        <definition>whd_buffer_queue_ptr_t queue_next</definition>
+        <argsstring></argsstring>
+        <name>queue_next</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_types_int.h" line="188" column="28" bodyfile="source/whd_types_int.h" bodystart="188" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__buffer__header__t_1aa6ee015d7ab3e2fb0bb878f556c540db" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char bus_header[MAX_BUS_HEADER_SIZE]</definition>
+        <argsstring>[MAX_BUS_HEADER_SIZE]</argsstring>
+        <name>bus_header</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_types_int.h" line="189" column="10" bodyfile="source/whd_types_int.h" bodystart="189" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_types_int.h" line="186" column="1" bodyfile="source/whd_types_int.h" bodystart="187" bodyend="190"/>
+    <listofallmembers>
+      <member refid="structwhd__buffer__header__t_1aa6ee015d7ab3e2fb0bb878f556c540db" prot="public" virt="non-virtual"><scope>whd_buffer_header_t</scope><name>bus_header</name></member>
+      <member refid="structwhd__buffer__header__t_1ab041671f19b07226331347a815aaae9d" prot="public" virt="non-virtual"><scope>whd_buffer_header_t</scope><name>queue_next</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

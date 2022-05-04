@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwhd__phyrate__log__t" kind="struct" language="C++" prot="public">
+    <compoundname>whd_phyrate_log_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwhd__phyrate__log__t_1a86988a65e0d3ece7990c032c159786d6" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t count</definition>
+        <argsstring></argsstring>
+        <name>count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2523" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2523" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__phyrate__log__t_1a3206766b4b207d2fd59ba5acf44a3725" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t log[WL_PHYRATE_LOG_SIZE]</definition>
+        <argsstring>[WL_PHYRATE_LOG_SIZE]</argsstring>
+        <name>log</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2524" column="13" bodyfile="source/whd_wlioctl.h" bodystart="2524" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="2521" column="1" bodyfile="source/whd_wlioctl.h" bodystart="2522" bodyend="2525"/>
+    <listofallmembers>
+      <member refid="structwhd__phyrate__log__t_1a86988a65e0d3ece7990c032c159786d6" prot="public" virt="non-virtual"><scope>whd_phyrate_log_t</scope><name>count</name></member>
+      <member refid="structwhd__phyrate__log__t_1a3206766b4b207d2fd59ba5acf44a3725" prot="public" virt="non-virtual"><scope>whd_phyrate_log_t</scope><name>log</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

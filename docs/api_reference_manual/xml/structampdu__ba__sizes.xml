@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structampdu__ba__sizes" kind="struct" language="C++" prot="public">
+    <compoundname>ampdu_ba_sizes</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structampdu__ba__sizes_1aa648e1e38c693a36fd4f8c6653d54366" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t ba_tx_wsize</definition>
+        <argsstring></argsstring>
+        <name>ba_tx_wsize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2922" column="13" bodyfile="source/whd_wlioctl.h" bodystart="2922" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structampdu__ba__sizes_1a164fb2eace075c1c1ea014a7e540edc7" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t ba_rx_wsize</definition>
+        <argsstring></argsstring>
+        <name>ba_rx_wsize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2923" column="13" bodyfile="source/whd_wlioctl.h" bodystart="2923" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="2920" column="1" bodyfile="source/whd_wlioctl.h" bodystart="2921" bodyend="2924"/>
+    <listofallmembers>
+      <member refid="structampdu__ba__sizes_1a164fb2eace075c1c1ea014a7e540edc7" prot="public" virt="non-virtual"><scope>ampdu_ba_sizes</scope><name>ba_rx_wsize</name></member>
+      <member refid="structampdu__ba__sizes_1aa648e1e38c693a36fd4f8c6653d54366" prot="public" virt="non-virtual"><scope>ampdu_ba_sizes</scope><name>ba_tx_wsize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

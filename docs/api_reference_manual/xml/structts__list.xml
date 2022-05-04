@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structts__list" kind="struct" language="C++" prot="public">
+    <compoundname>ts_list</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structts__list_1a4858b400f708a13bd514376ab941b27d" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t count</definition>
+        <argsstring></argsstring>
+        <name>count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2972" column="13" bodyfile="source/whd_wlioctl.h" bodystart="2972" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structts__list_1a4fd43a58c8de89000dafb00d7e2d1c5b" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="structtsinfo__arg" kindref="compound">tsinfo_arg</ref></type>
+        <definition>struct tsinfo_arg tsinfo[1]</definition>
+        <argsstring>[1]</argsstring>
+        <name>tsinfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2973" column="21" bodyfile="source/whd_wlioctl.h" bodystart="2973" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ts_list</label>
+        <link refid="structts__list"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>tsinfo</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tsinfo_arg</label>
+        <link refid="structtsinfo__arg"/>
+      </node>
+    </collaborationgraph>
+    <location file="source/whd_wlioctl.h" line="2970" column="1" bodyfile="source/whd_wlioctl.h" bodystart="2971" bodyend="2974"/>
+    <listofallmembers>
+      <member refid="structts__list_1a4858b400f708a13bd514376ab941b27d" prot="public" virt="non-virtual"><scope>ts_list</scope><name>count</name></member>
+      <member refid="structts__list_1a4fd43a58c8de89000dafb00d7e2d1c5b" prot="public" virt="non-virtual"><scope>ts_list</scope><name>tsinfo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

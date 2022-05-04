@@ -4,6 +4,12 @@
 See the [README.md](./README.md) for a complete description of the SCL MTB Integration.
 
 ## Changelog
+### v1.1.2
+* Added new API to sync with dependent libraries
+
+### v1.1.1
+* Minor bug fixes
+
 ### v1.1.0
 * Fixed a bug in scan API
 
@@ -29,7 +35,8 @@ This version of the library was validated for compatibility with the following S
 
 | Software and Tools                                      | Version |
 | :---                                                    | :----:  |
-| ModusToolbox Software Environment                       | 2.2     |
-| PSoC 6 Peripheral Driver Library (PDL)                  | 1.6.1   |
-| GCC Compiler                                            | 9.2.1   |
+| ModusToolbox Software Environment                       | 2.4     |
+| PSoC 6 Peripheral Driver Library (PDL)                  | 2.3.0   |
+| GCC Compiler                                            | 10.3.1  |
 | IAR Compiler                                            | 8.32    |
+| Arm Compiler 6                                          | 6.14    |

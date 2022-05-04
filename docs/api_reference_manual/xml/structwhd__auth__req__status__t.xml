@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwhd__auth__req__status__t" kind="struct" language="C++" prot="public">
+    <compoundname>whd_auth_req_status_t</compoundname>
+    <includes local="no">whd_types.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwhd__auth__req__status__t_1a1e87af3c18a2fd36c61faf89949bdc3f" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t flags</definition>
+        <argsstring></argsstring>
+        <name>flags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_types.h" line="1007" column="14" bodyfile="source/whd_types.h" bodystart="1007" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__auth__req__status__t_1a151798afd5a8a91181b55ce3e64a825c" prot="public" static="no" mutable="no">
+        <type><ref refid="structwhd__mac__t" kindref="compound">whd_mac_t</ref></type>
+        <definition>whd_mac_t peer_mac</definition>
+        <argsstring></argsstring>
+        <name>peer_mac</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_types.h" line="1008" column="15" bodyfile="source/whd_types.h" bodystart="1008" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__auth__req__status__t_1a0aae8d6558a2cff5a746aeaef648a956" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t ssid_len</definition>
+        <argsstring></argsstring>
+        <name>ssid_len</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_types.h" line="1009" column="14" bodyfile="source/whd_types.h" bodystart="1009" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__auth__req__status__t_1ae0b36281699d792a1869551818f73fce" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t ssid[SSID_NAME_SIZE]</definition>
+        <argsstring>[SSID_NAME_SIZE]</argsstring>
+        <name>ssid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_types.h" line="1010" column="13" bodyfile="source/whd_types.h" bodystart="1010" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__auth__req__status__t_1adf4cde562871cff018183beb169dbae8" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t pmkid[PMKID_LEN]</definition>
+        <argsstring>[PMKID_LEN]</argsstring>
+        <name>pmkid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_types.h" line="1011" column="13" bodyfile="source/whd_types.h" bodystart="1011" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Structure used by both dongle and host dongle asks host to start auth(SAE), host updates auth status to dongle. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>whd_auth_req_status_t</label>
+        <link refid="structwhd__auth__req__status__t"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>peer_mac</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>whd_mac_t</label>
+        <link refid="structwhd__mac__t"/>
+      </node>
+    </collaborationgraph>
+    <location file="source/whd_types.h" line="1005" column="1" bodyfile="source/whd_types.h" bodystart="1006" bodyend="1012"/>
+    <listofallmembers>
+      <member refid="structwhd__auth__req__status__t_1a1e87af3c18a2fd36c61faf89949bdc3f" prot="public" virt="non-virtual"><scope>whd_auth_req_status_t</scope><name>flags</name></member>
+      <member refid="structwhd__auth__req__status__t_1a151798afd5a8a91181b55ce3e64a825c" prot="public" virt="non-virtual"><scope>whd_auth_req_status_t</scope><name>peer_mac</name></member>
+      <member refid="structwhd__auth__req__status__t_1adf4cde562871cff018183beb169dbae8" prot="public" virt="non-virtual"><scope>whd_auth_req_status_t</scope><name>pmkid</name></member>
+      <member refid="structwhd__auth__req__status__t_1ae0b36281699d792a1869551818f73fce" prot="public" virt="non-virtual"><scope>whd_auth_req_status_t</scope><name>ssid</name></member>
+      <member refid="structwhd__auth__req__status__t_1a0aae8d6558a2cff5a746aeaef648a956" prot="public" virt="non-virtual"><scope>whd_auth_req_status_t</scope><name>ssid_len</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

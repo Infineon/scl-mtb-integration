@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structtx__power__legacy__t" kind="struct" language="C++" prot="public">
+    <compoundname>tx_power_legacy_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structtx__power__legacy__t_1a41e2804c30b9c0ceaf4d079b954ac783" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t txpwr_band_max[NUM_PWRCTRL_RATES]</definition>
+        <argsstring>[NUM_PWRCTRL_RATES]</argsstring>
+        <name>txpwr_band_max</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1347" column="13" bodyfile="source/whd_wlioctl.h" bodystart="1347" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structtx__power__legacy__t_1ad141c58c575d7fbeff82b8ae89063dc3" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t txpwr_limit[NUM_PWRCTRL_RATES]</definition>
+        <argsstring>[NUM_PWRCTRL_RATES]</argsstring>
+        <name>txpwr_limit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1348" column="13" bodyfile="source/whd_wlioctl.h" bodystart="1348" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structtx__power__legacy__t_1a74e62fb0db85e43b2abd1c1f45b7ed90" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t txpwr_local_max</definition>
+        <argsstring></argsstring>
+        <name>txpwr_local_max</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1349" column="13" bodyfile="source/whd_wlioctl.h" bodystart="1349" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structtx__power__legacy__t_1af00f31009fd2e3dbcff9715609e78bf7" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t txpwr_local_constraint</definition>
+        <argsstring></argsstring>
+        <name>txpwr_local_constraint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1350" column="13" bodyfile="source/whd_wlioctl.h" bodystart="1350" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structtx__power__legacy__t_1a924ab7f9a9c6799225585cd5a2d067be" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t txpwr_chan_reg_max</definition>
+        <argsstring></argsstring>
+        <name>txpwr_chan_reg_max</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1351" column="13" bodyfile="source/whd_wlioctl.h" bodystart="1351" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structtx__power__legacy__t_1a8724829d439f125e4a9af8a5af7ebae1" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t txpwr_target[2][NUM_PWRCTRL_RATES]</definition>
+        <argsstring>[2][NUM_PWRCTRL_RATES]</argsstring>
+        <name>txpwr_target</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1352" column="13" bodyfile="source/whd_wlioctl.h" bodystart="1352" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structtx__power__legacy__t_1ada6a1d2bb78d2be90813bd9995932f05" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t txpwr_est_Pout[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>txpwr_est_Pout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1353" column="13" bodyfile="source/whd_wlioctl.h" bodystart="1353" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structtx__power__legacy__t_1af39a81d97cc4c2a9dbf543e2bdad7c69" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t txpwr_opo[NUM_PWRCTRL_RATES]</definition>
+        <argsstring>[NUM_PWRCTRL_RATES]</argsstring>
+        <name>txpwr_opo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1354" column="13" bodyfile="source/whd_wlioctl.h" bodystart="1354" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structtx__power__legacy__t_1a2bd72b91764522b99c95955326ded98d" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t txpwr_bphy_cck_max[NUM_PWRCTRL_RATES]</definition>
+        <argsstring>[NUM_PWRCTRL_RATES]</argsstring>
+        <name>txpwr_bphy_cck_max</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1355" column="13" bodyfile="source/whd_wlioctl.h" bodystart="1355" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structtx__power__legacy__t_1a18a861d585461c972f6e757ffdae7e47" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t txpwr_bphy_ofdm_max</definition>
+        <argsstring></argsstring>
+        <name>txpwr_bphy_ofdm_max</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1356" column="13" bodyfile="source/whd_wlioctl.h" bodystart="1356" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structtx__power__legacy__t_1addc9c1a0c6c22e5bfebf333b5ec348b8" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t txpwr_aphy_max[NUM_PWRCTRL_RATES]</definition>
+        <argsstring>[NUM_PWRCTRL_RATES]</argsstring>
+        <name>txpwr_aphy_max</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1357" column="13" bodyfile="source/whd_wlioctl.h" bodystart="1357" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structtx__power__legacy__t_1a58acc2cb67ecfe0c2d4a9b204cfa218e" prot="public" static="no" mutable="no">
+        <type>int8_t</type>
+        <definition>int8_t txpwr_antgain[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>txpwr_antgain</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1358" column="12" bodyfile="source/whd_wlioctl.h" bodystart="1358" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structtx__power__legacy__t_1a4f1da73b8913fef70009f0b59d48bdd0" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t txpwr_est_Pout_gofdm</definition>
+        <argsstring></argsstring>
+        <name>txpwr_est_Pout_gofdm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1359" column="13" bodyfile="source/whd_wlioctl.h" bodystart="1359" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="1345" column="1" bodyfile="source/whd_wlioctl.h" bodystart="1346" bodyend="1360"/>
+    <listofallmembers>
+      <member refid="structtx__power__legacy__t_1a58acc2cb67ecfe0c2d4a9b204cfa218e" prot="public" virt="non-virtual"><scope>tx_power_legacy_t</scope><name>txpwr_antgain</name></member>
+      <member refid="structtx__power__legacy__t_1addc9c1a0c6c22e5bfebf333b5ec348b8" prot="public" virt="non-virtual"><scope>tx_power_legacy_t</scope><name>txpwr_aphy_max</name></member>
+      <member refid="structtx__power__legacy__t_1a41e2804c30b9c0ceaf4d079b954ac783" prot="public" virt="non-virtual"><scope>tx_power_legacy_t</scope><name>txpwr_band_max</name></member>
+      <member refid="structtx__power__legacy__t_1a2bd72b91764522b99c95955326ded98d" prot="public" virt="non-virtual"><scope>tx_power_legacy_t</scope><name>txpwr_bphy_cck_max</name></member>
+      <member refid="structtx__power__legacy__t_1a18a861d585461c972f6e757ffdae7e47" prot="public" virt="non-virtual"><scope>tx_power_legacy_t</scope><name>txpwr_bphy_ofdm_max</name></member>
+      <member refid="structtx__power__legacy__t_1a924ab7f9a9c6799225585cd5a2d067be" prot="public" virt="non-virtual"><scope>tx_power_legacy_t</scope><name>txpwr_chan_reg_max</name></member>
+      <member refid="structtx__power__legacy__t_1ada6a1d2bb78d2be90813bd9995932f05" prot="public" virt="non-virtual"><scope>tx_power_legacy_t</scope><name>txpwr_est_Pout</name></member>
+      <member refid="structtx__power__legacy__t_1a4f1da73b8913fef70009f0b59d48bdd0" prot="public" virt="non-virtual"><scope>tx_power_legacy_t</scope><name>txpwr_est_Pout_gofdm</name></member>
+      <member refid="structtx__power__legacy__t_1ad141c58c575d7fbeff82b8ae89063dc3" prot="public" virt="non-virtual"><scope>tx_power_legacy_t</scope><name>txpwr_limit</name></member>
+      <member refid="structtx__power__legacy__t_1af00f31009fd2e3dbcff9715609e78bf7" prot="public" virt="non-virtual"><scope>tx_power_legacy_t</scope><name>txpwr_local_constraint</name></member>
+      <member refid="structtx__power__legacy__t_1a74e62fb0db85e43b2abd1c1f45b7ed90" prot="public" virt="non-virtual"><scope>tx_power_legacy_t</scope><name>txpwr_local_max</name></member>
+      <member refid="structtx__power__legacy__t_1af39a81d97cc4c2a9dbf543e2bdad7c69" prot="public" virt="non-virtual"><scope>tx_power_legacy_t</scope><name>txpwr_opo</name></member>
+      <member refid="structtx__power__legacy__t_1a8724829d439f125e4a9af8a5af7ebae1" prot="public" virt="non-virtual"><scope>tx_power_legacy_t</scope><name>txpwr_target</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="dir_b2f33c71d4aa5e7af42a1ca61ff5af1b" kind="dir">
+    <compoundname>source</compoundname>
+    <innerfile refid="cy__network__buffer_8h">cy_network_buffer.h</innerfile>
+    <innerfile refid="cybsp__wifi_8h">cybsp_wifi.h</innerfile>
+    <innerfile refid="whd_8h">whd.h</innerfile>
+    <innerfile refid="whd__buffer__api_8h">whd_buffer_api.h</innerfile>
+    <innerfile refid="whd__cdc__bdc_8h">whd_cdc_bdc.h</innerfile>
+    <innerfile refid="whd__chip_8h">whd_chip.h</innerfile>
+    <innerfile refid="whd__debug_8h">whd_debug.h</innerfile>
+    <innerfile refid="whd__endian_8h">whd_endian.h</innerfile>
+    <innerfile refid="whd__events_8h">whd_events.h</innerfile>
+    <innerfile refid="whd__events__int_8h">whd_events_int.h</innerfile>
+    <innerfile refid="whd__int_8h">whd_int.h</innerfile>
+    <innerfile refid="whd__network__types_8h">whd_network_types.h</innerfile>
+    <innerfile refid="whd__sdpcm_8h">whd_sdpcm.h</innerfile>
+    <innerfile refid="whd__types_8h">whd_types.h</innerfile>
+    <innerfile refid="whd__types__int_8h">whd_types_int.h</innerfile>
+    <innerfile refid="whd__utils_8h">whd_utils.h</innerfile>
+    <innerfile refid="whd__version_8h">whd_version.h</innerfile>
+    <innerfile refid="whd__wifi__api_8h">whd_wifi_api.h</innerfile>
+    <innerfile refid="whd__wlioctl_8h">whd_wlioctl.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/"/>
+  </compounddef>
+</doxygen>

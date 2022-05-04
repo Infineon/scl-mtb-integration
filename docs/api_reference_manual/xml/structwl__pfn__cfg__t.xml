@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwl__pfn__cfg__t" kind="struct" language="C++" prot="public">
+    <compoundname>wl_pfn_cfg_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwl__pfn__cfg__t_1aedf38768fd486458abf1d1c2977a8a52" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t reporttype</definition>
+        <argsstring></argsstring>
+        <name>reporttype</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3121" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__pfn__cfg__t_1aa0aca720a3fee8ca785b65ed794a6758" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t channel_num</definition>
+        <argsstring></argsstring>
+        <name>channel_num</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3122" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3122" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__pfn__cfg__t_1ae062446be1a92af3b76f388db629bad0" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t channel_list[WL_NUMCHANNELS]</definition>
+        <argsstring>[WL_NUMCHANNELS]</argsstring>
+        <name>channel_list</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3123" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__pfn__cfg__t_1a773b39d480759f67926cb18ae2219281" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t flags</definition>
+        <argsstring></argsstring>
+        <name>flags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3124" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3124" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="3119" column="1" bodyfile="source/whd_wlioctl.h" bodystart="3120" bodyend="3125"/>
+    <listofallmembers>
+      <member refid="structwl__pfn__cfg__t_1ae062446be1a92af3b76f388db629bad0" prot="public" virt="non-virtual"><scope>wl_pfn_cfg_t</scope><name>channel_list</name></member>
+      <member refid="structwl__pfn__cfg__t_1aa0aca720a3fee8ca785b65ed794a6758" prot="public" virt="non-virtual"><scope>wl_pfn_cfg_t</scope><name>channel_num</name></member>
+      <member refid="structwl__pfn__cfg__t_1a773b39d480759f67926cb18ae2219281" prot="public" virt="non-virtual"><scope>wl_pfn_cfg_t</scope><name>flags</name></member>
+      <member refid="structwl__pfn__cfg__t_1aedf38768fd486458abf1d1c2977a8a52" prot="public" virt="non-virtual"><scope>wl_pfn_cfg_t</scope><name>reporttype</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

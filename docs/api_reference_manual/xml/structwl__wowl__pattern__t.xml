@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwl__wowl__pattern__t" kind="struct" language="C++" prot="public">
+    <compoundname>wl_wowl_pattern_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwl__wowl__pattern__t_1aeacbfe0b71c0b5b9f4f8f58dc4a64469" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t masksize</definition>
+        <argsstring></argsstring>
+        <name>masksize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3328" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3328" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__wowl__pattern__t_1a894bdfa2d603d8343f8ef01dda6fcd23" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t offset</definition>
+        <argsstring></argsstring>
+        <name>offset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3329" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3329" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__wowl__pattern__t_1a81153fe3f18f11c92937919c2cf0ad24" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t patternoffset</definition>
+        <argsstring></argsstring>
+        <name>patternoffset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3330" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3330" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__wowl__pattern__t_1ab7e28f03ebca765e16734af2c27caf19" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t patternsize</definition>
+        <argsstring></argsstring>
+        <name>patternsize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3331" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3331" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="3326" column="1" bodyfile="source/whd_wlioctl.h" bodystart="3327" bodyend="3332"/>
+    <listofallmembers>
+      <member refid="structwl__wowl__pattern__t_1aeacbfe0b71c0b5b9f4f8f58dc4a64469" prot="public" virt="non-virtual"><scope>wl_wowl_pattern_t</scope><name>masksize</name></member>
+      <member refid="structwl__wowl__pattern__t_1a894bdfa2d603d8343f8ef01dda6fcd23" prot="public" virt="non-virtual"><scope>wl_wowl_pattern_t</scope><name>offset</name></member>
+      <member refid="structwl__wowl__pattern__t_1a81153fe3f18f11c92937919c2cf0ad24" prot="public" virt="non-virtual"><scope>wl_wowl_pattern_t</scope><name>patternoffset</name></member>
+      <member refid="structwl__wowl__pattern__t_1ab7e28f03ebca765e16734af2c27caf19" prot="public" virt="non-virtual"><scope>wl_wowl_pattern_t</scope><name>patternsize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

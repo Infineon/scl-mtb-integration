@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwl__ulp__event__t" kind="struct" language="C++" prot="public">
+    <compoundname>wl_ulp_event_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwl__ulp__event__t_1ab6d7b6f8c2ceaba7acda80aaf05f4899" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t version</definition>
+        <argsstring></argsstring>
+        <name>version</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3696" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3696" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__ulp__event__t_1ac13cdb1e6f541ecf68d6dde8c5658596" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t ulp_dongle_action</definition>
+        <argsstring></argsstring>
+        <name>ulp_dongle_action</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3697" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3697" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="3694" column="1" bodyfile="source/whd_wlioctl.h" bodystart="3695" bodyend="3698"/>
+    <listofallmembers>
+      <member refid="structwl__ulp__event__t_1ac13cdb1e6f541ecf68d6dde8c5658596" prot="public" virt="non-virtual"><scope>wl_ulp_event_t</scope><name>ulp_dongle_action</name></member>
+      <member refid="structwl__ulp__event__t_1ab6d7b6f8c2ceaba7acda80aaf05f4899" prot="public" virt="non-virtual"><scope>wl_ulp_event_t</scope><name>version</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

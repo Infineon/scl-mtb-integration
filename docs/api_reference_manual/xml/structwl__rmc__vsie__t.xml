@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwl__rmc__vsie__t" kind="struct" language="C++" prot="public">
+    <compoundname>wl_rmc_vsie_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwl__rmc__vsie__t_1a5d81eb4d4b4a5b8d3a89be061d06b64d" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t oui[3]</definition>
+        <argsstring>[3]</argsstring>
+        <name>oui</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3684" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3684" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__rmc__vsie__t_1a27ab4ae0aba390adfd9907aeebd88b9c" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t payload</definition>
+        <argsstring></argsstring>
+        <name>payload</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3685" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3685" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="3682" column="1" bodyfile="source/whd_wlioctl.h" bodystart="3683" bodyend="3686"/>
+    <listofallmembers>
+      <member refid="structwl__rmc__vsie__t_1a5d81eb4d4b4a5b8d3a89be061d06b64d" prot="public" virt="non-virtual"><scope>wl_rmc_vsie_t</scope><name>oui</name></member>
+      <member refid="structwl__rmc__vsie__t_1a27ab4ae0aba390adfd9907aeebd88b9c" prot="public" virt="non-virtual"><scope>wl_rmc_vsie_t</scope><name>payload</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

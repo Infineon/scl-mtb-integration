@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structcnt__rx__t" kind="struct" language="C++" prot="public">
+    <compoundname>cnt_rx_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structcnt__rx__t_1ac82f5cec697e5ec6ab566c7c6cf96ecd" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t cnt_rxundec</definition>
+        <argsstring></argsstring>
+        <name>cnt_rxundec</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="97" column="14" bodyfile="source/whd_wlioctl.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcnt__rx__t_1a22cdcf43e63a085ed530c14b86fa5c2c" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t cnt_rxframe</definition>
+        <argsstring></argsstring>
+        <name>cnt_rxframe</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="98" column="14" bodyfile="source/whd_wlioctl.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="95" column="1" bodyfile="source/whd_wlioctl.h" bodystart="96" bodyend="99"/>
+    <listofallmembers>
+      <member refid="structcnt__rx__t_1a22cdcf43e63a085ed530c14b86fa5c2c" prot="public" virt="non-virtual"><scope>cnt_rx_t</scope><name>cnt_rxframe</name></member>
+      <member refid="structcnt__rx__t_1ac82f5cec697e5ec6ab566c7c6cf96ecd" prot="public" virt="non-virtual"><scope>cnt_rx_t</scope><name>cnt_rxundec</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

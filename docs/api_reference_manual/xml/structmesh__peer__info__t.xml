@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structmesh__peer__info__t" kind="struct" language="C++" prot="public">
+    <compoundname>mesh_peer_info_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structmesh__peer__info__t_1a175343f6e2236721a1c90d7ef272e5c3" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t mesh_peer_prot_id</definition>
+        <argsstring></argsstring>
+        <name>mesh_peer_prot_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3738" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3738" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structmesh__peer__info__t_1a0d49e206140ae8fed2a767e689432775" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t local_link_id</definition>
+        <argsstring></argsstring>
+        <name>local_link_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3739" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3739" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structmesh__peer__info__t_1a2d0730fc0756d9e5c1118bd5360d83d0" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t peer_link_id</definition>
+        <argsstring></argsstring>
+        <name>peer_link_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3740" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3740" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structmesh__peer__info__t_1a7aa247b3ebdb822183cfd57019c14f75" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t peer_aid</definition>
+        <argsstring></argsstring>
+        <name>peer_aid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3741" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3741" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structmesh__peer__info__t_1a0b57aa10271a66f3dc936bba1d2f3830" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t state</definition>
+        <argsstring></argsstring>
+        <name>state</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3742" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3742" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="3736" column="1" bodyfile="source/whd_wlioctl.h" bodystart="3737" bodyend="3743"/>
+    <listofallmembers>
+      <member refid="structmesh__peer__info__t_1a0d49e206140ae8fed2a767e689432775" prot="public" virt="non-virtual"><scope>mesh_peer_info_t</scope><name>local_link_id</name></member>
+      <member refid="structmesh__peer__info__t_1a175343f6e2236721a1c90d7ef272e5c3" prot="public" virt="non-virtual"><scope>mesh_peer_info_t</scope><name>mesh_peer_prot_id</name></member>
+      <member refid="structmesh__peer__info__t_1a7aa247b3ebdb822183cfd57019c14f75" prot="public" virt="non-virtual"><scope>mesh_peer_info_t</scope><name>peer_aid</name></member>
+      <member refid="structmesh__peer__info__t_1a2d0730fc0756d9e5c1118bd5360d83d0" prot="public" virt="non-virtual"><scope>mesh_peer_info_t</scope><name>peer_link_id</name></member>
+      <member refid="structmesh__peer__info__t_1a0b57aa10271a66f3dc936bba1d2f3830" prot="public" virt="non-virtual"><scope>mesh_peer_info_t</scope><name>state</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

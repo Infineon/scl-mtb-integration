@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwl__rm__req__elt__t" kind="struct" language="C++" prot="public">
+    <compoundname>wl_rm_req_elt_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwl__rm__req__elt__t_1a6def72cbab7e986d0ac5dc7291e1394a" prot="public" static="no" mutable="no">
+        <type>int8_t</type>
+        <definition>int8_t type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="311" column="12" bodyfile="source/whd_wlioctl.h" bodystart="311" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__rm__req__elt__t_1af8268dbc002b4b016ce8d244e8f5b10d" prot="public" static="no" mutable="no">
+        <type>int8_t</type>
+        <definition>int8_t flags</definition>
+        <argsstring></argsstring>
+        <name>flags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="312" column="12" bodyfile="source/whd_wlioctl.h" bodystart="312" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__rm__req__elt__t_1aa5d9886a989c0e36349581e3f06cd4c0" prot="public" static="no" mutable="no">
+        <type><ref refid="whd__types_8h_1ac2f5aa33ad4da263645133854e489c76" kindref="member">wl_chanspec_t</ref></type>
+        <definition>wl_chanspec_t chanspec</definition>
+        <argsstring></argsstring>
+        <name>chanspec</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="313" column="19" bodyfile="source/whd_wlioctl.h" bodystart="313" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__rm__req__elt__t_1af0e644dc6c73e60d65c5dc80ccde981b" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t token</definition>
+        <argsstring></argsstring>
+        <name>token</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="314" column="14" bodyfile="source/whd_wlioctl.h" bodystart="314" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__rm__req__elt__t_1a25993db2457566cf1502495802b1ee76" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t tsf_h</definition>
+        <argsstring></argsstring>
+        <name>tsf_h</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="315" column="14" bodyfile="source/whd_wlioctl.h" bodystart="315" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__rm__req__elt__t_1a8a07f50d2dd7a0876bfce9469681311b" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t tsf_l</definition>
+        <argsstring></argsstring>
+        <name>tsf_l</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="316" column="14" bodyfile="source/whd_wlioctl.h" bodystart="316" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__rm__req__elt__t_1a68f2facb6924a729e7a49385672d8a2c" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t dur</definition>
+        <argsstring></argsstring>
+        <name>dur</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="317" column="14" bodyfile="source/whd_wlioctl.h" bodystart="317" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="309" column="1" bodyfile="source/whd_wlioctl.h" bodystart="310" bodyend="318"/>
+    <listofallmembers>
+      <member refid="structwl__rm__req__elt__t_1aa5d9886a989c0e36349581e3f06cd4c0" prot="public" virt="non-virtual"><scope>wl_rm_req_elt_t</scope><name>chanspec</name></member>
+      <member refid="structwl__rm__req__elt__t_1a68f2facb6924a729e7a49385672d8a2c" prot="public" virt="non-virtual"><scope>wl_rm_req_elt_t</scope><name>dur</name></member>
+      <member refid="structwl__rm__req__elt__t_1af8268dbc002b4b016ce8d244e8f5b10d" prot="public" virt="non-virtual"><scope>wl_rm_req_elt_t</scope><name>flags</name></member>
+      <member refid="structwl__rm__req__elt__t_1af0e644dc6c73e60d65c5dc80ccde981b" prot="public" virt="non-virtual"><scope>wl_rm_req_elt_t</scope><name>token</name></member>
+      <member refid="structwl__rm__req__elt__t_1a25993db2457566cf1502495802b1ee76" prot="public" virt="non-virtual"><scope>wl_rm_req_elt_t</scope><name>tsf_h</name></member>
+      <member refid="structwl__rm__req__elt__t_1a8a07f50d2dd7a0876bfce9469681311b" prot="public" virt="non-virtual"><scope>wl_rm_req_elt_t</scope><name>tsf_l</name></member>
+      <member refid="structwl__rm__req__elt__t_1a6def72cbab7e986d0ac5dc7291e1394a" prot="public" virt="non-virtual"><scope>wl_rm_req_elt_t</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

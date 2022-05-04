@@ -1,0 +1,351 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwl__rmc__cnts__t" kind="struct" language="C++" prot="public">
+    <compoundname>wl_rmc_cnts_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwl__rmc__cnts__t_1ab6d7b6f8c2ceaba7acda80aaf05f4899" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t version</definition>
+        <argsstring></argsstring>
+        <name>version</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3608" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3608" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__rmc__cnts__t_1a1892eba2086d12ac2b09005aeb09ea3b" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t length</definition>
+        <argsstring></argsstring>
+        <name>length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3609" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3609" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__rmc__cnts__t_1a18b7f3505947c0b45d1f11d46bced2b7" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t dupcnt</definition>
+        <argsstring></argsstring>
+        <name>dupcnt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3610" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3610" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__rmc__cnts__t_1ad59c263f8b5ef9e4f1c173fcec765201" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t ackreq_err</definition>
+        <argsstring></argsstring>
+        <name>ackreq_err</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3611" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3611" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__rmc__cnts__t_1a50042734ba67ad51f134bc83f49556b8" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t af_tx_err</definition>
+        <argsstring></argsstring>
+        <name>af_tx_err</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3612" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3612" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__rmc__cnts__t_1aef110d67f12b108b45fe9b5db9dcbd87" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t null_tx_err</definition>
+        <argsstring></argsstring>
+        <name>null_tx_err</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3613" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3613" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__rmc__cnts__t_1a0136c719f78235e0c373c0b60e6d4fa7" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t af_unicast_tx_err</definition>
+        <argsstring></argsstring>
+        <name>af_unicast_tx_err</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3614" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3614" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__rmc__cnts__t_1a0006defb684eb10254a3ce876ebab19d" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t mc_no_amt_slot</definition>
+        <argsstring></argsstring>
+        <name>mc_no_amt_slot</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3615" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3615" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__rmc__cnts__t_1a80f6777d53594406ad610337c023af28" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t mc_no_glb_slot</definition>
+        <argsstring></argsstring>
+        <name>mc_no_glb_slot</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3617" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3617" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__rmc__cnts__t_1aea44192a79170f694589bcbd0a202d44" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t mc_not_mirrored</definition>
+        <argsstring></argsstring>
+        <name>mc_not_mirrored</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3618" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3618" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__rmc__cnts__t_1a9bd331ad5e6385738d3b0cde57f8c6fa" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t mc_existing_tr</definition>
+        <argsstring></argsstring>
+        <name>mc_existing_tr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3619" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3619" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__rmc__cnts__t_1a651780ee68ec9896bedfb95f2534e2ab" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t mc_exist_in_amt</definition>
+        <argsstring></argsstring>
+        <name>mc_exist_in_amt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3620" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3620" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__rmc__cnts__t_1ab836b360ae212310f0ccbc2cb68232fa" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t mc_not_exist_in_gbl</definition>
+        <argsstring></argsstring>
+        <name>mc_not_exist_in_gbl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3622" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3622" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__rmc__cnts__t_1a84f899539abb38370013aea24a4e10cc" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t mc_not_exist_in_amt</definition>
+        <argsstring></argsstring>
+        <name>mc_not_exist_in_amt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3623" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3623" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__rmc__cnts__t_1a5e132ff6ccb4a5930858c80670d95800" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t mc_utilized</definition>
+        <argsstring></argsstring>
+        <name>mc_utilized</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3624" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3624" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__rmc__cnts__t_1a37bd9fd8145cb32a20e296ebfa5c8d5d" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t mc_taken_other_tr</definition>
+        <argsstring></argsstring>
+        <name>mc_taken_other_tr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3625" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3625" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__rmc__cnts__t_1a649f02f0de2b727cf97946d0cd3fa109" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rmc_rx_frames_mac</definition>
+        <argsstring></argsstring>
+        <name>rmc_rx_frames_mac</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3626" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3626" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__rmc__cnts__t_1a09608e5b65369e880ddad5b9c9acaba2" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rmc_tx_frames_mac</definition>
+        <argsstring></argsstring>
+        <name>rmc_tx_frames_mac</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3627" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3627" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__rmc__cnts__t_1a8153ad0a80cc5ab48815bc0ffc2fade8" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t mc_null_ar_cnt</definition>
+        <argsstring></argsstring>
+        <name>mc_null_ar_cnt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3628" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3628" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__rmc__cnts__t_1a37a93cf1231700d5b5f8657c472b54f9" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t mc_ar_role_selected</definition>
+        <argsstring></argsstring>
+        <name>mc_ar_role_selected</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3629" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3629" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__rmc__cnts__t_1a3b573a8dff0f86af4fc47037bd2393af" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t mc_ar_role_deleted</definition>
+        <argsstring></argsstring>
+        <name>mc_ar_role_deleted</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3630" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3630" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__rmc__cnts__t_1a42c31ff57c0ac52eae1ba562a8856a21" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t mc_noacktimer_expired</definition>
+        <argsstring></argsstring>
+        <name>mc_noacktimer_expired</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3631" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3631" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__rmc__cnts__t_1affb2d082241418f45227c1af2babbf74" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t mc_no_wl_clk</definition>
+        <argsstring></argsstring>
+        <name>mc_no_wl_clk</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3632" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3632" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__rmc__cnts__t_1ae6fe2b549c50918c738783854044e7ea" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t mc_tr_cnt_exceeded</definition>
+        <argsstring></argsstring>
+        <name>mc_tr_cnt_exceeded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3633" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3633" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="3606" column="1" bodyfile="source/whd_wlioctl.h" bodystart="3607" bodyend="3634"/>
+    <listofallmembers>
+      <member refid="structwl__rmc__cnts__t_1ad59c263f8b5ef9e4f1c173fcec765201" prot="public" virt="non-virtual"><scope>wl_rmc_cnts_t</scope><name>ackreq_err</name></member>
+      <member refid="structwl__rmc__cnts__t_1a50042734ba67ad51f134bc83f49556b8" prot="public" virt="non-virtual"><scope>wl_rmc_cnts_t</scope><name>af_tx_err</name></member>
+      <member refid="structwl__rmc__cnts__t_1a0136c719f78235e0c373c0b60e6d4fa7" prot="public" virt="non-virtual"><scope>wl_rmc_cnts_t</scope><name>af_unicast_tx_err</name></member>
+      <member refid="structwl__rmc__cnts__t_1a18b7f3505947c0b45d1f11d46bced2b7" prot="public" virt="non-virtual"><scope>wl_rmc_cnts_t</scope><name>dupcnt</name></member>
+      <member refid="structwl__rmc__cnts__t_1a1892eba2086d12ac2b09005aeb09ea3b" prot="public" virt="non-virtual"><scope>wl_rmc_cnts_t</scope><name>length</name></member>
+      <member refid="structwl__rmc__cnts__t_1a3b573a8dff0f86af4fc47037bd2393af" prot="public" virt="non-virtual"><scope>wl_rmc_cnts_t</scope><name>mc_ar_role_deleted</name></member>
+      <member refid="structwl__rmc__cnts__t_1a37a93cf1231700d5b5f8657c472b54f9" prot="public" virt="non-virtual"><scope>wl_rmc_cnts_t</scope><name>mc_ar_role_selected</name></member>
+      <member refid="structwl__rmc__cnts__t_1a651780ee68ec9896bedfb95f2534e2ab" prot="public" virt="non-virtual"><scope>wl_rmc_cnts_t</scope><name>mc_exist_in_amt</name></member>
+      <member refid="structwl__rmc__cnts__t_1a9bd331ad5e6385738d3b0cde57f8c6fa" prot="public" virt="non-virtual"><scope>wl_rmc_cnts_t</scope><name>mc_existing_tr</name></member>
+      <member refid="structwl__rmc__cnts__t_1a0006defb684eb10254a3ce876ebab19d" prot="public" virt="non-virtual"><scope>wl_rmc_cnts_t</scope><name>mc_no_amt_slot</name></member>
+      <member refid="structwl__rmc__cnts__t_1a80f6777d53594406ad610337c023af28" prot="public" virt="non-virtual"><scope>wl_rmc_cnts_t</scope><name>mc_no_glb_slot</name></member>
+      <member refid="structwl__rmc__cnts__t_1affb2d082241418f45227c1af2babbf74" prot="public" virt="non-virtual"><scope>wl_rmc_cnts_t</scope><name>mc_no_wl_clk</name></member>
+      <member refid="structwl__rmc__cnts__t_1a42c31ff57c0ac52eae1ba562a8856a21" prot="public" virt="non-virtual"><scope>wl_rmc_cnts_t</scope><name>mc_noacktimer_expired</name></member>
+      <member refid="structwl__rmc__cnts__t_1a84f899539abb38370013aea24a4e10cc" prot="public" virt="non-virtual"><scope>wl_rmc_cnts_t</scope><name>mc_not_exist_in_amt</name></member>
+      <member refid="structwl__rmc__cnts__t_1ab836b360ae212310f0ccbc2cb68232fa" prot="public" virt="non-virtual"><scope>wl_rmc_cnts_t</scope><name>mc_not_exist_in_gbl</name></member>
+      <member refid="structwl__rmc__cnts__t_1aea44192a79170f694589bcbd0a202d44" prot="public" virt="non-virtual"><scope>wl_rmc_cnts_t</scope><name>mc_not_mirrored</name></member>
+      <member refid="structwl__rmc__cnts__t_1a8153ad0a80cc5ab48815bc0ffc2fade8" prot="public" virt="non-virtual"><scope>wl_rmc_cnts_t</scope><name>mc_null_ar_cnt</name></member>
+      <member refid="structwl__rmc__cnts__t_1a37bd9fd8145cb32a20e296ebfa5c8d5d" prot="public" virt="non-virtual"><scope>wl_rmc_cnts_t</scope><name>mc_taken_other_tr</name></member>
+      <member refid="structwl__rmc__cnts__t_1ae6fe2b549c50918c738783854044e7ea" prot="public" virt="non-virtual"><scope>wl_rmc_cnts_t</scope><name>mc_tr_cnt_exceeded</name></member>
+      <member refid="structwl__rmc__cnts__t_1a5e132ff6ccb4a5930858c80670d95800" prot="public" virt="non-virtual"><scope>wl_rmc_cnts_t</scope><name>mc_utilized</name></member>
+      <member refid="structwl__rmc__cnts__t_1aef110d67f12b108b45fe9b5db9dcbd87" prot="public" virt="non-virtual"><scope>wl_rmc_cnts_t</scope><name>null_tx_err</name></member>
+      <member refid="structwl__rmc__cnts__t_1a649f02f0de2b727cf97946d0cd3fa109" prot="public" virt="non-virtual"><scope>wl_rmc_cnts_t</scope><name>rmc_rx_frames_mac</name></member>
+      <member refid="structwl__rmc__cnts__t_1a09608e5b65369e880ddad5b9c9acaba2" prot="public" virt="non-virtual"><scope>wl_rmc_cnts_t</scope><name>rmc_tx_frames_mac</name></member>
+      <member refid="structwl__rmc__cnts__t_1ab6d7b6f8c2ceaba7acda80aaf05f4899" prot="public" virt="non-virtual"><scope>wl_rmc_cnts_t</scope><name>version</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

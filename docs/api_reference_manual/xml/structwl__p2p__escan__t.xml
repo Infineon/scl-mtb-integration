@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwl__p2p__escan__t" kind="struct" language="C++" prot="public">
+    <compoundname>wl_p2p_escan_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwl__p2p__escan__t_1a1d127017fb298b889f4ba24752d08b8e" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3486" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3486" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__p2p__escan__t_1a72aca6ea6d8153b28ea8f139b932ec3e" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t reserved[3]</definition>
+        <argsstring>[3]</argsstring>
+        <name>reserved</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3487" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3487" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__p2p__escan__t_1ac3888d1e2f4112f0ce274c7046918a8c" prot="public" static="no" mutable="no">
+        <type><ref refid="structwl__escan__params__t" kindref="compound">wl_escan_params_t</ref></type>
+        <definition>wl_escan_params_t escan</definition>
+        <argsstring></argsstring>
+        <name>escan</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3490" column="23" bodyfile="source/whd_wlioctl.h" bodystart="3490" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>wl_escan_params_t</label>
+        <link refid="structwl__escan__params__t"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>params</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>wl_ether_addr_t</label>
+        <link refid="structwl__ether__addr__t"/>
+      </node>
+      <node id="1">
+        <label>wl_p2p_escan_t</label>
+        <link refid="structwl__p2p__escan__t"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>escan</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>wl_scan_params_t</label>
+        <link refid="structwl__scan__params__t"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>ssid</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>bssid</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>wlc_ssid_t</label>
+        <link refid="structwlc__ssid__t"/>
+      </node>
+    </collaborationgraph>
+    <location file="source/whd_wlioctl.h" line="3484" column="1" bodyfile="source/whd_wlioctl.h" bodystart="3485" bodyend="3491"/>
+    <listofallmembers>
+      <member refid="structwl__p2p__escan__t_1ac3888d1e2f4112f0ce274c7046918a8c" prot="public" virt="non-virtual"><scope>wl_p2p_escan_t</scope><name>escan</name></member>
+      <member refid="structwl__p2p__escan__t_1a72aca6ea6d8153b28ea8f139b932ec3e" prot="public" virt="non-virtual"><scope>wl_p2p_escan_t</scope><name>reserved</name></member>
+      <member refid="structwl__p2p__escan__t_1a1d127017fb298b889f4ba24752d08b8e" prot="public" virt="non-virtual"><scope>wl_p2p_escan_t</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

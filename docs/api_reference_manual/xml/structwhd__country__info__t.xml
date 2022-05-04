@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwhd__country__info__t" kind="struct" language="C++" prot="public">
+    <compoundname>whd_country_info_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwhd__country__info__t_1ad4ccfc9a9fdb135103eef7d130f96979" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char abbrev[3]</definition>
+        <argsstring>[3]</argsstring>
+        <name>abbrev</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="345" column="10" bodyfile="source/whd_chip.h" bodystart="345" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__country__info__t_1a9f37c9969577b6fce01f72cb91b56b3f" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t rev</definition>
+        <argsstring></argsstring>
+        <name>rev</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="346" column="13" bodyfile="source/whd_chip.h" bodystart="346" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__country__info__t_1a6fcedd1c789a695a3a181a7a6624d368" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t data[64]</definition>
+        <argsstring>[64]</argsstring>
+        <name>data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="347" column="13" bodyfile="source/whd_chip.h" bodystart="347" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_chip.h" line="343" column="1" bodyfile="source/whd_chip.h" bodystart="344" bodyend="348"/>
+    <listofallmembers>
+      <member refid="structwhd__country__info__t_1ad4ccfc9a9fdb135103eef7d130f96979" prot="public" virt="non-virtual"><scope>whd_country_info_t</scope><name>abbrev</name></member>
+      <member refid="structwhd__country__info__t_1a6fcedd1c789a695a3a181a7a6624d368" prot="public" virt="non-virtual"><scope>whd_country_info_t</scope><name>data</name></member>
+      <member refid="structwhd__country__info__t_1a9f37c9969577b6fce01f72cb91b56b3f" prot="public" virt="non-virtual"><scope>whd_country_info_t</scope><name>rev</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

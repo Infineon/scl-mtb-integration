@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structtx__power__t" kind="struct" language="C++" prot="public">
+    <compoundname>tx_power_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structtx__power__t_1a773b39d480759f67926cb18ae2219281" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t flags</definition>
+        <argsstring></argsstring>
+        <name>flags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1382" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1382" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structtx__power__t_1aa5d9886a989c0e36349581e3f06cd4c0" prot="public" static="no" mutable="no">
+        <type><ref refid="whd__types_8h_1ac2f5aa33ad4da263645133854e489c76" kindref="member">wl_chanspec_t</ref></type>
+        <definition>wl_chanspec_t chanspec</definition>
+        <argsstring></argsstring>
+        <name>chanspec</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1383" column="19" bodyfile="source/whd_wlioctl.h" bodystart="1383" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structtx__power__t_1aa43a7e91bfb4efab423cb4d2344218f7" prot="public" static="no" mutable="no">
+        <type><ref refid="whd__types_8h_1ac2f5aa33ad4da263645133854e489c76" kindref="member">wl_chanspec_t</ref></type>
+        <definition>wl_chanspec_t local_chanspec</definition>
+        <argsstring></argsstring>
+        <name>local_chanspec</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1384" column="19" bodyfile="source/whd_wlioctl.h" bodystart="1384" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structtx__power__t_1a702521df498e9990c5f19670b0978e61" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t local_max</definition>
+        <argsstring></argsstring>
+        <name>local_max</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1385" column="13" bodyfile="source/whd_wlioctl.h" bodystart="1385" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structtx__power__t_1ac7a358c1de5b7b76936eab6dee47192d" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t local_constraint</definition>
+        <argsstring></argsstring>
+        <name>local_constraint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1386" column="13" bodyfile="source/whd_wlioctl.h" bodystart="1386" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structtx__power__t_1a06e70bdff6604520809b8fb04b3957e6" prot="public" static="no" mutable="no">
+        <type>int8_t</type>
+        <definition>int8_t antgain[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>antgain</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1387" column="12" bodyfile="source/whd_wlioctl.h" bodystart="1387" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structtx__power__t_1aa6b81cb0a5ae6681f02f44e7ffc29f06" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t rf_cores</definition>
+        <argsstring></argsstring>
+        <name>rf_cores</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1388" column="13" bodyfile="source/whd_wlioctl.h" bodystart="1388" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structtx__power__t_1ab304eddfcad62cb85f4008fea446f044" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t est_Pout[4]</definition>
+        <argsstring>[4]</argsstring>
+        <name>est_Pout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1389" column="13" bodyfile="source/whd_wlioctl.h" bodystart="1389" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structtx__power__t_1a485faa859b426b7f5910b6d91ab4b38a" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t est_Pout_cck</definition>
+        <argsstring></argsstring>
+        <name>est_Pout_cck</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1390" column="13" bodyfile="source/whd_wlioctl.h" bodystart="1390" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structtx__power__t_1a35583c2cf4a8536908c101eb50e84b18" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t user_limit[WL_TX_POWER_RATES]</definition>
+        <argsstring>[WL_TX_POWER_RATES]</argsstring>
+        <name>user_limit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1391" column="13" bodyfile="source/whd_wlioctl.h" bodystart="1391" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structtx__power__t_1ab9c4fe0b1858bfee01709f656f6a3760" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t reg_limit[WL_TX_POWER_RATES]</definition>
+        <argsstring>[WL_TX_POWER_RATES]</argsstring>
+        <name>reg_limit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1392" column="13" bodyfile="source/whd_wlioctl.h" bodystart="1392" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structtx__power__t_1abf6c135c5850b1f2b7e9690c7d9276fb" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t board_limit[WL_TX_POWER_RATES]</definition>
+        <argsstring>[WL_TX_POWER_RATES]</argsstring>
+        <name>board_limit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1393" column="13" bodyfile="source/whd_wlioctl.h" bodystart="1393" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structtx__power__t_1a81bff72fbe2162cfa6213570762360c6" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t target[WL_TX_POWER_RATES]</definition>
+        <argsstring>[WL_TX_POWER_RATES]</argsstring>
+        <name>target</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1394" column="13" bodyfile="source/whd_wlioctl.h" bodystart="1394" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="1380" column="1" bodyfile="source/whd_wlioctl.h" bodystart="1381" bodyend="1395"/>
+    <listofallmembers>
+      <member refid="structtx__power__t_1a06e70bdff6604520809b8fb04b3957e6" prot="public" virt="non-virtual"><scope>tx_power_t</scope><name>antgain</name></member>
+      <member refid="structtx__power__t_1abf6c135c5850b1f2b7e9690c7d9276fb" prot="public" virt="non-virtual"><scope>tx_power_t</scope><name>board_limit</name></member>
+      <member refid="structtx__power__t_1aa5d9886a989c0e36349581e3f06cd4c0" prot="public" virt="non-virtual"><scope>tx_power_t</scope><name>chanspec</name></member>
+      <member refid="structtx__power__t_1ab304eddfcad62cb85f4008fea446f044" prot="public" virt="non-virtual"><scope>tx_power_t</scope><name>est_Pout</name></member>
+      <member refid="structtx__power__t_1a485faa859b426b7f5910b6d91ab4b38a" prot="public" virt="non-virtual"><scope>tx_power_t</scope><name>est_Pout_cck</name></member>
+      <member refid="structtx__power__t_1a773b39d480759f67926cb18ae2219281" prot="public" virt="non-virtual"><scope>tx_power_t</scope><name>flags</name></member>
+      <member refid="structtx__power__t_1aa43a7e91bfb4efab423cb4d2344218f7" prot="public" virt="non-virtual"><scope>tx_power_t</scope><name>local_chanspec</name></member>
+      <member refid="structtx__power__t_1ac7a358c1de5b7b76936eab6dee47192d" prot="public" virt="non-virtual"><scope>tx_power_t</scope><name>local_constraint</name></member>
+      <member refid="structtx__power__t_1a702521df498e9990c5f19670b0978e61" prot="public" virt="non-virtual"><scope>tx_power_t</scope><name>local_max</name></member>
+      <member refid="structtx__power__t_1ab9c4fe0b1858bfee01709f656f6a3760" prot="public" virt="non-virtual"><scope>tx_power_t</scope><name>reg_limit</name></member>
+      <member refid="structtx__power__t_1aa6b81cb0a5ae6681f02f44e7ffc29f06" prot="public" virt="non-virtual"><scope>tx_power_t</scope><name>rf_cores</name></member>
+      <member refid="structtx__power__t_1a81bff72fbe2162cfa6213570762360c6" prot="public" virt="non-virtual"><scope>tx_power_t</scope><name>target</name></member>
+      <member refid="structtx__power__t_1a35583c2cf4a8536908c101eb50e84b18" prot="public" virt="non-virtual"><scope>tx_power_t</scope><name>user_limit</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

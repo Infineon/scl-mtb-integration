@@ -1,16 +1,362 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="group__wifiutilities" kind="group">
     <compoundname>wifiutilities</compoundname>
     <title>WHD Wi-Fi Utility API</title>
       <sectiondef kind="func">
+      <memberdef kind="function" id="group__wifiutilities_1ga168fb83b839bab61d2c9d3b1f42a6782" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint32_t</type>
+        <definition>uint32_t whd_wifi_set_channel</definition>
+        <argsstring>(whd_interface_t ifp, uint32_t channel)</argsstring>
+        <name>whd_wifi_set_channel</name>
+        <param>
+          <type>whd_interface_t</type>
+          <declname>ifp</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>channel</declname>
+        </param>
+        <briefdescription>
+<para>Set the current channel on the WLAN radio. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="note"><para>On most WLAN devices this will set the channel for both AP <emphasis>AND</emphasis> STA (since there is only one radio - it cannot be on two channels simulaneously)</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ifp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pointer to handle instance of whd interface </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>channel</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The desired channel</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>WHD_SUCCESS if the channel was successfully set Error code if the channel was not successfully set </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wifi_api.h" line="299" column="17" declfile="source/whd_wifi_api.h" declline="299" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__wifiutilities_1gab81522c25d723fbe18b90871a278ba9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint32_t</type>
+        <definition>uint32_t whd_wifi_get_channel</definition>
+        <argsstring>(whd_interface_t ifp, uint32_t *channel)</argsstring>
+        <name>whd_wifi_get_channel</name>
+        <param>
+          <type>whd_interface_t</type>
+          <declname>ifp</declname>
+        </param>
+        <param>
+          <type>uint32_t *</type>
+          <declname>channel</declname>
+        </param>
+        <briefdescription>
+<para>Get the current channel on the WLAN radio. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="note"><para>On most WLAN devices this will get the channel for both AP <emphasis>AND</emphasis> STA (since there is only one radio - it cannot be on two channels simulaneously)</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ifp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pointer to handle instance of whd interface </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>channel</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pointer to receive the current channel</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>WHD_SUCCESS if the channel was successfully retrieved Error code if the channel was not successfully retrieved </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wifi_api.h" line="312" column="17" declfile="source/whd_wifi_api.h" declline="312" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__wifiutilities_1ga7cfb1e5b84aea5dc7b3ebf6bbf0421a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint32_t</type>
+        <definition>uint32_t whd_wifi_get_channels</definition>
+        <argsstring>(whd_interface_t ifp, whd_list_t *channel_list)</argsstring>
+        <name>whd_wifi_get_channels</name>
+        <param>
+          <type>whd_interface_t</type>
+          <declname>ifp</declname>
+        </param>
+        <param>
+          <type><ref refid="structwhd__list__t" kindref="compound">whd_list_t</ref> *</type>
+          <declname>channel_list</declname>
+        </param>
+        <briefdescription>
+<para>Gets the supported channels. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ifp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pointer to handle instance of whd interface </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>channel_list</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Buffer to store list of the supported channels and max channel is WL_NUMCHANNELS</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>WHD_SUCCESS if the active connections was successfully read WHD_ERROR if the active connections was not successfully read </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wifi_api.h" line="323" column="17" declfile="source/whd_wifi_api.h" declline="323" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__wifiutilities_1ga893ccaef6ed5d0afe95a96bbe89e8a80" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint32_t</type>
+        <definition>uint32_t whd_wifi_set_passphrase</definition>
+        <argsstring>(whd_interface_t ifp, const uint8_t *security_key, uint8_t key_length)</argsstring>
+        <name>whd_wifi_set_passphrase</name>
+        <param>
+          <type>whd_interface_t</type>
+          <declname>ifp</declname>
+        </param>
+        <param>
+          <type>const uint8_t *</type>
+          <declname>security_key</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>key_length</declname>
+        </param>
+        <briefdescription>
+<para>Set the passphrase. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ifp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pointer to handle instance of whd interface </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>security_key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The security key (passphrase) which is to be set </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>key_length</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>length of the key</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>WHD_SUCCESS when the key is set Error code if an error occurred </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wifi_api.h" line="335" column="17" declfile="source/whd_wifi_api.h" declline="335" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__wifiutilities_1ga977fe2ff7c3f6966ffc40fda0e9694a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint32_t</type>
+        <definition>uint32_t whd_wifi_sae_password</definition>
+        <argsstring>(whd_interface_t ifp, const uint8_t *security_key, uint8_t key_length)</argsstring>
+        <name>whd_wifi_sae_password</name>
+        <param>
+          <type>whd_interface_t</type>
+          <declname>ifp</declname>
+        </param>
+        <param>
+          <type>const uint8_t *</type>
+          <declname>security_key</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>key_length</declname>
+        </param>
+        <briefdescription>
+<para>Set the SAE password. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ifp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pointer to handle instance of whd interface </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>security_key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The security key (password) which is to be set </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>key_length</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>length of the key</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>WHD_SUCCESS when the key is set Error code if an error occurred </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wifi_api.h" line="346" column="17" declfile="source/whd_wifi_api.h" declline="346" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__wifiutilities_1gae118219bea1b82ae76a5c1ee5f7f302c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint32_t</type>
+        <definition>uint32_t whd_wifi_enable_sup_set_passphrase</definition>
+        <argsstring>(whd_interface_t ifp, const uint8_t *security_key_psk, uint8_t psk_length, whd_security_t auth_type)</argsstring>
+        <name>whd_wifi_enable_sup_set_passphrase</name>
+        <param>
+          <type>whd_interface_t</type>
+          <declname>ifp</declname>
+        </param>
+        <param>
+          <type>const uint8_t *</type>
+          <declname>security_key_psk</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>psk_length</declname>
+        </param>
+        <param>
+          <type><ref refid="whd__types_8h_1aaeeea5666743710aa4f01ff264b27059" kindref="member">whd_security_t</ref></type>
+          <declname>auth_type</declname>
+        </param>
+        <briefdescription>
+<para>Enable WHD internal supplicant and set WPA2 passphrase in case of WPA3/WPA2 transition mode. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ifp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pointer to handle instance of whd interface </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>security_key_psk</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The security key (passphrase) which is to be set </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>psk_length</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>length of the key </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>auth_type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Authentication type: <ref refid="whd__types_8h_1aaeeea5666743710aa4f01ff264b27059af4d58bc2335113f0c70abdbd3019bb61" kindref="member">WHD_SECURITY_WPA3_WPA2_PSK</ref></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>WHD_SUCCESS when the supplicant variable and wpa2 passphrase is set Error code if an error occurred </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wifi_api.h" line="358" column="17" declfile="source/whd_wifi_api.h" declline="358" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__wifiutilities_1gad2daa1aba4dccd3f0506950ccee42113" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint32_t</type>
+        <definition>uint32_t whd_wifi_enable_supplicant</definition>
+        <argsstring>(whd_interface_t ifp, whd_security_t auth_type)</argsstring>
+        <name>whd_wifi_enable_supplicant</name>
+        <param>
+          <type>whd_interface_t</type>
+          <declname>ifp</declname>
+        </param>
+        <param>
+          <type><ref refid="whd__types_8h_1aaeeea5666743710aa4f01ff264b27059" kindref="member">whd_security_t</ref></type>
+          <declname>auth_type</declname>
+        </param>
+        <briefdescription>
+<para>Enable WHD internal supplicant. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ifp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pointer to handle instance of whd interface </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>auth_type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Authentication type</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>WHD_SUCCESS when the supplicant variable is set Error code if an error occurred </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wifi_api.h" line="370" column="17" declfile="source/whd_wifi_api.h" declline="370" declcolumn="17"/>
+      </memberdef>
       <memberdef kind="function" id="group__wifiutilities_1gaf82eda2ff9979b1bc053a6d7f1f4b125" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
         <definition>uint32_t whd_wifi_get_rssi</definition>
         <argsstring>(whd_interface_t ifp, int32_t *rssi)</argsstring>
         <name>whd_wifi_get_rssi</name>
         <param>
-          <type><ref refid="whd_8h_1a2e544c482ddbb690bbb95ce7174e79a0" kindref="member">whd_interface_t</ref></type>
+          <type>whd_interface_t</type>
           <declname>ifp</declname>
         </param>
         <param>
@@ -44,7 +390,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_wifi_api.h" line="253" column="17" declfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_wifi_api.h" declline="253" declcolumn="17"/>
+        <location file="source/whd_wifi_api.h" line="380" column="17" declfile="source/whd_wifi_api.h" declline="380" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__wifiutilities_1ga8a634822973adc75a61a05eb2b664ef5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -52,7 +398,7 @@
         <argsstring>(whd_interface_t ifp, whd_mac_t *mac)</argsstring>
         <name>whd_wifi_get_mac_address</name>
         <param>
-          <type><ref refid="whd_8h_1a2e544c482ddbb690bbb95ce7174e79a0" kindref="member">whd_interface_t</ref></type>
+          <type>whd_interface_t</type>
           <declname>ifp</declname>
         </param>
         <param>
@@ -86,7 +432,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_wifi_api.h" line="308" column="17" declfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_wifi_api.h" declline="308" declcolumn="17"/>
+        <location file="source/whd_wifi_api.h" line="435" column="17" declfile="source/whd_wifi_api.h" declline="435" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__wifiutilities_1ga52d3190589758d9fd36a7b27a9d08f28" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -94,7 +440,7 @@
         <argsstring>(whd_interface_t ifp, whd_mac_t *bssid)</argsstring>
         <name>whd_wifi_get_bssid</name>
         <param>
-          <type><ref refid="whd_8h_1a2e544c482ddbb690bbb95ce7174e79a0" kindref="member">whd_interface_t</ref></type>
+          <type>whd_interface_t</type>
           <declname>ifp</declname>
         </param>
         <param>
@@ -128,7 +474,229 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_wifi_api.h" line="317" column="17" declfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_wifi_api.h" declline="317" declcolumn="17"/>
+        <location file="source/whd_wifi_api.h" line="444" column="17" declfile="source/whd_wifi_api.h" declline="444" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__wifiutilities_1gafad0f635db3968da01437542c13c91db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="whd__types_8h_1add62f4b5040a2451e23869d2f9e1ae05" kindref="member">whd_result_t</ref></type>
+        <definition>whd_result_t whd_wifi_set_auth_status</definition>
+        <argsstring>(whd_interface_t ifp, whd_auth_req_status_t *params)</argsstring>
+        <name>whd_wifi_set_auth_status</name>
+        <param>
+          <type>whd_interface_t</type>
+          <declname>ifp</declname>
+        </param>
+        <param>
+          <type><ref refid="structwhd__auth__req__status__t" kindref="compound">whd_auth_req_status_t</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+<para>Set auth status used for External AUTH(SAE) </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ifp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pointer to handle instance of whd interface </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>whd_auth_req_status</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pointer to Auth_Status structure</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>WHD_SUCCESS or Error code </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wifi_api.h" line="617" column="21" declfile="source/whd_wifi_api.h" declline="617" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="group__wifiutilities_1gae9d18a43c3e8e09f38ecb5adbda450b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="whd__types_8h_1add62f4b5040a2451e23869d2f9e1ae05" kindref="member">whd_result_t</ref></type>
+        <definition>whd_result_t whd_wifi_set_pmk</definition>
+        <argsstring>(whd_interface_t ifp, const uint8_t *security_key, uint8_t key_length)</argsstring>
+        <name>whd_wifi_set_pmk</name>
+        <param>
+          <type>whd_interface_t</type>
+          <declname>ifp</declname>
+        </param>
+        <param>
+          <type>const uint8_t *</type>
+          <declname>security_key</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>key_length</declname>
+        </param>
+        <briefdescription>
+<para>Set the PMK Key. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ifp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pointer to handle instance of whd interface </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>security_key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The security key (PMK) which is to be set </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>key_length</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>length of the PMK(It must be 32 bytes)</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>WHD_SUCCESS when the key is set Error code if an error occurred </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wifi_api.h" line="628" column="21" declfile="source/whd_wifi_api.h" declline="628" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="group__wifiutilities_1ga48cd0946d2277a26ff6ddb4e601d7601" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="whd__types_8h_1add62f4b5040a2451e23869d2f9e1ae05" kindref="member">whd_result_t</ref></type>
+        <definition>whd_result_t whd_wifi_send_auth_frame</definition>
+        <argsstring>(whd_interface_t ifp, whd_auth_params_t *auth_params)</argsstring>
+        <name>whd_wifi_send_auth_frame</name>
+        <param>
+          <type>whd_interface_t</type>
+          <declname>ifp</declname>
+        </param>
+        <param>
+          <type><ref refid="structwhd__auth__params__t" kindref="compound">whd_auth_params_t</ref> *</type>
+          <declname>auth_params</declname>
+        </param>
+        <briefdescription>
+<para>Send a pre-prepared authentication frame. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ifp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pointer to handle instance of whd interface </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>auth_params</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>pointer to a pre-prepared authentication frame structure</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>WHD_SUCCESS or Error code </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wifi_api.h" line="637" column="21" declfile="source/whd_wifi_api.h" declline="637" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="group__wifiutilities_1gaff1c3d13edc4ceee2bebaeb93ec7a9c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="whd__types_8h_1add62f4b5040a2451e23869d2f9e1ae05" kindref="member">whd_result_t</ref></type>
+        <definition>whd_result_t whd_wifi_set_pmksa</definition>
+        <argsstring>(whd_interface_t ifp, const pmkid_t *pmkid)</argsstring>
+        <name>whd_wifi_set_pmksa</name>
+        <param>
+          <type>whd_interface_t</type>
+          <declname>ifp</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structpmkid__t" kindref="compound">pmkid_t</ref> *</type>
+          <declname>pmkid</declname>
+        </param>
+        <briefdescription>
+<para>Set PMKID in Device (WLAN) </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ifp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pointer to handle instance of whd interface </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>pmkid</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pointer to BSSID and PMKID(16 bytes)</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>whd_result_t </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wifi_api.h" line="646" column="21" declfile="source/whd_wifi_api.h" declline="646" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="group__wifiutilities_1ga1441ae647ff194b94413cbe2016be113" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="whd__types_8h_1add62f4b5040a2451e23869d2f9e1ae05" kindref="member">whd_result_t</ref></type>
+        <definition>whd_result_t whd_wifi_get_fwcap</definition>
+        <argsstring>(whd_interface_t ifp, uint32_t *value)</argsstring>
+        <name>whd_wifi_get_fwcap</name>
+        <param>
+          <type>whd_interface_t</type>
+          <declname>ifp</declname>
+        </param>
+        <param>
+          <type>uint32_t *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Get FW(chip) Capability. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ifp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pointer to handle instance of whd interface </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Enum value of the current FW capability, ex: sae or sae_ext or ...etc, (enum value map to whd_fwcap_id_t) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>WHD_SUCCESS or Error code </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wifi_api.h" line="655" column="21" declfile="source/whd_wifi_api.h" declline="655" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="group__wifiutilities_1gab36ff07aa1d825c0366c82ce003dd9f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -136,7 +704,7 @@
         <argsstring>(whd_interface_t ifp, const whd_mac_t *mac)</argsstring>
         <name>whd_wifi_register_multicast_address</name>
         <param>
-          <type><ref refid="whd_8h_1a2e544c482ddbb690bbb95ce7174e79a0" kindref="member">whd_interface_t</ref></type>
+          <type>whd_interface_t</type>
           <declname>ifp</declname>
         </param>
         <param>
@@ -171,7 +739,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_wifi_api.h" line="505" column="17" declfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_wifi_api.h" declline="505" declcolumn="17"/>
+        <location file="source/whd_wifi_api.h" line="669" column="17" declfile="source/whd_wifi_api.h" declline="669" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__wifiutilities_1gad092a543b73e91c7090875ccb940e01f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -179,7 +747,7 @@
         <argsstring>(whd_interface_t ifp, const whd_mac_t *mac)</argsstring>
         <name>whd_wifi_unregister_multicast_address</name>
         <param>
-          <type><ref refid="whd_8h_1a2e544c482ddbb690bbb95ce7174e79a0" kindref="member">whd_interface_t</ref></type>
+          <type>whd_interface_t</type>
           <declname>ifp</declname>
         </param>
         <param>
@@ -214,7 +782,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_wifi_api.h" line="518" column="17" declfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_wifi_api.h" declline="518" declcolumn="17"/>
+        <location file="source/whd_wifi_api.h" line="682" column="17" declfile="source/whd_wifi_api.h" declline="682" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__wifiutilities_1ga07144bbc68755481708752962538ee6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -222,7 +790,7 @@
         <argsstring>(whd_interface_t ifp)</argsstring>
         <name>whd_wifi_is_ready_to_transceive</name>
         <param>
-          <type><ref refid="whd_8h_1a2e544c482ddbb690bbb95ce7174e79a0" kindref="member">whd_interface_t</ref></type>
+          <type>whd_interface_t</type>
           <declname>ifp</declname>
         </param>
         <briefdescription>
@@ -244,7 +812,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_wifi_api.h" line="532" column="17" declfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_wifi_api.h" declline="532" declcolumn="17"/>
+        <location file="source/whd_wifi_api.h" line="696" column="17" declfile="source/whd_wifi_api.h" declline="696" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__wifiutilities_1gaaf7be7d8099507426f52ecff8f716543" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -252,7 +820,7 @@
         <argsstring>(whd_interface_t ifp, whd_custom_ie_action_t action, const uint8_t *oui, uint8_t subtype, const void *data, uint16_t length, uint16_t which_packets)</argsstring>
         <name>whd_wifi_manage_custom_ie</name>
         <param>
-          <type><ref refid="whd_8h_1a2e544c482ddbb690bbb95ce7174e79a0" kindref="member">whd_interface_t</ref></type>
+          <type>whd_interface_t</type>
           <declname>ifp</declname>
         </param>
         <param>
@@ -346,13 +914,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_wifi_api.h" line="549" column="17" declfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_wifi_api.h" declline="549" declcolumn="17"/>
+        <location file="source/whd_wifi_api.h" line="713" column="17" declfile="source/whd_wifi_api.h" declline="713" declcolumn="17"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
+<para>Allows WHD to perform utility operations. </para>
     </briefdescription>
     <detaileddescription>
-<para>Allows WHD to perform utility operations </para>
     </detaileddescription>
   </compounddef>
 </doxygen>

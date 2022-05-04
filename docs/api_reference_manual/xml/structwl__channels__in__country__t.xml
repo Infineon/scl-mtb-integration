@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwl__channels__in__country__t" kind="struct" language="C++" prot="public">
+    <compoundname>wl_channels_in_country_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwl__channels__in__country__t_1a3a92b3e6d105dee4dd0b5ac8eefeb219" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t buflen</definition>
+        <argsstring></argsstring>
+        <name>buflen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="287" column="14" bodyfile="source/whd_wlioctl.h" bodystart="287" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__channels__in__country__t_1af7382dfa063de51bd267657a22b1d69a" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t band</definition>
+        <argsstring></argsstring>
+        <name>band</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="288" column="14" bodyfile="source/whd_wlioctl.h" bodystart="288" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__channels__in__country__t_1a5813066f276c8864c52b54d0a85fa74d" prot="public" static="no" mutable="no">
+        <type>int8_t</type>
+        <definition>int8_t country_abbrev[WLC_CNTRY_BUF_SZ]</definition>
+        <argsstring>[WLC_CNTRY_BUF_SZ]</argsstring>
+        <name>country_abbrev</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="289" column="12" bodyfile="source/whd_wlioctl.h" bodystart="289" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__channels__in__country__t_1a86988a65e0d3ece7990c032c159786d6" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t count</definition>
+        <argsstring></argsstring>
+        <name>count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="290" column="14" bodyfile="source/whd_wlioctl.h" bodystart="290" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__channels__in__country__t_1a0ac7d08777fd59d4fd08bc208311117c" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t channel[1]</definition>
+        <argsstring>[1]</argsstring>
+        <name>channel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="291" column="14" bodyfile="source/whd_wlioctl.h" bodystart="291" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="285" column="1" bodyfile="source/whd_wlioctl.h" bodystart="286" bodyend="292"/>
+    <listofallmembers>
+      <member refid="structwl__channels__in__country__t_1af7382dfa063de51bd267657a22b1d69a" prot="public" virt="non-virtual"><scope>wl_channels_in_country_t</scope><name>band</name></member>
+      <member refid="structwl__channels__in__country__t_1a3a92b3e6d105dee4dd0b5ac8eefeb219" prot="public" virt="non-virtual"><scope>wl_channels_in_country_t</scope><name>buflen</name></member>
+      <member refid="structwl__channels__in__country__t_1a0ac7d08777fd59d4fd08bc208311117c" prot="public" virt="non-virtual"><scope>wl_channels_in_country_t</scope><name>channel</name></member>
+      <member refid="structwl__channels__in__country__t_1a86988a65e0d3ece7990c032c159786d6" prot="public" virt="non-virtual"><scope>wl_channels_in_country_t</scope><name>count</name></member>
+      <member refid="structwl__channels__in__country__t_1a5813066f276c8864c52b54d0a85fa74d" prot="public" virt="non-virtual"><scope>wl_channels_in_country_t</scope><name>country_abbrev</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

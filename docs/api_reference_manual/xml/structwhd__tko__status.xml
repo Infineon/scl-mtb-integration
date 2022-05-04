@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwhd__tko__status" kind="struct" language="C++" prot="public">
+    <compoundname>whd_tko_status</compoundname>
+    <includes local="no">whd_wlioctl.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwhd__tko__status_1a20302e2c99a60d3f612dba57e3f6333b" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t count</definition>
+        <argsstring></argsstring>
+        <name>count</name>
+        <briefdescription>
+<para>number of status entries </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3959" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3959" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__tko__status_1a729ceb1586a963713315cfbd44b48b5f" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t status[MAX_TKO_CONN]</definition>
+        <argsstring>[MAX_TKO_CONN]</argsstring>
+        <name>status</name>
+        <briefdescription>
+<para>each TCP status </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3960" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3960" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Status of each TCP connection. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="3957" column="1" bodyfile="source/whd_wlioctl.h" bodystart="3958" bodyend="3961"/>
+    <listofallmembers>
+      <member refid="structwhd__tko__status_1a20302e2c99a60d3f612dba57e3f6333b" prot="public" virt="non-virtual"><scope>whd_tko_status</scope><name>count</name></member>
+      <member refid="structwhd__tko__status_1a729ceb1586a963713315cfbd44b48b5f" prot="public" virt="non-virtual"><scope>whd_tko_status</scope><name>status</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

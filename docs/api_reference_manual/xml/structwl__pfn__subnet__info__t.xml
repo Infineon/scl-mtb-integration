@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwl__pfn__subnet__info__t" kind="struct" language="C++" prot="public">
+    <compoundname>wl_pfn_subnet_info_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwl__pfn__subnet__info__t_1aef73341481bf27c436833ddfa015c5a9" prot="public" static="no" mutable="no">
+        <type>struct ether_addr</type>
+        <definition>struct ether_addr BSSID</definition>
+        <argsstring></argsstring>
+        <name>BSSID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3063" column="21" bodyfile="source/whd_wlioctl.h" bodystart="3063" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__pfn__subnet__info__t_1a715f5cb061d11eb75981741eda4dafcd" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t channel</definition>
+        <argsstring></argsstring>
+        <name>channel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3064" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3064" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__pfn__subnet__info__t_1a7eafb3bd3419add91d9d532df5dcf63e" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t SSID_len</definition>
+        <argsstring></argsstring>
+        <name>SSID_len</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3065" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3065" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__pfn__subnet__info__t_1a337a4a90b9c8cb320d1232cf9f88fa90" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t SSID[32]</definition>
+        <argsstring>[32]</argsstring>
+        <name>SSID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3066" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3066" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="3061" column="1" bodyfile="source/whd_wlioctl.h" bodystart="3062" bodyend="3067"/>
+    <listofallmembers>
+      <member refid="structwl__pfn__subnet__info__t_1aef73341481bf27c436833ddfa015c5a9" prot="public" virt="non-virtual"><scope>wl_pfn_subnet_info_t</scope><name>BSSID</name></member>
+      <member refid="structwl__pfn__subnet__info__t_1a715f5cb061d11eb75981741eda4dafcd" prot="public" virt="non-virtual"><scope>wl_pfn_subnet_info_t</scope><name>channel</name></member>
+      <member refid="structwl__pfn__subnet__info__t_1a337a4a90b9c8cb320d1232cf9f88fa90" prot="public" virt="non-virtual"><scope>wl_pfn_subnet_info_t</scope><name>SSID</name></member>
+      <member refid="structwl__pfn__subnet__info__t_1a7eafb3bd3419add91d9d532df5dcf63e" prot="public" virt="non-virtual"><scope>wl_pfn_subnet_info_t</scope><name>SSID_len</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

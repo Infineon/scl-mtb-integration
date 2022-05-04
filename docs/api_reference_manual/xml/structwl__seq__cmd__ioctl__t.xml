@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwl__seq__cmd__ioctl__t" kind="struct" language="C++" prot="public">
+    <compoundname>wl_seq_cmd_ioctl_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwl__seq__cmd__ioctl__t_1a5e9712b08d7cbf6091f9e5334ff97b5d" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t cmd</definition>
+        <argsstring></argsstring>
+        <name>cmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3239" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3239" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__seq__cmd__ioctl__t_1a96bbf959016e4411c9e6b9812a8be60a" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t len</definition>
+        <argsstring></argsstring>
+        <name>len</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3240" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3240" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="3237" column="1" bodyfile="source/whd_wlioctl.h" bodystart="3238" bodyend="3241"/>
+    <listofallmembers>
+      <member refid="structwl__seq__cmd__ioctl__t_1a5e9712b08d7cbf6091f9e5334ff97b5d" prot="public" virt="non-virtual"><scope>wl_seq_cmd_ioctl_t</scope><name>cmd</name></member>
+      <member refid="structwl__seq__cmd__ioctl__t_1a96bbf959016e4411c9e6b9812a8be60a" prot="public" virt="non-virtual"><scope>wl_seq_cmd_ioctl_t</scope><name>len</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

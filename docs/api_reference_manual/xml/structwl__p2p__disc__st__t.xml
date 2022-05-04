@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwl__p2p__disc__st__t" kind="struct" language="C++" prot="public">
+    <compoundname>wl_p2p_disc_st_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwl__p2p__disc__st__t_1a0b57aa10271a66f3dc936bba1d2f3830" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t state</definition>
+        <argsstring></argsstring>
+        <name>state</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3470" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3470" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__p2p__disc__st__t_1ad937068456261454c4084edc0a30578a" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t chanspec</definition>
+        <argsstring></argsstring>
+        <name>chanspec</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3471" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3471" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__p2p__disc__st__t_1a3de176f8d85edbdd223bcc1a5a74bf8f" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t dwell_time_ms</definition>
+        <argsstring></argsstring>
+        <name>dwell_time_ms</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3472" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3472" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="3468" column="1" bodyfile="source/whd_wlioctl.h" bodystart="3469" bodyend="3473"/>
+    <listofallmembers>
+      <member refid="structwl__p2p__disc__st__t_1ad937068456261454c4084edc0a30578a" prot="public" virt="non-virtual"><scope>wl_p2p_disc_st_t</scope><name>chanspec</name></member>
+      <member refid="structwl__p2p__disc__st__t_1a3de176f8d85edbdd223bcc1a5a74bf8f" prot="public" virt="non-virtual"><scope>wl_p2p_disc_st_t</scope><name>dwell_time_ms</name></member>
+      <member refid="structwl__p2p__disc__st__t_1a0b57aa10271a66f3dc936bba1d2f3830" prot="public" virt="non-virtual"><scope>wl_p2p_disc_st_t</scope><name>state</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

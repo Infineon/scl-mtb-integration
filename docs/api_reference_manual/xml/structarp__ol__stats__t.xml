@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structarp__ol__stats__t" kind="struct" language="C++" prot="public">
+    <compoundname>arp_ol_stats_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structarp__ol__stats__t_1aead69eec6f8d1d26902d386abd333ff9" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t host_ip_entries</definition>
+        <argsstring></argsstring>
+        <name>host_ip_entries</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3177" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3177" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structarp__ol__stats__t_1a2448a3199caf89d7aed59e82978bcf5a" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t host_ip_overflow</definition>
+        <argsstring></argsstring>
+        <name>host_ip_overflow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3178" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3178" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structarp__ol__stats__t_1aef32bea2a42b54e4b9919ff37ca1266f" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t arp_table_entries</definition>
+        <argsstring></argsstring>
+        <name>arp_table_entries</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3179" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3179" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structarp__ol__stats__t_1ae796baed24281ede2c25d7f0f38c8c34" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t arp_table_overflow</definition>
+        <argsstring></argsstring>
+        <name>arp_table_overflow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3180" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3180" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structarp__ol__stats__t_1a0e99a1ab90cb8e8567eaa887a98f3938" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t host_request</definition>
+        <argsstring></argsstring>
+        <name>host_request</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3181" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3181" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structarp__ol__stats__t_1a508772ecb1947acb96484047618f4799" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t host_reply</definition>
+        <argsstring></argsstring>
+        <name>host_reply</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3182" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3182" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structarp__ol__stats__t_1ad168f6f42075f7d377192afe49b82280" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t host_service</definition>
+        <argsstring></argsstring>
+        <name>host_service</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3183" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3183" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structarp__ol__stats__t_1a3b2ed7ce1666b4f48a959b5ecd166d82" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t peer_request</definition>
+        <argsstring></argsstring>
+        <name>peer_request</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3184" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3184" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structarp__ol__stats__t_1a5fead3e408a512940700ddfd808e582e" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t peer_request_drop</definition>
+        <argsstring></argsstring>
+        <name>peer_request_drop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3185" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3185" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structarp__ol__stats__t_1aa5b09dd8589dcb25101b91431310f9e7" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t peer_reply</definition>
+        <argsstring></argsstring>
+        <name>peer_reply</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3186" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3186" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structarp__ol__stats__t_1acddd7c239a16e2762e37ba217d75a21e" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t peer_reply_drop</definition>
+        <argsstring></argsstring>
+        <name>peer_reply_drop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3187" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3187" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structarp__ol__stats__t_1ad02a3f5579c12cda95cee59930cc2e2c" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t peer_service</definition>
+        <argsstring></argsstring>
+        <name>peer_service</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3188" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3188" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="3175" column="1" bodyfile="source/whd_wlioctl.h" bodystart="3176" bodyend="3189"/>
+    <listofallmembers>
+      <member refid="structarp__ol__stats__t_1aef32bea2a42b54e4b9919ff37ca1266f" prot="public" virt="non-virtual"><scope>arp_ol_stats_t</scope><name>arp_table_entries</name></member>
+      <member refid="structarp__ol__stats__t_1ae796baed24281ede2c25d7f0f38c8c34" prot="public" virt="non-virtual"><scope>arp_ol_stats_t</scope><name>arp_table_overflow</name></member>
+      <member refid="structarp__ol__stats__t_1aead69eec6f8d1d26902d386abd333ff9" prot="public" virt="non-virtual"><scope>arp_ol_stats_t</scope><name>host_ip_entries</name></member>
+      <member refid="structarp__ol__stats__t_1a2448a3199caf89d7aed59e82978bcf5a" prot="public" virt="non-virtual"><scope>arp_ol_stats_t</scope><name>host_ip_overflow</name></member>
+      <member refid="structarp__ol__stats__t_1a508772ecb1947acb96484047618f4799" prot="public" virt="non-virtual"><scope>arp_ol_stats_t</scope><name>host_reply</name></member>
+      <member refid="structarp__ol__stats__t_1a0e99a1ab90cb8e8567eaa887a98f3938" prot="public" virt="non-virtual"><scope>arp_ol_stats_t</scope><name>host_request</name></member>
+      <member refid="structarp__ol__stats__t_1ad168f6f42075f7d377192afe49b82280" prot="public" virt="non-virtual"><scope>arp_ol_stats_t</scope><name>host_service</name></member>
+      <member refid="structarp__ol__stats__t_1aa5b09dd8589dcb25101b91431310f9e7" prot="public" virt="non-virtual"><scope>arp_ol_stats_t</scope><name>peer_reply</name></member>
+      <member refid="structarp__ol__stats__t_1acddd7c239a16e2762e37ba217d75a21e" prot="public" virt="non-virtual"><scope>arp_ol_stats_t</scope><name>peer_reply_drop</name></member>
+      <member refid="structarp__ol__stats__t_1a3b2ed7ce1666b4f48a959b5ecd166d82" prot="public" virt="non-virtual"><scope>arp_ol_stats_t</scope><name>peer_request</name></member>
+      <member refid="structarp__ol__stats__t_1a5fead3e408a512940700ddfd808e582e" prot="public" virt="non-virtual"><scope>arp_ol_stats_t</scope><name>peer_request_drop</name></member>
+      <member refid="structarp__ol__stats__t_1ad02a3f5579c12cda95cee59930cc2e2c" prot="public" virt="non-virtual"><scope>arp_ol_stats_t</scope><name>peer_service</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

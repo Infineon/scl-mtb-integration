@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwl__sslpnphy__debug__data__t" kind="struct" language="C++" prot="public">
+    <compoundname>wl_sslpnphy_debug_data_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwl__sslpnphy__debug__data__t_1a020f11003dbb5fe53154d3ed499bf8c9" prot="public" static="no" mutable="no">
+        <type>int16_t</type>
+        <definition>int16_t papdcompRe[64]</definition>
+        <argsstring>[64]</argsstring>
+        <name>papdcompRe</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3289" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3289" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__sslpnphy__debug__data__t_1a0704fcedb16f90eb4589cf23557f3d37" prot="public" static="no" mutable="no">
+        <type>int16_t</type>
+        <definition>int16_t papdcompIm[64]</definition>
+        <argsstring>[64]</argsstring>
+        <name>papdcompIm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3290" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3290" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="3287" column="1" bodyfile="source/whd_wlioctl.h" bodystart="3288" bodyend="3291"/>
+    <listofallmembers>
+      <member refid="structwl__sslpnphy__debug__data__t_1a0704fcedb16f90eb4589cf23557f3d37" prot="public" virt="non-virtual"><scope>wl_sslpnphy_debug_data_t</scope><name>papdcompIm</name></member>
+      <member refid="structwl__sslpnphy__debug__data__t_1a020f11003dbb5fe53154d3ed499bf8c9" prot="public" virt="non-virtual"><scope>wl_sslpnphy_debug_data_t</scope><name>papdcompRe</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

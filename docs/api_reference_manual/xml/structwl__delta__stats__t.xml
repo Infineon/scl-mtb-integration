@@ -1,0 +1,421 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwl__delta__stats__t" kind="struct" language="C++" prot="public">
+    <compoundname>wl_delta_stats_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwl__delta__stats__t_1ab6d7b6f8c2ceaba7acda80aaf05f4899" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t version</definition>
+        <argsstring></argsstring>
+        <name>version</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2815" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2815" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__delta__stats__t_1a1892eba2086d12ac2b09005aeb09ea3b" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t length</definition>
+        <argsstring></argsstring>
+        <name>length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2816" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2816" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__delta__stats__t_1afe0b852563be4c5eb604000e8f48b30f" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t txframe</definition>
+        <argsstring></argsstring>
+        <name>txframe</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2817" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2817" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__delta__stats__t_1a643e40c845915edc6ef663d993d62c02" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t txbyte</definition>
+        <argsstring></argsstring>
+        <name>txbyte</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2818" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2818" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__delta__stats__t_1a1343efb571d70efbf08d7e85c1b6298a" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t txretrans</definition>
+        <argsstring></argsstring>
+        <name>txretrans</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2819" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2819" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__delta__stats__t_1a14b9feeda24973c7455a058c4bec581f" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t txfail</definition>
+        <argsstring></argsstring>
+        <name>txfail</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2820" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2820" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__delta__stats__t_1ac3598e684c3a0907ee753f38a218bd2d" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rxframe</definition>
+        <argsstring></argsstring>
+        <name>rxframe</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2821" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2821" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__delta__stats__t_1ac22fd494d282af79b3ed657be52995e6" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rxbyte</definition>
+        <argsstring></argsstring>
+        <name>rxbyte</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2822" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2822" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__delta__stats__t_1a9b020d32f19d909fd3c3100bb51c628b" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rx1mbps</definition>
+        <argsstring></argsstring>
+        <name>rx1mbps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2823" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2823" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__delta__stats__t_1adb744c539f1677b342ac84cce8194dd2" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rx2mbps</definition>
+        <argsstring></argsstring>
+        <name>rx2mbps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2824" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2824" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__delta__stats__t_1a5303785bbee424a5333c9fbe9cd6e885" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rx5mbps5</definition>
+        <argsstring></argsstring>
+        <name>rx5mbps5</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2825" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2825" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__delta__stats__t_1a40173811a9732ee55e687d2e71091e15" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rx6mbps</definition>
+        <argsstring></argsstring>
+        <name>rx6mbps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2826" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2826" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__delta__stats__t_1ac701c46efcae3e87a8729e16e9520bf6" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rx9mbps</definition>
+        <argsstring></argsstring>
+        <name>rx9mbps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2827" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2827" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__delta__stats__t_1aab2473aef900a83a2bca670b663666e5" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rx11mbps</definition>
+        <argsstring></argsstring>
+        <name>rx11mbps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2828" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2828" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__delta__stats__t_1ac192e87ebdd94ad27de26e03a294215d" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rx12mbps</definition>
+        <argsstring></argsstring>
+        <name>rx12mbps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2829" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2829" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__delta__stats__t_1aa01811ccf51d5f65bc5aec3f512a1fb3" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rx18mbps</definition>
+        <argsstring></argsstring>
+        <name>rx18mbps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2830" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2830" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__delta__stats__t_1a84dd5934cc1efe4310041d4338585dfd" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rx24mbps</definition>
+        <argsstring></argsstring>
+        <name>rx24mbps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2831" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2831" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__delta__stats__t_1ad063ecc25a0ee47c0f898e7c68c1e86d" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rx36mbps</definition>
+        <argsstring></argsstring>
+        <name>rx36mbps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2832" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2832" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__delta__stats__t_1a7954b5de3f440f20010e4fd65f5f692b" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rx48mbps</definition>
+        <argsstring></argsstring>
+        <name>rx48mbps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2833" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2833" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__delta__stats__t_1afa2bafe53a53383cc0675337f89cd044" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rx54mbps</definition>
+        <argsstring></argsstring>
+        <name>rx54mbps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2834" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2834" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__delta__stats__t_1aed4fd2a51d19724e5a522f48bb7b90d3" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rx108mbps</definition>
+        <argsstring></argsstring>
+        <name>rx108mbps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2835" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2835" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__delta__stats__t_1a7c7dc85edab6a521017ab48bc3846809" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rx162mbps</definition>
+        <argsstring></argsstring>
+        <name>rx162mbps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2836" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2836" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__delta__stats__t_1a424cf9c8fa482554bf42680fd9003b0d" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rx216mbps</definition>
+        <argsstring></argsstring>
+        <name>rx216mbps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2837" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2837" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__delta__stats__t_1a37f0884a0d30219c25561c5af29ecfbf" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rx270mbps</definition>
+        <argsstring></argsstring>
+        <name>rx270mbps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2838" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2838" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__delta__stats__t_1a2d3b9a1fdadacb3913f391f36cec661d" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rx324mbps</definition>
+        <argsstring></argsstring>
+        <name>rx324mbps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2839" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2839" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__delta__stats__t_1a0f436b03db854ed8dc49eda974a4c4df" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rx378mbps</definition>
+        <argsstring></argsstring>
+        <name>rx378mbps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2840" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2840" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__delta__stats__t_1a04004d7d667a4a40cb85682cf324c7ef" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rx432mbps</definition>
+        <argsstring></argsstring>
+        <name>rx432mbps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2841" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2841" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__delta__stats__t_1a1b05545a9ab14f106ec589d0747c6cb4" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rx486mbps</definition>
+        <argsstring></argsstring>
+        <name>rx486mbps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2842" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2842" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__delta__stats__t_1a877c380f4893d17ce14c4941aa4bd791" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rx540mbps</definition>
+        <argsstring></argsstring>
+        <name>rx540mbps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2843" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2843" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="2813" column="1" bodyfile="source/whd_wlioctl.h" bodystart="2814" bodyend="2844"/>
+    <listofallmembers>
+      <member refid="structwl__delta__stats__t_1a1892eba2086d12ac2b09005aeb09ea3b" prot="public" virt="non-virtual"><scope>wl_delta_stats_t</scope><name>length</name></member>
+      <member refid="structwl__delta__stats__t_1aed4fd2a51d19724e5a522f48bb7b90d3" prot="public" virt="non-virtual"><scope>wl_delta_stats_t</scope><name>rx108mbps</name></member>
+      <member refid="structwl__delta__stats__t_1aab2473aef900a83a2bca670b663666e5" prot="public" virt="non-virtual"><scope>wl_delta_stats_t</scope><name>rx11mbps</name></member>
+      <member refid="structwl__delta__stats__t_1ac192e87ebdd94ad27de26e03a294215d" prot="public" virt="non-virtual"><scope>wl_delta_stats_t</scope><name>rx12mbps</name></member>
+      <member refid="structwl__delta__stats__t_1a7c7dc85edab6a521017ab48bc3846809" prot="public" virt="non-virtual"><scope>wl_delta_stats_t</scope><name>rx162mbps</name></member>
+      <member refid="structwl__delta__stats__t_1aa01811ccf51d5f65bc5aec3f512a1fb3" prot="public" virt="non-virtual"><scope>wl_delta_stats_t</scope><name>rx18mbps</name></member>
+      <member refid="structwl__delta__stats__t_1a9b020d32f19d909fd3c3100bb51c628b" prot="public" virt="non-virtual"><scope>wl_delta_stats_t</scope><name>rx1mbps</name></member>
+      <member refid="structwl__delta__stats__t_1a424cf9c8fa482554bf42680fd9003b0d" prot="public" virt="non-virtual"><scope>wl_delta_stats_t</scope><name>rx216mbps</name></member>
+      <member refid="structwl__delta__stats__t_1a84dd5934cc1efe4310041d4338585dfd" prot="public" virt="non-virtual"><scope>wl_delta_stats_t</scope><name>rx24mbps</name></member>
+      <member refid="structwl__delta__stats__t_1a37f0884a0d30219c25561c5af29ecfbf" prot="public" virt="non-virtual"><scope>wl_delta_stats_t</scope><name>rx270mbps</name></member>
+      <member refid="structwl__delta__stats__t_1adb744c539f1677b342ac84cce8194dd2" prot="public" virt="non-virtual"><scope>wl_delta_stats_t</scope><name>rx2mbps</name></member>
+      <member refid="structwl__delta__stats__t_1a2d3b9a1fdadacb3913f391f36cec661d" prot="public" virt="non-virtual"><scope>wl_delta_stats_t</scope><name>rx324mbps</name></member>
+      <member refid="structwl__delta__stats__t_1ad063ecc25a0ee47c0f898e7c68c1e86d" prot="public" virt="non-virtual"><scope>wl_delta_stats_t</scope><name>rx36mbps</name></member>
+      <member refid="structwl__delta__stats__t_1a0f436b03db854ed8dc49eda974a4c4df" prot="public" virt="non-virtual"><scope>wl_delta_stats_t</scope><name>rx378mbps</name></member>
+      <member refid="structwl__delta__stats__t_1a04004d7d667a4a40cb85682cf324c7ef" prot="public" virt="non-virtual"><scope>wl_delta_stats_t</scope><name>rx432mbps</name></member>
+      <member refid="structwl__delta__stats__t_1a1b05545a9ab14f106ec589d0747c6cb4" prot="public" virt="non-virtual"><scope>wl_delta_stats_t</scope><name>rx486mbps</name></member>
+      <member refid="structwl__delta__stats__t_1a7954b5de3f440f20010e4fd65f5f692b" prot="public" virt="non-virtual"><scope>wl_delta_stats_t</scope><name>rx48mbps</name></member>
+      <member refid="structwl__delta__stats__t_1a877c380f4893d17ce14c4941aa4bd791" prot="public" virt="non-virtual"><scope>wl_delta_stats_t</scope><name>rx540mbps</name></member>
+      <member refid="structwl__delta__stats__t_1afa2bafe53a53383cc0675337f89cd044" prot="public" virt="non-virtual"><scope>wl_delta_stats_t</scope><name>rx54mbps</name></member>
+      <member refid="structwl__delta__stats__t_1a5303785bbee424a5333c9fbe9cd6e885" prot="public" virt="non-virtual"><scope>wl_delta_stats_t</scope><name>rx5mbps5</name></member>
+      <member refid="structwl__delta__stats__t_1a40173811a9732ee55e687d2e71091e15" prot="public" virt="non-virtual"><scope>wl_delta_stats_t</scope><name>rx6mbps</name></member>
+      <member refid="structwl__delta__stats__t_1ac701c46efcae3e87a8729e16e9520bf6" prot="public" virt="non-virtual"><scope>wl_delta_stats_t</scope><name>rx9mbps</name></member>
+      <member refid="structwl__delta__stats__t_1ac22fd494d282af79b3ed657be52995e6" prot="public" virt="non-virtual"><scope>wl_delta_stats_t</scope><name>rxbyte</name></member>
+      <member refid="structwl__delta__stats__t_1ac3598e684c3a0907ee753f38a218bd2d" prot="public" virt="non-virtual"><scope>wl_delta_stats_t</scope><name>rxframe</name></member>
+      <member refid="structwl__delta__stats__t_1a643e40c845915edc6ef663d993d62c02" prot="public" virt="non-virtual"><scope>wl_delta_stats_t</scope><name>txbyte</name></member>
+      <member refid="structwl__delta__stats__t_1a14b9feeda24973c7455a058c4bec581f" prot="public" virt="non-virtual"><scope>wl_delta_stats_t</scope><name>txfail</name></member>
+      <member refid="structwl__delta__stats__t_1afe0b852563be4c5eb604000e8f48b30f" prot="public" virt="non-virtual"><scope>wl_delta_stats_t</scope><name>txframe</name></member>
+      <member refid="structwl__delta__stats__t_1a1343efb571d70efbf08d7e85c1b6298a" prot="public" virt="non-virtual"><scope>wl_delta_stats_t</scope><name>txretrans</name></member>
+      <member refid="structwl__delta__stats__t_1ab6d7b6f8c2ceaba7acda80aaf05f4899" prot="public" virt="non-virtual"><scope>wl_delta_stats_t</scope><name>version</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

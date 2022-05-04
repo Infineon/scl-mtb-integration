@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwl__sslpnphy__percal__debug__data__t" kind="struct" language="C++" prot="public">
+    <compoundname>wl_sslpnphy_percal_debug_data_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwl__sslpnphy__percal__debug__data__t_1a600cec0f43518c8c9ce477130f2752c8" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t cur_idx</definition>
+        <argsstring></argsstring>
+        <name>cur_idx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3300" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3300" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__sslpnphy__percal__debug__data__t_1a041aaf34f24697c829198c7ce157dc3b" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t tx_drift</definition>
+        <argsstring></argsstring>
+        <name>tx_drift</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3301" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3301" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__sslpnphy__percal__debug__data__t_1a3b212f0ece710905601bc924a7305fbc" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t prev_cal_idx</definition>
+        <argsstring></argsstring>
+        <name>prev_cal_idx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3302" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3302" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__sslpnphy__percal__debug__data__t_1a1a89a8c8b1abb162cb57fa02207e6345" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t percal_ctr</definition>
+        <argsstring></argsstring>
+        <name>percal_ctr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3303" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3303" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__sslpnphy__percal__debug__data__t_1aa63edff1d723da544164c0a357337a2f" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t nxt_cal_idx</definition>
+        <argsstring></argsstring>
+        <name>nxt_cal_idx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3304" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3304" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__sslpnphy__percal__debug__data__t_1aa3c56c5f25439995f30f63a2274d0738" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t force_1idxcal</definition>
+        <argsstring></argsstring>
+        <name>force_1idxcal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3305" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3305" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__sslpnphy__percal__debug__data__t_1a83c55402f1a9701b7a8dcb7254a95f68" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t onedxacl_req</definition>
+        <argsstring></argsstring>
+        <name>onedxacl_req</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3306" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3306" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__sslpnphy__percal__debug__data__t_1a0992cdc5e8136c97d4436f69892bb6a7" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t last_cal_volt</definition>
+        <argsstring></argsstring>
+        <name>last_cal_volt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3307" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3307" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__sslpnphy__percal__debug__data__t_1a403b1e5ed7b15cdf0c9ddfe3d0712272" prot="public" static="no" mutable="no">
+        <type>int8_t</type>
+        <definition>int8_t last_cal_temp</definition>
+        <argsstring></argsstring>
+        <name>last_cal_temp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3308" column="12" bodyfile="source/whd_wlioctl.h" bodystart="3308" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__sslpnphy__percal__debug__data__t_1af31c3f7b8abeb65e3b6e8c7c28db59ca" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t vbat_ripple</definition>
+        <argsstring></argsstring>
+        <name>vbat_ripple</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3309" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3309" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__sslpnphy__percal__debug__data__t_1ad98d7efe3b312407fb419e15421a373b" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t exit_route</definition>
+        <argsstring></argsstring>
+        <name>exit_route</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3310" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3310" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__sslpnphy__percal__debug__data__t_1a9f898039ba0dcbc5d38a0b102b241a60" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t volt_winner</definition>
+        <argsstring></argsstring>
+        <name>volt_winner</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3311" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3311" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="3298" column="1" bodyfile="source/whd_wlioctl.h" bodystart="3299" bodyend="3312"/>
+    <listofallmembers>
+      <member refid="structwl__sslpnphy__percal__debug__data__t_1a600cec0f43518c8c9ce477130f2752c8" prot="public" virt="non-virtual"><scope>wl_sslpnphy_percal_debug_data_t</scope><name>cur_idx</name></member>
+      <member refid="structwl__sslpnphy__percal__debug__data__t_1ad98d7efe3b312407fb419e15421a373b" prot="public" virt="non-virtual"><scope>wl_sslpnphy_percal_debug_data_t</scope><name>exit_route</name></member>
+      <member refid="structwl__sslpnphy__percal__debug__data__t_1aa3c56c5f25439995f30f63a2274d0738" prot="public" virt="non-virtual"><scope>wl_sslpnphy_percal_debug_data_t</scope><name>force_1idxcal</name></member>
+      <member refid="structwl__sslpnphy__percal__debug__data__t_1a403b1e5ed7b15cdf0c9ddfe3d0712272" prot="public" virt="non-virtual"><scope>wl_sslpnphy_percal_debug_data_t</scope><name>last_cal_temp</name></member>
+      <member refid="structwl__sslpnphy__percal__debug__data__t_1a0992cdc5e8136c97d4436f69892bb6a7" prot="public" virt="non-virtual"><scope>wl_sslpnphy_percal_debug_data_t</scope><name>last_cal_volt</name></member>
+      <member refid="structwl__sslpnphy__percal__debug__data__t_1aa63edff1d723da544164c0a357337a2f" prot="public" virt="non-virtual"><scope>wl_sslpnphy_percal_debug_data_t</scope><name>nxt_cal_idx</name></member>
+      <member refid="structwl__sslpnphy__percal__debug__data__t_1a83c55402f1a9701b7a8dcb7254a95f68" prot="public" virt="non-virtual"><scope>wl_sslpnphy_percal_debug_data_t</scope><name>onedxacl_req</name></member>
+      <member refid="structwl__sslpnphy__percal__debug__data__t_1a1a89a8c8b1abb162cb57fa02207e6345" prot="public" virt="non-virtual"><scope>wl_sslpnphy_percal_debug_data_t</scope><name>percal_ctr</name></member>
+      <member refid="structwl__sslpnphy__percal__debug__data__t_1a3b212f0ece710905601bc924a7305fbc" prot="public" virt="non-virtual"><scope>wl_sslpnphy_percal_debug_data_t</scope><name>prev_cal_idx</name></member>
+      <member refid="structwl__sslpnphy__percal__debug__data__t_1a041aaf34f24697c829198c7ce157dc3b" prot="public" virt="non-virtual"><scope>wl_sslpnphy_percal_debug_data_t</scope><name>tx_drift</name></member>
+      <member refid="structwl__sslpnphy__percal__debug__data__t_1af31c3f7b8abeb65e3b6e8c7c28db59ca" prot="public" virt="non-virtual"><scope>wl_sslpnphy_percal_debug_data_t</scope><name>vbat_ripple</name></member>
+      <member refid="structwl__sslpnphy__percal__debug__data__t_1a9f898039ba0dcbc5d38a0b102b241a60" prot="public" virt="non-virtual"><scope>wl_sslpnphy_percal_debug_data_t</scope><name>volt_winner</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

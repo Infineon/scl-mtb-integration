@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwl__sslpnphy__spbdump__data__t" kind="struct" language="C++" prot="public">
+    <compoundname>wl_sslpnphy_spbdump_data_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwl__sslpnphy__spbdump__data__t_1a5f9646df439ad679880ea1ec3e487e30" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t tbl_length</definition>
+        <argsstring></argsstring>
+        <name>tbl_length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3294" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3294" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__sslpnphy__spbdump__data__t_1a0dea8cbbfd871bfc9a67f03225397ee8" prot="public" static="no" mutable="no">
+        <type>int16_t</type>
+        <definition>int16_t spbreal[256]</definition>
+        <argsstring>[256]</argsstring>
+        <name>spbreal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3295" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3295" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__sslpnphy__spbdump__data__t_1adb75316b12ca5daf7df3190ffd1b960e" prot="public" static="no" mutable="no">
+        <type>int16_t</type>
+        <definition>int16_t spbimg[256]</definition>
+        <argsstring>[256]</argsstring>
+        <name>spbimg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3296" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3296" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="3292" column="1" bodyfile="source/whd_wlioctl.h" bodystart="3293" bodyend="3297"/>
+    <listofallmembers>
+      <member refid="structwl__sslpnphy__spbdump__data__t_1adb75316b12ca5daf7df3190ffd1b960e" prot="public" virt="non-virtual"><scope>wl_sslpnphy_spbdump_data_t</scope><name>spbimg</name></member>
+      <member refid="structwl__sslpnphy__spbdump__data__t_1a0dea8cbbfd871bfc9a67f03225397ee8" prot="public" virt="non-virtual"><scope>wl_sslpnphy_spbdump_data_t</scope><name>spbreal</name></member>
+      <member refid="structwl__sslpnphy__spbdump__data__t_1a5f9646df439ad679880ea1ec3e487e30" prot="public" virt="non-virtual"><scope>wl_sslpnphy_spbdump_data_t</scope><name>tbl_length</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

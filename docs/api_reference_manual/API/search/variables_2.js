@@ -1,11 +1,23 @@
 var searchData=
 [
-  ['capability_821',['capability',['../structwl__bss__info__t.html#a4d6a7cc78819fe901fa45a1b51266e18',1,'wl_bss_info_t']]],
-  ['ccode_822',['ccode',['../structwhd__scan__result__t.html#a4f626e97f0f0ea28fea702a7ecaad54f',1,'whd_scan_result_t']]],
-  ['channel_823',['channel',['../structwhd__scan__result__t.html#a715f5cb061d11eb75981741eda4dafcd',1,'whd_scan_result_t::channel()'],['../structwhd__sync__scan__result__t.html#a715f5cb061d11eb75981741eda4dafcd',1,'whd_sync_scan_result_t::channel()'],['../structwhd__ap__info__t.html#a715f5cb061d11eb75981741eda4dafcd',1,'whd_ap_info_t::channel()']]],
-  ['chanspec_824',['chanspec',['../structwl__bss__info__t.html#aa5d9886a989c0e36349581e3f06cd4c0',1,'wl_bss_info_t']]],
-  ['count_825',['count',['../structwl__bss__info__t.html#a86988a65e0d3ece7990c032c159786d6',1,'wl_bss_info_t::count()'],['../structwhd__maclist__t.html#a86988a65e0d3ece7990c032c159786d6',1,'whd_maclist_t::count()']]],
-  ['country_826',['country',['../structwhd__init__config__t.html#a7c552f1f715c8aa245f40d4be48b0fc9',1,'whd_init_config_t']]],
-  ['ctl_5fch_827',['ctl_ch',['../structwl__bss__info__t.html#aaba7272626229ace409b150bb1981044',1,'wl_bss_info_t']]],
-  ['current_5fband_828',['current_band',['../structwhd__band__list__t.html#aed8b81544ada7366584d9cdea48639f9',1,'whd_band_list_t']]]
+  ['capability_0',['capability',['../structwl__bss__info__t.html#a4d6a7cc78819fe901fa45a1b51266e18',1,'wl_bss_info_t']]],
+  ['ccmpfmterr_1',['ccmpfmterr',['../structwl__cnt__ver__30__t.html#acd278d9cf5c1390da763e3a790a7fbf6',1,'wl_cnt_ver_30_t']]],
+  ['ccmpfmterr_5fmcst_2',['ccmpfmterr_mcst',['../structwl__cnt__ver__30__t.html#a3387e5109d98b11a2bb7156207d199a9',1,'wl_cnt_ver_30_t']]],
+  ['ccmpreplay_3',['ccmpreplay',['../structwl__cnt__ver__30__t.html#a96397555a8cb1b44e933fb1e116b0304',1,'wl_cnt_ver_30_t']]],
+  ['ccmpreplay_5fmcst_4',['ccmpreplay_mcst',['../structwl__cnt__ver__30__t.html#a488741ffd0ea4916441bb5de6f79300d',1,'wl_cnt_ver_30_t']]],
+  ['ccmpundec_5',['ccmpundec',['../structwl__cnt__ver__30__t.html#abd4f121c659764153bbfc6adb48c309b',1,'wl_cnt_ver_30_t']]],
+  ['ccmpundec_5fmcst_6',['ccmpundec_mcst',['../structwl__cnt__ver__30__t.html#aac19dd66aa5eb5a8740e82ee2a97ea50',1,'wl_cnt_ver_30_t']]],
+  ['ccode_7',['ccode',['../structwhd__scan__result__t.html#a4f626e97f0f0ea28fea702a7ecaad54f',1,'whd_scan_result_t']]],
+  ['cfgrestore_8',['cfgrestore',['../structwl__cnt__ver__30__t.html#af05c89a89dcc0d1318addb64acf0f760',1,'wl_cnt_ver_30_t']]],
+  ['chained_9',['chained',['../structwl__cnt__ver__30__t.html#a3030b5feb02e40263b01cfdaae70a916',1,'wl_cnt_ver_30_t']]],
+  ['chainedsz1_10',['chainedsz1',['../structwl__cnt__ver__30__t.html#a26b9a1c7ce07f9d75ef56cd39b0430fd',1,'wl_cnt_ver_30_t']]],
+  ['channel_11',['channel',['../structwhd__scan__result__t.html#a715f5cb061d11eb75981741eda4dafcd',1,'whd_scan_result_t::channel()'],['../structwhd__sync__scan__result__t.html#a715f5cb061d11eb75981741eda4dafcd',1,'whd_sync_scan_result_t::channel()'],['../structwhd__ap__info__t.html#a715f5cb061d11eb75981741eda4dafcd',1,'whd_ap_info_t::channel()']]],
+  ['chanspec_12',['chanspec',['../structwl__bss__info__t.html#aa5d9886a989c0e36349581e3f06cd4c0',1,'wl_bss_info_t']]],
+  ['count_13',['count',['../structwhd__list__t.html#a86988a65e0d3ece7990c032c159786d6',1,'whd_list_t::count()'],['../structwl__bss__info__t.html#a86988a65e0d3ece7990c032c159786d6',1,'wl_bss_info_t::count()'],['../structwhd__maclist__t.html#a86988a65e0d3ece7990c032c159786d6',1,'whd_maclist_t::count()'],['../structwhd__tko__status.html#a20302e2c99a60d3f612dba57e3f6333b',1,'whd_tko_status::count()']]],
+  ['country_14',['country',['../structwhd__init__config__t.html#a7c552f1f715c8aa245f40d4be48b0fc9',1,'whd_init_config_t']]],
+  ['cso_5fnormal_15',['cso_normal',['../structwl__cnt__ver__30__t.html#a9e5720982af17dd52e6890ef905f8bad',1,'wl_cnt_ver_30_t']]],
+  ['cso_5fpassthrough_16',['cso_passthrough',['../structwl__cnt__ver__30__t.html#a8b4b8650bdc277551682383f1e679ff3',1,'wl_cnt_ver_30_t']]],
+  ['ctl_5fch_17',['ctl_ch',['../structwl__bss__info__t.html#aaba7272626229ace409b150bb1981044',1,'wl_bss_info_t']]],
+  ['currchainsz_18',['currchainsz',['../structwl__cnt__ver__30__t.html#ada53310f1af1eb1f74ada5512d6458ef',1,'wl_cnt_ver_30_t']]],
+  ['current_5fband_19',['current_band',['../structwhd__band__list__t.html#aed8b81544ada7366584d9cdea48639f9',1,'whd_band_list_t']]]
 ];

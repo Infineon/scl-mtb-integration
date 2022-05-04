@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwpa__ie__fixed__portion__t" kind="struct" language="C++" prot="public">
+    <compoundname>wpa_ie_fixed_portion_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwpa__ie__fixed__portion__t_1a9a0e84cafc8fff1a012d8c7720813e74" prot="public" static="no" mutable="no">
+        <type><ref refid="structvendor__specific__ie__header__t" kindref="compound">vendor_specific_ie_header_t</ref></type>
+        <definition>vendor_specific_ie_header_t vendor_specific_header</definition>
+        <argsstring></argsstring>
+        <name>vendor_specific_header</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="189" column="33" bodyfile="source/whd_chip.h" bodystart="189" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwpa__ie__fixed__portion__t_1ab6d7b6f8c2ceaba7acda80aaf05f4899" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t version</definition>
+        <argsstring></argsstring>
+        <name>version</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="190" column="14" bodyfile="source/whd_chip.h" bodystart="190" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwpa__ie__fixed__portion__t_1a23ecbe29259501fab1323e4da40f48ff" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t multicast_suite</definition>
+        <argsstring></argsstring>
+        <name>multicast_suite</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="191" column="14" bodyfile="source/whd_chip.h" bodystart="191" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwpa__ie__fixed__portion__t_1ace0d125a71f1fd55e6cfb1e35b6ad018" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t unicast_suite_count</definition>
+        <argsstring></argsstring>
+        <name>unicast_suite_count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="192" column="14" bodyfile="source/whd_chip.h" bodystart="192" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwpa__ie__fixed__portion__t_1abdaf61ae5f1824d36f472327291cf747" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t unicast_suite_list[1][4]</definition>
+        <argsstring>[1][4]</argsstring>
+        <name>unicast_suite_list</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="193" column="13" bodyfile="source/whd_chip.h" bodystart="193" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>vendor_specific_ie_header_t</label>
+        <link refid="structvendor__specific__ie__header__t"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>tlv_header</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>whd_tlv8_header_t</label>
+        <link refid="structwhd__tlv8__header__t"/>
+      </node>
+      <node id="1">
+        <label>wpa_ie_fixed_portion_t</label>
+        <link refid="structwpa__ie__fixed__portion__t"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>vendor_specific_header</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="source/whd_chip.h" line="187" column="1" bodyfile="source/whd_chip.h" bodystart="188" bodyend="194"/>
+    <listofallmembers>
+      <member refid="structwpa__ie__fixed__portion__t_1a23ecbe29259501fab1323e4da40f48ff" prot="public" virt="non-virtual"><scope>wpa_ie_fixed_portion_t</scope><name>multicast_suite</name></member>
+      <member refid="structwpa__ie__fixed__portion__t_1ace0d125a71f1fd55e6cfb1e35b6ad018" prot="public" virt="non-virtual"><scope>wpa_ie_fixed_portion_t</scope><name>unicast_suite_count</name></member>
+      <member refid="structwpa__ie__fixed__portion__t_1abdaf61ae5f1824d36f472327291cf747" prot="public" virt="non-virtual"><scope>wpa_ie_fixed_portion_t</scope><name>unicast_suite_list</name></member>
+      <member refid="structwpa__ie__fixed__portion__t_1a9a0e84cafc8fff1a012d8c7720813e74" prot="public" virt="non-virtual"><scope>wpa_ie_fixed_portion_t</scope><name>vendor_specific_header</name></member>
+      <member refid="structwpa__ie__fixed__portion__t_1ab6d7b6f8c2ceaba7acda80aaf05f4899" prot="public" virt="non-virtual"><scope>wpa_ie_fixed_portion_t</scope><name>version</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

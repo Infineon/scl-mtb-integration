@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwl__p2p__if__t" kind="struct" language="C++" prot="public">
+    <compoundname>wl_p2p_if_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwl__p2p__if__t_1ac442f91fc70adf47fe2b93c575890776" prot="public" static="no" mutable="no">
+        <type>struct ether_addr</type>
+        <definition>struct ether_addr mac_address</definition>
+        <argsstring></argsstring>
+        <name>mac_address</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3496" column="21" bodyfile="source/whd_wlioctl.h" bodystart="3496" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__p2p__if__t_1a4cbe639fac62d1e9c0c3974d2584a46b" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t interface_type</definition>
+        <argsstring></argsstring>
+        <name>interface_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3497" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3497" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__p2p__if__t_1aa420f382ac899270cea21b49d80b90d0" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t chan_spec</definition>
+        <argsstring></argsstring>
+        <name>chan_spec</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3498" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3498" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="3494" column="1" bodyfile="source/whd_wlioctl.h" bodystart="3495" bodyend="3499"/>
+    <listofallmembers>
+      <member refid="structwl__p2p__if__t_1aa420f382ac899270cea21b49d80b90d0" prot="public" virt="non-virtual"><scope>wl_p2p_if_t</scope><name>chan_spec</name></member>
+      <member refid="structwl__p2p__if__t_1a4cbe639fac62d1e9c0c3974d2584a46b" prot="public" virt="non-virtual"><scope>wl_p2p_if_t</scope><name>interface_type</name></member>
+      <member refid="structwl__p2p__if__t_1ac442f91fc70adf47fe2b93c575890776" prot="public" virt="non-virtual"><scope>wl_p2p_if_t</scope><name>mac_address</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

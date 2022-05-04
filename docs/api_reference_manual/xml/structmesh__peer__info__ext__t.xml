@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structmesh__peer__info__ext__t" kind="struct" language="C++" prot="public">
+    <compoundname>mesh_peer_info_ext_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structmesh__peer__info__ext__t_1a213bb9567531fd97d726603cb5e2ea49" prot="public" static="no" mutable="no">
+        <type><ref refid="structmesh__peer__info__t" kindref="compound">mesh_peer_info_t</ref></type>
+        <definition>mesh_peer_info_t peer_info</definition>
+        <argsstring></argsstring>
+        <name>peer_info</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3747" column="22" bodyfile="source/whd_wlioctl.h" bodystart="3747" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structmesh__peer__info__ext__t_1a0e0ba9d30ae29dc7852c9092eac54557" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t local_aid</definition>
+        <argsstring></argsstring>
+        <name>local_aid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3748" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3748" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structmesh__peer__info__ext__t_1a38a0c2c4f36618e5576d40d1a66e51c5" prot="public" static="no" mutable="no">
+        <type>struct ether_addr</type>
+        <definition>struct ether_addr ea</definition>
+        <argsstring></argsstring>
+        <name>ea</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3749" column="21" bodyfile="source/whd_wlioctl.h" bodystart="3749" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structmesh__peer__info__ext__t_1a03f79b35c88cf2a225fbd940ed4b9869" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t entry_state</definition>
+        <argsstring></argsstring>
+        <name>entry_state</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3750" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3750" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structmesh__peer__info__ext__t_1a3fa8cff3d3e49d6926bfb205b94f2499" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t rssi</definition>
+        <argsstring></argsstring>
+        <name>rssi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3751" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3751" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mesh_peer_info_ext_t</label>
+        <link refid="structmesh__peer__info__ext__t"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>peer_info</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mesh_peer_info_t</label>
+        <link refid="structmesh__peer__info__t"/>
+      </node>
+    </collaborationgraph>
+    <location file="source/whd_wlioctl.h" line="3745" column="1" bodyfile="source/whd_wlioctl.h" bodystart="3746" bodyend="3752"/>
+    <listofallmembers>
+      <member refid="structmesh__peer__info__ext__t_1a38a0c2c4f36618e5576d40d1a66e51c5" prot="public" virt="non-virtual"><scope>mesh_peer_info_ext_t</scope><name>ea</name></member>
+      <member refid="structmesh__peer__info__ext__t_1a03f79b35c88cf2a225fbd940ed4b9869" prot="public" virt="non-virtual"><scope>mesh_peer_info_ext_t</scope><name>entry_state</name></member>
+      <member refid="structmesh__peer__info__ext__t_1a0e0ba9d30ae29dc7852c9092eac54557" prot="public" virt="non-virtual"><scope>mesh_peer_info_ext_t</scope><name>local_aid</name></member>
+      <member refid="structmesh__peer__info__ext__t_1a213bb9567531fd97d726603cb5e2ea49" prot="public" virt="non-virtual"><scope>mesh_peer_info_ext_t</scope><name>peer_info</name></member>
+      <member refid="structmesh__peer__info__ext__t_1a3fa8cff3d3e49d6926bfb205b94f2499" prot="public" virt="non-virtual"><scope>mesh_peer_info_ext_t</scope><name>rssi</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

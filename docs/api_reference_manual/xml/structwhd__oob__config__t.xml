@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="structwhd__oob__config__t" kind="struct" language="C++" prot="public">
     <compoundname>whd_oob_config_t</compoundname>
     <includes local="no">whd_types.h</includes>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_types.h" line="955" column="18" bodyfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_types.h" bodystart="955" bodyend="-1"/>
+        <location file="source/whd_types.h" line="1044" column="18" bodyfile="source/whd_types.h" bodystart="1044" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structwhd__oob__config__t_1a2d83d43c26f20c82203b65cef7cf9d2f" prot="public" static="no" mutable="no">
         <type>uint8_t</type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_types.h" line="956" column="13" bodyfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_types.h" bodystart="956" bodyend="-1"/>
+        <location file="source/whd_types.h" line="1045" column="13" bodyfile="source/whd_types.h" bodystart="1045" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structwhd__oob__config__t_1afac6867bb224b40190d70a7bed57b556" prot="public" static="no" mutable="no">
         <type><ref refid="whd__types_8h_1a7cd94a03f2e7e6aab7217ed559c7a0ac" kindref="member">whd_bool_t</ref></type>
@@ -44,7 +44,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_types.h" line="957" column="16" bodyfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_types.h" bodystart="957" bodyend="-1"/>
+        <location file="source/whd_types.h" line="1046" column="16" bodyfile="source/whd_types.h" bodystart="1046" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structwhd__oob__config__t_1a948130b9ee9aaba4463a9a678c830b2f" prot="public" static="no" mutable="no">
         <type>uint8_t</type>
@@ -58,7 +58,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_types.h" line="958" column="13" bodyfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_types.h" bodystart="958" bodyend="-1"/>
+        <location file="source/whd_types.h" line="1047" column="13" bodyfile="source/whd_types.h" bodystart="1047" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -66,7 +66,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_types.h" line="954" column="1" bodyfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_types.h" bodystart="953" bodyend="959"/>
+    <location file="source/whd_types.h" line="1042" column="1" bodyfile="source/whd_types.h" bodystart="1043" bodyend="1048"/>
     <listofallmembers>
       <member refid="structwhd__oob__config__t_1a2d83d43c26f20c82203b65cef7cf9d2f" prot="public" virt="non-virtual"><scope>whd_oob_config_t</scope><name>dev_gpio_sel</name></member>
       <member refid="structwhd__oob__config__t_1a6c705dc46f1c4249cef91f1fc8a877dc" prot="public" virt="non-virtual"><scope>whd_oob_config_t</scope><name>host_oob_pin</name></member>

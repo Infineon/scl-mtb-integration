@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwhd__ioctl__log__t" kind="struct" language="C++" prot="public">
+    <compoundname>whd_ioctl_log_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwhd__ioctl__log__t_1a15066444a30937b5b0776cf6abcba4c2" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t ioct_log</definition>
+        <argsstring></argsstring>
+        <name>ioct_log</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="307" column="14" bodyfile="source/whd_chip.h" bodystart="307" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__ioctl__log__t_1a9912eaa4435dae8ef257db55374130fb" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t is_this_event</definition>
+        <argsstring></argsstring>
+        <name>is_this_event</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="308" column="13" bodyfile="source/whd_chip.h" bodystart="308" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__ioctl__log__t_1a7a9e254c3972c55370fc0126470b0392" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t data[WHD_MAX_DATA_SIZE]</definition>
+        <argsstring>[WHD_MAX_DATA_SIZE]</argsstring>
+        <name>data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="309" column="13" bodyfile="source/whd_chip.h" bodystart="309" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__ioctl__log__t_1ab670c6c21aced4765ecd6b29283f22b0" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t data_size</definition>
+        <argsstring></argsstring>
+        <name>data_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="310" column="14" bodyfile="source/whd_chip.h" bodystart="310" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__ioctl__log__t_1adbcb4f0111725357699179f5d05cccd2" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t flag</definition>
+        <argsstring></argsstring>
+        <name>flag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="311" column="14" bodyfile="source/whd_chip.h" bodystart="311" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__ioctl__log__t_1a5ac0b16c31813f87b98e97cc5bacd64a" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t reason</definition>
+        <argsstring></argsstring>
+        <name>reason</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="312" column="14" bodyfile="source/whd_chip.h" bodystart="312" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_chip.h" line="305" column="1" bodyfile="source/whd_chip.h" bodystart="306" bodyend="313"/>
+    <listofallmembers>
+      <member refid="structwhd__ioctl__log__t_1a7a9e254c3972c55370fc0126470b0392" prot="public" virt="non-virtual"><scope>whd_ioctl_log_t</scope><name>data</name></member>
+      <member refid="structwhd__ioctl__log__t_1ab670c6c21aced4765ecd6b29283f22b0" prot="public" virt="non-virtual"><scope>whd_ioctl_log_t</scope><name>data_size</name></member>
+      <member refid="structwhd__ioctl__log__t_1adbcb4f0111725357699179f5d05cccd2" prot="public" virt="non-virtual"><scope>whd_ioctl_log_t</scope><name>flag</name></member>
+      <member refid="structwhd__ioctl__log__t_1a15066444a30937b5b0776cf6abcba4c2" prot="public" virt="non-virtual"><scope>whd_ioctl_log_t</scope><name>ioct_log</name></member>
+      <member refid="structwhd__ioctl__log__t_1a9912eaa4435dae8ef257db55374130fb" prot="public" virt="non-virtual"><scope>whd_ioctl_log_t</scope><name>is_this_event</name></member>
+      <member refid="structwhd__ioctl__log__t_1a5ac0b16c31813f87b98e97cc5bacd64a" prot="public" virt="non-virtual"><scope>whd_ioctl_log_t</scope><name>reason</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwl__wowl__wakeind__t" kind="struct" language="C++" prot="public">
+    <compoundname>wl_wowl_wakeind_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwl__wowl__wakeind__t_1a1c462b794bb4ab426b0f5d9b7a379d3c" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t pci_wakeind</definition>
+        <argsstring></argsstring>
+        <name>pci_wakeind</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3340" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3340" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__wowl__wakeind__t_1a9d547c85c71d68c2b08fba28940a4a6c" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t ucode_wakeind</definition>
+        <argsstring></argsstring>
+        <name>ucode_wakeind</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3341" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3341" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="3338" column="1" bodyfile="source/whd_wlioctl.h" bodystart="3339" bodyend="3342"/>
+    <listofallmembers>
+      <member refid="structwl__wowl__wakeind__t_1a1c462b794bb4ab426b0f5d9b7a379d3c" prot="public" virt="non-virtual"><scope>wl_wowl_wakeind_t</scope><name>pci_wakeind</name></member>
+      <member refid="structwl__wowl__wakeind__t_1a9d547c85c71d68c2b08fba28940a4a6c" prot="public" virt="non-virtual"><scope>wl_wowl_wakeind_t</scope><name>ucode_wakeind</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

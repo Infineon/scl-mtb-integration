@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structatten__t" kind="struct" language="C++" prot="public">
+    <compoundname>atten_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structatten__t_1a106bd3b0d0d4e82589ad7d9c7896c5a6" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t auto_ctrl</definition>
+        <argsstring></argsstring>
+        <name>auto_ctrl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="529" column="14" bodyfile="source/whd_wlioctl.h" bodystart="529" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structatten__t_1a4ea31d52f3e5e11a2b38cd7c6da62188" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t bb</definition>
+        <argsstring></argsstring>
+        <name>bb</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="530" column="14" bodyfile="source/whd_wlioctl.h" bodystart="530" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structatten__t_1ae8b11746fce054f413bfaf0a2b7f8f98" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t radio</definition>
+        <argsstring></argsstring>
+        <name>radio</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="531" column="14" bodyfile="source/whd_wlioctl.h" bodystart="531" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structatten__t_1adafcc95cf21c30bfe9371df715be8a2d" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t txctl1</definition>
+        <argsstring></argsstring>
+        <name>txctl1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="532" column="14" bodyfile="source/whd_wlioctl.h" bodystart="532" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="527" column="1" bodyfile="source/whd_wlioctl.h" bodystart="528" bodyend="533"/>
+    <listofallmembers>
+      <member refid="structatten__t_1a106bd3b0d0d4e82589ad7d9c7896c5a6" prot="public" virt="non-virtual"><scope>atten_t</scope><name>auto_ctrl</name></member>
+      <member refid="structatten__t_1a4ea31d52f3e5e11a2b38cd7c6da62188" prot="public" virt="non-virtual"><scope>atten_t</scope><name>bb</name></member>
+      <member refid="structatten__t_1ae8b11746fce054f413bfaf0a2b7f8f98" prot="public" virt="non-virtual"><scope>atten_t</scope><name>radio</name></member>
+      <member refid="structatten__t_1adafcc95cf21c30bfe9371df715be8a2d" prot="public" virt="non-virtual"><scope>atten_t</scope><name>txctl1</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

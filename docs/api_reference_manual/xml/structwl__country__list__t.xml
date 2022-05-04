@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwl__country__list__t" kind="struct" language="C++" prot="public">
+    <compoundname>wl_country_list_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwl__country__list__t_1a3a92b3e6d105dee4dd0b5ac8eefeb219" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t buflen</definition>
+        <argsstring></argsstring>
+        <name>buflen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="295" column="14" bodyfile="source/whd_wlioctl.h" bodystart="295" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__country__list__t_1aa42833ec91aee1861c856ecf62ad044a" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t band_set</definition>
+        <argsstring></argsstring>
+        <name>band_set</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="296" column="14" bodyfile="source/whd_wlioctl.h" bodystart="296" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__country__list__t_1af7382dfa063de51bd267657a22b1d69a" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t band</definition>
+        <argsstring></argsstring>
+        <name>band</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="297" column="14" bodyfile="source/whd_wlioctl.h" bodystart="297" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__country__list__t_1a86988a65e0d3ece7990c032c159786d6" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t count</definition>
+        <argsstring></argsstring>
+        <name>count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="298" column="14" bodyfile="source/whd_wlioctl.h" bodystart="298" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__country__list__t_1a3f2c16086a769547784bc464497134c6" prot="public" static="no" mutable="no">
+        <type>int8_t</type>
+        <definition>int8_t country_abbrev[1]</definition>
+        <argsstring>[1]</argsstring>
+        <name>country_abbrev</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="299" column="12" bodyfile="source/whd_wlioctl.h" bodystart="299" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="293" column="1" bodyfile="source/whd_wlioctl.h" bodystart="294" bodyend="300"/>
+    <listofallmembers>
+      <member refid="structwl__country__list__t_1af7382dfa063de51bd267657a22b1d69a" prot="public" virt="non-virtual"><scope>wl_country_list_t</scope><name>band</name></member>
+      <member refid="structwl__country__list__t_1aa42833ec91aee1861c856ecf62ad044a" prot="public" virt="non-virtual"><scope>wl_country_list_t</scope><name>band_set</name></member>
+      <member refid="structwl__country__list__t_1a3a92b3e6d105dee4dd0b5ac8eefeb219" prot="public" virt="non-virtual"><scope>wl_country_list_t</scope><name>buflen</name></member>
+      <member refid="structwl__country__list__t_1a86988a65e0d3ece7990c032c159786d6" prot="public" virt="non-virtual"><scope>wl_country_list_t</scope><name>count</name></member>
+      <member refid="structwl__country__list__t_1a3f2c16086a769547784bc464497134c6" prot="public" virt="non-virtual"><scope>wl_country_list_t</scope><name>country_abbrev</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

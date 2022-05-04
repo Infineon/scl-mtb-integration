@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structpmkid__cand__t" kind="struct" language="C++" prot="public">
+    <compoundname>pmkid_cand_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structpmkid__cand__t_1a9f9cfeee186f357985e3334d8cd4891b" prot="public" static="no" mutable="no">
+        <type><ref refid="structwl__ether__addr__t" kindref="compound">wl_ether_addr_t</ref></type>
+        <definition>wl_ether_addr_t BSSID</definition>
+        <argsstring></argsstring>
+        <name>BSSID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="467" column="21" bodyfile="source/whd_wlioctl.h" bodystart="467" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structpmkid__cand__t_1a7e6ccd5b865eb99962839a515839dbe5" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t preauth</definition>
+        <argsstring></argsstring>
+        <name>preauth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="468" column="13" bodyfile="source/whd_wlioctl.h" bodystart="468" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>pmkid_cand_t</label>
+        <link refid="structpmkid__cand__t"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>BSSID</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>wl_ether_addr_t</label>
+        <link refid="structwl__ether__addr__t"/>
+      </node>
+    </collaborationgraph>
+    <location file="source/whd_wlioctl.h" line="465" column="1" bodyfile="source/whd_wlioctl.h" bodystart="466" bodyend="469"/>
+    <listofallmembers>
+      <member refid="structpmkid__cand__t_1a9f9cfeee186f357985e3334d8cd4891b" prot="public" virt="non-virtual"><scope>pmkid_cand_t</scope><name>BSSID</name></member>
+      <member refid="structpmkid__cand__t_1a7e6ccd5b865eb99962839a515839dbe5" prot="public" virt="non-virtual"><scope>pmkid_cand_t</scope><name>preauth</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

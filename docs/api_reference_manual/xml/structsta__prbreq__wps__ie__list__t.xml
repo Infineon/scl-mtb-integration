@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structsta__prbreq__wps__ie__list__t" kind="struct" language="C++" prot="public">
+    <compoundname>sta_prbreq_wps_ie_list_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsta__prbreq__wps__ie__list__t_1a8b049a8429a374dbee53e2db1e40a5c1" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t totLen</definition>
+        <argsstring></argsstring>
+        <name>totLen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3427" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3427" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsta__prbreq__wps__ie__list__t_1a438c4a592c68e37daaa5fbd5812aa8c2" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t ieDataList[1]</definition>
+        <argsstring>[1]</argsstring>
+        <name>ieDataList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3428" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3428" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="3425" column="1" bodyfile="source/whd_wlioctl.h" bodystart="3426" bodyend="3429"/>
+    <listofallmembers>
+      <member refid="structsta__prbreq__wps__ie__list__t_1a438c4a592c68e37daaa5fbd5812aa8c2" prot="public" virt="non-virtual"><scope>sta_prbreq_wps_ie_list_t</scope><name>ieDataList</name></member>
+      <member refid="structsta__prbreq__wps__ie__list__t_1a8b049a8429a374dbee53e2db1e40a5c1" prot="public" virt="non-virtual"><scope>sta_prbreq_wps_ie_list_t</scope><name>totLen</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

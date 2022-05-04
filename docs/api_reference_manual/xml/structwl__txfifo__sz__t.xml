@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwl__txfifo__sz__t" kind="struct" language="C++" prot="public">
+    <compoundname>wl_txfifo_sz_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwl__txfifo__sz__t_1ad057b9eff905c5184610d6a34e4ab529" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t fifo</definition>
+        <argsstring></argsstring>
+        <name>fifo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="645" column="13" bodyfile="source/whd_wlioctl.h" bodystart="645" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__txfifo__sz__t_1ae5dc6ffcd9b7605c7787791e40cc6bb0" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t size</definition>
+        <argsstring></argsstring>
+        <name>size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="646" column="13" bodyfile="source/whd_wlioctl.h" bodystart="646" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="643" column="1" bodyfile="source/whd_wlioctl.h" bodystart="644" bodyend="647"/>
+    <listofallmembers>
+      <member refid="structwl__txfifo__sz__t_1ad057b9eff905c5184610d6a34e4ab529" prot="public" virt="non-virtual"><scope>wl_txfifo_sz_t</scope><name>fifo</name></member>
+      <member refid="structwl__txfifo__sz__t_1ae5dc6ffcd9b7605c7787791e40cc6bb0" prot="public" virt="non-virtual"><scope>wl_txfifo_sz_t</scope><name>size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

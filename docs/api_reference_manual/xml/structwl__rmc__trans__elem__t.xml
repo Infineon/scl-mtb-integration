@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwl__rmc__trans__elem__t" kind="struct" language="C++" prot="public">
+    <compoundname>wl_rmc_trans_elem_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwl__rmc__trans__elem__t_1a1e299fb938a497e98e1358a43a50f1c1" prot="public" static="no" mutable="no">
+        <type>struct ether_addr</type>
+        <definition>struct ether_addr tr_mac</definition>
+        <argsstring></argsstring>
+        <name>tr_mac</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3666" column="21" bodyfile="source/whd_wlioctl.h" bodystart="3666" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__rmc__trans__elem__t_1a1c7742c45540856cdd8a113833fd2d93" prot="public" static="no" mutable="no">
+        <type>struct ether_addr</type>
+        <definition>struct ether_addr ar_mac</definition>
+        <argsstring></argsstring>
+        <name>ar_mac</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3667" column="21" bodyfile="source/whd_wlioctl.h" bodystart="3667" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__rmc__trans__elem__t_1a7d479d44c5035508b20cfd986e8591cd" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t artmo</definition>
+        <argsstring></argsstring>
+        <name>artmo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3668" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3668" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__rmc__trans__elem__t_1ad317a8a20541065ade431f0ef99dfbc1" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t amt_idx</definition>
+        <argsstring></argsstring>
+        <name>amt_idx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3669" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3669" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__rmc__trans__elem__t_1adbcb4f0111725357699179f5d05cccd2" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t flag</definition>
+        <argsstring></argsstring>
+        <name>flag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3670" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3670" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="3664" column="1" bodyfile="source/whd_wlioctl.h" bodystart="3665" bodyend="3671"/>
+    <listofallmembers>
+      <member refid="structwl__rmc__trans__elem__t_1ad317a8a20541065ade431f0ef99dfbc1" prot="public" virt="non-virtual"><scope>wl_rmc_trans_elem_t</scope><name>amt_idx</name></member>
+      <member refid="structwl__rmc__trans__elem__t_1a1c7742c45540856cdd8a113833fd2d93" prot="public" virt="non-virtual"><scope>wl_rmc_trans_elem_t</scope><name>ar_mac</name></member>
+      <member refid="structwl__rmc__trans__elem__t_1a7d479d44c5035508b20cfd986e8591cd" prot="public" virt="non-virtual"><scope>wl_rmc_trans_elem_t</scope><name>artmo</name></member>
+      <member refid="structwl__rmc__trans__elem__t_1adbcb4f0111725357699179f5d05cccd2" prot="public" virt="non-virtual"><scope>wl_rmc_trans_elem_t</scope><name>flag</name></member>
+      <member refid="structwl__rmc__trans__elem__t_1a1e299fb938a497e98e1358a43a50f1c1" prot="public" virt="non-virtual"><scope>wl_rmc_trans_elem_t</scope><name>tr_mac</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwl__vndr__ie" kind="struct" language="C++" prot="public">
+    <compoundname>wl_vndr_ie</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwl__vndr__ie_1a1e6927fa1486224044e568f9c370519b" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1511" column="13" bodyfile="source/whd_wlioctl.h" bodystart="1511" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__vndr__ie_1a5723e60ffd628510c699eddbce90be23" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t len</definition>
+        <argsstring></argsstring>
+        <name>len</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1512" column="13" bodyfile="source/whd_wlioctl.h" bodystart="1512" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__vndr__ie_1a5d81eb4d4b4a5b8d3a89be061d06b64d" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t oui[3]</definition>
+        <argsstring>[3]</argsstring>
+        <name>oui</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1513" column="13" bodyfile="source/whd_wlioctl.h" bodystart="1513" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__vndr__ie_1aa86e1085c6a16f60258f29c9d5fc2144" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t data[1]</definition>
+        <argsstring>[1]</argsstring>
+        <name>data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1514" column="13" bodyfile="source/whd_wlioctl.h" bodystart="1514" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="1509" column="1" bodyfile="source/whd_wlioctl.h" bodystart="1510" bodyend="1515"/>
+    <listofallmembers>
+      <member refid="structwl__vndr__ie_1aa86e1085c6a16f60258f29c9d5fc2144" prot="public" virt="non-virtual"><scope>wl_vndr_ie</scope><name>data</name></member>
+      <member refid="structwl__vndr__ie_1a1e6927fa1486224044e568f9c370519b" prot="public" virt="non-virtual"><scope>wl_vndr_ie</scope><name>id</name></member>
+      <member refid="structwl__vndr__ie_1a5723e60ffd628510c699eddbce90be23" prot="public" virt="non-virtual"><scope>wl_vndr_ie</scope><name>len</name></member>
+      <member refid="structwl__vndr__ie_1a5d81eb4d4b4a5b8d3a89be061d06b64d" prot="public" virt="non-virtual"><scope>wl_vndr_ie</scope><name>oui</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

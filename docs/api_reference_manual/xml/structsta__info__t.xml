@@ -1,0 +1,245 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structsta__info__t" kind="struct" language="C++" prot="public">
+    <compoundname>sta_info_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsta__info__t_1aa10697fa6dc414fbc83710764c48899b" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t ver</definition>
+        <argsstring></argsstring>
+        <name>ver</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="556" column="14" bodyfile="source/whd_wlioctl.h" bodystart="556" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsta__info__t_1a8aed22e2c7b283705ec82e0120515618" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t len</definition>
+        <argsstring></argsstring>
+        <name>len</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="557" column="14" bodyfile="source/whd_wlioctl.h" bodystart="557" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsta__info__t_1aa18172140370314feeb2efe3e1a532ba" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t cap</definition>
+        <argsstring></argsstring>
+        <name>cap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="558" column="14" bodyfile="source/whd_wlioctl.h" bodystart="558" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsta__info__t_1a773b39d480759f67926cb18ae2219281" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t flags</definition>
+        <argsstring></argsstring>
+        <name>flags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="559" column="14" bodyfile="source/whd_wlioctl.h" bodystart="559" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsta__info__t_1a58177359b66f46904126d9fab769cce9" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t idle</definition>
+        <argsstring></argsstring>
+        <name>idle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="560" column="14" bodyfile="source/whd_wlioctl.h" bodystart="560" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsta__info__t_1a4a16c55fabd412152b5486228819ec46" prot="public" static="no" mutable="no">
+        <type><ref refid="structwl__ether__addr__t" kindref="compound">wl_ether_addr_t</ref></type>
+        <definition>wl_ether_addr_t ea</definition>
+        <argsstring></argsstring>
+        <name>ea</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="561" column="21" bodyfile="source/whd_wlioctl.h" bodystart="561" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsta__info__t_1a784b9918b2931ad83f834f14b21d68a0" prot="public" static="no" mutable="no">
+        <type><ref refid="structwl__rateset__t" kindref="compound">wl_rateset_t</ref></type>
+        <definition>wl_rateset_t rateset</definition>
+        <argsstring></argsstring>
+        <name>rateset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="562" column="18" bodyfile="source/whd_wlioctl.h" bodystart="562" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsta__info__t_1a86fd6c417fa43c58339f7cde29495419" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t in</definition>
+        <argsstring></argsstring>
+        <name>in</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="563" column="14" bodyfile="source/whd_wlioctl.h" bodystart="563" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsta__info__t_1ac0060c0ee6dccb8a98c09ce17152ad07" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t listen_interval_inms</definition>
+        <argsstring></argsstring>
+        <name>listen_interval_inms</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="564" column="14" bodyfile="source/whd_wlioctl.h" bodystart="564" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsta__info__t_1ad1b5c4514389067bf65331940112677b" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t tx_pkts</definition>
+        <argsstring></argsstring>
+        <name>tx_pkts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="565" column="14" bodyfile="source/whd_wlioctl.h" bodystart="565" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsta__info__t_1a8183b263f48f4f6bbc22c309932df4bd" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t tx_failures</definition>
+        <argsstring></argsstring>
+        <name>tx_failures</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="566" column="14" bodyfile="source/whd_wlioctl.h" bodystart="566" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsta__info__t_1ae66f197520cbe14aab014ce08bf74532" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rx_ucast_pkts</definition>
+        <argsstring></argsstring>
+        <name>rx_ucast_pkts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="567" column="14" bodyfile="source/whd_wlioctl.h" bodystart="567" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsta__info__t_1a197d2342c61fa69eb2347ae2ca3739d7" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rx_mcast_pkts</definition>
+        <argsstring></argsstring>
+        <name>rx_mcast_pkts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="568" column="14" bodyfile="source/whd_wlioctl.h" bodystart="568" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsta__info__t_1ad9fbf49ce10f5f468c5ef84701410baa" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t tx_rate</definition>
+        <argsstring></argsstring>
+        <name>tx_rate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="569" column="14" bodyfile="source/whd_wlioctl.h" bodystart="569" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsta__info__t_1a3e65d735f5e16144805c5d80bcaf7f10" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rx_rate</definition>
+        <argsstring></argsstring>
+        <name>rx_rate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="570" column="14" bodyfile="source/whd_wlioctl.h" bodystart="570" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>sta_info_t</label>
+        <link refid="structsta__info__t"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>ea</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>rateset</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>wl_ether_addr_t</label>
+        <link refid="structwl__ether__addr__t"/>
+      </node>
+      <node id="3">
+        <label>wl_rateset_t</label>
+        <link refid="structwl__rateset__t"/>
+      </node>
+    </collaborationgraph>
+    <location file="source/whd_wlioctl.h" line="554" column="1" bodyfile="source/whd_wlioctl.h" bodystart="555" bodyend="571"/>
+    <listofallmembers>
+      <member refid="structsta__info__t_1aa18172140370314feeb2efe3e1a532ba" prot="public" virt="non-virtual"><scope>sta_info_t</scope><name>cap</name></member>
+      <member refid="structsta__info__t_1a4a16c55fabd412152b5486228819ec46" prot="public" virt="non-virtual"><scope>sta_info_t</scope><name>ea</name></member>
+      <member refid="structsta__info__t_1a773b39d480759f67926cb18ae2219281" prot="public" virt="non-virtual"><scope>sta_info_t</scope><name>flags</name></member>
+      <member refid="structsta__info__t_1a58177359b66f46904126d9fab769cce9" prot="public" virt="non-virtual"><scope>sta_info_t</scope><name>idle</name></member>
+      <member refid="structsta__info__t_1a86fd6c417fa43c58339f7cde29495419" prot="public" virt="non-virtual"><scope>sta_info_t</scope><name>in</name></member>
+      <member refid="structsta__info__t_1a8aed22e2c7b283705ec82e0120515618" prot="public" virt="non-virtual"><scope>sta_info_t</scope><name>len</name></member>
+      <member refid="structsta__info__t_1ac0060c0ee6dccb8a98c09ce17152ad07" prot="public" virt="non-virtual"><scope>sta_info_t</scope><name>listen_interval_inms</name></member>
+      <member refid="structsta__info__t_1a784b9918b2931ad83f834f14b21d68a0" prot="public" virt="non-virtual"><scope>sta_info_t</scope><name>rateset</name></member>
+      <member refid="structsta__info__t_1a197d2342c61fa69eb2347ae2ca3739d7" prot="public" virt="non-virtual"><scope>sta_info_t</scope><name>rx_mcast_pkts</name></member>
+      <member refid="structsta__info__t_1a3e65d735f5e16144805c5d80bcaf7f10" prot="public" virt="non-virtual"><scope>sta_info_t</scope><name>rx_rate</name></member>
+      <member refid="structsta__info__t_1ae66f197520cbe14aab014ce08bf74532" prot="public" virt="non-virtual"><scope>sta_info_t</scope><name>rx_ucast_pkts</name></member>
+      <member refid="structsta__info__t_1a8183b263f48f4f6bbc22c309932df4bd" prot="public" virt="non-virtual"><scope>sta_info_t</scope><name>tx_failures</name></member>
+      <member refid="structsta__info__t_1ad1b5c4514389067bf65331940112677b" prot="public" virt="non-virtual"><scope>sta_info_t</scope><name>tx_pkts</name></member>
+      <member refid="structsta__info__t_1ad9fbf49ce10f5f468c5ef84701410baa" prot="public" virt="non-virtual"><scope>sta_info_t</scope><name>tx_rate</name></member>
+      <member refid="structsta__info__t_1aa10697fa6dc414fbc83710764c48899b" prot="public" virt="non-virtual"><scope>sta_info_t</scope><name>ver</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

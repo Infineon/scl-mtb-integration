@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structdpt__list__t" kind="struct" language="C++" prot="public">
+    <compoundname>dpt_list_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structdpt__list__t_1a7beea8f6745c478347f244cadef771c2" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t num</definition>
+        <argsstring></argsstring>
+        <name>num</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2956" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2956" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdpt__list__t_1ad66e79f051cd768258853ce5e375cb8f" prot="public" static="no" mutable="no">
+        <type><ref refid="structdpt__status__t" kindref="compound">dpt_status_t</ref></type>
+        <definition>dpt_status_t status[1]</definition>
+        <argsstring>[1]</argsstring>
+        <name>status</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2957" column="18" bodyfile="source/whd_wlioctl.h" bodystart="2957" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>dpt_list_t</label>
+        <link refid="structdpt__list__t"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>status</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>dpt_status_t</label>
+        <link refid="structdpt__status__t"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>sta</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>sta_info_t</label>
+        <link refid="structsta__info__t"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>ea</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>rateset</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>wl_ether_addr_t</label>
+        <link refid="structwl__ether__addr__t"/>
+      </node>
+      <node id="5">
+        <label>wl_rateset_t</label>
+        <link refid="structwl__rateset__t"/>
+      </node>
+    </collaborationgraph>
+    <location file="source/whd_wlioctl.h" line="2954" column="1" bodyfile="source/whd_wlioctl.h" bodystart="2955" bodyend="2958"/>
+    <listofallmembers>
+      <member refid="structdpt__list__t_1a7beea8f6745c478347f244cadef771c2" prot="public" virt="non-virtual"><scope>dpt_list_t</scope><name>num</name></member>
+      <member refid="structdpt__list__t_1ad66e79f051cd768258853ce5e375cb8f" prot="public" virt="non-virtual"><scope>dpt_list_t</scope><name>status</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

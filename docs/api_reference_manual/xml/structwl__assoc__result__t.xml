@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwl__assoc__result__t" kind="struct" language="C++" prot="public">
+    <compoundname>wl_assoc_result_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwl__assoc__result__t_1a6d6429d6c1843db1d80259fe104d06d0" prot="public" static="no" mutable="no">
+        <type>unsigned long</type>
+        <definition>unsigned long associated</definition>
+        <argsstring></argsstring>
+        <name>associated</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1191" column="19" bodyfile="source/whd_wlioctl.h" bodystart="1191" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__assoc__result__t_1a49f5c50f7ba6de903d94deb021ce82a3" prot="public" static="no" mutable="no">
+        <type>unsigned long</type>
+        <definition>unsigned long NDIS_auth</definition>
+        <argsstring></argsstring>
+        <name>NDIS_auth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1192" column="19" bodyfile="source/whd_wlioctl.h" bodystart="1192" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__assoc__result__t_1a125ac6c447c1e014f745ba1493fc4da2" prot="public" static="no" mutable="no">
+        <type>unsigned long</type>
+        <definition>unsigned long NDIS_infra</definition>
+        <argsstring></argsstring>
+        <name>NDIS_infra</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1193" column="19" bodyfile="source/whd_wlioctl.h" bodystart="1193" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="1189" column="1" bodyfile="source/whd_wlioctl.h" bodystart="1190" bodyend="1194"/>
+    <listofallmembers>
+      <member refid="structwl__assoc__result__t_1a6d6429d6c1843db1d80259fe104d06d0" prot="public" virt="non-virtual"><scope>wl_assoc_result_t</scope><name>associated</name></member>
+      <member refid="structwl__assoc__result__t_1a49f5c50f7ba6de903d94deb021ce82a3" prot="public" virt="non-virtual"><scope>wl_assoc_result_t</scope><name>NDIS_auth</name></member>
+      <member refid="structwl__assoc__result__t_1a125ac6c447c1e014f745ba1493fc4da2" prot="public" virt="non-virtual"><scope>wl_assoc_result_t</scope><name>NDIS_infra</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

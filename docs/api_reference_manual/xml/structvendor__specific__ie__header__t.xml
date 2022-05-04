@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structvendor__specific__ie__header__t" kind="struct" language="C++" prot="public">
+    <compoundname>vendor_specific_ie_header_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structvendor__specific__ie__header__t_1a4a3e80f76a80b2bfce6f269984e58f9b" prot="public" static="no" mutable="no">
+        <type><ref refid="structwhd__tlv8__header__t" kindref="compound">whd_tlv8_header_t</ref></type>
+        <definition>whd_tlv8_header_t tlv_header</definition>
+        <argsstring></argsstring>
+        <name>tlv_header</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="180" column="23" bodyfile="source/whd_chip.h" bodystart="180" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvendor__specific__ie__header__t_1a1729cc42efba161e677e0ea6325ad334" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t oui[4]</definition>
+        <argsstring>[4]</argsstring>
+        <name>oui</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="181" column="13" bodyfile="source/whd_chip.h" bodystart="181" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>vendor_specific_ie_header_t</label>
+        <link refid="structvendor__specific__ie__header__t"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>tlv_header</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>whd_tlv8_header_t</label>
+        <link refid="structwhd__tlv8__header__t"/>
+      </node>
+    </collaborationgraph>
+    <location file="source/whd_chip.h" line="178" column="1" bodyfile="source/whd_chip.h" bodystart="179" bodyend="182"/>
+    <listofallmembers>
+      <member refid="structvendor__specific__ie__header__t_1a1729cc42efba161e677e0ea6325ad334" prot="public" virt="non-virtual"><scope>vendor_specific_ie_header_t</scope><name>oui</name></member>
+      <member refid="structvendor__specific__ie__header__t_1a4a3e80f76a80b2bfce6f269984e58f9b" prot="public" virt="non-virtual"><scope>vendor_specific_ie_header_t</scope><name>tlv_header</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

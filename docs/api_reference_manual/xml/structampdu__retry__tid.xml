@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structampdu__retry__tid" kind="struct" language="C++" prot="public">
+    <compoundname>ampdu_retry_tid</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structampdu__retry__tid_1a6f1dddf458f4e57fe3444309a958c73a" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t tid</definition>
+        <argsstring></argsstring>
+        <name>tid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2917" column="13" bodyfile="source/whd_wlioctl.h" bodystart="2917" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structampdu__retry__tid_1a49b0be536e22f4160eb843de6b46bbd5" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t retry</definition>
+        <argsstring></argsstring>
+        <name>retry</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2918" column="13" bodyfile="source/whd_wlioctl.h" bodystart="2918" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="2915" column="1" bodyfile="source/whd_wlioctl.h" bodystart="2916" bodyend="2919"/>
+    <listofallmembers>
+      <member refid="structampdu__retry__tid_1a49b0be536e22f4160eb843de6b46bbd5" prot="public" virt="non-virtual"><scope>ampdu_retry_tid</scope><name>retry</name></member>
+      <member refid="structampdu__retry__tid_1a6f1dddf458f4e57fe3444309a958c73a" prot="public" virt="non-virtual"><scope>ampdu_retry_tid</scope><name>tid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

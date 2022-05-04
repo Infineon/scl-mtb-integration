@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwifi__console__t" kind="struct" language="C++" prot="public">
+    <compoundname>wifi_console_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwifi__console__t_1ab77ade2208ba49f6e2b934ef32622c48" prot="public" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint count</definition>
+        <argsstring></argsstring>
+        <name>count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="274" column="10" bodyfile="source/whd_chip.h" bodystart="274" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwifi__console__t_1a4ff62def617a0461f3e0e692f2f4a981" prot="public" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint log_addr</definition>
+        <argsstring></argsstring>
+        <name>log_addr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="275" column="10" bodyfile="source/whd_chip.h" bodystart="275" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwifi__console__t_1af1ae131cc43fc6d4f6da066ac3118a6a" prot="public" static="no" mutable="no">
+        <type><ref refid="structhnd__log__t" kindref="compound">hnd_log_t</ref></type>
+        <definition>hnd_log_t log</definition>
+        <argsstring></argsstring>
+        <name>log</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="276" column="15" bodyfile="source/whd_chip.h" bodystart="276" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwifi__console__t_1a26c303eb2249917950bf16dd6775e615" prot="public" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint bufsize</definition>
+        <argsstring></argsstring>
+        <name>bufsize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="277" column="10" bodyfile="source/whd_chip.h" bodystart="277" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwifi__console__t_1a1fe855c208bc17a51a4d34fefdb2d5b1" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* buf</definition>
+        <argsstring></argsstring>
+        <name>buf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="278" column="10" bodyfile="source/whd_chip.h" bodystart="278" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwifi__console__t_1ac0954e33738ff2e8ead30b7a5c4396dc" prot="public" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint last</definition>
+        <argsstring></argsstring>
+        <name>last</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="279" column="10" bodyfile="source/whd_chip.h" bodystart="279" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>hnd_log_t</label>
+        <link refid="structhnd__log__t"/>
+      </node>
+      <node id="1">
+        <label>wifi_console_t</label>
+        <link refid="structwifi__console__t"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>log</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="source/whd_chip.h" line="272" column="1" bodyfile="source/whd_chip.h" bodystart="273" bodyend="280"/>
+    <listofallmembers>
+      <member refid="structwifi__console__t_1a1fe855c208bc17a51a4d34fefdb2d5b1" prot="public" virt="non-virtual"><scope>wifi_console_t</scope><name>buf</name></member>
+      <member refid="structwifi__console__t_1a26c303eb2249917950bf16dd6775e615" prot="public" virt="non-virtual"><scope>wifi_console_t</scope><name>bufsize</name></member>
+      <member refid="structwifi__console__t_1ab77ade2208ba49f6e2b934ef32622c48" prot="public" virt="non-virtual"><scope>wifi_console_t</scope><name>count</name></member>
+      <member refid="structwifi__console__t_1ac0954e33738ff2e8ead30b7a5c4396dc" prot="public" virt="non-virtual"><scope>wifi_console_t</scope><name>last</name></member>
+      <member refid="structwifi__console__t_1af1ae131cc43fc6d4f6da066ac3118a6a" prot="public" virt="non-virtual"><scope>wifi_console_t</scope><name>log</name></member>
+      <member refid="structwifi__console__t_1a4ff62def617a0461f3e0e692f2f4a981" prot="public" virt="non-virtual"><scope>wifi_console_t</scope><name>log_addr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

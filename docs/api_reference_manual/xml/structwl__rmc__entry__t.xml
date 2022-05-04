@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwl__rmc__entry__t" kind="struct" language="C++" prot="public">
+    <compoundname>wl_rmc_entry_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwl__rmc__entry__t_1af03652c5e308d724b9b7a7663699596c" prot="public" static="no" mutable="no">
+        <type>int8_t</type>
+        <definition>int8_t flag</definition>
+        <argsstring></argsstring>
+        <name>flag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3652" column="12" bodyfile="source/whd_wlioctl.h" bodystart="3652" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__rmc__entry__t_1a4f463b46c44abe250da7733c7d9cae74" prot="public" static="no" mutable="no">
+        <type>struct ether_addr</type>
+        <definition>struct ether_addr addr</definition>
+        <argsstring></argsstring>
+        <name>addr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3653" column="21" bodyfile="source/whd_wlioctl.h" bodystart="3653" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="3647" column="1" bodyfile="source/whd_wlioctl.h" bodystart="3648" bodyend="3654"/>
+    <listofallmembers>
+      <member refid="structwl__rmc__entry__t_1a4f463b46c44abe250da7733c7d9cae74" prot="public" virt="non-virtual"><scope>wl_rmc_entry_t</scope><name>addr</name></member>
+      <member refid="structwl__rmc__entry__t_1af03652c5e308d724b9b7a7663699596c" prot="public" virt="non-virtual"><scope>wl_rmc_entry_t</scope><name>flag</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwl__p2p__ops__t" kind="struct" language="C++" prot="public">
+    <compoundname>wl_p2p_ops_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwl__p2p__ops__t_1a3f6972f318ba10b204b275a5180416c7" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t ops</definition>
+        <argsstring></argsstring>
+        <name>ops</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3511" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3511" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__p2p__ops__t_1adb5939ccc6de3076a9e15adf6f9e77e4" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t ctw</definition>
+        <argsstring></argsstring>
+        <name>ctw</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3512" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3512" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="3509" column="1" bodyfile="source/whd_wlioctl.h" bodystart="3510" bodyend="3513"/>
+    <listofallmembers>
+      <member refid="structwl__p2p__ops__t_1adb5939ccc6de3076a9e15adf6f9e77e4" prot="public" virt="non-virtual"><scope>wl_p2p_ops_t</scope><name>ctw</name></member>
+      <member refid="structwl__p2p__ops__t_1a3f6972f318ba10b204b275a5180416c7" prot="public" virt="non-virtual"><scope>wl_p2p_ops_t</scope><name>ops</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwl__tko__max__tcp__t" kind="struct" language="C++" prot="public">
+    <compoundname>wl_tko_max_tcp_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwl__tko__max__tcp__t_1ae40a9b9134f6733e9cc09e7ffb9c519c" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t max</definition>
+        <argsstring></argsstring>
+        <name>max</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3870" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3870" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__tko__max__tcp__t_1afe23e4c59de249880511510ea325a1ad" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t pad[3]</definition>
+        <argsstring>[3]</argsstring>
+        <name>pad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3871" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3871" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="3868" column="1" bodyfile="source/whd_wlioctl.h" bodystart="3869" bodyend="3872"/>
+    <listofallmembers>
+      <member refid="structwl__tko__max__tcp__t_1ae40a9b9134f6733e9cc09e7ffb9c519c" prot="public" virt="non-virtual"><scope>wl_tko_max_tcp_t</scope><name>max</name></member>
+      <member refid="structwl__tko__max__tcp__t_1afe23e4c59de249880511510ea325a1ad" prot="public" virt="non-virtual"><scope>wl_tko_max_tcp_t</scope><name>pad</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

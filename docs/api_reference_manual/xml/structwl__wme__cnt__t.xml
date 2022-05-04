@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwl__wme__cnt__t" kind="struct" language="C++" prot="public">
+    <compoundname>wl_wme_cnt_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwl__wme__cnt__t_1ab6d7b6f8c2ceaba7acda80aaf05f4899" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t version</definition>
+        <argsstring></argsstring>
+        <name>version</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2854" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2854" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__wme__cnt__t_1a1892eba2086d12ac2b09005aeb09ea3b" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t length</definition>
+        <argsstring></argsstring>
+        <name>length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2855" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2855" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__wme__cnt__t_1acb96f98e461fd9029ac010da545a7388" prot="public" static="no" mutable="no">
+        <type><ref refid="structwl__traffic__stats__t" kindref="compound">wl_traffic_stats_t</ref></type>
+        <definition>wl_traffic_stats_t tx[AC_COUNT]</definition>
+        <argsstring>[AC_COUNT]</argsstring>
+        <name>tx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2856" column="24" bodyfile="source/whd_wlioctl.h" bodystart="2856" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__wme__cnt__t_1ad08fd696d03992b65f269bc7276670ba" prot="public" static="no" mutable="no">
+        <type><ref refid="structwl__traffic__stats__t" kindref="compound">wl_traffic_stats_t</ref></type>
+        <definition>wl_traffic_stats_t tx_failed[AC_COUNT]</definition>
+        <argsstring>[AC_COUNT]</argsstring>
+        <name>tx_failed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2857" column="24" bodyfile="source/whd_wlioctl.h" bodystart="2857" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__wme__cnt__t_1aa26d49aeba547a20d8349f1fc3139ba2" prot="public" static="no" mutable="no">
+        <type><ref refid="structwl__traffic__stats__t" kindref="compound">wl_traffic_stats_t</ref></type>
+        <definition>wl_traffic_stats_t rx[AC_COUNT]</definition>
+        <argsstring>[AC_COUNT]</argsstring>
+        <name>rx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2858" column="24" bodyfile="source/whd_wlioctl.h" bodystart="2858" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__wme__cnt__t_1a3a8527b77c5f58637df7286792306e2b" prot="public" static="no" mutable="no">
+        <type><ref refid="structwl__traffic__stats__t" kindref="compound">wl_traffic_stats_t</ref></type>
+        <definition>wl_traffic_stats_t rx_failed[AC_COUNT]</definition>
+        <argsstring>[AC_COUNT]</argsstring>
+        <name>rx_failed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2859" column="24" bodyfile="source/whd_wlioctl.h" bodystart="2859" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__wme__cnt__t_1ad97bbe644a1d94e1dde1c0e5db45df72" prot="public" static="no" mutable="no">
+        <type><ref refid="structwl__traffic__stats__t" kindref="compound">wl_traffic_stats_t</ref></type>
+        <definition>wl_traffic_stats_t forward[AC_COUNT]</definition>
+        <argsstring>[AC_COUNT]</argsstring>
+        <name>forward</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2860" column="24" bodyfile="source/whd_wlioctl.h" bodystart="2860" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__wme__cnt__t_1a01996c033cb3b95154ab34fbc885964f" prot="public" static="no" mutable="no">
+        <type><ref refid="structwl__traffic__stats__t" kindref="compound">wl_traffic_stats_t</ref></type>
+        <definition>wl_traffic_stats_t tx_expired[AC_COUNT]</definition>
+        <argsstring>[AC_COUNT]</argsstring>
+        <name>tx_expired</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2861" column="24" bodyfile="source/whd_wlioctl.h" bodystart="2861" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>wl_traffic_stats_t</label>
+        <link refid="structwl__traffic__stats__t"/>
+      </node>
+      <node id="1">
+        <label>wl_wme_cnt_t</label>
+        <link refid="structwl__wme__cnt__t"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>forward</edgelabel>
+          <edgelabel>rx</edgelabel>
+          <edgelabel>rx_failed</edgelabel>
+          <edgelabel>tx</edgelabel>
+          <edgelabel>tx_expired</edgelabel>
+          <edgelabel>tx_failed</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="source/whd_wlioctl.h" line="2852" column="1" bodyfile="source/whd_wlioctl.h" bodystart="2853" bodyend="2862"/>
+    <listofallmembers>
+      <member refid="structwl__wme__cnt__t_1ad97bbe644a1d94e1dde1c0e5db45df72" prot="public" virt="non-virtual"><scope>wl_wme_cnt_t</scope><name>forward</name></member>
+      <member refid="structwl__wme__cnt__t_1a1892eba2086d12ac2b09005aeb09ea3b" prot="public" virt="non-virtual"><scope>wl_wme_cnt_t</scope><name>length</name></member>
+      <member refid="structwl__wme__cnt__t_1aa26d49aeba547a20d8349f1fc3139ba2" prot="public" virt="non-virtual"><scope>wl_wme_cnt_t</scope><name>rx</name></member>
+      <member refid="structwl__wme__cnt__t_1a3a8527b77c5f58637df7286792306e2b" prot="public" virt="non-virtual"><scope>wl_wme_cnt_t</scope><name>rx_failed</name></member>
+      <member refid="structwl__wme__cnt__t_1acb96f98e461fd9029ac010da545a7388" prot="public" virt="non-virtual"><scope>wl_wme_cnt_t</scope><name>tx</name></member>
+      <member refid="structwl__wme__cnt__t_1a01996c033cb3b95154ab34fbc885964f" prot="public" virt="non-virtual"><scope>wl_wme_cnt_t</scope><name>tx_expired</name></member>
+      <member refid="structwl__wme__cnt__t_1ad08fd696d03992b65f269bc7276670ba" prot="public" virt="non-virtual"><scope>wl_wme_cnt_t</scope><name>tx_failed</name></member>
+      <member refid="structwl__wme__cnt__t_1ab6d7b6f8c2ceaba7acda80aaf05f4899" prot="public" virt="non-virtual"><scope>wl_wme_cnt_t</scope><name>version</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

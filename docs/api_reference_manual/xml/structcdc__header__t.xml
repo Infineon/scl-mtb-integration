@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structcdc__header__t" kind="struct" language="C++" prot="public">
+    <compoundname>cdc_header_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structcdc__header__t_1a5e9712b08d7cbf6091f9e5334ff97b5d" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t cmd</definition>
+        <argsstring></argsstring>
+        <name>cmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_cdc_bdc.h" line="67" column="14" bodyfile="source/whd_cdc_bdc.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcdc__header__t_1a96bbf959016e4411c9e6b9812a8be60a" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t len</definition>
+        <argsstring></argsstring>
+        <name>len</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_cdc_bdc.h" line="68" column="14" bodyfile="source/whd_cdc_bdc.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcdc__header__t_1a773b39d480759f67926cb18ae2219281" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t flags</definition>
+        <argsstring></argsstring>
+        <name>flags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_cdc_bdc.h" line="69" column="14" bodyfile="source/whd_cdc_bdc.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcdc__header__t_1ade20423e91627f07e610924cb0081623" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t status</definition>
+        <argsstring></argsstring>
+        <name>status</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_cdc_bdc.h" line="70" column="14" bodyfile="source/whd_cdc_bdc.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_cdc_bdc.h" line="65" column="1" bodyfile="source/whd_cdc_bdc.h" bodystart="66" bodyend="71"/>
+    <listofallmembers>
+      <member refid="structcdc__header__t_1a5e9712b08d7cbf6091f9e5334ff97b5d" prot="public" virt="non-virtual"><scope>cdc_header_t</scope><name>cmd</name></member>
+      <member refid="structcdc__header__t_1a773b39d480759f67926cb18ae2219281" prot="public" virt="non-virtual"><scope>cdc_header_t</scope><name>flags</name></member>
+      <member refid="structcdc__header__t_1a96bbf959016e4411c9e6b9812a8be60a" prot="public" virt="non-virtual"><scope>cdc_header_t</scope><name>len</name></member>
+      <member refid="structcdc__header__t_1ade20423e91627f07e610924cb0081623" prot="public" virt="non-virtual"><scope>cdc_header_t</scope><name>status</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,225 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwlc__rev__info__t" kind="struct" language="C++" prot="public">
+    <compoundname>wlc_rev_info_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwlc__rev__info__t_1a93ea2ab7c94db5f0e6ce15aa09c5fbdb" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t vendorid</definition>
+        <argsstring></argsstring>
+        <name>vendorid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="620" column="14" bodyfile="source/whd_wlioctl.h" bodystart="620" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwlc__rev__info__t_1a917e63ac0e9613d192c7f1f9687de229" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t deviceid</definition>
+        <argsstring></argsstring>
+        <name>deviceid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="621" column="14" bodyfile="source/whd_wlioctl.h" bodystart="621" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwlc__rev__info__t_1a72fa1b17f664b8778f0d5b085aedfafb" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t radiorev</definition>
+        <argsstring></argsstring>
+        <name>radiorev</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="622" column="14" bodyfile="source/whd_wlioctl.h" bodystart="622" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwlc__rev__info__t_1a9fcd70cd06842cb0bc1891c7f733f8a0" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t chiprev</definition>
+        <argsstring></argsstring>
+        <name>chiprev</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="623" column="14" bodyfile="source/whd_wlioctl.h" bodystart="623" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwlc__rev__info__t_1a82e279aa46aadad6c0ad336eb5253b03" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t corerev</definition>
+        <argsstring></argsstring>
+        <name>corerev</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="624" column="14" bodyfile="source/whd_wlioctl.h" bodystart="624" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwlc__rev__info__t_1ae2463d7dd68ec85ac2176e9bf1e229d9" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t boardid</definition>
+        <argsstring></argsstring>
+        <name>boardid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="625" column="14" bodyfile="source/whd_wlioctl.h" bodystart="625" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwlc__rev__info__t_1a19257a31fa20781c0a7bed38603bc6c1" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t boardvendor</definition>
+        <argsstring></argsstring>
+        <name>boardvendor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="626" column="14" bodyfile="source/whd_wlioctl.h" bodystart="626" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwlc__rev__info__t_1a0bfb91038ba1320bcf924fd3048c5ef1" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t boardrev</definition>
+        <argsstring></argsstring>
+        <name>boardrev</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="627" column="14" bodyfile="source/whd_wlioctl.h" bodystart="627" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwlc__rev__info__t_1a6869273101143a36c49ed516cbe96db5" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t driverrev</definition>
+        <argsstring></argsstring>
+        <name>driverrev</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="628" column="14" bodyfile="source/whd_wlioctl.h" bodystart="628" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwlc__rev__info__t_1ae17954dbc45d9d2bfb1ed3ab94760251" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t ucoderev</definition>
+        <argsstring></argsstring>
+        <name>ucoderev</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="629" column="14" bodyfile="source/whd_wlioctl.h" bodystart="629" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwlc__rev__info__t_1af7a3d373a71623dc98660932f990f5d4" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t bus</definition>
+        <argsstring></argsstring>
+        <name>bus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="630" column="14" bodyfile="source/whd_wlioctl.h" bodystart="630" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwlc__rev__info__t_1ad3f8268f2cc41c1328badc1f225e2e98" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t chipnum</definition>
+        <argsstring></argsstring>
+        <name>chipnum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="631" column="14" bodyfile="source/whd_wlioctl.h" bodystart="631" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwlc__rev__info__t_1af7ff2ea37d9c2a37fb74863a8d90bf10" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t phytype</definition>
+        <argsstring></argsstring>
+        <name>phytype</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="632" column="14" bodyfile="source/whd_wlioctl.h" bodystart="632" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwlc__rev__info__t_1af4d6ea44b2995d92875ca95a2e57a3df" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t phyrev</definition>
+        <argsstring></argsstring>
+        <name>phyrev</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="633" column="14" bodyfile="source/whd_wlioctl.h" bodystart="633" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwlc__rev__info__t_1af54df4c79ca67fe390330cd8ca9c90aa" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t anarev</definition>
+        <argsstring></argsstring>
+        <name>anarev</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="634" column="14" bodyfile="source/whd_wlioctl.h" bodystart="634" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="618" column="1" bodyfile="source/whd_wlioctl.h" bodystart="619" bodyend="635"/>
+    <listofallmembers>
+      <member refid="structwlc__rev__info__t_1af54df4c79ca67fe390330cd8ca9c90aa" prot="public" virt="non-virtual"><scope>wlc_rev_info_t</scope><name>anarev</name></member>
+      <member refid="structwlc__rev__info__t_1ae2463d7dd68ec85ac2176e9bf1e229d9" prot="public" virt="non-virtual"><scope>wlc_rev_info_t</scope><name>boardid</name></member>
+      <member refid="structwlc__rev__info__t_1a0bfb91038ba1320bcf924fd3048c5ef1" prot="public" virt="non-virtual"><scope>wlc_rev_info_t</scope><name>boardrev</name></member>
+      <member refid="structwlc__rev__info__t_1a19257a31fa20781c0a7bed38603bc6c1" prot="public" virt="non-virtual"><scope>wlc_rev_info_t</scope><name>boardvendor</name></member>
+      <member refid="structwlc__rev__info__t_1af7a3d373a71623dc98660932f990f5d4" prot="public" virt="non-virtual"><scope>wlc_rev_info_t</scope><name>bus</name></member>
+      <member refid="structwlc__rev__info__t_1ad3f8268f2cc41c1328badc1f225e2e98" prot="public" virt="non-virtual"><scope>wlc_rev_info_t</scope><name>chipnum</name></member>
+      <member refid="structwlc__rev__info__t_1a9fcd70cd06842cb0bc1891c7f733f8a0" prot="public" virt="non-virtual"><scope>wlc_rev_info_t</scope><name>chiprev</name></member>
+      <member refid="structwlc__rev__info__t_1a82e279aa46aadad6c0ad336eb5253b03" prot="public" virt="non-virtual"><scope>wlc_rev_info_t</scope><name>corerev</name></member>
+      <member refid="structwlc__rev__info__t_1a917e63ac0e9613d192c7f1f9687de229" prot="public" virt="non-virtual"><scope>wlc_rev_info_t</scope><name>deviceid</name></member>
+      <member refid="structwlc__rev__info__t_1a6869273101143a36c49ed516cbe96db5" prot="public" virt="non-virtual"><scope>wlc_rev_info_t</scope><name>driverrev</name></member>
+      <member refid="structwlc__rev__info__t_1af4d6ea44b2995d92875ca95a2e57a3df" prot="public" virt="non-virtual"><scope>wlc_rev_info_t</scope><name>phyrev</name></member>
+      <member refid="structwlc__rev__info__t_1af7ff2ea37d9c2a37fb74863a8d90bf10" prot="public" virt="non-virtual"><scope>wlc_rev_info_t</scope><name>phytype</name></member>
+      <member refid="structwlc__rev__info__t_1a72fa1b17f664b8778f0d5b085aedfafb" prot="public" virt="non-virtual"><scope>wlc_rev_info_t</scope><name>radiorev</name></member>
+      <member refid="structwlc__rev__info__t_1ae17954dbc45d9d2bfb1ed3ab94760251" prot="public" virt="non-virtual"><scope>wlc_rev_info_t</scope><name>ucoderev</name></member>
+      <member refid="structwlc__rev__info__t_1a93ea2ab7c94db5f0e6ce15aa09c5fbdb" prot="public" virt="non-virtual"><scope>wlc_rev_info_t</scope><name>vendorid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

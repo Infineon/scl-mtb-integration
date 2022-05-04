@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwl__pkt__filter__list__t" kind="struct" language="C++" prot="public">
+    <compoundname>wl_pkt_filter_list_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwl__pkt__filter__list__t_1a7beea8f6745c478347f244cadef771c2" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t num</definition>
+        <argsstring></argsstring>
+        <name>num</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3227" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3227" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__pkt__filter__list__t_1a671c58ef818a96069c183beef8703b83" prot="public" static="no" mutable="no">
+        <type><ref refid="structwl__pkt__filter__t" kindref="compound">wl_pkt_filter_t</ref></type>
+        <definition>wl_pkt_filter_t filter[1]</definition>
+        <argsstring>[1]</argsstring>
+        <name>filter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3228" column="21" bodyfile="source/whd_wlioctl.h" bodystart="3228" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>wl_pkt_filter_list_t</label>
+        <link refid="structwl__pkt__filter__list__t"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>filter</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>wl_pkt_filter_pattern_t</label>
+        <link refid="structwl__pkt__filter__pattern__t"/>
+      </node>
+      <node id="2">
+        <label>wl_pkt_filter_t</label>
+        <link refid="structwl__pkt__filter__t"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>pattern</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="source/whd_wlioctl.h" line="3225" column="1" bodyfile="source/whd_wlioctl.h" bodystart="3226" bodyend="3229"/>
+    <listofallmembers>
+      <member refid="structwl__pkt__filter__list__t_1a671c58ef818a96069c183beef8703b83" prot="public" virt="non-virtual"><scope>wl_pkt_filter_list_t</scope><name>filter</name></member>
+      <member refid="structwl__pkt__filter__list__t_1a7beea8f6745c478347f244cadef771c2" prot="public" virt="non-virtual"><scope>wl_pkt_filter_list_t</scope><name>num</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

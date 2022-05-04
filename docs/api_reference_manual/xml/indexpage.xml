@@ -1,9 +1,10 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="indexpage" kind="page">
     <compoundname>index</compoundname>
     <title>Overview</title>
     <briefdescription>
+<para>SCL MTB Integration is a library which translates Wi-Fi Host Driver (WHD) APIs to Subsystems Communication Layer (SCL) APIs. </para>
     </briefdescription>
     <detaileddescription>
 <para>SCL MTB Integration is a library which translates Wi-Fi Host Driver (WHD) APIs to Subsystems Communication Layer (SCL) APIs. Applications using WHD can use SCL with the help of SCL MTB Integration. The library APIs are thread-safe.</para>
@@ -14,19 +15,19 @@
 </listitem><listitem><para>lwIP network stack, FreeRTOS and Wi-Fi Connection Manager to join and communication with a network</para>
 </listitem></itemizedlist>
 </para>
-<para>The following APIs are supported <programlisting><codeline><highlight class="normal">whd_wifi_set_ioctl_value</highlight></codeline>
-<codeline><highlight class="normal">whd_wifi_get_bss_info</highlight></codeline>
-<codeline><highlight class="normal">whd_wifi_is_ready_to_transceive</highlight></codeline>
-<codeline><highlight class="normal">whd_wifi_on</highlight></codeline>
-<codeline><highlight class="normal">whd_wifi_join</highlight></codeline>
-<codeline><highlight class="normal">cybsp_wifi_init_primary</highlight></codeline>
-<codeline><highlight class="normal">whd_wifi_get_mac_address</highlight></codeline>
-<codeline><highlight class="normal">whd_wifi_register_multicast_address</highlight></codeline>
-<codeline><highlight class="normal">whd_network_send_ethernet_data</highlight></codeline>
-<codeline><highlight class="normal">whd_management_set_event_handler</highlight></codeline>
-<codeline><highlight class="normal">whd_wifi_leave</highlight></codeline>
-<codeline><highlight class="normal">whd_wifi_deregister_event_handler</highlight></codeline>
-<codeline><highlight class="normal">whd_wifi_scan</highlight></codeline>
+<para>The following APIs are supported <programlisting><codeline><highlight class="normal"><ref refid="group__wifiioctl_1gad54ac84589a14cc97429bf138fa32639" kindref="member">whd_wifi_set_ioctl_value</ref></highlight></codeline>
+<codeline><highlight class="normal"><ref refid="group__dbg_1gab4a8c97085b18321d8d682b1578edf7d" kindref="member">whd_wifi_get_bss_info</ref></highlight></codeline>
+<codeline><highlight class="normal"><ref refid="group__wifiutilities_1ga07144bbc68755481708752962538ee6f" kindref="member">whd_wifi_is_ready_to_transceive</ref></highlight></codeline>
+<codeline><highlight class="normal"><ref refid="group__wifimanagement_1ga1c8bf41b593cb947266f8690d495f381" kindref="member">whd_wifi_on</ref></highlight></codeline>
+<codeline><highlight class="normal"><ref refid="group__wifijoin_1gac767814ae445f735b51686db20c780be" kindref="member">whd_wifi_join</ref></highlight></codeline>
+<codeline><highlight class="normal"><ref refid="group__group__bsp__wifi_1ga24ad5371221b9b7690a5470add6f0e3f" kindref="member">cybsp_wifi_init_primary</ref></highlight></codeline>
+<codeline><highlight class="normal"><ref refid="group__wifiutilities_1ga8a634822973adc75a61a05eb2b664ef5" kindref="member">whd_wifi_get_mac_address</ref></highlight></codeline>
+<codeline><highlight class="normal"><ref refid="group__wifiutilities_1gab36ff07aa1d825c0366c82ce003dd9f6" kindref="member">whd_wifi_register_multicast_address</ref></highlight></codeline>
+<codeline><highlight class="normal"><ref refid="group__netif_1ga3642a8b0fe0df7449730bec92e09c7d4" kindref="member">whd_network_send_ethernet_data</ref></highlight></codeline>
+<codeline><highlight class="normal"><ref refid="whd__events_8h_1a5758f1bbdebed667cde8f63f0dac0362" kindref="member">whd_management_set_event_handler</ref></highlight></codeline>
+<codeline><highlight class="normal"><ref refid="group__wifijoin_1ga971ed7d8e459c715aa9bf3c52b563d8b" kindref="member">whd_wifi_leave</ref></highlight></codeline>
+<codeline><highlight class="normal"><ref refid="whd__events_8h_1ae415f1f3fcbbfe506aa0e656bf8debb3" kindref="member">whd_wifi_deregister_event_handler</ref></highlight></codeline>
+<codeline><highlight class="normal"><ref refid="group__wifijoin_1ga82d8c980d15acf0e6e18b56423f4e52b" kindref="member">whd_wifi_scan</ref></highlight></codeline>
 </programlisting></para>
 </sect1>
 <sect1 id="index_1section_folder_structure">
@@ -58,5 +59,6 @@
 </para>
 </sect1>
     </detaileddescription>
+    <location file="doxyfile_main_page.txt"/>
   </compounddef>
 </doxygen>

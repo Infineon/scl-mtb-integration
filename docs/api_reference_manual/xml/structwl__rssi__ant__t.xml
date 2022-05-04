@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwl__rssi__ant__t" kind="struct" language="C++" prot="public">
+    <compoundname>wl_rssi_ant_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwl__rssi__ant__t_1acd99bb05ca015e7d74448acb1deba7ca" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t version</definition>
+        <argsstring></argsstring>
+        <name>version</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1325" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1325" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__rssi__ant__t_1a86988a65e0d3ece7990c032c159786d6" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t count</definition>
+        <argsstring></argsstring>
+        <name>count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1326" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1326" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__rssi__ant__t_1a0dc6f3ca472a278f381fe559d917ddaa" prot="public" static="no" mutable="no">
+        <type>int8_t</type>
+        <definition>int8_t rssi_ant[WL_RSSI_ANT_MAX]</definition>
+        <argsstring>[WL_RSSI_ANT_MAX]</argsstring>
+        <name>rssi_ant</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1327" column="12" bodyfile="source/whd_wlioctl.h" bodystart="1327" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="1323" column="1" bodyfile="source/whd_wlioctl.h" bodystart="1324" bodyend="1328"/>
+    <listofallmembers>
+      <member refid="structwl__rssi__ant__t_1a86988a65e0d3ece7990c032c159786d6" prot="public" virt="non-virtual"><scope>wl_rssi_ant_t</scope><name>count</name></member>
+      <member refid="structwl__rssi__ant__t_1a0dc6f3ca472a278f381fe559d917ddaa" prot="public" virt="non-virtual"><scope>wl_rssi_ant_t</scope><name>rssi_ant</name></member>
+      <member refid="structwl__rssi__ant__t_1acd99bb05ca015e7d74448acb1deba7ca" prot="public" virt="non-virtual"><scope>wl_rssi_ant_t</scope><name>version</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

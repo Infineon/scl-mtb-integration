@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structhnd__cons__t" kind="struct" language="C++" prot="public">
+    <compoundname>hnd_cons_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structhnd__cons__t_1ad8669324e7b3ff7516388c25c7026563" prot="public" static="no" mutable="no">
+        <type>volatile uint</type>
+        <definition>volatile uint vcons_in</definition>
+        <argsstring></argsstring>
+        <name>vcons_in</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="254" column="19" bodyfile="source/whd_chip.h" bodystart="254" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structhnd__cons__t_1acfd2b35a6caa24e31a54430ab3665f63" prot="public" static="no" mutable="no">
+        <type>volatile uint</type>
+        <definition>volatile uint vcons_out</definition>
+        <argsstring></argsstring>
+        <name>vcons_out</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="255" column="19" bodyfile="source/whd_chip.h" bodystart="255" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structhnd__cons__t_1af1ae131cc43fc6d4f6da066ac3118a6a" prot="public" static="no" mutable="no">
+        <type><ref refid="structhnd__log__t" kindref="compound">hnd_log_t</ref></type>
+        <definition>hnd_log_t log</definition>
+        <argsstring></argsstring>
+        <name>log</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="262" column="15" bodyfile="source/whd_chip.h" bodystart="262" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structhnd__cons__t_1a9e5c32519bbc9ccd7aa17f4701b0a2f6" prot="public" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint cbuf_idx</definition>
+        <argsstring></argsstring>
+        <name>cbuf_idx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="268" column="10" bodyfile="source/whd_chip.h" bodystart="268" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structhnd__cons__t_1a677a3a318e5d44acb05afbb025e13740" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char cbuf[CBUF_LEN]</definition>
+        <argsstring>[CBUF_LEN]</argsstring>
+        <name>cbuf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="269" column="10" bodyfile="source/whd_chip.h" bodystart="269" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>hnd_cons_t</label>
+        <link refid="structhnd__cons__t"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>log</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>hnd_log_t</label>
+        <link refid="structhnd__log__t"/>
+      </node>
+    </collaborationgraph>
+    <location file="source/whd_chip.h" line="246" column="1" bodyfile="source/whd_chip.h" bodystart="247" bodyend="270"/>
+    <listofallmembers>
+      <member refid="structhnd__cons__t_1a677a3a318e5d44acb05afbb025e13740" prot="public" virt="non-virtual"><scope>hnd_cons_t</scope><name>cbuf</name></member>
+      <member refid="structhnd__cons__t_1a9e5c32519bbc9ccd7aa17f4701b0a2f6" prot="public" virt="non-virtual"><scope>hnd_cons_t</scope><name>cbuf_idx</name></member>
+      <member refid="structhnd__cons__t_1af1ae131cc43fc6d4f6da066ac3118a6a" prot="public" virt="non-virtual"><scope>hnd_cons_t</scope><name>log</name></member>
+      <member refid="structhnd__cons__t_1ad8669324e7b3ff7516388c25c7026563" prot="public" virt="non-virtual"><scope>hnd_cons_t</scope><name>vcons_in</name></member>
+      <member refid="structhnd__cons__t_1acfd2b35a6caa24e31a54430ab3665f63" prot="public" virt="non-virtual"><scope>hnd_cons_t</scope><name>vcons_out</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

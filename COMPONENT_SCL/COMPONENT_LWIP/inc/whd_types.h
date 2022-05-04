@@ -57,6 +57,8 @@ extern "C"
 #define PM2_POWERSAVE_MODE          (2) /**< Powersave mode on specified interface with High throughput */
 #define NO_POWERSAVE_MODE           (0) /**< No Powersave mode */
 
+#define PMKID_LEN                   (16) /**< PMKID LENGTH */
+
 /**
  * Suppress unused parameter warning
  */
@@ -145,6 +147,12 @@ typedef struct whd_tko_status whd_tko_status_t;
  * cache size of the platform for better performance
  */
 #define WHD_LINK_MTU            (WHD_PAYLOAD_MTU + WHD_PHYSICAL_HEADER)
+
+/* Reason codes for LINK */
+#define WLC_E_LINK_BCN_LOSS     1 /**< Link down because of beacon loss */
+#define WLC_E_LINK_DISASSOC     2 /**< Link down because of disassoc */
+#define WLC_E_LINK_ASSOC_REC    3 /**< Link down because assoc recreate failed */
+#define WLC_E_LINK_BSSCFG_DIS   4 /**< Link down due to bsscfg down */
 
 /** @cond */
 #ifdef __x86_64__
@@ -265,6 +273,14 @@ typedef enum
     WHD_REMOVE_CUSTOM_IE /**< Remove a custom IE(Information Element) */
 } whd_custom_ie_action_t;
 
+/**
+ * Expand fw capabilities list to enumeration
+ */
+typedef enum
+{
+    WHD_FWCAP_SAE = 0,     /**< Internal SAE */
+    WHD_FWCAP_SAE_EXT = 1, /**< External SAE */
+} whd_fwcap_id_t;
 
 /**
  * Enumeration of listen interval time unit types
@@ -286,6 +302,15 @@ typedef enum
 } whd_scan_status_t;
 
 /**
+ * Structure for storing status of auth event
+ */
+typedef enum
+{
+    WHD_AUTH_EXT_REQ,           /**< Request authentication received */
+    WHD_AUTH_EXT_FRAME_RX,      /**< Authentication frame received */
+} whd_auth_status_t;
+
+/**
  * Structure for storing radio band list information
  */
 typedef struct
@@ -301,7 +326,8 @@ typedef struct
 typedef enum
 {
     WHD_SCAN_RESULT_FLAG_RSSI_OFF_CHANNEL = 0x01, /**< RSSI came from an off channel DSSS (1 or 1 Mb) Rx */
-    WHD_SCAN_RESULT_FLAG_BEACON = 0x02            /**< Beacon (vs probe response)                        */
+    WHD_SCAN_RESULT_FLAG_BEACON = 0x02,           /**< Beacon (vs probe response)                        */
+    WHD_SCAN_RESULT_FLAG_SAE_H2E = 0x04           /**< BSS is H2E(Hash-to-Element)                       */
 } whd_scan_result_flag_t;
 
 /**
@@ -971,6 +997,44 @@ typedef struct
     uint8_t length;   /**< WEP key length. Either 5 bytes (40-bits) or 13-bytes (104-bits) */
     uint8_t data[32]; /**< WEP key as values NOT characters                                */
 } whd_wep_key_t;
+
+/**
+ * Structure used by both dongle and host
+ * dongle asks host to start auth(SAE), host updates auth status to dongle.
+ */
+typedef struct whd_auth_req_status
+{
+    uint16_t flags;     /**< respective flags */
+    whd_mac_t peer_mac; /**< peer mac address */
+    uint32_t ssid_len;  /**< length of ssid */
+    uint8_t ssid[SSID_NAME_SIZE]; /**< SSID */
+    uint8_t pmkid[PMKID_LEN]; /**< pmk id */
+} whd_auth_req_status_t;
+
+/**
+ * Structure describing a list of PMKID
+ */
+typedef struct _pmkid
+{
+    whd_mac_t BSSID; /**< BSSID */
+    uint8_t PMKID[PMKID_LEN]; /**< pmkid */
+} pmkid_t;
+
+/**
+ * Structure for management frame(auth) params
+ */
+typedef struct whd_auth_params
+{
+    uint32_t version;   /**< version number */
+    uint32_t dwell_time; /**< dwell time */
+    uint16_t len; /**< Len includes Len(MAC Headers) + Len(Contents) */
+    uint16_t fc; /**< fc number */
+    uint16_t channel; /**< channel number */
+    whd_mac_t da; /**< mac address */
+    whd_mac_t bssid; /**< BSSID address */
+    uint32_t packetId; /**< packet id */
+    uint8_t data[1];  /**< It contains MAC Headers + Contexts */
+} whd_auth_params_t;
 
 /**
  * Structure for Out-of-band interrupt config parameters which can be set by application during whd power up

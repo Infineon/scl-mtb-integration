@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwl__relmcast__status__t" kind="struct" language="C++" prot="public">
+    <compoundname>wl_relmcast_status_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwl__relmcast__status__t_1ae106cd5a700482b11ccde5ee231f6350" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t ver</definition>
+        <argsstring></argsstring>
+        <name>ver</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3639" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3639" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__relmcast__status__t_1abea371f9030e15a5d2a4c181576833d8" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t num</definition>
+        <argsstring></argsstring>
+        <name>num</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3640" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3640" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__relmcast__status__t_1af6c83d2123fd00b3738d16db7860e6d2" prot="public" static="no" mutable="no">
+        <type><ref refid="structwl__relmcast__client__t" kindref="compound">wl_relmcast_client_t</ref></type>
+        <definition>wl_relmcast_client_t clients[WL_RMC_MAX_CLIENT]</definition>
+        <argsstring>[WL_RMC_MAX_CLIENT]</argsstring>
+        <name>clients</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3641" column="26" bodyfile="source/whd_wlioctl.h" bodystart="3641" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__relmcast__status__t_1a2f3f50eb06b741a0f6d4011ce5804819" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t err</definition>
+        <argsstring></argsstring>
+        <name>err</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3642" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3642" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__relmcast__status__t_1a6a1fc14dd875bf79eb22de91521ac540" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t actf_time</definition>
+        <argsstring></argsstring>
+        <name>actf_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3643" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3643" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>wl_relmcast_client_t</label>
+        <link refid="structwl__relmcast__client__t"/>
+      </node>
+      <node id="1">
+        <label>wl_relmcast_status_t</label>
+        <link refid="structwl__relmcast__status__t"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>clients</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="source/whd_wlioctl.h" line="3637" column="1" bodyfile="source/whd_wlioctl.h" bodystart="3638" bodyend="3644"/>
+    <listofallmembers>
+      <member refid="structwl__relmcast__status__t_1a6a1fc14dd875bf79eb22de91521ac540" prot="public" virt="non-virtual"><scope>wl_relmcast_status_t</scope><name>actf_time</name></member>
+      <member refid="structwl__relmcast__status__t_1af6c83d2123fd00b3738d16db7860e6d2" prot="public" virt="non-virtual"><scope>wl_relmcast_status_t</scope><name>clients</name></member>
+      <member refid="structwl__relmcast__status__t_1a2f3f50eb06b741a0f6d4011ce5804819" prot="public" virt="non-virtual"><scope>wl_relmcast_status_t</scope><name>err</name></member>
+      <member refid="structwl__relmcast__status__t_1abea371f9030e15a5d2a4c181576833d8" prot="public" virt="non-virtual"><scope>wl_relmcast_status_t</scope><name>num</name></member>
+      <member refid="structwl__relmcast__status__t_1ae106cd5a700482b11ccde5ee231f6350" prot="public" virt="non-virtual"><scope>wl_relmcast_status_t</scope><name>ver</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

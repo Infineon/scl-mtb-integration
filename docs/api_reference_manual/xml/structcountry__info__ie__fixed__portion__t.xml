@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structcountry__info__ie__fixed__portion__t" kind="struct" language="C++" prot="public">
+    <compoundname>country_info_ie_fixed_portion_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structcountry__info__ie__fixed__portion__t_1a4a3e80f76a80b2bfce6f269984e58f9b" prot="public" static="no" mutable="no">
+        <type><ref refid="structwhd__tlv8__header__t" kindref="compound">whd_tlv8_header_t</ref></type>
+        <definition>whd_tlv8_header_t tlv_header</definition>
+        <argsstring></argsstring>
+        <name>tlv_header</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="160" column="23" bodyfile="source/whd_chip.h" bodystart="160" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcountry__info__ie__fixed__portion__t_1a2a8402f89471a78cdbcd747911aa1f20" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char ccode[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>ccode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="161" column="10" bodyfile="source/whd_chip.h" bodystart="161" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcountry__info__ie__fixed__portion__t_1ab575f2cc54f1b6fca680773767b6d347" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t env</definition>
+        <argsstring></argsstring>
+        <name>env</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="162" column="13" bodyfile="source/whd_chip.h" bodystart="162" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcountry__info__ie__fixed__portion__t_1ae0bbd09cb2d5d06dd023eacbf7da3e40" prot="public" static="no" mutable="no">
+        <type><ref refid="structcountry__chan__info__t" kindref="compound">country_chan_info_t</ref></type>
+        <definition>country_chan_info_t country_chan_info[1]</definition>
+        <argsstring>[1]</argsstring>
+        <name>country_chan_info</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="163" column="25" bodyfile="source/whd_chip.h" bodystart="163" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>country_chan_info_t</label>
+        <link refid="structcountry__chan__info__t"/>
+      </node>
+      <node id="1">
+        <label>country_info_ie_fixed_portion_t</label>
+        <link refid="structcountry__info__ie__fixed__portion__t"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>tlv_header</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>country_chan_info</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>whd_tlv8_header_t</label>
+        <link refid="structwhd__tlv8__header__t"/>
+      </node>
+    </collaborationgraph>
+    <location file="source/whd_chip.h" line="158" column="1" bodyfile="source/whd_chip.h" bodystart="159" bodyend="164"/>
+    <listofallmembers>
+      <member refid="structcountry__info__ie__fixed__portion__t_1a2a8402f89471a78cdbcd747911aa1f20" prot="public" virt="non-virtual"><scope>country_info_ie_fixed_portion_t</scope><name>ccode</name></member>
+      <member refid="structcountry__info__ie__fixed__portion__t_1ae0bbd09cb2d5d06dd023eacbf7da3e40" prot="public" virt="non-virtual"><scope>country_info_ie_fixed_portion_t</scope><name>country_chan_info</name></member>
+      <member refid="structcountry__info__ie__fixed__portion__t_1ab575f2cc54f1b6fca680773767b6d347" prot="public" virt="non-virtual"><scope>country_info_ie_fixed_portion_t</scope><name>env</name></member>
+      <member refid="structcountry__info__ie__fixed__portion__t_1a4a3e80f76a80b2bfce6f269984e58f9b" prot="public" virt="non-virtual"><scope>country_info_ie_fixed_portion_t</scope><name>tlv_header</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwsec__pmk__t" kind="struct" language="C++" prot="public">
+    <compoundname>wsec_pmk_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwsec__pmk__t_1a0c516013144d696227f6a1eecb856566" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t key_len</definition>
+        <argsstring></argsstring>
+        <name>key_len</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="396" column="14" bodyfile="source/whd_wlioctl.h" bodystart="396" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwsec__pmk__t_1a1e87af3c18a2fd36c61faf89949bdc3f" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t flags</definition>
+        <argsstring></argsstring>
+        <name>flags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="397" column="14" bodyfile="source/whd_wlioctl.h" bodystart="397" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwsec__pmk__t_1a61354bb7cec3829c79b41e0faa9296e8" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t key[WSEC_MAX_PSK_LEN]</definition>
+        <argsstring>[WSEC_MAX_PSK_LEN]</argsstring>
+        <name>key</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="398" column="13" bodyfile="source/whd_wlioctl.h" bodystart="398" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="394" column="1" bodyfile="source/whd_wlioctl.h" bodystart="395" bodyend="399"/>
+    <listofallmembers>
+      <member refid="structwsec__pmk__t_1a1e87af3c18a2fd36c61faf89949bdc3f" prot="public" virt="non-virtual"><scope>wsec_pmk_t</scope><name>flags</name></member>
+      <member refid="structwsec__pmk__t_1a61354bb7cec3829c79b41e0faa9296e8" prot="public" virt="non-virtual"><scope>wsec_pmk_t</scope><name>key</name></member>
+      <member refid="structwsec__pmk__t_1a0c516013144d696227f6a1eecb856566" prot="public" virt="non-virtual"><scope>wsec_pmk_t</scope><name>key_len</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

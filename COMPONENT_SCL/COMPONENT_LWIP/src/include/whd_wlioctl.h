@@ -456,11 +456,7 @@ typedef enum
 
 #define    MAXPMKID                 16
 #define WPA2_PMKID_LEN              16
-typedef struct _pmkid
-{
-    wl_ether_addr_t BSSID;
-    uint8_t PMKID[WPA2_PMKID_LEN];
-} pmkid_t;
+
 typedef struct _pmkid_list
 {
     uint32_t npmkid;

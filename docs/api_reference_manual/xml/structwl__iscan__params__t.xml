@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwl__iscan__params__t" kind="struct" language="C++" prot="public">
+    <compoundname>wl_iscan_params_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwl__iscan__params__t_1acd99bb05ca015e7d74448acb1deba7ca" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t version</definition>
+        <argsstring></argsstring>
+        <name>version</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="139" column="14" bodyfile="source/whd_wlioctl.h" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__iscan__params__t_1a10f0de7b325aba5299cdc4fa6c6189c9" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t action</definition>
+        <argsstring></argsstring>
+        <name>action</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="140" column="14" bodyfile="source/whd_wlioctl.h" bodystart="140" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__iscan__params__t_1a45014fcdc8dbfa5a6fab7051bc7f3c43" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t scan_duration</definition>
+        <argsstring></argsstring>
+        <name>scan_duration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="141" column="14" bodyfile="source/whd_wlioctl.h" bodystart="141" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__iscan__params__t_1a22e5cc4284234faa7ba21eab8b3bbdb9" prot="public" static="no" mutable="no">
+        <type><ref refid="structwl__scan__params__t" kindref="compound">wl_scan_params_t</ref></type>
+        <definition>wl_scan_params_t params</definition>
+        <argsstring></argsstring>
+        <name>params</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="142" column="22" bodyfile="source/whd_wlioctl.h" bodystart="142" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="4">
+        <label>wl_ether_addr_t</label>
+        <link refid="structwl__ether__addr__t"/>
+      </node>
+      <node id="1">
+        <label>wl_iscan_params_t</label>
+        <link refid="structwl__iscan__params__t"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>params</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>wl_scan_params_t</label>
+        <link refid="structwl__scan__params__t"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>ssid</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>bssid</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>wlc_ssid_t</label>
+        <link refid="structwlc__ssid__t"/>
+      </node>
+    </collaborationgraph>
+    <location file="source/whd_wlioctl.h" line="137" column="1" bodyfile="source/whd_wlioctl.h" bodystart="138" bodyend="143"/>
+    <listofallmembers>
+      <member refid="structwl__iscan__params__t_1a10f0de7b325aba5299cdc4fa6c6189c9" prot="public" virt="non-virtual"><scope>wl_iscan_params_t</scope><name>action</name></member>
+      <member refid="structwl__iscan__params__t_1a22e5cc4284234faa7ba21eab8b3bbdb9" prot="public" virt="non-virtual"><scope>wl_iscan_params_t</scope><name>params</name></member>
+      <member refid="structwl__iscan__params__t_1a45014fcdc8dbfa5a6fab7051bc7f3c43" prot="public" virt="non-virtual"><scope>wl_iscan_params_t</scope><name>scan_duration</name></member>
+      <member refid="structwl__iscan__params__t_1acd99bb05ca015e7d74448acb1deba7ca" prot="public" virt="non-virtual"><scope>wl_iscan_params_t</scope><name>version</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,311 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwhd__driver" kind="struct" language="C++" prot="public">
+    <compoundname>whd_driver</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwhd__driver_1af8cddb3f40234b03d736d01231e3e396" prot="public" static="no" mutable="no">
+        <type>whd_interface_t</type>
+        <definition>whd_interface_t iflist[WHD_INTERFACE_MAX]</definition>
+        <argsstring>[WHD_INTERFACE_MAX]</argsstring>
+        <name>iflist</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_int.h" line="71" column="21" bodyfile="source/whd_int.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__driver_1a91d13235a144ce9034cfac8436bf28ba" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t if2ifp[WHD_INTERFACE_MAX]</definition>
+        <argsstring>[WHD_INTERFACE_MAX]</argsstring>
+        <name>if2ifp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_int.h" line="72" column="13" bodyfile="source/whd_int.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__driver_1a01522e3f722b27dbbc01a449d0b8b838" prot="public" static="no" mutable="no">
+        <type>struct whd_bus_info *</type>
+        <definition>struct whd_bus_info* bus_if</definition>
+        <argsstring></argsstring>
+        <name>bus_if</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_int.h" line="75" column="23" bodyfile="source/whd_int.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__driver_1a4bcdedd81218c1faf5ace1b11916c5c7" prot="public" static="no" mutable="no">
+        <type>struct whd_bus_priv *</type>
+        <definition>struct whd_bus_priv* bus_priv</definition>
+        <argsstring></argsstring>
+        <name>bus_priv</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_int.h" line="76" column="23" bodyfile="source/whd_int.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__driver_1a6e3430e13b299f933b352eaf6272cec4" prot="public" static="no" mutable="no">
+        <type>struct whd_bus_common_info *</type>
+        <definition>struct whd_bus_common_info* bus_common_info</definition>
+        <argsstring></argsstring>
+        <name>bus_common_info</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_int.h" line="77" column="30" bodyfile="source/whd_int.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__driver_1a7ce40d57daabda2ef53ba8f73fc4f317" prot="public" static="no" mutable="no">
+        <type>whd_buffer_funcs_t *</type>
+        <definition>whd_buffer_funcs_t* buffer_if</definition>
+        <argsstring></argsstring>
+        <name>buffer_if</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_int.h" line="78" column="24" bodyfile="source/whd_int.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__driver_1a6ca8e96071c7f985495f993d8bec881e" prot="public" static="no" mutable="no">
+        <type><ref refid="whd__types_8h_1a7cd94a03f2e7e6aab7217ed559c7a0ac" kindref="member">whd_bool_t</ref></type>
+        <definition>whd_bool_t bus_gspi_32bit</definition>
+        <argsstring></argsstring>
+        <name>bus_gspi_32bit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_int.h" line="80" column="16" bodyfile="source/whd_int.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__driver_1abc3affb33acefdde00c5621d38f46781" prot="public" static="no" mutable="no">
+        <type><ref refid="structwhd__cdc__bdc__info__t" kindref="compound">whd_cdc_bdc_info_t</ref></type>
+        <definition>whd_cdc_bdc_info_t cdc_bdc_info</definition>
+        <argsstring></argsstring>
+        <name>cdc_bdc_info</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_int.h" line="82" column="24" bodyfile="source/whd_int.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__driver_1a4020381046a0933f3882669b41d4c93b" prot="public" static="no" mutable="no">
+        <type><ref refid="structwhd__internal__info__t" kindref="compound">whd_internal_info_t</ref></type>
+        <definition>whd_internal_info_t internal_info</definition>
+        <argsstring></argsstring>
+        <name>internal_info</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_int.h" line="83" column="25" bodyfile="source/whd_int.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__driver_1a66cbdf078d841ba4449d5c2d8304ba44" prot="public" static="no" mutable="no">
+        <type><ref refid="structwhd__chip__info__t" kindref="compound">whd_chip_info_t</ref></type>
+        <definition>whd_chip_info_t chip_info</definition>
+        <argsstring></argsstring>
+        <name>chip_info</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_int.h" line="84" column="21" bodyfile="source/whd_int.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__driver_1a36df909ff279bcd3253be34dc78948fe" prot="public" static="no" mutable="no">
+        <type><ref refid="structwhd__stats__t" kindref="compound">whd_stats_t</ref></type>
+        <definition>whd_stats_t whd_stats</definition>
+        <argsstring></argsstring>
+        <name>whd_stats</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_int.h" line="86" column="17" bodyfile="source/whd_int.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__driver_1a7c552f1f715c8aa245f40d4be48b0fc9" prot="public" static="no" mutable="no">
+        <type><ref refid="whd__types_8h_1a5adb0953a8527552bc47001673830602" kindref="member">whd_country_code_t</ref></type>
+        <definition>whd_country_code_t country</definition>
+        <argsstring></argsstring>
+        <name>country</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_int.h" line="87" column="24" bodyfile="source/whd_int.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__driver_1a9f6769e16c8d206bc54c18fb3f798fe0" prot="public" static="no" mutable="no">
+        <type><ref refid="structwhd__ioctl__log__t" kindref="compound">whd_ioctl_log_t</ref></type>
+        <definition>whd_ioctl_log_t whd_ioctl_log[WHD_IOCTL_LOG_SIZE]</definition>
+        <argsstring>[WHD_IOCTL_LOG_SIZE]</argsstring>
+        <name>whd_ioctl_log</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_int.h" line="89" column="21" bodyfile="source/whd_int.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__driver_1a68af047a4de31f5a46163278773125b6" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int whd_ioctl_log_index</definition>
+        <argsstring></argsstring>
+        <name>whd_ioctl_log_index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_int.h" line="90" column="9" bodyfile="source/whd_int.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Abstract pointer type that acts as a handle to an instance of the driver. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>event_list_elem_t</label>
+        <link refid="structevent__list__elem__t"/>
+      </node>
+      <node id="7">
+        <label>hnd_log_t</label>
+        <link refid="structhnd__log__t"/>
+      </node>
+      <node id="2">
+        <label>whd_cdc_bdc_info_t</label>
+        <link refid="structwhd__cdc__bdc__info__t"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>whd_event_list</edgelabel>
+        </childnode>
+      </node>
+      <node id="12">
+        <label>whd_chip_info_t</label>
+        <link refid="structwhd__chip__info__t"/>
+      </node>
+      <node id="1">
+        <label>whd_driver_t</label>
+        <link refid="structwhd__driver"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>cdc_bdc_info</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>internal_info</edgelabel>
+        </childnode>
+        <childnode refid="12" relation="usage">
+          <edgelabel>chip_info</edgelabel>
+        </childnode>
+        <childnode refid="13" relation="usage">
+          <edgelabel>whd_stats</edgelabel>
+        </childnode>
+        <childnode refid="14" relation="usage">
+          <edgelabel>whd_ioctl_log</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>whd_internal_info_t</label>
+        <link refid="structwhd__internal__info__t"/>
+        <childnode refid="5" relation="usage">
+          <edgelabel>whd_wlan_status</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>c</edgelabel>
+          <edgelabel>console</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>sh</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>scan_result_callback</edgelabel>
+          <edgelabel>whd_scan_result_ptr</edgelabel>
+        </childnode>
+      </node>
+      <node id="14">
+        <label>whd_ioctl_log_t</label>
+        <link refid="structwhd__ioctl__log__t"/>
+      </node>
+      <node id="11">
+        <label>whd_mac_t</label>
+        <link refid="structwhd__mac__t"/>
+      </node>
+      <node id="9">
+        <label>whd_scan_result_t</label>
+        <link refid="structwhd__scan__result__t"/>
+        <childnode refid="10" relation="usage">
+          <edgelabel>SSID</edgelabel>
+        </childnode>
+        <childnode refid="11" relation="usage">
+          <edgelabel>BSSID</edgelabel>
+        </childnode>
+      </node>
+      <node id="10">
+        <label>whd_ssid_t</label>
+        <link refid="structwhd__ssid__t"/>
+      </node>
+      <node id="13">
+        <label>whd_stats_t</label>
+        <link refid="structwhd__stats__t"/>
+      </node>
+      <node id="5">
+        <label>whd_wlan_status_t</label>
+        <link refid="structwhd__wlan__status__t"/>
+      </node>
+      <node id="6">
+        <label>wifi_console_t</label>
+        <link refid="structwifi__console__t"/>
+        <childnode refid="7" relation="usage">
+          <edgelabel>log</edgelabel>
+        </childnode>
+      </node>
+      <node id="8">
+        <label>wlan_shared_t</label>
+        <link refid="structwlan__shared__t"/>
+      </node>
+    </collaborationgraph>
+    <location file="source/whd_int.h" line="69" column="1" bodyfile="source/whd_int.h" bodystart="70" bodyend="91"/>
+    <listofallmembers>
+      <member refid="structwhd__driver_1a7ce40d57daabda2ef53ba8f73fc4f317" prot="public" virt="non-virtual"><scope>whd_driver</scope><name>buffer_if</name></member>
+      <member refid="structwhd__driver_1a6e3430e13b299f933b352eaf6272cec4" prot="public" virt="non-virtual"><scope>whd_driver</scope><name>bus_common_info</name></member>
+      <member refid="structwhd__driver_1a6ca8e96071c7f985495f993d8bec881e" prot="public" virt="non-virtual"><scope>whd_driver</scope><name>bus_gspi_32bit</name></member>
+      <member refid="structwhd__driver_1a01522e3f722b27dbbc01a449d0b8b838" prot="public" virt="non-virtual"><scope>whd_driver</scope><name>bus_if</name></member>
+      <member refid="structwhd__driver_1a4bcdedd81218c1faf5ace1b11916c5c7" prot="public" virt="non-virtual"><scope>whd_driver</scope><name>bus_priv</name></member>
+      <member refid="structwhd__driver_1abc3affb33acefdde00c5621d38f46781" prot="public" virt="non-virtual"><scope>whd_driver</scope><name>cdc_bdc_info</name></member>
+      <member refid="structwhd__driver_1a66cbdf078d841ba4449d5c2d8304ba44" prot="public" virt="non-virtual"><scope>whd_driver</scope><name>chip_info</name></member>
+      <member refid="structwhd__driver_1a7c552f1f715c8aa245f40d4be48b0fc9" prot="public" virt="non-virtual"><scope>whd_driver</scope><name>country</name></member>
+      <member refid="structwhd__driver_1a91d13235a144ce9034cfac8436bf28ba" prot="public" virt="non-virtual"><scope>whd_driver</scope><name>if2ifp</name></member>
+      <member refid="structwhd__driver_1af8cddb3f40234b03d736d01231e3e396" prot="public" virt="non-virtual"><scope>whd_driver</scope><name>iflist</name></member>
+      <member refid="structwhd__driver_1a4020381046a0933f3882669b41d4c93b" prot="public" virt="non-virtual"><scope>whd_driver</scope><name>internal_info</name></member>
+      <member refid="structwhd__driver_1a9f6769e16c8d206bc54c18fb3f798fe0" prot="public" virt="non-virtual"><scope>whd_driver</scope><name>whd_ioctl_log</name></member>
+      <member refid="structwhd__driver_1a68af047a4de31f5a46163278773125b6" prot="public" virt="non-virtual"><scope>whd_driver</scope><name>whd_ioctl_log_index</name></member>
+      <member refid="structwhd__driver_1a36df909ff279bcd3253be34dc78948fe" prot="public" virt="non-virtual"><scope>whd_driver</scope><name>whd_stats</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

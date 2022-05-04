@@ -1,0 +1,640 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="whd__cdc__bdc_8h" kind="file" language="C++">
+    <compoundname>whd_cdc_bdc.h</compoundname>
+    <includes refid="whd_8h" local="yes">whd.h</includes>
+    <includes local="yes">cyabs_rtos.h</includes>
+    <includes refid="whd__events__int_8h" local="yes">whd_events_int.h</includes>
+    <includes refid="whd__types__int_8h" local="yes">whd_types_int.h</includes>
+    <includedby refid="whd__int_8h" local="yes">whd_int.h</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>whd.h</label>
+        <link refid="whd_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>whd_cdc_bdc.h</label>
+        <link refid="whd__cdc__bdc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>whd_events_int.h</label>
+        <link refid="whd__events__int_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>whd_types.h</label>
+        <link refid="whd__types_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>whd_types_int.h</label>
+        <link refid="whd__types__int_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>cy_result.h</label>
+      </node>
+      <node id="8">
+        <label>cyabs_rtos.h</label>
+      </node>
+      <node id="5">
+        <label>cybsp.h</label>
+      </node>
+      <node id="7">
+        <label>cyhal_hw_types.h</label>
+      </node>
+      <node id="12">
+        <label>inttypes.h</label>
+      </node>
+      <node id="11">
+        <label>stddef.h</label>
+      </node>
+      <node id="4">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>whd_buffer_api.h</label>
+        <link refid="whd__buffer__api_8h"/>
+      </node>
+      <node id="1">
+        <label>whd_cdc_bdc.h</label>
+        <link refid="whd__cdc__bdc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>whd_int.h</label>
+        <link refid="whd__int_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structcdc__header__t" prot="public">cdc_header_t</innerclass>
+    <innerclass refid="structbdc__header__t" prot="public">bdc_header_t</innerclass>
+    <innerclass refid="structethernet__header__t" prot="public">ethernet_header_t</innerclass>
+    <innerclass refid="structevent__list__elem__t" prot="public">event_list_elem_t</innerclass>
+    <innerclass refid="structwhd__cdc__bdc__info__t" prot="public">whd_cdc_bdc_info_t</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="whd__cdc__bdc_8h_1a2eba3d9f2ac07f610c1913520afeec37" prot="public" static="no">
+        <name>CDCF_IOC_SET</name>
+        <initializer>(0x02)      /** 0=get, 1=set cmd */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_cdc_bdc.h" line="36" column="9" bodyfile="source/whd_cdc_bdc.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="whd__cdc__bdc_8h_1ae0fe4b9249dc765f9e8f404c76b1e4d8" prot="public" static="no">
+        <name>WHD_EVENT_HANDLER_LIST_SIZE</name>
+        <initializer>(5)      /** Maximum number of simultaneously registered event handlers */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_cdc_bdc.h" line="37" column="9" bodyfile="source/whd_cdc_bdc.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="whd__cdc__bdc_8h_1a8abb89572abc5c23b17dc2316c37209f" prot="public" static="no">
+        <name>WHD_SDALIGN</name>
+        <initializer>32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_cdc_bdc.h" line="38" column="9" bodyfile="source/whd_cdc_bdc.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="whd__cdc__bdc_8h_1a3c966f61eb341352920333dbf157c97c" prot="public" static="no">
+        <name>CDCF_IOC_ERROR</name>
+        <initializer>(0x01)      /** 0=success, 1=ioctl cmd failed */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_cdc_bdc.h" line="41" column="9" bodyfile="source/whd_cdc_bdc.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="whd__cdc__bdc_8h_1ab80ff2a84260b470a804eeef85fe03f0" prot="public" static="no">
+        <name>CDCF_IOC_IF_MASK</name>
+        <initializer>(0xF000)      /** I/F index */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_cdc_bdc.h" line="42" column="9" bodyfile="source/whd_cdc_bdc.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="whd__cdc__bdc_8h_1a30044140b849a88c3e470405ce2ba748" prot="public" static="no">
+        <name>CDCF_IOC_IF_SHIFT</name>
+        <initializer>(12)      /** # of bits of shift for I/F Mask */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_cdc_bdc.h" line="43" column="9" bodyfile="source/whd_cdc_bdc.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="whd__cdc__bdc_8h_1af8a0903b89a87b99361884f179eb725d" prot="public" static="no">
+        <name>CDCF_IOC_ID_MASK</name>
+        <initializer>(0xFFFF0000)      /** used to uniquely id an ioctl req/resp pairing */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_cdc_bdc.h" line="44" column="9" bodyfile="source/whd_cdc_bdc.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="whd__cdc__bdc_8h_1a166a9bf0f805c7581d54d34a39de315c" prot="public" static="no">
+        <name>CDCF_IOC_ID_SHIFT</name>
+        <initializer>(16)      /** # of bits of shift for ID Mask */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_cdc_bdc.h" line="45" column="9" bodyfile="source/whd_cdc_bdc.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="whd__cdc__bdc_8h_1a008dac2008e492d33c008aecd4c263e9" prot="public" static="no">
+        <name>DATA_AFTER_HEADER</name>
+        <param><defname>x</defname></param>
+        <initializer>( (void *)(&amp;x[1]) )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_cdc_bdc.h" line="47" column="9" bodyfile="source/whd_cdc_bdc.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="whd__cdc__bdc_8h_1aa586876cd02075ec120ca3bf633087ab" prot="public" static="no">
+        <name>BDC_HEADER_LEN</name>
+        <initializer>(4)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_cdc_bdc.h" line="49" column="9" bodyfile="source/whd_cdc_bdc.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="whd__cdc__bdc_8h_1a24cb74b8735b4842d0d7dd048f5c30b0" prot="public" static="no" strong="no">
+        <type></type>
+        <name>cdc_command_type_t</name>
+        <enumvalue id="whd__cdc__bdc_8h_1a24cb74b8735b4842d0d7dd048f5c30b0aa75d5c9211332ec97023561952341971" prot="public">
+          <name>CDC_GET</name>
+          <initializer>= 0x00</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="whd__cdc__bdc_8h_1a24cb74b8735b4842d0d7dd048f5c30b0a7d3e0d52c1966a8a804753b04ce70481" prot="public">
+          <name>CDC_SET</name>
+          <initializer>= CDCF_IOC_SET</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_cdc_bdc.h" line="55" column="1" bodyfile="source/whd_cdc_bdc.h" bodystart="56" bodyend="59"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="whd__cdc__bdc_8h_1a57f9e8d77c3f9aed8dff22205c450006" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="whd__types_8h_1add62f4b5040a2451e23869d2f9e1ae05" kindref="member">whd_result_t</ref></type>
+        <definition>whd_result_t whd_cdc_bdc_info_init</definition>
+        <argsstring>(whd_driver_t whd_driver)</argsstring>
+        <name>whd_cdc_bdc_info_init</name>
+        <param>
+          <type>whd_driver_t</type>
+          <declname>whd_driver</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_cdc_bdc.h" line="126" column="14" declfile="source/whd_cdc_bdc.h" declline="126" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="whd__cdc__bdc_8h_1a5d3fa02593d7ac48f8f3fedb2abfa3dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void whd_cdc_bdc_info_deinit</definition>
+        <argsstring>(whd_driver_t whd_driver)</argsstring>
+        <name>whd_cdc_bdc_info_deinit</name>
+        <param>
+          <type>whd_driver_t</type>
+          <declname>whd_driver</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_cdc_bdc.h" line="127" column="14" declfile="source/whd_cdc_bdc.h" declline="127" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="whd__cdc__bdc_8h_1aa53509c761f85948fb7584bcade82e99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="whd__types_8h_1add62f4b5040a2451e23869d2f9e1ae05" kindref="member">whd_result_t</ref></type>
+        <definition>whd_result_t whd_cdc_send_iovar</definition>
+        <argsstring>(whd_interface_t ifp, cdc_command_type_t type, whd_buffer_t send_buffer_hnd, whd_buffer_t *response_buffer_hnd)</argsstring>
+        <name>whd_cdc_send_iovar</name>
+        <param>
+          <type>whd_interface_t</type>
+          <declname>ifp</declname>
+        </param>
+        <param>
+          <type>cdc_command_type_t</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>whd_buffer_t</type>
+          <declname>send_buffer_hnd</declname>
+        </param>
+        <param>
+          <type>whd_buffer_t *</type>
+          <declname>response_buffer_hnd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_cdc_bdc.h" line="129" column="14" declfile="source/whd_cdc_bdc.h" declline="129" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="whd__cdc__bdc_8h_1ac751685fa27c1fef697af1318175e189" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="whd__types_8h_1add62f4b5040a2451e23869d2f9e1ae05" kindref="member">whd_result_t</ref></type>
+        <definition>whd_result_t whd_cdc_send_ioctl</definition>
+        <argsstring>(whd_interface_t ifp, cdc_command_type_t type, uint32_t command, whd_buffer_t send_buffer_hnd, whd_buffer_t *response_buffer_hnd)</argsstring>
+        <name>whd_cdc_send_ioctl</name>
+        <param>
+          <type>whd_interface_t</type>
+          <declname>ifp</declname>
+        </param>
+        <param>
+          <type>cdc_command_type_t</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>command</declname>
+        </param>
+        <param>
+          <type>whd_buffer_t</type>
+          <declname>send_buffer_hnd</declname>
+        </param>
+        <param>
+          <type>whd_buffer_t *</type>
+          <declname>response_buffer_hnd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_cdc_bdc.h" line="133" column="14" declfile="source/whd_cdc_bdc.h" declline="133" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="whd__cdc__bdc_8h_1a59514083d8bdb553bf5491c1d3367841" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void *</type>
+        <definition>void * whd_cdc_get_iovar_buffer</definition>
+        <argsstring>(whd_driver_t whd_driver, whd_buffer_t *buffer, uint16_t data_length, const char *name)</argsstring>
+        <name>whd_cdc_get_iovar_buffer</name>
+        <param>
+          <type>whd_driver_t</type>
+          <declname>whd_driver</declname>
+        </param>
+        <param>
+          <type>whd_buffer_t *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>data_length</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_cdc_bdc.h" line="137" column="6" declfile="source/whd_cdc_bdc.h" declline="137" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="whd__cdc__bdc_8h_1a3642a8b0fe0df7449730bec92e09c7d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void whd_network_send_ethernet_data</definition>
+        <argsstring>(whd_interface_t ifp, whd_buffer_t buffer)</argsstring>
+        <name>whd_network_send_ethernet_data</name>
+        <param>
+          <type>whd_interface_t</type>
+          <declname>ifp</declname>
+        </param>
+        <param>
+          <type>whd_buffer_t</type>
+          <declname>buffer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_cdc_bdc.h" line="141" column="6" declfile="source/whd_cdc_bdc.h" declline="141" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="whd__cdc__bdc_8h_1a1343ce52543442d54f25de4263ee1ff5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void *</type>
+        <definition>void * whd_cdc_get_ioctl_buffer</definition>
+        <argsstring>(whd_driver_t whd_driver, whd_buffer_t *buffer, uint16_t data_length)</argsstring>
+        <name>whd_cdc_get_ioctl_buffer</name>
+        <param>
+          <type>whd_driver_t</type>
+          <declname>whd_driver</declname>
+        </param>
+        <param>
+          <type>whd_buffer_t *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>data_length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_cdc_bdc.h" line="143" column="6" declfile="source/whd_cdc_bdc.h" declline="143" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="whd__cdc__bdc_8h_1abbd80685a8d4394bf2fcaa198881c8ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void whd_process_cdc</definition>
+        <argsstring>(whd_driver_t whd_driver, whd_buffer_t buffer)</argsstring>
+        <name>whd_process_cdc</name>
+        <param>
+          <type>whd_driver_t</type>
+          <declname>whd_driver</declname>
+        </param>
+        <param>
+          <type>whd_buffer_t</type>
+          <declname>buffer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_cdc_bdc.h" line="147" column="6" declfile="source/whd_cdc_bdc.h" declline="147" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="whd__cdc__bdc_8h_1a9adf94f1b66b189c7754a73dd4d9a710" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void whd_process_bdc</definition>
+        <argsstring>(whd_driver_t whd_driver, whd_buffer_t buffer)</argsstring>
+        <name>whd_process_bdc</name>
+        <param>
+          <type>whd_driver_t</type>
+          <declname>whd_driver</declname>
+        </param>
+        <param>
+          <type>whd_buffer_t</type>
+          <declname>buffer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_cdc_bdc.h" line="149" column="6" declfile="source/whd_cdc_bdc.h" declline="149" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="whd__cdc__bdc_8h_1a6fddb4f0c925809b85601186df3f8049" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void whd_process_bdc_event</definition>
+        <argsstring>(whd_driver_t whd_driver, whd_buffer_t buffer, uint16_t size)</argsstring>
+        <name>whd_process_bdc_event</name>
+        <param>
+          <type>whd_driver_t</type>
+          <declname>whd_driver</declname>
+        </param>
+        <param>
+          <type>whd_buffer_t</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_cdc_bdc.h" line="151" column="6" declfile="source/whd_cdc_bdc.h" declline="151" declcolumn="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>2020<sp/>Cypress<sp/>Semiconductor<sp/>Corporation</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>SPDX-License-Identifier:<sp/>Apache-2.0</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>Licensed<sp/>under<sp/>the<sp/>Apache<sp/>License,<sp/>Version<sp/>2.0<sp/>(the<sp/>&quot;License&quot;);</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>you<sp/>may<sp/>not<sp/>use<sp/>this<sp/>file<sp/>except<sp/>in<sp/>compliance<sp/>with<sp/>the<sp/>License.</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>You<sp/>may<sp/>obtain<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>License<sp/>at</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/>http://www.apache.org/licenses/LICENSE-2.0</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>Unless<sp/>required<sp/>by<sp/>applicable<sp/>law<sp/>or<sp/>agreed<sp/>to<sp/>in<sp/>writing,<sp/>software</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>distributed<sp/>under<sp/>the<sp/>License<sp/>is<sp/>distributed<sp/>on<sp/>an<sp/>&quot;AS<sp/>IS&quot;<sp/>BASIS,</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>WITHOUT<sp/>WARRANTIES<sp/>OR<sp/>CONDITIONS<sp/>OF<sp/>ANY<sp/>KIND,<sp/>either<sp/>express<sp/>or<sp/>implied.</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>See<sp/>the<sp/>License<sp/>for<sp/>the<sp/>specific<sp/>language<sp/>governing<sp/>permissions<sp/>and</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>limitations<sp/>under<sp/>the<sp/>License.</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>INCLUDED_WHD_CDC_BDC_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>INCLUDED_WHD_CDC_BDC_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="whd_8h" kindref="compound">whd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;cyabs_rtos.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="whd__events__int_8h" kindref="compound">whd_events_int.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="whd__types__int_8h" kindref="compound">whd_types_int.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="comment">/******************************************************</highlight></codeline>
+<codeline lineno="32"><highlight class="comment">*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Constants</highlight></codeline>
+<codeline lineno="33"><highlight class="comment">******************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>CDC<sp/>flag<sp/>definition<sp/>taken<sp/>from<sp/>bcmcdc.h<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CDCF_IOC_SET<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0x02)<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WHD_EVENT_HANDLER_LIST_SIZE<sp/><sp/><sp/><sp/>(5)<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WHD_SDALIGN<sp/>32</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>CDC<sp/>flag<sp/>definitions<sp/>taken<sp/>from<sp/>bcmcdc.h<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CDCF_IOC_ERROR<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0x01)<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CDCF_IOC_IF_MASK<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0xF000)<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CDCF_IOC_IF_SHIFT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(12)<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CDCF_IOC_ID_MASK<sp/><sp/><sp/><sp/><sp/><sp/>(0xFFFF0000)<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CDCF_IOC_ID_SHIFT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(16)<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DATA_AFTER_HEADER(x)<sp/><sp/><sp/>(<sp/>(void<sp/>*)(&amp;x[1])<sp/>)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BDC_HEADER_LEN<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(4)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="comment">/******************************************************</highlight></codeline>
+<codeline lineno="52"><highlight class="comment">*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Enumerations</highlight></codeline>
+<codeline lineno="53"><highlight class="comment">******************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>sdpcm_command_type_enum</highlight></codeline>
+<codeline lineno="56"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>CDC_GET<sp/>=<sp/>0x00,</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>CDC_SET<sp/>=<sp/>CDCF_IOC_SET</highlight></codeline>
+<codeline lineno="59"><highlight class="normal">}<sp/>cdc_command_type_t;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="comment">/******************************************************</highlight></codeline>
+<codeline lineno="62"><highlight class="comment">*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Structures</highlight></codeline>
+<codeline lineno="63"><highlight class="comment">******************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>pack(1)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="structcdc__header__t" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>cmd;<sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>ioctl<sp/>command<sp/>value<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>len;<sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>lower<sp/>16:<sp/>output<sp/>buflen;<sp/>upper<sp/>16:<sp/>input<sp/>buflen<sp/>(excludes<sp/>header)<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>flags;<sp/><sp/></highlight><highlight class="comment">/*<sp/>flag<sp/>defns<sp/>given<sp/>in<sp/>bcmcdc.h<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>status;<sp/></highlight><highlight class="comment">/*<sp/>status<sp/>code<sp/>returned<sp/>from<sp/>the<sp/>device<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal">}<sp/><ref refid="structcdc__header__t" kindref="compound">cdc_header_t</ref>;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="structbdc__header__t" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/>flags;<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Flags<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/>priority;<sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>802.1d<sp/>Priority<sp/>(low<sp/>3<sp/>bits)<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/>flags2;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/>data_offset;<sp/></highlight><highlight class="comment">/*<sp/>Offset<sp/>from<sp/>end<sp/>of<sp/>BDC<sp/>header<sp/>to<sp/>packet<sp/>data,<sp/>in<sp/>4-uint8_t<sp/>words.</highlight></codeline>
+<codeline lineno="79"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>Leaves<sp/>room<sp/>for<sp/>optional<sp/>headers.*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal">}<sp/><ref refid="structbdc__header__t" kindref="compound">bdc_header_t</ref>;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82" refid="structethernet__header__t" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structwhd__mac__t" kindref="compound">whd_mac_t</ref><sp/>destination_address;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structwhd__mac__t" kindref="compound">whd_mac_t</ref><sp/>source_address;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/>ethertype;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal">}<sp/><ref refid="structethernet__header__t" kindref="compound">ethernet_header_t</ref>;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>pack()</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97" refid="structevent__list__elem__t" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="whd__types_8h_1a7cd94a03f2e7e6aab7217ed559c7a0ac" kindref="member">whd_bool_t</ref><sp/>event_set;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/>whd_event_num_t<sp/>events[WHD_MAX_EVENT_SUBSCRIPTION];</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__event_1ga140bef247bc6273b94a0408caa4edfb8" kindref="member">whd_event_handler_t</ref><sp/>handler;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*handler_user_data;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/>ifidx;</highlight></codeline>
+<codeline lineno="104"><highlight class="normal">}<sp/><ref refid="structevent__list__elem__t" kindref="compound">event_list_elem_t</ref>;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108" refid="structwhd__cdc__bdc__info__t" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">whd_cdc_info</highlight></codeline>
+<codeline lineno="109"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Event<sp/>list<sp/>variables<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structevent__list__elem__t" kindref="compound">event_list_elem_t</ref><sp/>whd_event_list[WHD_EVENT_HANDLER_LIST_SIZE];</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/>cy_semaphore_t<sp/>event_list_mutex;</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>IOCTL<sp/>variables*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/>requested_ioctl_id;</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/>cy_semaphore_t<sp/>ioctl_mutex;</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/>whd_buffer_t<sp/>ioctl_response;</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/>cy_semaphore_t<sp/>ioctl_sleep;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal">}<sp/><ref refid="structwhd__cdc__bdc__info__t" kindref="compound">whd_cdc_bdc_info_t</ref>;</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight><highlight class="comment">/******************************************************</highlight></codeline>
+<codeline lineno="123"><highlight class="comment">*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Function<sp/>Declarations</highlight></codeline>
+<codeline lineno="124"><highlight class="comment">******************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><ref refid="whd__types_8h_1add62f4b5040a2451e23869d2f9e1ae05" kindref="member">whd_result_t</ref><sp/>whd_cdc_bdc_info_init(whd_driver_t<sp/><ref refid="structwhd__driver" kindref="compound">whd_driver</ref>);</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>whd_cdc_bdc_info_deinit(whd_driver_t<sp/><ref refid="structwhd__driver" kindref="compound">whd_driver</ref>);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><ref refid="whd__types_8h_1add62f4b5040a2451e23869d2f9e1ae05" kindref="member">whd_result_t</ref><sp/>whd_cdc_send_iovar(whd_interface_t<sp/>ifp,<sp/>cdc_command_type_t<sp/>type,</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>whd_buffer_t<sp/>send_buffer_hnd,</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>whd_buffer_t<sp/>*response_buffer_hnd);</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><ref refid="whd__types_8h_1add62f4b5040a2451e23869d2f9e1ae05" kindref="member">whd_result_t</ref><sp/>whd_cdc_send_ioctl(whd_interface_t<sp/>ifp,<sp/>cdc_command_type_t<sp/>type,<sp/>uint32_t<sp/>command,</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>whd_buffer_t<sp/>send_buffer_hnd,</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>whd_buffer_t<sp/>*response_buffer_hnd);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*whd_cdc_get_iovar_buffer(whd_driver_t<sp/><ref refid="structwhd__driver" kindref="compound">whd_driver</ref>,</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>whd_buffer_t<sp/>*buffer,</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint16_t<sp/>data_length,</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name);</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__netif_1ga3642a8b0fe0df7449730bec92e09c7d4" kindref="member">whd_network_send_ethernet_data</ref>(whd_interface_t<sp/>ifp,<sp/>whd_buffer_t<sp/>buffer);</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*whd_cdc_get_ioctl_buffer(whd_driver_t<sp/><ref refid="structwhd__driver" kindref="compound">whd_driver</ref>,</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>whd_buffer_t<sp/>*buffer,</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint16_t<sp/>data_length);</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>whd_process_cdc(whd_driver_t<sp/><ref refid="structwhd__driver" kindref="compound">whd_driver</ref>,<sp/>whd_buffer_t<sp/>buffer);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>whd_process_bdc(whd_driver_t<sp/><ref refid="structwhd__driver" kindref="compound">whd_driver</ref>,<sp/>whd_buffer_t<sp/>buffer);</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>whd_process_bdc_event(whd_driver_t<sp/><ref refid="structwhd__driver" kindref="compound">whd_driver</ref>,<sp/>whd_buffer_t<sp/>buffer,<sp/>uint16_t<sp/>size);</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal">}<sp/></highlight><highlight class="comment">/*<sp/>extern<sp/>&quot;C&quot;<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>ifndef<sp/>INCLUDED_WHD_CDC_BDC_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="source/whd_cdc_bdc.h"/>
+  </compounddef>
+</doxygen>

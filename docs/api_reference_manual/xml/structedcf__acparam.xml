@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structedcf__acparam" kind="struct" language="C++" prot="public">
+    <compoundname>edcf_acparam</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structedcf__acparam_1a99acdea0bd15ca37a2fa7206399ecd92" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t ACI</definition>
+        <argsstring></argsstring>
+        <name>ACI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3458" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3458" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structedcf__acparam_1a107cae0bbda655a8681c66ef994e809b" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t ECW</definition>
+        <argsstring></argsstring>
+        <name>ECW</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3459" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3459" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structedcf__acparam_1ab8152eb83e8c23ea6a081527a30e0309" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t TXOP</definition>
+        <argsstring></argsstring>
+        <name>TXOP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3460" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3460" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="3456" column="1" bodyfile="source/whd_wlioctl.h" bodystart="3457" bodyend="3461"/>
+    <listofallmembers>
+      <member refid="structedcf__acparam_1a99acdea0bd15ca37a2fa7206399ecd92" prot="public" virt="non-virtual"><scope>edcf_acparam</scope><name>ACI</name></member>
+      <member refid="structedcf__acparam_1a107cae0bbda655a8681c66ef994e809b" prot="public" virt="non-virtual"><scope>edcf_acparam</scope><name>ECW</name></member>
+      <member refid="structedcf__acparam_1ab8152eb83e8c23ea6a081527a30e0309" prot="public" virt="non-virtual"><scope>edcf_acparam</scope><name>TXOP</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

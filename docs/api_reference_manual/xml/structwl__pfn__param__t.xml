@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwl__pfn__param__t" kind="struct" language="C++" prot="public">
+    <compoundname>wl_pfn_param_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwl__pfn__param__t_1a67fae7dd1de9edce3656ed214d20377f" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t version</definition>
+        <argsstring></argsstring>
+        <name>version</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3090" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3090" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__pfn__param__t_1a323fde94324bcc9c97a5e0682165a494" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t scan_freq</definition>
+        <argsstring></argsstring>
+        <name>scan_freq</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3091" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3091" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__pfn__param__t_1ae66ba5d7f31d7a9b270e521b70a1a0af" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t lost_network_timeout</definition>
+        <argsstring></argsstring>
+        <name>lost_network_timeout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3092" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3092" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__pfn__param__t_1a2254a1af22f92e93fac36695fe496def" prot="public" static="no" mutable="no">
+        <type>int16_t</type>
+        <definition>int16_t flags</definition>
+        <argsstring></argsstring>
+        <name>flags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3095" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3095" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__pfn__param__t_1a52d3db6fcc5fc1b5f6149c928a9686e1" prot="public" static="no" mutable="no">
+        <type>int16_t</type>
+        <definition>int16_t rssi_margin</definition>
+        <argsstring></argsstring>
+        <name>rssi_margin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3099" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3099" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__pfn__param__t_1a18078b4c6e21662cc0a07137a16fee1f" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t bestn</definition>
+        <argsstring></argsstring>
+        <name>bestn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3102" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__pfn__param__t_1a0223c0807069d5882f17e40973daa356" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t mscan</definition>
+        <argsstring></argsstring>
+        <name>mscan</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3103" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__pfn__param__t_1a29642221aad4146341708fe32dfb8064" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t repeat</definition>
+        <argsstring></argsstring>
+        <name>repeat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3104" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__pfn__param__t_1a78c5020f5c9a27551b46609bc4a580f7" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t exp</definition>
+        <argsstring></argsstring>
+        <name>exp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3107" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__pfn__param__t_1aa4181477a3ad281f3d9ccfad8dab47d1" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t slow_freq</definition>
+        <argsstring></argsstring>
+        <name>slow_freq</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3109" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3109" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="3088" column="1" bodyfile="source/whd_wlioctl.h" bodystart="3089" bodyend="3110"/>
+    <listofallmembers>
+      <member refid="structwl__pfn__param__t_1a18078b4c6e21662cc0a07137a16fee1f" prot="public" virt="non-virtual"><scope>wl_pfn_param_t</scope><name>bestn</name></member>
+      <member refid="structwl__pfn__param__t_1a78c5020f5c9a27551b46609bc4a580f7" prot="public" virt="non-virtual"><scope>wl_pfn_param_t</scope><name>exp</name></member>
+      <member refid="structwl__pfn__param__t_1a2254a1af22f92e93fac36695fe496def" prot="public" virt="non-virtual"><scope>wl_pfn_param_t</scope><name>flags</name></member>
+      <member refid="structwl__pfn__param__t_1ae66ba5d7f31d7a9b270e521b70a1a0af" prot="public" virt="non-virtual"><scope>wl_pfn_param_t</scope><name>lost_network_timeout</name></member>
+      <member refid="structwl__pfn__param__t_1a0223c0807069d5882f17e40973daa356" prot="public" virt="non-virtual"><scope>wl_pfn_param_t</scope><name>mscan</name></member>
+      <member refid="structwl__pfn__param__t_1a29642221aad4146341708fe32dfb8064" prot="public" virt="non-virtual"><scope>wl_pfn_param_t</scope><name>repeat</name></member>
+      <member refid="structwl__pfn__param__t_1a52d3db6fcc5fc1b5f6149c928a9686e1" prot="public" virt="non-virtual"><scope>wl_pfn_param_t</scope><name>rssi_margin</name></member>
+      <member refid="structwl__pfn__param__t_1a323fde94324bcc9c97a5e0682165a494" prot="public" virt="non-virtual"><scope>wl_pfn_param_t</scope><name>scan_freq</name></member>
+      <member refid="structwl__pfn__param__t_1aa4181477a3ad281f3d9ccfad8dab47d1" prot="public" virt="non-virtual"><scope>wl_pfn_param_t</scope><name>slow_freq</name></member>
+      <member refid="structwl__pfn__param__t_1a67fae7dd1de9edce3656ed214d20377f" prot="public" virt="non-virtual"><scope>wl_pfn_param_t</scope><name>version</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

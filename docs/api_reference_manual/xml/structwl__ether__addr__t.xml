@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwl__ether__addr__t" kind="struct" language="C++" prot="public">
+    <compoundname>wl_ether_addr_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwl__ether__addr__t_1ab7f0d114eb110eecf7504e7c187be090" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t octet[ETHER_ADDR_LEN]</definition>
+        <argsstring>[ETHER_ADDR_LEN]</argsstring>
+        <name>octet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="42" column="13" bodyfile="source/whd_wlioctl.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="40" column="1" bodyfile="source/whd_wlioctl.h" bodystart="41" bodyend="43"/>
+    <listofallmembers>
+      <member refid="structwl__ether__addr__t_1ab7f0d114eb110eecf7504e7c187be090" prot="public" virt="non-virtual"><scope>wl_ether_addr_t</scope><name>octet</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

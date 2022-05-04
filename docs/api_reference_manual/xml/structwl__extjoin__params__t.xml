@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwl__extjoin__params__t" kind="struct" language="C++" prot="public">
+    <compoundname>wl_extjoin_params_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwl__extjoin__params__t_1aaaaae1f2460665bebebe634c22a382da" prot="public" static="no" mutable="no">
+        <type><ref refid="structwlc__ssid__t" kindref="compound">wlc_ssid_t</ref></type>
+        <definition>wlc_ssid_t ssid</definition>
+        <argsstring></argsstring>
+        <name>ssid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3808" column="16" bodyfile="source/whd_wlioctl.h" bodystart="3808" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__extjoin__params__t_1a5c19abda0f83627046beeff700bf725b" prot="public" static="no" mutable="no">
+        <type>struct wl_join_scan_params</type>
+        <definition>struct wl_join_scan_params scan_params</definition>
+        <argsstring></argsstring>
+        <name>scan_params</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3809" column="30" bodyfile="source/whd_wlioctl.h" bodystart="3809" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__extjoin__params__t_1a9dbc2640db3cb72d18c9258297b5550a" prot="public" static="no" mutable="no">
+        <type><ref refid="structwl__assoc__params__t" kindref="compound">wl_join_assoc_params_t</ref></type>
+        <definition>wl_join_assoc_params_t assoc_params</definition>
+        <argsstring></argsstring>
+        <name>assoc_params</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3810" column="28" bodyfile="source/whd_wlioctl.h" bodystart="3810" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>wl_assoc_params_t</label>
+        <link refid="structwl__assoc__params__t"/>
+      </node>
+      <node id="1">
+        <label>wl_extjoin_params_t</label>
+        <link refid="structwl__extjoin__params__t"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>ssid</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>assoc_params</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>wlc_ssid_t</label>
+        <link refid="structwlc__ssid__t"/>
+      </node>
+    </collaborationgraph>
+    <location file="source/whd_wlioctl.h" line="3806" column="1" bodyfile="source/whd_wlioctl.h" bodystart="3807" bodyend="3814"/>
+    <listofallmembers>
+      <member refid="structwl__extjoin__params__t_1a9dbc2640db3cb72d18c9258297b5550a" prot="public" virt="non-virtual"><scope>wl_extjoin_params_t</scope><name>assoc_params</name></member>
+      <member refid="structwl__extjoin__params__t_1a5c19abda0f83627046beeff700bf725b" prot="public" virt="non-virtual"><scope>wl_extjoin_params_t</scope><name>scan_params</name></member>
+      <member refid="structwl__extjoin__params__t_1aaaaae1f2460665bebebe634c22a382da" prot="public" virt="non-virtual"><scope>wl_extjoin_params_t</scope><name>ssid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

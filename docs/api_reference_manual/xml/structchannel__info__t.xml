@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structchannel__info__t" kind="struct" language="C++" prot="public">
+    <compoundname>channel_info_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structchannel__info__t_1ac89b30ed94f632796e09e8b1fd515e0c" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t hw_channel</definition>
+        <argsstring></argsstring>
+        <name>hw_channel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="592" column="13" bodyfile="source/whd_wlioctl.h" bodystart="592" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structchannel__info__t_1af9a3689e4b2ac829372a6c055330a0cf" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t target_channel</definition>
+        <argsstring></argsstring>
+        <name>target_channel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="593" column="13" bodyfile="source/whd_wlioctl.h" bodystart="593" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structchannel__info__t_1a7b56261bfb7af0883c37d78d03585314" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t scan_channel</definition>
+        <argsstring></argsstring>
+        <name>scan_channel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="594" column="13" bodyfile="source/whd_wlioctl.h" bodystart="594" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="590" column="1" bodyfile="source/whd_wlioctl.h" bodystart="591" bodyend="595"/>
+    <listofallmembers>
+      <member refid="structchannel__info__t_1ac89b30ed94f632796e09e8b1fd515e0c" prot="public" virt="non-virtual"><scope>channel_info_t</scope><name>hw_channel</name></member>
+      <member refid="structchannel__info__t_1a7b56261bfb7af0883c37d78d03585314" prot="public" virt="non-virtual"><scope>channel_info_t</scope><name>scan_channel</name></member>
+      <member refid="structchannel__info__t_1af9a3689e4b2ac829372a6c055330a0cf" prot="public" virt="non-virtual"><scope>channel_info_t</scope><name>target_channel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

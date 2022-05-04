@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="whd__version_8h" kind="file" language="C++">
+    <compoundname>whd_version.h</compoundname>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="whd__version_8h_1a1f84e800f5fc36084bc2a62ec548a6e4" prot="public" static="no">
+        <name>WHD_VERSION</name>
+        <initializer>&quot;v2.3.0&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_version.h" line="1" column="9" bodyfile="source/whd_version.h" bodystart="1" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="whd__version_8h_1aede39c4ef2dc97af2e6cf7dbb234cc00" prot="public" static="no">
+        <name>WHD_BRANCH</name>
+        <initializer>&quot;v2.3.0&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_version.h" line="2" column="9" bodyfile="source/whd_version.h" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="whd__version_8h_1a72ac7562c9bf2de30cf70466f21190b4" prot="public" static="no">
+        <name>WHD_DATE</name>
+        <initializer>&quot;2022-03-24 16:57:25 +0800&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_version.h" line="3" column="9" bodyfile="source/whd_version.h" bodystart="3" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#define<sp/>WHD_VERSION<sp/>&quot;v2.3.0&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WHD_BRANCH<sp/>&quot;v2.3.0&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WHD_DATE<sp/>&quot;2022-03-24<sp/>16:57:25<sp/>+0800&quot;</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="source/whd_version.h"/>
+  </compounddef>
+</doxygen>

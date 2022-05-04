@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="whd__events_8h" kind="file" language="C++">
     <compoundname>whd_events.h</compoundname>
     <includes refid="whd_8h" local="yes">whd.h</includes>
@@ -9,9 +9,6 @@
         <link refid="whd_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-      </node>
-      <node id="4">
-        <label>stdint.h</label>
       </node>
       <node id="1">
         <label>whd_events.h</label>
@@ -28,12 +25,20 @@
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-      </node>
-      <node id="5">
-        <label>cy_result.h</label>
+        <childnode refid="7" relation="include">
+        </childnode>
       </node>
       <node id="6">
+        <label>cy_result.h</label>
+      </node>
+      <node id="5">
+        <label>cybsp.h</label>
+      </node>
+      <node id="7">
         <label>cyhal_hw_types.h</label>
+      </node>
+      <node id="4">
+        <label>stdint.h</label>
       </node>
     </incdepgraph>
     <innerclass refid="structwhd__event__eth__hdr__t" prot="public">whd_event_eth_hdr_t</innerclass>
@@ -51,7 +56,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" line="35" column="9" bodyfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" bodystart="35" bodyend="-1"/>
+        <location file="source/whd_events.h" line="35" column="9" bodyfile="source/whd_events.h" bodystart="35" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="whd__events_8h_1ae370e84bd9ed3b3cde25919287673298" prot="public" static="no">
         <name>WLC_E_SET_SSID</name>
@@ -64,7 +69,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" line="37" column="9" bodyfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" bodystart="37" bodyend="-1"/>
+        <location file="source/whd_events.h" line="37" column="9" bodyfile="source/whd_events.h" bodystart="37" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="whd__events_8h_1a2e0540e8fe3f44be75575247648e1c7f" prot="public" static="no">
         <name>WLC_E_AUTH</name>
@@ -77,7 +82,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" line="38" column="9" bodyfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" bodystart="38" bodyend="-1"/>
+        <location file="source/whd_events.h" line="38" column="9" bodyfile="source/whd_events.h" bodystart="38" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="whd__events_8h_1a04b3c3a873e93afd4a51643707a20120" prot="public" static="no">
         <name>WLC_E_DEAUTH</name>
@@ -89,7 +94,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" line="39" column="9" bodyfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" bodystart="39" bodyend="-1"/>
+        <location file="source/whd_events.h" line="39" column="9" bodyfile="source/whd_events.h" bodystart="39" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="whd__events_8h_1a6fbce5e7ab3f5f4cde0ef8c11ff90e05" prot="public" static="no">
         <name>WLC_E_DEAUTH_IND</name>
@@ -101,7 +106,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" line="40" column="9" bodyfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" bodystart="40" bodyend="-1"/>
+        <location file="source/whd_events.h" line="40" column="9" bodyfile="source/whd_events.h" bodystart="40" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="whd__events_8h_1a8c9fd116781000929a8b09de58f6288e" prot="public" static="no">
         <name>WLC_E_ASSOC</name>
@@ -113,7 +118,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" line="41" column="9" bodyfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" bodystart="41" bodyend="-1"/>
+        <location file="source/whd_events.h" line="41" column="9" bodyfile="source/whd_events.h" bodystart="41" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="whd__events_8h_1adfb692b8b02e3082657cefc92f6f216d" prot="public" static="no">
         <name>WLC_E_ASSOC_IND</name>
@@ -125,7 +130,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" line="42" column="9" bodyfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" bodystart="42" bodyend="-1"/>
+        <location file="source/whd_events.h" line="42" column="9" bodyfile="source/whd_events.h" bodystart="42" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="whd__events_8h_1a87f949345de32ebd84030a1cc9c9159f" prot="public" static="no">
         <name>WLC_E_REASSOC</name>
@@ -137,7 +142,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" line="43" column="9" bodyfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" bodystart="43" bodyend="-1"/>
+        <location file="source/whd_events.h" line="43" column="9" bodyfile="source/whd_events.h" bodystart="43" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="whd__events_8h_1a8ddd3a253d9fd56a5704d9f3b1dd9b8a" prot="public" static="no">
         <name>WLC_E_REASSOC_IND</name>
@@ -149,7 +154,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" line="44" column="9" bodyfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" bodystart="44" bodyend="-1"/>
+        <location file="source/whd_events.h" line="44" column="9" bodyfile="source/whd_events.h" bodystart="44" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="whd__events_8h_1a9b9413ac981ea6e20b8f0f80523235c0" prot="public" static="no">
         <name>WLC_E_DISASSOC</name>
@@ -161,7 +166,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" line="45" column="9" bodyfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" bodystart="45" bodyend="-1"/>
+        <location file="source/whd_events.h" line="45" column="9" bodyfile="source/whd_events.h" bodystart="45" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="whd__events_8h_1ae9c1ad1200aaa8eec7c96e4fc3438593" prot="public" static="no">
         <name>WLC_E_DISASSOC_IND</name>
@@ -173,7 +178,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" line="47" column="9" bodyfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" bodystart="46" bodyend="-1"/>
+        <location file="source/whd_events.h" line="47" column="9" bodyfile="source/whd_events.h" bodystart="46" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="whd__events_8h_1adf984d77e19b6e3a023dd27216599456" prot="public" static="no">
         <name>WLC_E_LINK</name>
@@ -185,7 +190,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" line="48" column="9" bodyfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" bodystart="49" bodyend="-1"/>
+        <location file="source/whd_events.h" line="48" column="9" bodyfile="source/whd_events.h" bodystart="48" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="whd__events_8h_1a26d330cb0796c551edda9c848f1d826c" prot="public" static="no">
         <name>WLC_E_PROBREQ_MSG</name>
@@ -197,7 +202,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" line="49" column="9" bodyfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" bodystart="50" bodyend="-1"/>
+        <location file="source/whd_events.h" line="49" column="9" bodyfile="source/whd_events.h" bodystart="49" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="whd__events_8h_1a73ab299b66cc3915b300b6f9360ae4be" prot="public" static="no">
         <name>WLC_E_PSK_SUP</name>
@@ -209,7 +214,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" line="50" column="9" bodyfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" bodystart="51" bodyend="-1"/>
+        <location file="source/whd_events.h" line="50" column="9" bodyfile="source/whd_events.h" bodystart="50" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="whd__events_8h_1a3c6a8365f82bedb7412bebde8311bee4" prot="public" static="no">
         <name>WLC_E_ACTION_FRAME</name>
@@ -221,7 +226,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" line="51" column="9" bodyfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" bodystart="52" bodyend="-1"/>
+        <location file="source/whd_events.h" line="51" column="9" bodyfile="source/whd_events.h" bodystart="51" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="whd__events_8h_1a5741fe8a095d2c7721fd5126b8acea56" prot="public" static="no">
         <name>WLC_E_ACTION_FRAME_COMPLETE</name>
@@ -233,7 +238,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" line="52" column="9" bodyfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" bodystart="53" bodyend="-1"/>
+        <location file="source/whd_events.h" line="52" column="9" bodyfile="source/whd_events.h" bodystart="52" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="whd__events_8h_1a1b04aa17aa56325d7ac03dbf6495d53b" prot="public" static="no">
         <name>WLC_E_ESCAN_RESULT</name>
@@ -245,7 +250,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" line="53" column="9" bodyfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" bodystart="54" bodyend="-1"/>
+        <location file="source/whd_events.h" line="53" column="9" bodyfile="source/whd_events.h" bodystart="53" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="whd__events_8h_1a36a1db14fab1a7d56c5d9c2a57cf030f" prot="public" static="no">
         <name>WLC_E_STATUS_SUCCESS</name>
@@ -257,7 +262,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" line="56" column="9" bodyfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" bodystart="57" bodyend="-1"/>
+        <location file="source/whd_events.h" line="56" column="9" bodyfile="source/whd_events.h" bodystart="56" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="whd__events_8h_1a7bbe432d919eb9e29cca5bbeff6f2d22" prot="public" static="no">
         <name>WLC_E_STATUS_FAIL</name>
@@ -269,7 +274,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" line="57" column="9" bodyfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" bodystart="58" bodyend="-1"/>
+        <location file="source/whd_events.h" line="57" column="9" bodyfile="source/whd_events.h" bodystart="57" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="whd__events_8h_1a59959134916adbb98a9875a8c7462474" prot="public" static="no">
         <name>WLC_E_STATUS_TIMEOUT</name>
@@ -281,7 +286,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" line="58" column="9" bodyfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" bodystart="59" bodyend="-1"/>
+        <location file="source/whd_events.h" line="58" column="9" bodyfile="source/whd_events.h" bodystart="58" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="whd__events_8h_1a3ba3ab746af65eea3d54945c491e75b5" prot="public" static="no">
         <name>WLC_E_STATUS_NO_NETWORKS</name>
@@ -293,7 +298,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" line="59" column="9" bodyfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" bodystart="60" bodyend="-1"/>
+        <location file="source/whd_events.h" line="59" column="9" bodyfile="source/whd_events.h" bodystart="59" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="whd__events_8h_1a7efd6bc08b75e44e74cfad92084020c3" prot="public" static="no">
         <name>WLC_E_STATUS_ABORT</name>
@@ -305,7 +310,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" line="60" column="9" bodyfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" bodystart="61" bodyend="-1"/>
+        <location file="source/whd_events.h" line="60" column="9" bodyfile="source/whd_events.h" bodystart="60" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="whd__events_8h_1a88664d38d341c3cc57dfd901f6bb6010" prot="public" static="no">
         <name>WLC_E_STATUS_NO_ACK</name>
@@ -317,7 +322,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" line="61" column="9" bodyfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" bodystart="62" bodyend="-1"/>
+        <location file="source/whd_events.h" line="61" column="9" bodyfile="source/whd_events.h" bodystart="61" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="whd__events_8h_1a5a7e4c4f047fff0443e0e7037e35babe" prot="public" static="no">
         <name>WLC_E_STATUS_UNSOLICITED</name>
@@ -329,7 +334,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" line="62" column="9" bodyfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" bodystart="63" bodyend="-1"/>
+        <location file="source/whd_events.h" line="62" column="9" bodyfile="source/whd_events.h" bodystart="62" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="whd__events_8h_1ae66d4ccc84bc98c3018b049d865a4e56" prot="public" static="no">
         <name>WLC_E_STATUS_ATTEMPT</name>
@@ -341,7 +346,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" line="63" column="9" bodyfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" bodystart="64" bodyend="-1"/>
+        <location file="source/whd_events.h" line="63" column="9" bodyfile="source/whd_events.h" bodystart="63" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="whd__events_8h_1aec78b245d5a001d341e370f9a246542a" prot="public" static="no">
         <name>WLC_E_STATUS_PARTIAL</name>
@@ -353,7 +358,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" line="64" column="9" bodyfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" bodystart="65" bodyend="-1"/>
+        <location file="source/whd_events.h" line="64" column="9" bodyfile="source/whd_events.h" bodystart="64" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="whd__events_8h_1ace9d1ee71e3e6a1fd0e5c816347cef85" prot="public" static="no">
         <name>WLC_E_STATUS_NEWSCAN</name>
@@ -365,7 +370,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" line="65" column="9" bodyfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" bodystart="66" bodyend="-1"/>
+        <location file="source/whd_events.h" line="65" column="9" bodyfile="source/whd_events.h" bodystart="65" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="whd__events_8h_1ac60199a213be6784ece10816f189e6df" prot="public" static="no">
         <name>WLC_E_STATUS_NEWASSOC</name>
@@ -377,7 +382,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" line="66" column="9" bodyfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" bodystart="67" bodyend="-1"/>
+        <location file="source/whd_events.h" line="66" column="9" bodyfile="source/whd_events.h" bodystart="66" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="whd__events_8h_1a0ff5a599549f180cca6ae50f4c404bb9" prot="public" static="no">
         <name>WLC_E_STATUS_11HQUIET</name>
@@ -389,7 +394,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" line="67" column="9" bodyfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" bodystart="68" bodyend="-1"/>
+        <location file="source/whd_events.h" line="67" column="9" bodyfile="source/whd_events.h" bodystart="67" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="whd__events_8h_1a95517d8b374126d53040e871e0430299" prot="public" static="no">
         <name>WLC_E_STATUS_SUPPRESS</name>
@@ -401,7 +406,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" line="68" column="9" bodyfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" bodystart="69" bodyend="-1"/>
+        <location file="source/whd_events.h" line="68" column="9" bodyfile="source/whd_events.h" bodystart="68" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="whd__events_8h_1a8f01683977e56ff6cf81c9dbef1cb1b5" prot="public" static="no">
         <name>WLC_E_STATUS_NOCHANS</name>
@@ -413,7 +418,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" line="69" column="9" bodyfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" bodystart="70" bodyend="-1"/>
+        <location file="source/whd_events.h" line="69" column="9" bodyfile="source/whd_events.h" bodystart="69" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="whd__events_8h_1ac2937cd5a00b77988fdeb91aa06e0542" prot="public" static="no">
         <name>WLC_E_STATUS_CCXFASTRM</name>
@@ -425,7 +430,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" line="70" column="9" bodyfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" bodystart="71" bodyend="-1"/>
+        <location file="source/whd_events.h" line="70" column="9" bodyfile="source/whd_events.h" bodystart="70" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="whd__events_8h_1ad7ce31ac63e0e91bca76c2f0bbc0e92c" prot="public" static="no">
         <name>WLC_E_STATUS_CS_ABORT</name>
@@ -437,7 +442,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" line="71" column="9" bodyfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" bodystart="72" bodyend="-1"/>
+        <location file="source/whd_events.h" line="71" column="9" bodyfile="source/whd_events.h" bodystart="71" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="whd__events_8h_1ab5a63329b542569285c035ec864322b8" prot="public" static="no">
         <name>WLC_E_STATUS_ERROR</name>
@@ -449,7 +454,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" line="72" column="9" bodyfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" bodystart="73" bodyend="-1"/>
+        <location file="source/whd_events.h" line="72" column="9" bodyfile="source/whd_events.h" bodystart="72" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="whd__events_8h_1ac597fcbff37082363669370113a7628b" prot="public" static="no">
         <name>WLC_E_STATUS_INVALID</name>
@@ -461,7 +466,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" line="73" column="9" bodyfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" bodystart="74" bodyend="-1"/>
+        <location file="source/whd_events.h" line="73" column="9" bodyfile="source/whd_events.h" bodystart="73" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="whd__events_8h_1ac97c29fe35bab5af9cc08a9eb1fedffc" prot="public" static="no">
         <name>WLC_SUP_STATUS_OFFSET</name>
@@ -473,7 +478,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" line="75" column="9" bodyfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" bodystart="76" bodyend="-1"/>
+        <location file="source/whd_events.h" line="75" column="9" bodyfile="source/whd_events.h" bodystart="75" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="whd__events_8h_1ac94cc32da29a68641af2b000d883cd6a" prot="public" static="no">
         <name>WHD_MSG_IFNAME_MAX</name>
@@ -485,7 +490,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" line="118" column="9" bodyfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" bodystart="119" bodyend="-1"/>
+        <location file="source/whd_events.h" line="118" column="9" bodyfile="source/whd_events.h" bodystart="118" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="enum">
@@ -655,13 +660,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" line="101" column="1" bodyfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" bodystart="100" bodyend="117"/>
+        <location file="source/whd_events.h" line="99" column="1" bodyfile="source/whd_events.h" bodystart="100" bodyend="116"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="group__event_1ga9c74af353c83a8f77097acbc65362b07" prot="public" static="no">
+      <memberdef kind="typedef" id="group__event_1ga140bef247bc6273b94a0408caa4edfb8" prot="public" static="no">
         <type>void *(*</type>
-        <definition>typedef void*(* whd_event_handler_t) (whd_interface_t ifp, const whd_event_header_t *event_header, const uint8_t *event_data, void *handler_user_data)</definition>
+        <definition>typedef void *(* whd_event_handler_t) (whd_interface_t ifp, const whd_event_header_t *event_header, const uint8_t *event_data, void *handler_user_data)</definition>
         <argsstring>)(whd_interface_t ifp, const whd_event_header_t *event_header, const uint8_t *event_data, void *handler_user_data)</argsstring>
         <name>whd_event_handler_t</name>
         <briefdescription>
@@ -705,7 +710,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" line="187" column="9" bodyfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" bodystart="187" bodyend="-1"/>
+        <location file="source/whd_events.h" line="186" column="9" bodyfile="source/whd_events.h" bodystart="186" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
@@ -715,7 +720,7 @@
         <argsstring>(whd_interface_t ifp, const uint32_t *event_type, whd_event_handler_t handler_func, void *handler_user_data, uint16_t *event_index)</argsstring>
         <name>whd_wifi_set_event_handler</name>
         <param>
-          <type><ref refid="whd_8h_1a2e544c482ddbb690bbb95ce7174e79a0" kindref="member">whd_interface_t</ref></type>
+          <type>whd_interface_t</type>
           <declname>ifp</declname>
         </param>
         <param>
@@ -723,7 +728,7 @@
           <declname>event_type</declname>
         </param>
         <param>
-          <type><ref refid="group__event_1ga9c74af353c83a8f77097acbc65362b07" kindref="member">whd_event_handler_t</ref></type>
+          <type><ref refid="group__event_1ga140bef247bc6273b94a0408caa4edfb8" kindref="member">whd_event_handler_t</ref></type>
           <declname>handler_func</declname>
         </param>
         <param>
@@ -788,7 +793,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" line="209" column="10" declfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" declline="209" declcolumn="10"/>
+        <location file="source/whd_events.h" line="208" column="10" declfile="source/whd_events.h" declline="208" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="whd__events_8h_1ae415f1f3fcbbfe506aa0e656bf8debb3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -796,7 +801,7 @@
         <argsstring>(whd_interface_t ifp, uint16_t event_index)</argsstring>
         <name>whd_wifi_deregister_event_handler</name>
         <param>
-          <type><ref refid="whd_8h_1a2e544c482ddbb690bbb95ce7174e79a0" kindref="member">whd_interface_t</ref></type>
+          <type>whd_interface_t</type>
           <declname>ifp</declname>
         </param>
         <param>
@@ -830,7 +835,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" line="221" column="10" declfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" declline="221" declcolumn="10"/>
+        <location file="source/whd_events.h" line="220" column="10" declfile="source/whd_events.h" declline="220" declcolumn="10"/>
       </memberdef>
       <memberdef kind="function" id="whd__events_8h_1a5758f1bbdebed667cde8f63f0dac0362" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="whd__types_8h_1add62f4b5040a2451e23869d2f9e1ae05" kindref="member">whd_result_t</ref></type>
@@ -838,7 +843,7 @@
         <argsstring>(whd_interface_t ifp, const whd_event_num_t *event_nums, whd_event_handler_t handler_func, void *handler_user_data, uint16_t *event_index)</argsstring>
         <name>whd_management_set_event_handler</name>
         <param>
-          <type><ref refid="whd_8h_1a2e544c482ddbb690bbb95ce7174e79a0" kindref="member">whd_interface_t</ref></type>
+          <type>whd_interface_t</type>
           <declname>ifp</declname>
         </param>
         <param>
@@ -846,7 +851,7 @@
           <declname>event_nums</declname>
         </param>
         <param>
-          <type><ref refid="group__event_1ga9c74af353c83a8f77097acbc65362b07" kindref="member">whd_event_handler_t</ref></type>
+          <type><ref refid="group__event_1ga140bef247bc6273b94a0408caa4edfb8" kindref="member">whd_event_handler_t</ref></type>
           <declname>handler_func</declname>
         </param>
         <param>
@@ -911,13 +916,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" line="241" column="14" declfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" declline="241" declcolumn="14"/>
+        <location file="source/whd_events.h" line="240" column="14" declfile="source/whd_events.h" declline="240" declcolumn="14"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
+<para>Header for Event detection. </para>
     </briefdescription>
     <detaileddescription>
-<para>Header for Event detection</para>
 <para>Provides constants and prototypes for functions that allow user applications to receive event callbacks and set event handlers </para>
     </detaileddescription>
     <programlisting>
@@ -938,7 +943,7 @@
 <codeline lineno="15"><highlight class="comment"><sp/>*<sp/>limitations<sp/>under<sp/>the<sp/>License.</highlight></codeline>
 <codeline lineno="16"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24"><highlight class="preprocessor">#ifndef<sp/>INCLUDED_WHD_EVENTS_API_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>INCLUDED_WHD_EVENTS_API_H</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>INCLUDED_WHD_EVENTS_API_H</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="26"><highlight class="normal"></highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="whd_8h" kindref="compound">whd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
@@ -949,44 +954,44 @@
 <codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
 <codeline lineno="34"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>List<sp/>of<sp/>events<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WLC_E_NONE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0x7FFFFFFE)<sp/></highlight></codeline>
-<codeline lineno="37"><highlight class="preprocessor">#define<sp/>WLC_E_SET_SSID<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0<sp/></highlight></codeline>
-<codeline lineno="38"><highlight class="preprocessor">#define<sp/>WLC_E_AUTH<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>3<sp/></highlight></codeline>
-<codeline lineno="39"><highlight class="preprocessor">#define<sp/>WLC_E_DEAUTH<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>5<sp/></highlight></codeline>
-<codeline lineno="40"><highlight class="preprocessor">#define<sp/>WLC_E_DEAUTH_IND<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>6<sp/></highlight></codeline>
-<codeline lineno="41"><highlight class="preprocessor">#define<sp/>WLC_E_ASSOC<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>7<sp/></highlight></codeline>
-<codeline lineno="42"><highlight class="preprocessor">#define<sp/>WLC_E_ASSOC_IND<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>8<sp/></highlight></codeline>
-<codeline lineno="43"><highlight class="preprocessor">#define<sp/>WLC_E_REASSOC<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>9<sp/></highlight></codeline>
-<codeline lineno="44"><highlight class="preprocessor">#define<sp/>WLC_E_REASSOC_IND<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>10<sp/></highlight></codeline>
-<codeline lineno="45"><highlight class="preprocessor">#define<sp/>WLC_E_DISASSOC<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>11<sp/></highlight></codeline>
-<codeline lineno="46"><highlight class="preprocessor">#define<sp/>WLC_E_DISASSOC_IND<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>12<sp/></highlight></codeline>
-<codeline lineno="48"><highlight class="preprocessor">#define<sp/>WLC_E_LINK<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>16<sp/></highlight></codeline>
-<codeline lineno="49"><highlight class="preprocessor">#define<sp/>WLC_E_PROBREQ_MSG<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>44<sp/></highlight></codeline>
-<codeline lineno="50"><highlight class="preprocessor">#define<sp/>WLC_E_PSK_SUP<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>46<sp/></highlight></codeline>
-<codeline lineno="51"><highlight class="preprocessor">#define<sp/>WLC_E_ACTION_FRAME<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>59<sp/></highlight></codeline>
-<codeline lineno="52"><highlight class="preprocessor">#define<sp/>WLC_E_ACTION_FRAME_COMPLETE<sp/><sp/><sp/><sp/><sp/><sp/><sp/>60<sp/></highlight></codeline>
-<codeline lineno="53"><highlight class="preprocessor">#define<sp/>WLC_E_ESCAN_RESULT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>69<sp/></highlight></codeline>
-<codeline lineno="55"><highlight class="preprocessor"></highlight><highlight class="comment">/*<sp/>List<sp/>of<sp/>status<sp/>codes<sp/>-<sp/>Applicable<sp/>for<sp/>any<sp/>event<sp/>type<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="56"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WLC_E_STATUS_SUCCESS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0<sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="57"><highlight class="preprocessor">#define<sp/>WLC_E_STATUS_FAIL<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1<sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="58"><highlight class="preprocessor">#define<sp/>WLC_E_STATUS_TIMEOUT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>2<sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="59"><highlight class="preprocessor">#define<sp/>WLC_E_STATUS_NO_NETWORKS<sp/><sp/><sp/><sp/>3<sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="60"><highlight class="preprocessor">#define<sp/>WLC_E_STATUS_ABORT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>4<sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="61"><highlight class="preprocessor">#define<sp/>WLC_E_STATUS_NO_ACK<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>5<sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="62"><highlight class="preprocessor">#define<sp/>WLC_E_STATUS_UNSOLICITED<sp/><sp/><sp/><sp/>6<sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="63"><highlight class="preprocessor">#define<sp/>WLC_E_STATUS_ATTEMPT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>7<sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="64"><highlight class="preprocessor">#define<sp/>WLC_E_STATUS_PARTIAL<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>8<sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="65"><highlight class="preprocessor">#define<sp/>WLC_E_STATUS_NEWSCAN<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>9<sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="66"><highlight class="preprocessor">#define<sp/>WLC_E_STATUS_NEWASSOC<sp/><sp/><sp/><sp/><sp/><sp/><sp/>10<sp/><sp/></highlight></codeline>
-<codeline lineno="67"><highlight class="preprocessor">#define<sp/>WLC_E_STATUS_11HQUIET<sp/><sp/><sp/><sp/><sp/><sp/><sp/>11<sp/><sp/></highlight></codeline>
-<codeline lineno="68"><highlight class="preprocessor">#define<sp/>WLC_E_STATUS_SUPPRESS<sp/><sp/><sp/><sp/><sp/><sp/><sp/>12<sp/><sp/></highlight></codeline>
-<codeline lineno="69"><highlight class="preprocessor">#define<sp/>WLC_E_STATUS_NOCHANS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>13<sp/><sp/></highlight></codeline>
-<codeline lineno="70"><highlight class="preprocessor">#define<sp/>WLC_E_STATUS_CCXFASTRM<sp/><sp/><sp/><sp/><sp/><sp/>14<sp/><sp/></highlight></codeline>
-<codeline lineno="71"><highlight class="preprocessor">#define<sp/>WLC_E_STATUS_CS_ABORT<sp/><sp/><sp/><sp/><sp/><sp/><sp/>15<sp/><sp/></highlight></codeline>
-<codeline lineno="72"><highlight class="preprocessor">#define<sp/>WLC_E_STATUS_ERROR<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>16<sp/><sp/></highlight></codeline>
-<codeline lineno="73"><highlight class="preprocessor">#define<sp/>WLC_E_STATUS_INVALID<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0xff<sp/></highlight></codeline>
-<codeline lineno="75"><highlight class="preprocessor">#define<sp/>WLC_SUP_STATUS_OFFSET<sp/><sp/><sp/><sp/><sp/><sp/>(256)<sp/></highlight></codeline>
-<codeline lineno="99"><highlight class="preprocessor">typedef<sp/>enum<sp/>sup_auth_status</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WLC_E_NONE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0x7FFFFFFE)<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WLC_E_SET_SSID<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WLC_E_AUTH<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>3<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WLC_E_DEAUTH<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>5<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WLC_E_DEAUTH_IND<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>6<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WLC_E_ASSOC<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>7<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WLC_E_ASSOC_IND<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>8<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WLC_E_REASSOC<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>9<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WLC_E_REASSOC_IND<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>10<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WLC_E_DISASSOC<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>11<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WLC_E_DISASSOC_IND<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>12<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WLC_E_LINK<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>16<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WLC_E_PROBREQ_MSG<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>44<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WLC_E_PSK_SUP<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>46<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WLC_E_ACTION_FRAME<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>59<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WLC_E_ACTION_FRAME_COMPLETE<sp/><sp/><sp/><sp/><sp/><sp/><sp/>60<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WLC_E_ESCAN_RESULT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>69<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>List<sp/>of<sp/>status<sp/>codes<sp/>-<sp/>Applicable<sp/>for<sp/>any<sp/>event<sp/>type<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WLC_E_STATUS_SUCCESS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0<sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WLC_E_STATUS_FAIL<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1<sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WLC_E_STATUS_TIMEOUT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>2<sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WLC_E_STATUS_NO_NETWORKS<sp/><sp/><sp/><sp/>3<sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WLC_E_STATUS_ABORT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>4<sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WLC_E_STATUS_NO_ACK<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>5<sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WLC_E_STATUS_UNSOLICITED<sp/><sp/><sp/><sp/>6<sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WLC_E_STATUS_ATTEMPT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>7<sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WLC_E_STATUS_PARTIAL<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>8<sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WLC_E_STATUS_NEWSCAN<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>9<sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WLC_E_STATUS_NEWASSOC<sp/><sp/><sp/><sp/><sp/><sp/><sp/>10<sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WLC_E_STATUS_11HQUIET<sp/><sp/><sp/><sp/><sp/><sp/><sp/>11<sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WLC_E_STATUS_SUPPRESS<sp/><sp/><sp/><sp/><sp/><sp/><sp/>12<sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WLC_E_STATUS_NOCHANS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>13<sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WLC_E_STATUS_CCXFASTRM<sp/><sp/><sp/><sp/><sp/><sp/>14<sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WLC_E_STATUS_CS_ABORT<sp/><sp/><sp/><sp/><sp/><sp/><sp/>15<sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WLC_E_STATUS_ERROR<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>16<sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WLC_E_STATUS_INVALID<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0xff<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WLC_SUP_STATUS_OFFSET<sp/><sp/><sp/><sp/><sp/><sp/>(256)<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>sup_auth_status</highlight></codeline>
 <codeline lineno="100"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="whd__events_8h_1a4c148823d74095f48ea78213ad1cfeffac9bc0eb3bd21bc5189a4a46793ea7680" kindref="member">WLC_SUP_DISCONNECTED</ref><sp/>=<sp/>0<sp/>+<sp/><ref refid="whd__events_8h_1ac97c29fe35bab5af9cc08a9eb1fedffc" kindref="member">WLC_SUP_STATUS_OFFSET</ref>,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="whd__events_8h_1a4c148823d74095f48ea78213ad1cfeffa8ac4d7e7fb55b33bb65316c9ba42f147" kindref="member">WLC_SUP_CONNECTING</ref><sp/>=<sp/>1<sp/>+<sp/><ref refid="whd__events_8h_1ac97c29fe35bab5af9cc08a9eb1fedffc" kindref="member">WLC_SUP_STATUS_OFFSET</ref>,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
@@ -1005,11 +1010,11 @@
 <codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="whd__events_8h_1a4c148823d74095f48ea78213ad1cfeffaa1a479ce249334165efc2abb7a417303" kindref="member">WLC_SUP_KEYXCHANGE_PREP_G2</ref><sp/><sp/>=<sp/>11<sp/>+<sp/><ref refid="whd__events_8h_1ac97c29fe35bab5af9cc08a9eb1fedffc" kindref="member">WLC_SUP_STATUS_OFFSET</ref><sp/></highlight></codeline>
 <codeline lineno="116"><highlight class="normal">}<sp/><ref refid="whd__events_8h_1a4c148823d74095f48ea78213ad1cfeff" kindref="member">sup_auth_status_t</ref>;</highlight></codeline>
 <codeline lineno="117"><highlight class="normal"></highlight></codeline>
-<codeline lineno="118"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WHD_MSG_IFNAME_MAX<sp/>16<sp/></highlight></codeline>
-<codeline lineno="120"><highlight class="preprocessor">#pragma<sp/>pack(1)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WHD_MSG_IFNAME_MAX<sp/>16<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>pack(1)</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="121"><highlight class="normal"></highlight></codeline>
-<codeline lineno="125"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">whd_event_eth_hdr</highlight></codeline>
-<codeline lineno="126" refid="structwhd__event__eth__hdr__t" refkind="compound"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="125" refid="structwhd__event__eth__hdr__t" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">whd_event_eth_hdr</highlight></codeline>
+<codeline lineno="126"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/>subtype;<sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/>length;<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/>version;<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
@@ -1017,15 +1022,15 @@
 <codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/>usr_subtype;<sp/><sp/></highlight></codeline>
 <codeline lineno="132"><highlight class="normal">}<sp/><ref refid="structwhd__event__eth__hdr__t" kindref="compound">whd_event_eth_hdr_t</ref>;</highlight></codeline>
 <codeline lineno="133"><highlight class="normal"></highlight></codeline>
-<codeline lineno="137"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">whd_event_ether_header</highlight></codeline>
-<codeline lineno="138" refid="structwhd__event__ether__header__t" refkind="compound"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="137" refid="structwhd__event__ether__header__t" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">whd_event_ether_header</highlight></codeline>
+<codeline lineno="138"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structwhd__mac__t" kindref="compound">whd_mac_t</ref><sp/>destination_address;<sp/></highlight></codeline>
 <codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structwhd__mac__t" kindref="compound">whd_mac_t</ref><sp/>source_address;<sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/>ethertype;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="142"><highlight class="normal">}<sp/><ref refid="structwhd__event__ether__header__t" kindref="compound">whd_event_ether_header_t</ref>;</highlight></codeline>
 <codeline lineno="143"><highlight class="normal"></highlight></codeline>
-<codeline lineno="147"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structwhd__event__msg" kindref="compound">whd_event_msg</ref></highlight></codeline>
-<codeline lineno="148" refid="structwhd__event__msg" refkind="compound"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="147" refid="structwhd__event__msg" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structwhd__event__msg" kindref="compound">whd_event_msg</ref></highlight></codeline>
+<codeline lineno="148"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="structwhd__event__msg_1ab6d7b6f8c2ceaba7acda80aaf05f4899" kindref="member">version</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/><ref refid="structwhd__event__msg_1a1e87af3c18a2fd36c61faf89949bdc3f" kindref="member">flags</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><ref refid="structwhd__event__msg_1a45def65890de0da17bc0d6e2ca2b3a9f" kindref="member">event_type</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
@@ -1039,8 +1044,8 @@
 <codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><ref refid="structwhd__event__msg_1aa2c53e1708eb89382779539506cb4359" kindref="member">bsscfgidx</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="160"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="161"><highlight class="normal"></highlight></codeline>
-<codeline lineno="165"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">whd_event</highlight></codeline>
-<codeline lineno="166" refid="structwhd__event__t" refkind="compound"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="165" refid="structwhd__event__t" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">whd_event</highlight></codeline>
+<codeline lineno="166"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structwhd__event__ether__header__t" kindref="compound">whd_event_ether_header_t</ref><sp/>eth;<sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structwhd__event__eth__hdr__t" kindref="compound">whd_event_eth_hdr_t</ref><sp/>eth_evt_hdr;<sp/></highlight></codeline>
 <codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/>whd_event_header_t<sp/>whd_event;<sp/><sp/><sp/><sp/></highlight></codeline>
@@ -1049,21 +1054,21 @@
 <codeline lineno="172"><highlight class="normal"></highlight></codeline>
 <codeline lineno="173"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>pack()</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="174"><highlight class="normal"></highlight></codeline>
-<codeline lineno="186"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*(*whd_event_handler_t)(<ref refid="whd_8h_1a2e544c482ddbb690bbb95ce7174e79a0" kindref="member">whd_interface_t</ref><sp/>ifp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>whd_event_header_t<sp/>*event_header,</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*(*whd_event_handler_t)(whd_interface_t<sp/>ifp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>whd_event_header_t<sp/>*event_header,</highlight></codeline>
 <codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>*event_data,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*handler_user_data);</highlight></codeline>
 <codeline lineno="188"><highlight class="normal"></highlight></codeline>
-<codeline lineno="208"><highlight class="normal">uint32_t<sp/><ref refid="group__event_1ga4175c3ef9bb16601fabc605fadeaf8d8" kindref="member">whd_wifi_set_event_handler</ref>(<ref refid="whd_8h_1a2e544c482ddbb690bbb95ce7174e79a0" kindref="member">whd_interface_t</ref><sp/>ifp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint32_t<sp/>*event_type,<sp/><ref refid="group__event_1ga9c74af353c83a8f77097acbc65362b07" kindref="member">whd_event_handler_t</ref><sp/>handler_func,</highlight></codeline>
+<codeline lineno="208"><highlight class="normal">uint32_t<sp/><ref refid="group__event_1ga4175c3ef9bb16601fabc605fadeaf8d8" kindref="member">whd_wifi_set_event_handler</ref>(whd_interface_t<sp/>ifp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint32_t<sp/>*event_type,<sp/><ref refid="group__event_1ga140bef247bc6273b94a0408caa4edfb8" kindref="member">whd_event_handler_t</ref><sp/>handler_func,</highlight></codeline>
 <codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*handler_user_data,<sp/>uint16_t<sp/>*event_index);</highlight></codeline>
-<codeline lineno="220"><highlight class="normal">uint32_t<sp/><ref refid="whd__events_8h_1ae415f1f3fcbbfe506aa0e656bf8debb3" kindref="member">whd_wifi_deregister_event_handler</ref>(<ref refid="whd_8h_1a2e544c482ddbb690bbb95ce7174e79a0" kindref="member">whd_interface_t</ref><sp/>ifp,<sp/>uint16_t<sp/>event_index);</highlight></codeline>
+<codeline lineno="220"><highlight class="normal">uint32_t<sp/><ref refid="whd__events_8h_1ae415f1f3fcbbfe506aa0e656bf8debb3" kindref="member">whd_wifi_deregister_event_handler</ref>(whd_interface_t<sp/>ifp,<sp/>uint16_t<sp/>event_index);</highlight></codeline>
 <codeline lineno="221"><highlight class="normal"></highlight></codeline>
-<codeline lineno="240"><highlight class="normal"><ref refid="whd__types_8h_1add62f4b5040a2451e23869d2f9e1ae05" kindref="member">whd_result_t</ref><sp/><ref refid="whd__events_8h_1a5758f1bbdebed667cde8f63f0dac0362" kindref="member">whd_management_set_event_handler</ref>(<ref refid="whd_8h_1a2e544c482ddbb690bbb95ce7174e79a0" kindref="member">whd_interface_t</ref><sp/>ifp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>whd_event_num_t<sp/>*event_nums,</highlight></codeline>
-<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__event_1ga9c74af353c83a8f77097acbc65362b07" kindref="member">whd_event_handler_t</ref><sp/>handler_func,</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><ref refid="whd__types_8h_1add62f4b5040a2451e23869d2f9e1ae05" kindref="member">whd_result_t</ref><sp/><ref refid="whd__events_8h_1a5758f1bbdebed667cde8f63f0dac0362" kindref="member">whd_management_set_event_handler</ref>(whd_interface_t<sp/>ifp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>whd_event_num_t<sp/>*event_nums,</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__event_1ga140bef247bc6273b94a0408caa4edfb8" kindref="member">whd_event_handler_t</ref><sp/>handler_func,</highlight></codeline>
 <codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*handler_user_data,<sp/>uint16_t<sp/>*event_index);</highlight></codeline>
 <codeline lineno="243"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="244"><highlight class="normal">}<sp/></highlight><highlight class="comment">/*<sp/>extern<sp/>&quot;C&quot;<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="245"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="246"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>ifndef<sp/><sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
     </programlisting>
-    <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h"/>
+    <location file="source/whd_events.h"/>
   </compounddef>
 </doxygen>

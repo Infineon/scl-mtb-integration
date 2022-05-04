@@ -1,16 +1,9 @@
 var searchData=
 [
-  ['ibss_5fenabled_49',['IBSS_ENABLED',['../whd__types_8h.html#a9640c064932a3a633a3312b737658f83',1,'whd_types.h']]],
-  ['id_50',['id',['../structwhd__packet__filter__t.html#abaabdc509cdaba7df9f56c6c76f3ae19',1,'whd_packet_filter_t']]],
-  ['ie_5flen_51',['ie_len',['../structwhd__scan__result__t.html#a5530db0834a2796234ed42c3fcb5c0f4',1,'whd_scan_result_t']]],
-  ['ie_5flength_52',['ie_length',['../structwl__bss__info__t.html#a5312679515b5ee9c1875196c703a8a52',1,'wl_bss_info_t']]],
-  ['ie_5foffset_53',['ie_offset',['../structwl__bss__info__t.html#a67b93773e8da423543b703cad84da5a5',1,'wl_bss_info_t']]],
-  ['ie_5fptr_54',['ie_ptr',['../structwhd__scan__result__t.html#a460ec020636ddecd8758543cfa83e101',1,'whd_scan_result_t']]],
-  ['ifidx_55',['ifidx',['../structwhd__event__msg.html#aee54e454588cb953b7f349e589c2d09f',1,'whd_event_msg']]],
-  ['ifname_56',['ifname',['../structwhd__event__msg.html#a6416f2a9886b328d85974b42f5a34ce5',1,'whd_event_msg']]],
-  ['index_57',['index',['../structwhd__wep__key__t.html#aae5a12e607d0f782506d9e6ec6179c64',1,'whd_wep_key_t']]],
-  ['int_5fgrant_58',['int_grant',['../structwhd__btc__lescan__params__t.html#a8dcea8fcf19e2facaf59891ab47375d9',1,'whd_btc_lescan_params_t']]],
-  ['intr_5fpriority_59',['intr_priority',['../structwhd__oob__config__t.html#a948130b9ee9aaba4463a9a678c830b2f',1,'whd_oob_config_t']]],
-  ['is_5ffalling_5fedge_60',['is_falling_edge',['../structwhd__oob__config__t.html#afac6867bb224b40190d70a7bed57b556',1,'whd_oob_config_t']]],
-  ['is_5fspi_5fnormal_5fmode_61',['is_spi_normal_mode',['../structwhd__spi__config__t.html#a65649e24a48dbfcf74a6e3b0ea729181',1,'whd_spi_config_t']]]
+  ['high_5fspeed_5fsdio_5fclock_0',['high_speed_sdio_clock',['../structwhd__sdio__config__t.html#aa23e026ad94f9606f2a0e5fef47df13d',1,'whd_sdio_config_t']]],
+  ['hnd_5fcons_5ft_1',['hnd_cons_t',['../structhnd__cons__t.html',1,'']]],
+  ['hnd_5flog_5ft_2',['hnd_log_t',['../structhnd__log__t.html',1,'']]],
+  ['host_5fip_5flist_3',['host_ip_list',['../structwhd__arp__stats__s.html#ad37cbc6fe77b28c08229c1730679b962',1,'whd_arp_stats_s']]],
+  ['host_5foob_5fpin_4',['host_oob_pin',['../structwhd__oob__config__t.html#a6c705dc46f1c4249cef91f1fc8a877dc',1,'whd_oob_config_t']]],
+  ['ht_5fcapabilities_5fie_5ft_5',['ht_capabilities_ie_t',['../structht__capabilities__ie__t.html',1,'']]]
 ];

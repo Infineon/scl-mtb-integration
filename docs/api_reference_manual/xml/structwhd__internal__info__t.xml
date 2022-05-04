@@ -1,0 +1,240 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwhd__internal__info__t" kind="struct" language="C++" prot="public">
+    <compoundname>whd_internal_info_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwhd__internal__info__t_1ae06ae98d7460d2be65448b0e5ad700f1" prot="public" static="no" mutable="no">
+        <type><ref refid="structwhd__wlan__status__t" kindref="compound">whd_wlan_status_t</ref></type>
+        <definition>whd_wlan_status_t whd_wlan_status</definition>
+        <argsstring></argsstring>
+        <name>whd_wlan_status</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="324" column="23" bodyfile="source/whd_chip.h" bodystart="324" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__internal__info__t_1a1ae54b5fbe05b22f9203988502a1b5d4" prot="public" static="no" mutable="no">
+        <type><ref refid="structwifi__console__t" kindref="compound">wifi_console_t</ref> *</type>
+        <definition>wifi_console_t* c</definition>
+        <argsstring></argsstring>
+        <name>c</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="325" column="20" bodyfile="source/whd_chip.h" bodystart="325" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__internal__info__t_1a25d6626441fcdc7d178d8059f2dd0ad2" prot="public" static="no" mutable="no">
+        <type><ref refid="structwifi__console__t" kindref="compound">wifi_console_t</ref></type>
+        <definition>wifi_console_t console</definition>
+        <argsstring></argsstring>
+        <name>console</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="326" column="20" bodyfile="source/whd_chip.h" bodystart="326" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__internal__info__t_1a2417e3dcc6fff8c9d211e83a8f661a6f" prot="public" static="no" mutable="no">
+        <type><ref refid="structwlan__shared__t" kindref="compound">wlan_shared_t</ref></type>
+        <definition>wlan_shared_t sh</definition>
+        <argsstring></argsstring>
+        <name>sh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="327" column="19" bodyfile="source/whd_chip.h" bodystart="327" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__internal__info__t_1a59ee9450386d0d25911d89f63ad18837" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t console_addr</definition>
+        <argsstring></argsstring>
+        <name>console_addr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="328" column="14" bodyfile="source/whd_chip.h" bodystart="328" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__internal__info__t_1afbba892c307ac677420e524fecfcf770" prot="public" static="no" mutable="no">
+        <type><ref refid="group__wifijoin_1ga9f8c6096922212981dd2101a17aec471" kindref="member">whd_scan_result_callback_t</ref></type>
+        <definition>whd_scan_result_callback_t scan_result_callback</definition>
+        <argsstring></argsstring>
+        <name>scan_result_callback</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="329" column="32" bodyfile="source/whd_chip.h" bodystart="329" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__internal__info__t_1a1c9eef796ad5358f66cf8eeb722860e8" prot="public" static="no" mutable="no">
+        <type><ref refid="structwhd__scan__result__t" kindref="compound">whd_scan_result_t</ref> *</type>
+        <definition>whd_scan_result_t* whd_scan_result_ptr</definition>
+        <argsstring></argsstring>
+        <name>whd_scan_result_ptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="330" column="23" bodyfile="source/whd_chip.h" bodystart="330" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__internal__info__t_1a950a7121d08de0f9e575a3a7c9fbdef0" prot="public" static="no" mutable="no">
+        <type>cy_semaphore_t *</type>
+        <definition>cy_semaphore_t* active_join_semaphore</definition>
+        <argsstring></argsstring>
+        <name>active_join_semaphore</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="333" column="20" bodyfile="source/whd_chip.h" bodystart="333" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__internal__info__t_1aa23042e3a4134e17035d0b71c9ce61f0" prot="public" static="no" mutable="no">
+        <type><ref refid="whd__types_8h_1a7cd94a03f2e7e6aab7217ed559c7a0ac" kindref="member">whd_bool_t</ref></type>
+        <definition>whd_bool_t active_join_mutex_initted</definition>
+        <argsstring></argsstring>
+        <name>active_join_mutex_initted</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="334" column="16" bodyfile="source/whd_chip.h" bodystart="334" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__internal__info__t_1ad4fefb84f8fabaf54237c449b50c421f" prot="public" static="no" mutable="no">
+        <type>cy_semaphore_t</type>
+        <definition>cy_semaphore_t active_join_mutex</definition>
+        <argsstring></argsstring>
+        <name>active_join_mutex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="335" column="20" bodyfile="source/whd_chip.h" bodystart="335" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__internal__info__t_1aa31360a7f9d7438e1064bf0d3ebb9538" prot="public" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint con_lastpos</definition>
+        <argsstring></argsstring>
+        <name>con_lastpos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="336" column="10" bodyfile="source/whd_chip.h" bodystart="336" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__internal__info__t_1a8d209896f588e62d0d794f2ec3c48add" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t whd_join_status[3]</definition>
+        <argsstring>[3]</argsstring>
+        <name>whd_join_status</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="337" column="14" bodyfile="source/whd_chip.h" bodystart="337" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="4">
+        <label>hnd_log_t</label>
+        <link refid="structhnd__log__t"/>
+      </node>
+      <node id="1">
+        <label>whd_internal_info_t</label>
+        <link refid="structwhd__internal__info__t"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>whd_wlan_status</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>c</edgelabel>
+          <edgelabel>console</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>sh</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>scan_result_callback</edgelabel>
+          <edgelabel>whd_scan_result_ptr</edgelabel>
+        </childnode>
+      </node>
+      <node id="8">
+        <label>whd_mac_t</label>
+        <link refid="structwhd__mac__t"/>
+      </node>
+      <node id="6">
+        <label>whd_scan_result_t</label>
+        <link refid="structwhd__scan__result__t"/>
+        <childnode refid="7" relation="usage">
+          <edgelabel>SSID</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>BSSID</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>whd_ssid_t</label>
+        <link refid="structwhd__ssid__t"/>
+      </node>
+      <node id="2">
+        <label>whd_wlan_status_t</label>
+        <link refid="structwhd__wlan__status__t"/>
+      </node>
+      <node id="3">
+        <label>wifi_console_t</label>
+        <link refid="structwifi__console__t"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>log</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>wlan_shared_t</label>
+        <link refid="structwlan__shared__t"/>
+      </node>
+    </collaborationgraph>
+    <location file="source/whd_chip.h" line="322" column="1" bodyfile="source/whd_chip.h" bodystart="323" bodyend="339"/>
+    <listofallmembers>
+      <member refid="structwhd__internal__info__t_1ad4fefb84f8fabaf54237c449b50c421f" prot="public" virt="non-virtual"><scope>whd_internal_info_t</scope><name>active_join_mutex</name></member>
+      <member refid="structwhd__internal__info__t_1aa23042e3a4134e17035d0b71c9ce61f0" prot="public" virt="non-virtual"><scope>whd_internal_info_t</scope><name>active_join_mutex_initted</name></member>
+      <member refid="structwhd__internal__info__t_1a950a7121d08de0f9e575a3a7c9fbdef0" prot="public" virt="non-virtual"><scope>whd_internal_info_t</scope><name>active_join_semaphore</name></member>
+      <member refid="structwhd__internal__info__t_1a1ae54b5fbe05b22f9203988502a1b5d4" prot="public" virt="non-virtual"><scope>whd_internal_info_t</scope><name>c</name></member>
+      <member refid="structwhd__internal__info__t_1aa31360a7f9d7438e1064bf0d3ebb9538" prot="public" virt="non-virtual"><scope>whd_internal_info_t</scope><name>con_lastpos</name></member>
+      <member refid="structwhd__internal__info__t_1a25d6626441fcdc7d178d8059f2dd0ad2" prot="public" virt="non-virtual"><scope>whd_internal_info_t</scope><name>console</name></member>
+      <member refid="structwhd__internal__info__t_1a59ee9450386d0d25911d89f63ad18837" prot="public" virt="non-virtual"><scope>whd_internal_info_t</scope><name>console_addr</name></member>
+      <member refid="structwhd__internal__info__t_1afbba892c307ac677420e524fecfcf770" prot="public" virt="non-virtual"><scope>whd_internal_info_t</scope><name>scan_result_callback</name></member>
+      <member refid="structwhd__internal__info__t_1a2417e3dcc6fff8c9d211e83a8f661a6f" prot="public" virt="non-virtual"><scope>whd_internal_info_t</scope><name>sh</name></member>
+      <member refid="structwhd__internal__info__t_1a8d209896f588e62d0d794f2ec3c48add" prot="public" virt="non-virtual"><scope>whd_internal_info_t</scope><name>whd_join_status</name></member>
+      <member refid="structwhd__internal__info__t_1a1c9eef796ad5358f66cf8eeb722860e8" prot="public" virt="non-virtual"><scope>whd_internal_info_t</scope><name>whd_scan_result_ptr</name></member>
+      <member refid="structwhd__internal__info__t_1ae06ae98d7460d2be65448b0e5ad700f1" prot="public" virt="non-virtual"><scope>whd_internal_info_t</scope><name>whd_wlan_status</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

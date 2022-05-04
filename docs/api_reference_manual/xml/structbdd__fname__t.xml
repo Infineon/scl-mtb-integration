@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structbdd__fname__t" kind="struct" language="C++" prot="public">
+    <compoundname>bdd_fname_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structbdd__fname__t_1a5723e60ffd628510c699eddbce90be23" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t len</definition>
+        <argsstring></argsstring>
+        <name>len</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2967" column="13" bodyfile="source/whd_wlioctl.h" bodystart="2967" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structbdd__fname__t_1a40522db386c19c98eb85b875c1d15681" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t name[BDD_FNAME_LEN]</definition>
+        <argsstring>[BDD_FNAME_LEN]</argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2968" column="13" bodyfile="source/whd_wlioctl.h" bodystart="2968" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="2965" column="1" bodyfile="source/whd_wlioctl.h" bodystart="2966" bodyend="2969"/>
+    <listofallmembers>
+      <member refid="structbdd__fname__t_1a5723e60ffd628510c699eddbce90be23" prot="public" virt="non-virtual"><scope>bdd_fname_t</scope><name>len</name></member>
+      <member refid="structbdd__fname__t_1a40522db386c19c98eb85b875c1d15681" prot="public" virt="non-virtual"><scope>bdd_fname_t</scope><name>name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

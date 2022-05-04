@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwhd__tlv8__header__t" kind="struct" language="C++" prot="public">
+    <compoundname>whd_tlv8_header_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwhd__tlv8__header__t_1a1d127017fb298b889f4ba24752d08b8e" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="147" column="13" bodyfile="source/whd_chip.h" bodystart="147" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__tlv8__header__t_1ab2b3adeb2a67e656ff030b56727fd0ac" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t length</definition>
+        <argsstring></argsstring>
+        <name>length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="148" column="13" bodyfile="source/whd_chip.h" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_chip.h" line="145" column="1" bodyfile="source/whd_chip.h" bodystart="146" bodyend="149"/>
+    <listofallmembers>
+      <member refid="structwhd__tlv8__header__t_1ab2b3adeb2a67e656ff030b56727fd0ac" prot="public" virt="non-virtual"><scope>whd_tlv8_header_t</scope><name>length</name></member>
+      <member refid="structwhd__tlv8__header__t_1a1d127017fb298b889f4ba24752d08b8e" prot="public" virt="non-virtual"><scope>whd_tlv8_header_t</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

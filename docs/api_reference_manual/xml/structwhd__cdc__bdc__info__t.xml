@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwhd__cdc__bdc__info__t" kind="struct" language="C++" prot="public">
+    <compoundname>whd_cdc_bdc_info_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwhd__cdc__bdc__info__t_1a95a0eed66fd6b19d8effddfd4e58dff1" prot="public" static="no" mutable="no">
+        <type><ref refid="structevent__list__elem__t" kindref="compound">event_list_elem_t</ref></type>
+        <definition>event_list_elem_t whd_event_list[WHD_EVENT_HANDLER_LIST_SIZE]</definition>
+        <argsstring>[WHD_EVENT_HANDLER_LIST_SIZE]</argsstring>
+        <name>whd_event_list</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_cdc_bdc.h" line="111" column="23" bodyfile="source/whd_cdc_bdc.h" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__cdc__bdc__info__t_1a7b498e7456f25411ab862d9eb6d8d66a" prot="public" static="no" mutable="no">
+        <type>cy_semaphore_t</type>
+        <definition>cy_semaphore_t event_list_mutex</definition>
+        <argsstring></argsstring>
+        <name>event_list_mutex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_cdc_bdc.h" line="112" column="20" bodyfile="source/whd_cdc_bdc.h" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__cdc__bdc__info__t_1aa15176fe89dac97cbd683b2784c81cf6" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t requested_ioctl_id</definition>
+        <argsstring></argsstring>
+        <name>requested_ioctl_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_cdc_bdc.h" line="115" column="14" bodyfile="source/whd_cdc_bdc.h" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__cdc__bdc__info__t_1ac3a6f5029c378e008ea853e797dde7f0" prot="public" static="no" mutable="no">
+        <type>cy_semaphore_t</type>
+        <definition>cy_semaphore_t ioctl_mutex</definition>
+        <argsstring></argsstring>
+        <name>ioctl_mutex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_cdc_bdc.h" line="116" column="20" bodyfile="source/whd_cdc_bdc.h" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__cdc__bdc__info__t_1a726528b3c932f77ef68b8658c655b228" prot="public" static="no" mutable="no">
+        <type>whd_buffer_t</type>
+        <definition>whd_buffer_t ioctl_response</definition>
+        <argsstring></argsstring>
+        <name>ioctl_response</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_cdc_bdc.h" line="117" column="18" bodyfile="source/whd_cdc_bdc.h" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__cdc__bdc__info__t_1ad41675d51f8c50b3234c783342989048" prot="public" static="no" mutable="no">
+        <type>cy_semaphore_t</type>
+        <definition>cy_semaphore_t ioctl_sleep</definition>
+        <argsstring></argsstring>
+        <name>ioctl_sleep</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_cdc_bdc.h" line="118" column="20" bodyfile="source/whd_cdc_bdc.h" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>event_list_elem_t</label>
+        <link refid="structevent__list__elem__t"/>
+      </node>
+      <node id="1">
+        <label>whd_cdc_bdc_info_t</label>
+        <link refid="structwhd__cdc__bdc__info__t"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>whd_event_list</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="source/whd_cdc_bdc.h" line="108" column="1" bodyfile="source/whd_cdc_bdc.h" bodystart="109" bodyend="120"/>
+    <listofallmembers>
+      <member refid="structwhd__cdc__bdc__info__t_1a7b498e7456f25411ab862d9eb6d8d66a" prot="public" virt="non-virtual"><scope>whd_cdc_bdc_info_t</scope><name>event_list_mutex</name></member>
+      <member refid="structwhd__cdc__bdc__info__t_1ac3a6f5029c378e008ea853e797dde7f0" prot="public" virt="non-virtual"><scope>whd_cdc_bdc_info_t</scope><name>ioctl_mutex</name></member>
+      <member refid="structwhd__cdc__bdc__info__t_1a726528b3c932f77ef68b8658c655b228" prot="public" virt="non-virtual"><scope>whd_cdc_bdc_info_t</scope><name>ioctl_response</name></member>
+      <member refid="structwhd__cdc__bdc__info__t_1ad41675d51f8c50b3234c783342989048" prot="public" virt="non-virtual"><scope>whd_cdc_bdc_info_t</scope><name>ioctl_sleep</name></member>
+      <member refid="structwhd__cdc__bdc__info__t_1aa15176fe89dac97cbd683b2784c81cf6" prot="public" virt="non-virtual"><scope>whd_cdc_bdc_info_t</scope><name>requested_ioctl_id</name></member>
+      <member refid="structwhd__cdc__bdc__info__t_1a95a0eed66fd6b19d8effddfd4e58dff1" prot="public" virt="non-virtual"><scope>whd_cdc_bdc_info_t</scope><name>whd_event_list</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

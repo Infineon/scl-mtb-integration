@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structsta__prbreq__wps__ie__data__t" kind="struct" language="C++" prot="public">
+    <compoundname>sta_prbreq_wps_ie_data_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsta__prbreq__wps__ie__data__t_1a860fb1ef21d239de5b3f3a2a85726a2b" prot="public" static="no" mutable="no">
+        <type><ref refid="structsta__prbreq__wps__ie__hdr__t" kindref="compound">sta_prbreq_wps_ie_hdr_t</ref></type>
+        <definition>sta_prbreq_wps_ie_hdr_t hdr</definition>
+        <argsstring></argsstring>
+        <name>hdr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3421" column="29" bodyfile="source/whd_wlioctl.h" bodystart="3421" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsta__prbreq__wps__ie__data__t_1a3fffb65769950572f1c3e02e80909c48" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t ieData[1]</definition>
+        <argsstring>[1]</argsstring>
+        <name>ieData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3422" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3422" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>sta_prbreq_wps_ie_data_t</label>
+        <link refid="structsta__prbreq__wps__ie__data__t"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>hdr</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>sta_prbreq_wps_ie_hdr_t</label>
+        <link refid="structsta__prbreq__wps__ie__hdr__t"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>staAddr</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>wl_ether_addr_t</label>
+        <link refid="structwl__ether__addr__t"/>
+      </node>
+    </collaborationgraph>
+    <location file="source/whd_wlioctl.h" line="3419" column="1" bodyfile="source/whd_wlioctl.h" bodystart="3420" bodyend="3423"/>
+    <listofallmembers>
+      <member refid="structsta__prbreq__wps__ie__data__t_1a860fb1ef21d239de5b3f3a2a85726a2b" prot="public" virt="non-virtual"><scope>sta_prbreq_wps_ie_data_t</scope><name>hdr</name></member>
+      <member refid="structsta__prbreq__wps__ie__data__t_1a3fffb65769950572f1c3e02e80909c48" prot="public" virt="non-virtual"><scope>sta_prbreq_wps_ie_data_t</scope><name>ieData</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structtspec__per__sta__arg__t" kind="struct" language="C++" prot="public">
+    <compoundname>tspec_per_sta_arg_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structtspec__per__sta__arg__t_1a4a16c55fabd412152b5486228819ec46" prot="public" static="no" mutable="no">
+        <type><ref refid="structwl__ether__addr__t" kindref="compound">wl_ether_addr_t</ref></type>
+        <definition>wl_ether_addr_t ea</definition>
+        <argsstring></argsstring>
+        <name>ea</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3000" column="21" bodyfile="source/whd_wlioctl.h" bodystart="3000" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structtspec__per__sta__arg__t_1ad397b853b364d6d3431e18460ba98e10" prot="public" static="no" mutable="no">
+        <type>struct tspec_arg</type>
+        <definition>struct tspec_arg ts</definition>
+        <argsstring></argsstring>
+        <name>ts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3001" column="20" bodyfile="source/whd_wlioctl.h" bodystart="3001" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>tspec_per_sta_arg_t</label>
+        <link refid="structtspec__per__sta__arg__t"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>ea</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>wl_ether_addr_t</label>
+        <link refid="structwl__ether__addr__t"/>
+      </node>
+    </collaborationgraph>
+    <location file="source/whd_wlioctl.h" line="2998" column="1" bodyfile="source/whd_wlioctl.h" bodystart="2999" bodyend="3002"/>
+    <listofallmembers>
+      <member refid="structtspec__per__sta__arg__t_1a4a16c55fabd412152b5486228819ec46" prot="public" virt="non-virtual"><scope>tspec_per_sta_arg_t</scope><name>ea</name></member>
+      <member refid="structtspec__per__sta__arg__t_1ad397b853b364d6d3431e18460ba98e10" prot="public" virt="non-virtual"><scope>tspec_per_sta_arg_t</scope><name>ts</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

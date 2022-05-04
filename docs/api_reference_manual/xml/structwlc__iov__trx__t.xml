@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwlc__iov__trx__t" kind="struct" language="C++" prot="public">
+    <compoundname>wlc_iov_trx_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwlc__iov__trx__t_1a8dc5dbc13ebe8eb221673980e57465b6" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t module</definition>
+        <argsstring></argsstring>
+        <name>module</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="651" column="13" bodyfile="source/whd_wlioctl.h" bodystart="651" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwlc__iov__trx__t_1a1d127017fb298b889f4ba24752d08b8e" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="652" column="13" bodyfile="source/whd_wlioctl.h" bodystart="652" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwlc__iov__trx__t_1ad321616b6254c34e8619b79d5500a46a" prot="public" static="no" mutable="no">
+        <type>int8_t</type>
+        <definition>int8_t name[WLC_IOV_NAME_LEN]</definition>
+        <argsstring>[WLC_IOV_NAME_LEN]</argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="653" column="12" bodyfile="source/whd_wlioctl.h" bodystart="653" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="649" column="1" bodyfile="source/whd_wlioctl.h" bodystart="650" bodyend="654"/>
+    <listofallmembers>
+      <member refid="structwlc__iov__trx__t_1a8dc5dbc13ebe8eb221673980e57465b6" prot="public" virt="non-virtual"><scope>wlc_iov_trx_t</scope><name>module</name></member>
+      <member refid="structwlc__iov__trx__t_1ad321616b6254c34e8619b79d5500a46a" prot="public" virt="non-virtual"><scope>wlc_iov_trx_t</scope><name>name</name></member>
+      <member refid="structwlc__iov__trx__t_1a1d127017fb298b889f4ba24752d08b8e" prot="public" virt="non-virtual"><scope>wlc_iov_trx_t</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

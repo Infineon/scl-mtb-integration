@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwl__rmc__trans__in__network__t" kind="struct" language="C++" prot="public">
+    <compoundname>wl_rmc_trans_in_network_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwl__rmc__trans__in__network__t_1ae106cd5a700482b11ccde5ee231f6350" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t ver</definition>
+        <argsstring></argsstring>
+        <name>ver</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3676" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3676" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__rmc__trans__in__network__t_1ae34f330d670f7e59d2fc54728065fe20" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t num_tr</definition>
+        <argsstring></argsstring>
+        <name>num_tr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3677" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3677" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__rmc__trans__in__network__t_1a9b6a467905d378194ce68ca8c83f123f" prot="public" static="no" mutable="no">
+        <type><ref refid="structwl__rmc__trans__elem__t" kindref="compound">wl_rmc_trans_elem_t</ref></type>
+        <definition>wl_rmc_trans_elem_t trs[WL_RMC_MAX_NUM_TRS]</definition>
+        <argsstring>[WL_RMC_MAX_NUM_TRS]</argsstring>
+        <name>trs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3678" column="25" bodyfile="source/whd_wlioctl.h" bodystart="3678" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>wl_rmc_trans_elem_t</label>
+        <link refid="structwl__rmc__trans__elem__t"/>
+      </node>
+      <node id="1">
+        <label>wl_rmc_trans_in_network_t</label>
+        <link refid="structwl__rmc__trans__in__network__t"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>trs</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="source/whd_wlioctl.h" line="3674" column="1" bodyfile="source/whd_wlioctl.h" bodystart="3675" bodyend="3679"/>
+    <listofallmembers>
+      <member refid="structwl__rmc__trans__in__network__t_1ae34f330d670f7e59d2fc54728065fe20" prot="public" virt="non-virtual"><scope>wl_rmc_trans_in_network_t</scope><name>num_tr</name></member>
+      <member refid="structwl__rmc__trans__in__network__t_1a9b6a467905d378194ce68ca8c83f123f" prot="public" virt="non-virtual"><scope>wl_rmc_trans_in_network_t</scope><name>trs</name></member>
+      <member refid="structwl__rmc__trans__in__network__t_1ae106cd5a700482b11ccde5ee231f6350" prot="public" virt="non-virtual"><scope>wl_rmc_trans_in_network_t</scope><name>ver</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

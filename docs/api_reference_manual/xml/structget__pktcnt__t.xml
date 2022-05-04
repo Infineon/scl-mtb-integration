@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structget__pktcnt__t" kind="struct" language="C++" prot="public">
+    <compoundname>get_pktcnt_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structget__pktcnt__t_1aa41826089c0404920a054945cb6954e8" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rx_good_pkt</definition>
+        <argsstring></argsstring>
+        <name>rx_good_pkt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="603" column="14" bodyfile="source/whd_wlioctl.h" bodystart="603" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structget__pktcnt__t_1abe1950d3c6f2292afd034d9f85af5476" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rx_bad_pkt</definition>
+        <argsstring></argsstring>
+        <name>rx_bad_pkt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="604" column="14" bodyfile="source/whd_wlioctl.h" bodystart="604" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structget__pktcnt__t_1ad075eb9946c2fdbdb4bc8e1fa8d6c45f" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t tx_good_pkt</definition>
+        <argsstring></argsstring>
+        <name>tx_good_pkt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="605" column="14" bodyfile="source/whd_wlioctl.h" bodystart="605" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structget__pktcnt__t_1a5ecfd7171afa3b794794e9689bd41b7c" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t tx_bad_pkt</definition>
+        <argsstring></argsstring>
+        <name>tx_bad_pkt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="606" column="14" bodyfile="source/whd_wlioctl.h" bodystart="606" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structget__pktcnt__t_1a96c6503bd16d4c5fc701cf84eca9c272" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rx_ocast_good_pkt</definition>
+        <argsstring></argsstring>
+        <name>rx_ocast_good_pkt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="607" column="14" bodyfile="source/whd_wlioctl.h" bodystart="607" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="601" column="1" bodyfile="source/whd_wlioctl.h" bodystart="602" bodyend="608"/>
+    <listofallmembers>
+      <member refid="structget__pktcnt__t_1abe1950d3c6f2292afd034d9f85af5476" prot="public" virt="non-virtual"><scope>get_pktcnt_t</scope><name>rx_bad_pkt</name></member>
+      <member refid="structget__pktcnt__t_1aa41826089c0404920a054945cb6954e8" prot="public" virt="non-virtual"><scope>get_pktcnt_t</scope><name>rx_good_pkt</name></member>
+      <member refid="structget__pktcnt__t_1a96c6503bd16d4c5fc701cf84eca9c272" prot="public" virt="non-virtual"><scope>get_pktcnt_t</scope><name>rx_ocast_good_pkt</name></member>
+      <member refid="structget__pktcnt__t_1a5ecfd7171afa3b794794e9689bd41b7c" prot="public" virt="non-virtual"><scope>get_pktcnt_t</scope><name>tx_bad_pkt</name></member>
+      <member refid="structget__pktcnt__t_1ad075eb9946c2fdbdb4bc8e1fa8d6c45f" prot="public" virt="non-virtual"><scope>get_pktcnt_t</scope><name>tx_good_pkt</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwl__aci__args__t" kind="struct" language="C++" prot="public">
+    <compoundname>wl_aci_args_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwl__aci__args__t_1a628d88a9c59720e67d61ce41401a0559" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t enter_aci_thresh</definition>
+        <argsstring></argsstring>
+        <name>enter_aci_thresh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1281" column="13" bodyfile="source/whd_wlioctl.h" bodystart="1281" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__aci__args__t_1a62aba8f969d6e1a928357e7af6ab57fd" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t exit_aci_thresh</definition>
+        <argsstring></argsstring>
+        <name>exit_aci_thresh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1282" column="13" bodyfile="source/whd_wlioctl.h" bodystart="1282" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__aci__args__t_1ab6e770365e8c4621ea914b50ae7626ff" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t usec_spin</definition>
+        <argsstring></argsstring>
+        <name>usec_spin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1283" column="13" bodyfile="source/whd_wlioctl.h" bodystart="1283" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__aci__args__t_1a0e3ec67fd5bcde2a5e0a7352a4fcb20d" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t glitch_delay</definition>
+        <argsstring></argsstring>
+        <name>glitch_delay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1284" column="13" bodyfile="source/whd_wlioctl.h" bodystart="1284" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__aci__args__t_1aeff6cb9e70ca5d65d9cf56f709c71e6c" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t nphy_adcpwr_enter_thresh</definition>
+        <argsstring></argsstring>
+        <name>nphy_adcpwr_enter_thresh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1285" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1285" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__aci__args__t_1a2687c5e74ae22b051c6c3ce5a502f36b" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t nphy_adcpwr_exit_thresh</definition>
+        <argsstring></argsstring>
+        <name>nphy_adcpwr_exit_thresh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1286" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1286" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__aci__args__t_1aa906b24239e9cbf06b94a67f7d5fefd8" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t nphy_repeat_ctr</definition>
+        <argsstring></argsstring>
+        <name>nphy_repeat_ctr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1287" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1287" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__aci__args__t_1a342beafef99c1c2ebb5376d1d32ec603" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t nphy_num_samples</definition>
+        <argsstring></argsstring>
+        <name>nphy_num_samples</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1288" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1288" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__aci__args__t_1afaa3a4ec7fd570eaaaff0de9bdd315ab" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t nphy_undetect_window_sz</definition>
+        <argsstring></argsstring>
+        <name>nphy_undetect_window_sz</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1289" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1289" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__aci__args__t_1af5a439d48c4dd141d1ffa598aab75343" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t nphy_b_energy_lo_aci</definition>
+        <argsstring></argsstring>
+        <name>nphy_b_energy_lo_aci</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1290" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1290" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__aci__args__t_1a058460012a0d941dab068db6da8b41f0" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t nphy_b_energy_md_aci</definition>
+        <argsstring></argsstring>
+        <name>nphy_b_energy_md_aci</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1291" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1291" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__aci__args__t_1a474cea1ded0db0e0f512d81d3f65f016" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t nphy_b_energy_hi_aci</definition>
+        <argsstring></argsstring>
+        <name>nphy_b_energy_hi_aci</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1292" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1292" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="1279" column="1" bodyfile="source/whd_wlioctl.h" bodystart="1280" bodyend="1293"/>
+    <listofallmembers>
+      <member refid="structwl__aci__args__t_1a628d88a9c59720e67d61ce41401a0559" prot="public" virt="non-virtual"><scope>wl_aci_args_t</scope><name>enter_aci_thresh</name></member>
+      <member refid="structwl__aci__args__t_1a62aba8f969d6e1a928357e7af6ab57fd" prot="public" virt="non-virtual"><scope>wl_aci_args_t</scope><name>exit_aci_thresh</name></member>
+      <member refid="structwl__aci__args__t_1a0e3ec67fd5bcde2a5e0a7352a4fcb20d" prot="public" virt="non-virtual"><scope>wl_aci_args_t</scope><name>glitch_delay</name></member>
+      <member refid="structwl__aci__args__t_1aeff6cb9e70ca5d65d9cf56f709c71e6c" prot="public" virt="non-virtual"><scope>wl_aci_args_t</scope><name>nphy_adcpwr_enter_thresh</name></member>
+      <member refid="structwl__aci__args__t_1a2687c5e74ae22b051c6c3ce5a502f36b" prot="public" virt="non-virtual"><scope>wl_aci_args_t</scope><name>nphy_adcpwr_exit_thresh</name></member>
+      <member refid="structwl__aci__args__t_1a474cea1ded0db0e0f512d81d3f65f016" prot="public" virt="non-virtual"><scope>wl_aci_args_t</scope><name>nphy_b_energy_hi_aci</name></member>
+      <member refid="structwl__aci__args__t_1af5a439d48c4dd141d1ffa598aab75343" prot="public" virt="non-virtual"><scope>wl_aci_args_t</scope><name>nphy_b_energy_lo_aci</name></member>
+      <member refid="structwl__aci__args__t_1a058460012a0d941dab068db6da8b41f0" prot="public" virt="non-virtual"><scope>wl_aci_args_t</scope><name>nphy_b_energy_md_aci</name></member>
+      <member refid="structwl__aci__args__t_1a342beafef99c1c2ebb5376d1d32ec603" prot="public" virt="non-virtual"><scope>wl_aci_args_t</scope><name>nphy_num_samples</name></member>
+      <member refid="structwl__aci__args__t_1aa906b24239e9cbf06b94a67f7d5fefd8" prot="public" virt="non-virtual"><scope>wl_aci_args_t</scope><name>nphy_repeat_ctr</name></member>
+      <member refid="structwl__aci__args__t_1afaa3a4ec7fd570eaaaff0de9bdd315ab" prot="public" virt="non-virtual"><scope>wl_aci_args_t</scope><name>nphy_undetect_window_sz</name></member>
+      <member refid="structwl__aci__args__t_1ab6e770365e8c4621ea914b50ae7626ff" prot="public" virt="non-virtual"><scope>wl_aci_args_t</scope><name>usec_spin</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

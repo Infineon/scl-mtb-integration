@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwhd__wlan__status__t" kind="struct" language="C++" prot="public">
+    <compoundname>whd_wlan_status_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwhd__wlan__status__t_1a1d19bca6e18f4699c3f3f8de618da9cb" prot="public" static="no" mutable="no">
+        <type>wlan_state_t</type>
+        <definition>wlan_state_t state</definition>
+        <argsstring></argsstring>
+        <name>state</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="124" column="18" bodyfile="source/whd_chip.h" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__wlan__status__t_1a3a0d8a12d3ddd3b0ac5c2c64f027be2d" prot="public" static="no" mutable="no">
+        <type><ref refid="whd__types_8h_1a5adb0953a8527552bc47001673830602" kindref="member">whd_country_code_t</ref></type>
+        <definition>whd_country_code_t country_code</definition>
+        <argsstring></argsstring>
+        <name>country_code</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="125" column="24" bodyfile="source/whd_chip.h" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__wlan__status__t_1adab0054be11a11cef282e88db8f5051d" prot="public" static="no" mutable="no">
+        <type>whd_aggregate_code_t</type>
+        <definition>whd_aggregate_code_t aggregate_code</definition>
+        <argsstring></argsstring>
+        <name>aggregate_code</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="126" column="26" bodyfile="source/whd_chip.h" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__wlan__status__t_1aea563d1091853fd8d37f85e4569d30bd" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t keep_wlan_awake</definition>
+        <argsstring></argsstring>
+        <name>keep_wlan_awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="127" column="14" bodyfile="source/whd_chip.h" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_chip.h" line="122" column="1" bodyfile="source/whd_chip.h" bodystart="123" bodyend="128"/>
+    <listofallmembers>
+      <member refid="structwhd__wlan__status__t_1adab0054be11a11cef282e88db8f5051d" prot="public" virt="non-virtual"><scope>whd_wlan_status_t</scope><name>aggregate_code</name></member>
+      <member refid="structwhd__wlan__status__t_1a3a0d8a12d3ddd3b0ac5c2c64f027be2d" prot="public" virt="non-virtual"><scope>whd_wlan_status_t</scope><name>country_code</name></member>
+      <member refid="structwhd__wlan__status__t_1aea563d1091853fd8d37f85e4569d30bd" prot="public" virt="non-virtual"><scope>whd_wlan_status_t</scope><name>keep_wlan_awake</name></member>
+      <member refid="structwhd__wlan__status__t_1a1d19bca6e18f4699c3f3f8de618da9cb" prot="public" virt="non-virtual"><scope>whd_wlan_status_t</scope><name>state</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

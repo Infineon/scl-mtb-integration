@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwl__pfn__net__info__t" kind="struct" language="C++" prot="public">
+    <compoundname>wl_pfn_net_info_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwl__pfn__net__info__t_1afb73ac73e1b21afa28b8739750bbe565" prot="public" static="no" mutable="no">
+        <type><ref refid="structwl__pfn__subnet__info__t" kindref="compound">wl_pfn_subnet_info_t</ref></type>
+        <definition>wl_pfn_subnet_info_t pfnsubnet</definition>
+        <argsstring></argsstring>
+        <name>pfnsubnet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3071" column="26" bodyfile="source/whd_wlioctl.h" bodystart="3071" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__pfn__net__info__t_1ae45c71dee229890b4401a4c0105d73cf" prot="public" static="no" mutable="no">
+        <type>int16_t</type>
+        <definition>int16_t RSSI</definition>
+        <argsstring></argsstring>
+        <name>RSSI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3072" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3072" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__pfn__net__info__t_1ad67bd8f6a86812860afe84df6c1cc94d" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t timestamp</definition>
+        <argsstring></argsstring>
+        <name>timestamp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3073" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3073" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>wl_pfn_net_info_t</label>
+        <link refid="structwl__pfn__net__info__t"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>pfnsubnet</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>wl_pfn_subnet_info_t</label>
+        <link refid="structwl__pfn__subnet__info__t"/>
+      </node>
+    </collaborationgraph>
+    <location file="source/whd_wlioctl.h" line="3069" column="1" bodyfile="source/whd_wlioctl.h" bodystart="3070" bodyend="3074"/>
+    <listofallmembers>
+      <member refid="structwl__pfn__net__info__t_1afb73ac73e1b21afa28b8739750bbe565" prot="public" virt="non-virtual"><scope>wl_pfn_net_info_t</scope><name>pfnsubnet</name></member>
+      <member refid="structwl__pfn__net__info__t_1ae45c71dee229890b4401a4c0105d73cf" prot="public" virt="non-virtual"><scope>wl_pfn_net_info_t</scope><name>RSSI</name></member>
+      <member refid="structwl__pfn__net__info__t_1ad67bd8f6a86812860afe84df6c1cc94d" prot="public" virt="non-virtual"><scope>wl_pfn_net_info_t</scope><name>timestamp</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

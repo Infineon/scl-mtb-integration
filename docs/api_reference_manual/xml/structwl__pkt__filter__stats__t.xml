@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwl__pkt__filter__stats__t" kind="struct" language="C++" prot="public">
+    <compoundname>wl_pkt_filter_stats_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwl__pkt__filter__stats__t_1a761bd2a8fa68c1bdd56bf53fa0587f04" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t num_pkts_matched</definition>
+        <argsstring></argsstring>
+        <name>num_pkts_matched</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3233" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3233" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__pkt__filter__stats__t_1ab14fbe316e0f6999013687c5d29ec9c5" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t num_pkts_forwarded</definition>
+        <argsstring></argsstring>
+        <name>num_pkts_forwarded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3234" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3234" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__pkt__filter__stats__t_1a02d1f5f34f199499af3a164f902ed5e3" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t num_pkts_discarded</definition>
+        <argsstring></argsstring>
+        <name>num_pkts_discarded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3235" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3235" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="3231" column="1" bodyfile="source/whd_wlioctl.h" bodystart="3232" bodyend="3236"/>
+    <listofallmembers>
+      <member refid="structwl__pkt__filter__stats__t_1a02d1f5f34f199499af3a164f902ed5e3" prot="public" virt="non-virtual"><scope>wl_pkt_filter_stats_t</scope><name>num_pkts_discarded</name></member>
+      <member refid="structwl__pkt__filter__stats__t_1ab14fbe316e0f6999013687c5d29ec9c5" prot="public" virt="non-virtual"><scope>wl_pkt_filter_stats_t</scope><name>num_pkts_forwarded</name></member>
+      <member refid="structwl__pkt__filter__stats__t_1a761bd2a8fa68c1bdd56bf53fa0587f04" prot="public" virt="non-virtual"><scope>wl_pkt_filter_stats_t</scope><name>num_pkts_matched</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

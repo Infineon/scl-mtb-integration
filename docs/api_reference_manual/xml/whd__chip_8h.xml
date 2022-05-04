@@ -1,0 +1,1698 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="whd__chip_8h" kind="file" language="C++">
+    <compoundname>whd_chip.h</compoundname>
+    <includes local="yes">cyabs_rtos.h</includes>
+    <includes refid="whd_8h" local="yes">whd.h</includes>
+    <includes refid="whd__wifi__api_8h" local="yes">whd_wifi_api.h</includes>
+    <includedby refid="whd__int_8h" local="yes">whd_int.h</includedby>
+    <incdepgraph>
+      <node id="3">
+        <label>whd.h</label>
+        <link refid="whd_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>whd_chip.h</label>
+        <link refid="whd__chip_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>whd_types.h</label>
+        <link refid="whd__types_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>whd_wifi_api.h</label>
+        <link refid="whd__wifi__api_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>cy_result.h</label>
+      </node>
+      <node id="2">
+        <label>cyabs_rtos.h</label>
+      </node>
+      <node id="6">
+        <label>cybsp.h</label>
+      </node>
+      <node id="8">
+        <label>cyhal_hw_types.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>whd_buffer_api.h</label>
+        <link refid="whd__buffer__api_8h"/>
+      </node>
+      <node id="1">
+        <label>whd_chip.h</label>
+        <link refid="whd__chip_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>whd_int.h</label>
+        <link refid="whd__int_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structwhd__chip__info__t" prot="public">whd_chip_info_t</innerclass>
+    <innerclass refid="structwhd__wlan__status__t" prot="public">whd_wlan_status_t</innerclass>
+    <innerclass refid="structcountry__chan__info__t" prot="public">country_chan_info_t</innerclass>
+    <innerclass refid="structwhd__tlv8__header__t" prot="public">whd_tlv8_header_t</innerclass>
+    <innerclass refid="structwhd__tlv8__data__t" prot="public">whd_tlv8_data_t</innerclass>
+    <innerclass refid="structcountry__info__ie__fixed__portion__t" prot="public">country_info_ie_fixed_portion_t</innerclass>
+    <innerclass refid="structrsn__ie__fixed__portion__t" prot="public">rsn_ie_fixed_portion_t</innerclass>
+    <innerclass refid="structvendor__specific__ie__header__t" prot="public">vendor_specific_ie_header_t</innerclass>
+    <innerclass refid="structwpa__ie__fixed__portion__t" prot="public">wpa_ie_fixed_portion_t</innerclass>
+    <innerclass refid="structakm__suite__portion__t" prot="public">akm_suite_portion_t</innerclass>
+    <innerclass refid="structht__capabilities__ie__t" prot="public">ht_capabilities_ie_t</innerclass>
+    <innerclass refid="structhnd__log__t" prot="public">hnd_log_t</innerclass>
+    <innerclass refid="structhnd__cons__t" prot="public">hnd_cons_t</innerclass>
+    <innerclass refid="structwifi__console__t" prot="public">wifi_console_t</innerclass>
+    <innerclass refid="structwlan__shared__t" prot="public">wlan_shared_t</innerclass>
+    <innerclass refid="structwhd__ioctl__log__t" prot="public">whd_ioctl_log_t</innerclass>
+    <innerclass refid="structwhd__internal__info__t" prot="public">whd_internal_info_t</innerclass>
+    <innerclass refid="structwhd__country__info__t" prot="public">whd_country_info_t</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="whd__chip_8h_1aed3888bbb59ae1971bc97cd32c88e9f3" prot="public" static="no">
+        <name>WHD_WLAN_WAKE_TIMEOUT</name>
+        <initializer>(10000)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="34" column="9" bodyfile="source/whd_chip.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="whd__chip_8h_1a6f8ffa6c49f4d0e71c646750f884181c" prot="public" static="no">
+        <name>WHD_SHARED_MEMORY_POLLING_DELAY</name>
+        <initializer>(10)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="35" column="9" bodyfile="source/whd_chip.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="whd__chip_8h_1a1569f5f33e4ce3386e9b890773ba841b" prot="public" static="no">
+        <name>SICF_CPUHALT</name>
+        <initializer>(0x0020)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="36" column="9" bodyfile="source/whd_chip.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="whd__chip_8h_1a9b3fdb53f17991965bb0637af504c178" prot="public" static="no">
+        <name>COUNTRY_INFO_IE_MINIMUM_LENGTH</name>
+        <initializer>(6)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="135" column="9" bodyfile="source/whd_chip.h" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="whd__chip_8h_1a7d8f33bebcbafd51be64f519df3f1754" prot="public" static="no">
+        <name>RSN_IE_MINIMUM_LENGTH</name>
+        <initializer>(8)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="176" column="9" bodyfile="source/whd_chip.h" bodystart="176" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="whd__chip_8h_1a2f497f647893330ba41e12908b1a8d44" prot="public" static="no">
+        <name>VENDOR_SPECIFIC_IE_MINIMUM_LENGTH</name>
+        <initializer>(4)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="184" column="9" bodyfile="source/whd_chip.h" bodystart="184" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="whd__chip_8h_1a550bb0991a551e14ba885ae300a20270" prot="public" static="no">
+        <name>WPA_IE_MINIMUM_LENGTH</name>
+        <initializer>(12)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="196" column="9" bodyfile="source/whd_chip.h" bodystart="196" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="whd__chip_8h_1a6721d8954b09e851edc4b3040d20592e" prot="public" static="no">
+        <name>HT_CAPABILITIES_INFO_LDPC_CODING_CAPABILITY</name>
+        <initializer>(1 &lt;&lt;  0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="218" column="9" bodyfile="source/whd_chip.h" bodystart="218" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="whd__chip_8h_1aefb478172d9d359a402dab27d9743630" prot="public" static="no">
+        <name>HT_CAPABILITIES_INFO_SUPPORTED_CHANNEL_WIDTH_SET</name>
+        <initializer>(1 &lt;&lt;  1)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="219" column="9" bodyfile="source/whd_chip.h" bodystart="219" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="whd__chip_8h_1ade06d1fe1996ba0532a1b2cda6f06a20" prot="public" static="no">
+        <name>HT_CAPABILITIES_INFO_SM_POWER_SAVE_OFFSET</name>
+        <initializer>(1 &lt;&lt;  2)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="220" column="9" bodyfile="source/whd_chip.h" bodystart="220" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="whd__chip_8h_1ac337e9290387d8e74db8a51a46df383b" prot="public" static="no">
+        <name>HT_CAPABILITIES_INFO_SM_POWER_SAVE_MASK</name>
+        <initializer>(3 &lt;&lt;  2)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="221" column="9" bodyfile="source/whd_chip.h" bodystart="221" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="whd__chip_8h_1a578b99638542814ea6fbf829d439e693" prot="public" static="no">
+        <name>HT_CAPABILITIES_INFO_HT_GREENFIELD</name>
+        <initializer>(1 &lt;&lt;  4)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="222" column="9" bodyfile="source/whd_chip.h" bodystart="222" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="whd__chip_8h_1a570bbccb0fdc0476ef13f1c4582a347a" prot="public" static="no">
+        <name>HT_CAPABILITIES_INFO_SHORT_GI_FOR_20MHZ</name>
+        <initializer>(1 &lt;&lt;  5)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="223" column="9" bodyfile="source/whd_chip.h" bodystart="223" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="whd__chip_8h_1a1478e967ed50cff56ebe78f369e55b05" prot="public" static="no">
+        <name>HT_CAPABILITIES_INFO_SHORT_GI_FOR_40MHZ</name>
+        <initializer>(1 &lt;&lt;  6)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="224" column="9" bodyfile="source/whd_chip.h" bodystart="224" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="whd__chip_8h_1a167344bb09337ddfb0a8d0cf390cf862" prot="public" static="no">
+        <name>HT_CAPABILITIES_INFO_TX_STBC</name>
+        <initializer>(1 &lt;&lt;  7)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="225" column="9" bodyfile="source/whd_chip.h" bodystart="225" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="whd__chip_8h_1a8bbf95a9d8bafbcfa62092c83d7a41a3" prot="public" static="no">
+        <name>HT_CAPABILITIES_INFO_RX_STBC_OFFSET</name>
+        <initializer>(1 &lt;&lt;  8)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="226" column="9" bodyfile="source/whd_chip.h" bodystart="226" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="whd__chip_8h_1ab5a1d32a11082325157172f9aac71ca0" prot="public" static="no">
+        <name>HT_CAPABILITIES_INFO_RX_STBC_MASK</name>
+        <initializer>(3 &lt;&lt;  8)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="227" column="9" bodyfile="source/whd_chip.h" bodystart="227" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="whd__chip_8h_1afaf399cc97d4d6cb1cb22438583dee1f" prot="public" static="no">
+        <name>HT_CAPABILITIES_INFO_HT_DELAYED_BLOCK_ACK</name>
+        <initializer>(1 &lt;&lt; 10)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="228" column="9" bodyfile="source/whd_chip.h" bodystart="228" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="whd__chip_8h_1a605bf69bc322b13505ea89c7ebf333c0" prot="public" static="no">
+        <name>HT_CAPABILITIES_INFO_MAXIMUM_A_MSDU_LENGTH</name>
+        <initializer>(1 &lt;&lt; 11)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="229" column="9" bodyfile="source/whd_chip.h" bodystart="229" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="whd__chip_8h_1a6f33969c121288f9d7ded548d597d300" prot="public" static="no">
+        <name>HT_CAPABILITIES_INFO_DSSS_CCK_MODE_IN_40MHZ</name>
+        <initializer>(1 &lt;&lt; 12)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="230" column="9" bodyfile="source/whd_chip.h" bodystart="230" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="whd__chip_8h_1a3860a8c1ed952b6e32fb035abe78bd4c" prot="public" static="no">
+        <name>HT_CAPABILITIES_INFO_40MHZ_INTOLERANT</name>
+        <initializer>(1 &lt;&lt; 14)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="232" column="9" bodyfile="source/whd_chip.h" bodystart="232" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="whd__chip_8h_1aa730efa273cb19f4b22f29730fd8a526" prot="public" static="no">
+        <name>HT_CAPABILITIES_INFO_L_SIG_TXOP_PROTECTION_SUPPORT</name>
+        <initializer>(1 &lt;&lt; 15)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="233" column="9" bodyfile="source/whd_chip.h" bodystart="233" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="whd__chip_8h_1af345c1f40ed0d3780777f5a5eaac75cf" prot="public" static="no">
+        <name>CBUF_LEN</name>
+        <initializer>128</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="244" column="9" bodyfile="source/whd_chip.h" bodystart="244" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="whd__chip_8h_1a0973984fd6ff29f98b24a8bb2167c634" prot="public" static="no">
+        <name>WLAN_LOG_BUF_LEN</name>
+        <initializer>(4 * 1024)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="295" column="9" bodyfile="source/whd_chip.h" bodystart="295" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="whd__chip_8h_1ad707284e515e42a03f111eeb8d1e3c7f" prot="public" static="no">
+        <name>WHD_IOCTL_LOG_SIZE</name>
+        <initializer>64</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="297" column="9" bodyfile="source/whd_chip.h" bodystart="297" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="whd__chip_8h_1ab359e72515fd3d4e29fd1cb5ddb6a911" prot="public" static="no">
+        <name>WHD_IOVAR_STRING_SIZE</name>
+        <initializer>128</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="298" column="9" bodyfile="source/whd_chip.h" bodystart="298" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="whd__chip_8h_1a57d55610e0ebc081d18f9de785b9443b" prot="public" static="no">
+        <name>WHD_MAX_DATA_SIZE</name>
+        <initializer>64</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="299" column="9" bodyfile="source/whd_chip.h" bodystart="299" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="whd__chip_8h_1a18026a2731ad4ab6fb8455514e738154" prot="public" static="no">
+        <name>WHD_IOCTL_LOG_ADD</name>
+        <param><defname>x</defname></param>
+        <param><defname>y</defname></param>
+        <param><defname>z</defname></param>
+        <initializer>whd_ioctl_log_add(x, y, z)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="301" column="9" bodyfile="source/whd_chip.h" bodystart="301" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="whd__chip_8h_1a5c7aca7d4db22872356610bac9383526" prot="public" static="no">
+        <name>WHD_IOCTL_LOG_ADD_EVENT</name>
+        <param><defname>w</defname></param>
+        <param><defname>x</defname></param>
+        <param><defname>y</defname></param>
+        <param><defname>z</defname></param>
+        <initializer>whd_ioctl_log_add_event(w, x, y, z)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="302" column="9" bodyfile="source/whd_chip.h" bodystart="302" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="whd__chip_8h_1aceaf55390c5e4a447efeee697923b8cc" prot="public" static="no">
+        <name>WHD_IOCTL_PRINT</name>
+        <param><defname>x</defname></param>
+        <initializer>whd_ioctl_print(x)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="303" column="9" bodyfile="source/whd_chip.h" bodystart="303" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="whd__chip_8h_1a9da6fcea1bb61d7f9ea1946cf55db18c" prot="public" static="no" strong="no">
+        <type></type>
+        <name>whd_aggregate_code_t</name>
+        <enumvalue id="whd__chip_8h_1a9da6fcea1bb61d7f9ea1946cf55db18ca7dc64f1d0c7d10544bcf7f2319118adf" prot="public">
+          <name>WHD_COUNTRY_AGGREGATE_XA_0</name>
+          <initializer>= MK_CNTRY(&apos;X&apos;, &apos;A&apos;, 0)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="whd__chip_8h_1a9da6fcea1bb61d7f9ea1946cf55db18ca0d3d1ca83c5c6829adcd5e4c97e65734" prot="public">
+          <name>WHD_COUNTRY_AGGREGATE_XT_0</name>
+          <initializer>= MK_CNTRY(&apos;X&apos;, &apos;T&apos;, 0)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="whd__chip_8h_1a9da6fcea1bb61d7f9ea1946cf55db18cad4829e902a850cb97af4ca188eb3cd40" prot="public">
+          <name>WHD_COUNTRY_AGGREGATE_XV_0</name>
+          <initializer>= MK_CNTRY(&apos;X&apos;, &apos;V&apos;, 0)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="whd__chip_8h_1a9da6fcea1bb61d7f9ea1946cf55db18ca2ead50d487436eb9d91d9df135613e56" prot="public">
+          <name>WHD_COUNTRY_AGGREGATE_CUSTOMER</name>
+          <initializer>= MK_CNTRY(&apos;X&apos;, &apos;Z&apos;, 278)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Enumerated list of aggregate codes and edit WHD_COUNTRY_AGGREGATE_CUSTOMER for supporting new aggregate as per customer like XZ/278. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="45" column="1" bodyfile="source/whd_chip.h" bodystart="46" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="enum" id="whd__chip_8h_1a575377c58d57aaf16a18bdd7a795f6fc" prot="public" static="no" strong="no">
+        <type></type>
+        <name>device_core_t</name>
+        <enumvalue id="whd__chip_8h_1a575377c58d57aaf16a18bdd7a795f6fcae7b36cc8a9c1f7d4d82f043e5a0550a9" prot="public">
+          <name>WLAN_ARM_CORE</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="whd__chip_8h_1a575377c58d57aaf16a18bdd7a795f6fca81aa20ec67dd0f5467a3b9313e0d31ea" prot="public">
+          <name>SOCRAM_CORE</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="whd__chip_8h_1a575377c58d57aaf16a18bdd7a795f6fca0f933e14ede3a39f7cb25e6b3aabc3b4" prot="public">
+          <name>SDIOD_CORE</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="53" column="1" bodyfile="source/whd_chip.h" bodystart="54" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="enum" id="whd__chip_8h_1ab1a61388b11363751b9489ca088eddbf" prot="public" static="no" strong="no">
+        <type></type>
+        <name>wlan_state_t</name>
+        <enumvalue id="whd__chip_8h_1ab1a61388b11363751b9489ca088eddbfae4cf72df69eb7a1d25d49a07bb2f7bbd" prot="public">
+          <name>WLAN_DOWN</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="whd__chip_8h_1ab1a61388b11363751b9489ca088eddbfa1f5874c5de6578d5f88545087a654429" prot="public">
+          <name>WLAN_UP</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="whd__chip_8h_1ab1a61388b11363751b9489ca088eddbfa12e482c1c0702425a74e4278987c6fca" prot="public">
+          <name>WLAN_OFF</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="59" column="1" bodyfile="source/whd_chip.h" bodystart="60" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="enum" id="whd__chip_8h_1a969f3237571e2292052cfdb313ef6ba8" prot="public" static="no" strong="no">
+        <type></type>
+        <name>wlan_core_flag_t</name>
+        <enumvalue id="whd__chip_8h_1a969f3237571e2292052cfdb313ef6ba8ac2664a0eae2d2a639f6475e1390d2d4d" prot="public">
+          <name>WLAN_CORE_FLAG_NONE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="whd__chip_8h_1a969f3237571e2292052cfdb313ef6ba8a85e8feab735d6746f92a90600837210e" prot="public">
+          <name>WLAN_CORE_FLAG_CPU_HALT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="64" column="1" bodyfile="source/whd_chip.h" bodystart="65" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="enum" id="whd__chip_8h_1a64f153b6048d0d11aae92591587dc704" prot="public" static="no" strong="no">
+        <type></type>
+        <name>whd_akm_suite_t</name>
+        <enumvalue id="whd__chip_8h_1a64f153b6048d0d11aae92591587dc704a6e6587ae1d350083ab924dd7cfa7020e" prot="public">
+          <name>WHD_AKM_RESERVED</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="whd__chip_8h_1a64f153b6048d0d11aae92591587dc704a523b5f7d637e4d0dd11fc2c1cd4548b5" prot="public">
+          <name>WHD_AKM_8021X</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+<para>WPA2 enterprise <linebreak/>
+ </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="whd__chip_8h_1a64f153b6048d0d11aae92591587dc704a25a13c898d352b17564ba0774ec436cf" prot="public">
+          <name>WHD_AKM_PSK</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+<para>WPA2 PSK <linebreak/>
+ </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="whd__chip_8h_1a64f153b6048d0d11aae92591587dc704a27e36f8bfd7bdceab42d5fd7fcdba1f3" prot="public">
+          <name>WHD_AKM_FT_8021X</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+<para>802.11r Fast Roaming enterprise </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="whd__chip_8h_1a64f153b6048d0d11aae92591587dc704ade161b92fd30b913e27b5cc11be5e37e" prot="public">
+          <name>WHD_AKM_FT_PSK</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+<para>802.11r Fast Roaming PSK <linebreak/>
+ </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="whd__chip_8h_1a64f153b6048d0d11aae92591587dc704a2f4cc5569b38aa00840ca26901a8f31a" prot="public">
+          <name>WHD_AKM_8021X_SHA256</name>
+          <initializer>= 5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="whd__chip_8h_1a64f153b6048d0d11aae92591587dc704a909de830ef605ad125982dd2b914253f" prot="public">
+          <name>WHD_AKM_PSK_SHA256</name>
+          <initializer>= 6</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="whd__chip_8h_1a64f153b6048d0d11aae92591587dc704adf01cafa2c198ecbd81c633763bdc9ab" prot="public">
+          <name>WHD_AKM_TDLS</name>
+          <initializer>= 7</initializer>
+          <briefdescription>
+<para>Tunneled Direct Link Setup <linebreak/>
+ </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="whd__chip_8h_1a64f153b6048d0d11aae92591587dc704afeaa264e2694e704694cc9eacc4c325d" prot="public">
+          <name>WHD_AKM_SAE_SHA256</name>
+          <initializer>= 8</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="whd__chip_8h_1a64f153b6048d0d11aae92591587dc704a13b5c463f7e1549b2a15b0cc8440abf7" prot="public">
+          <name>WHD_AKM_FT_SAE_SHA256</name>
+          <initializer>= 9</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="whd__chip_8h_1a64f153b6048d0d11aae92591587dc704aca4b7934b96b36608332c026eb9f8322" prot="public">
+          <name>WHD_AKM_AP_PEER_KEY_SHA256</name>
+          <initializer>= 10</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="whd__chip_8h_1a64f153b6048d0d11aae92591587dc704aee41f831509bb5d5fb6abaea5ae06a43" prot="public">
+          <name>WHD_AKM_SUITEB_8021X_HMAC_SHA256</name>
+          <initializer>= 11</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="whd__chip_8h_1a64f153b6048d0d11aae92591587dc704ad481eb1e745bed898ef1f52ca3e460ee" prot="public">
+          <name>WHD_AKM_SUITEB_8021X_HMAC_SHA384</name>
+          <initializer>= 12</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="whd__chip_8h_1a64f153b6048d0d11aae92591587dc704a45c56c4a2561dff80c40bc9559b06787" prot="public">
+          <name>WHD_AKM_SUITEB_FT_8021X_HMAC_SHA384</name>
+          <initializer>= 13</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Enumeration of AKM (authentication and key management) suites. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Table 8-140 802.11mc D3.0. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="72" column="1" bodyfile="source/whd_chip.h" bodystart="73" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="enum" id="whd__chip_8h_1a9ee6597b0e1206d666485316b129be69" prot="public" static="no" strong="no">
+        <type></type>
+        <name>whd_80211_cipher_t</name>
+        <enumvalue id="whd__chip_8h_1a9ee6597b0e1206d666485316b129be69a61bc3361f15a11db15bcf86be3956229" prot="public">
+          <name>WHD_CIPHER_GROUP</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+<para>Use group cipher suite <linebreak/>
+ </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="whd__chip_8h_1a9ee6597b0e1206d666485316b129be69ae8cd908b25b48c81958576f0a344ba5c" prot="public">
+          <name>WHD_CIPHER_WEP_40</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+<para>WEP-40 <linebreak/>
+ </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="whd__chip_8h_1a9ee6597b0e1206d666485316b129be69ad8508578f37978076ef106a54f1f753c" prot="public">
+          <name>WHD_CIPHER_TKIP</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+<para>TKIP <linebreak/>
+ </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="whd__chip_8h_1a9ee6597b0e1206d666485316b129be69a17a1024561f0eb9b8b1b6123c556c786" prot="public">
+          <name>WHD_CIPHER_RESERVED</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+<para>Reserved <linebreak/>
+ </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="whd__chip_8h_1a9ee6597b0e1206d666485316b129be69af9ea4318d0f5bc73d77a612d48afbfcc" prot="public">
+          <name>WHD_CIPHER_CCMP_128</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+<para>CCMP-128 - default pairwise and group cipher suite in an RSNA. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="whd__chip_8h_1a9ee6597b0e1206d666485316b129be69a7b0e3e4cb803abe3728d10884040395f" prot="public">
+          <name>WHD_CIPHER_WEP_104</name>
+          <initializer>= 5</initializer>
+          <briefdescription>
+<para>WEP-104 - also known as WEP-128 <linebreak/>
+ </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="whd__chip_8h_1a9ee6597b0e1206d666485316b129be69aa08952ecd5846f4fe7a16213424e833b" prot="public">
+          <name>WHD_CIPHER_BIP_CMAC_128</name>
+          <initializer>= 6</initializer>
+          <briefdescription>
+<para>BIP-CMAC-128 - default management frame cipher suite <linebreak/>
+ </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="whd__chip_8h_1a9ee6597b0e1206d666485316b129be69afb3d2f950a1ee3f0bd738c90ea76df79" prot="public">
+          <name>WHD_CIPHER_GROUP_DISALLOWED</name>
+          <initializer>= 7</initializer>
+          <briefdescription>
+<para>Group address traffic not allowed <linebreak/>
+ </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="whd__chip_8h_1a9ee6597b0e1206d666485316b129be69ac07b867c70167e34d4700b0d5da4b8d0" prot="public">
+          <name>WHD_CIPHER_GCMP_128</name>
+          <initializer>= 8</initializer>
+          <briefdescription>
+<para>GCMP-128 - default for 60 GHz STAs <linebreak/>
+ </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="whd__chip_8h_1a9ee6597b0e1206d666485316b129be69a4fd92a08f23e023631a497586b10dc46" prot="public">
+          <name>WHD_CIPHER_GCMP_256</name>
+          <initializer>= 9</initializer>
+          <briefdescription>
+<para>GCMP-256 - introduced for Suite B <linebreak/>
+ </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="whd__chip_8h_1a9ee6597b0e1206d666485316b129be69ae5895fb0388510f9ffb8786bcb2999c7" prot="public">
+          <name>WHD_CIPHER_CCMP_256</name>
+          <initializer>= 10</initializer>
+          <briefdescription>
+<para>CCMP-256 - introduced for suite B <linebreak/>
+ </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="whd__chip_8h_1a9ee6597b0e1206d666485316b129be69ace8e36218ff26797f6b4aa891c176543" prot="public">
+          <name>WHD_CIPHER_BIP_GMAC_128</name>
+          <initializer>= 11</initializer>
+          <briefdescription>
+<para>BIP-GMAC-128 - introduced for suite B <linebreak/>
+ </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="whd__chip_8h_1a9ee6597b0e1206d666485316b129be69a5a9274b431b3e619fe34f79e4a9e9709" prot="public">
+          <name>WHD_CIPHER_BIP_GMAC_256</name>
+          <initializer>= 12</initializer>
+          <briefdescription>
+<para>BIP-GMAC-256 - introduced for suite B <linebreak/>
+ </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="whd__chip_8h_1a9ee6597b0e1206d666485316b129be69a96c6dffff3d807d8975fdfb117a62932" prot="public">
+          <name>WHD_CIPHER_BIP_CMAC_256</name>
+          <initializer>= 13</initializer>
+          <briefdescription>
+<para>BIP-CMAC-256 - introduced for suite B <linebreak/>
+ </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Enumeration of cipher suites. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Table 8-138 802.11mc D3.0. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="93" column="1" bodyfile="source/whd_chip.h" bodystart="94" bodyend="109"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="whd__chip_8h_1a91ad9478d81a7aaf2593e8d9c3d06a14" prot="public" static="no">
+        <type>unsigned int</type>
+        <definition>typedef unsigned int uint</definition>
+        <argsstring></argsstring>
+        <name>uint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="235" column="22" bodyfile="source/whd_chip.h" bodystart="235" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="whd__chip_8h_1a53f7e2c6025ff27655d3d270157f1558" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void whd_ioctl_log_add</definition>
+        <argsstring>(whd_driver_t whd_driver, uint32_t cmd, whd_buffer_t buffer)</argsstring>
+        <name>whd_ioctl_log_add</name>
+        <param>
+          <type>whd_driver_t</type>
+          <declname>whd_driver</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>cmd</declname>
+        </param>
+        <param>
+          <type>whd_buffer_t</type>
+          <declname>buffer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="315" column="6" declfile="source/whd_chip.h" declline="315" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="whd__chip_8h_1a163e325b3ee480cf33c286ba8df89c9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void whd_ioctl_log_add_event</definition>
+        <argsstring>(whd_driver_t whd_driver, uint32_t cmd, uint16_t flag, uint32_t data)</argsstring>
+        <name>whd_ioctl_log_add_event</name>
+        <param>
+          <type>whd_driver_t</type>
+          <declname>whd_driver</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>cmd</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>flag</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="316" column="6" declfile="source/whd_chip.h" declline="316" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="whd__chip_8h_1a7d720119bac07899104d8732bad210ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="whd__types_8h_1add62f4b5040a2451e23869d2f9e1ae05" kindref="member">whd_result_t</ref></type>
+        <definition>whd_result_t whd_ioctl_print</definition>
+        <argsstring>(whd_driver_t whd_driver)</argsstring>
+        <name>whd_ioctl_print</name>
+        <param>
+          <type>whd_driver_t</type>
+          <declname>whd_driver</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="318" column="14" declfile="source/whd_chip.h" declline="318" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="whd__chip_8h_1ae9ccf7b96efbc7a76c0a29005f62fb29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void whd_internal_info_init</definition>
+        <argsstring>(whd_driver_t whd_driver)</argsstring>
+        <name>whd_internal_info_init</name>
+        <param>
+          <type>whd_driver_t</type>
+          <declname>whd_driver</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="352" column="6" declfile="source/whd_chip.h" declline="352" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="whd__chip_8h_1a528117a4d90d8869abe49143bee1af78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void whd_wifi_chip_info_init</definition>
+        <argsstring>(whd_driver_t whd_driver)</argsstring>
+        <name>whd_wifi_chip_info_init</name>
+        <param>
+          <type>whd_driver_t</type>
+          <declname>whd_driver</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="358" column="13" declfile="source/whd_chip.h" declline="358" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="whd__chip_8h_1a7ce0676c4a7ab3488db9ec429046b5c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="whd__types_8h_1add62f4b5040a2451e23869d2f9e1ae05" kindref="member">whd_result_t</ref></type>
+        <definition>whd_result_t whd_wlan_bus_complete_ds_wake</definition>
+        <argsstring>(whd_driver_t whd_driver, whd_bool_t wake_from_firmware, uint32_t wake_event_indication_addr, uint32_t wake_indication_addr, uint32_t sdio_control_addr)</argsstring>
+        <name>whd_wlan_bus_complete_ds_wake</name>
+        <param>
+          <type>whd_driver_t</type>
+          <declname>whd_driver</declname>
+        </param>
+        <param>
+          <type><ref refid="whd__types_8h_1a7cd94a03f2e7e6aab7217ed559c7a0ac" kindref="member">whd_bool_t</ref></type>
+          <declname>wake_from_firmware</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>wake_event_indication_addr</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>wake_indication_addr</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>sdio_control_addr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="359" column="21" declfile="source/whd_chip.h" declline="359" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="whd__chip_8h_1ae7afbc184abe5811c8c7742754fbbad4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="whd__types_8h_1add62f4b5040a2451e23869d2f9e1ae05" kindref="member">whd_result_t</ref></type>
+        <definition>whd_result_t whd_wifi_set_custom_country_code</definition>
+        <argsstring>(whd_interface_t ifp, const whd_country_info_t *country_code)</argsstring>
+        <name>whd_wifi_set_custom_country_code</name>
+        <param>
+          <type>whd_interface_t</type>
+          <declname>ifp</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structwhd__country__info__t" kindref="compound">whd_country_info_t</ref> *</type>
+          <declname>country_code</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="362" column="21" declfile="source/whd_chip.h" declline="362" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="whd__chip_8h_1a5cd7fd7223616148cb4be4385627e6d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="whd__types_8h_1add62f4b5040a2451e23869d2f9e1ae05" kindref="member">whd_result_t</ref></type>
+        <definition>whd_result_t whd_disable_device_core</definition>
+        <argsstring>(whd_driver_t whd_driver, device_core_t core_id, wlan_core_flag_t core_flag)</argsstring>
+        <name>whd_disable_device_core</name>
+        <param>
+          <type>whd_driver_t</type>
+          <declname>whd_driver</declname>
+        </param>
+        <param>
+          <type>device_core_t</type>
+          <declname>core_id</declname>
+        </param>
+        <param>
+          <type>wlan_core_flag_t</type>
+          <declname>core_flag</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="365" column="21" declfile="source/whd_chip.h" declline="365" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="whd__chip_8h_1ac7ec65921a30627415e1858b6fb17e8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="whd__types_8h_1add62f4b5040a2451e23869d2f9e1ae05" kindref="member">whd_result_t</ref></type>
+        <definition>whd_result_t whd_reset_device_core</definition>
+        <argsstring>(whd_driver_t whd_driver, device_core_t core_id, wlan_core_flag_t core_flag)</argsstring>
+        <name>whd_reset_device_core</name>
+        <param>
+          <type>whd_driver_t</type>
+          <declname>whd_driver</declname>
+        </param>
+        <param>
+          <type>device_core_t</type>
+          <declname>core_id</declname>
+        </param>
+        <param>
+          <type>wlan_core_flag_t</type>
+          <declname>core_flag</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="366" column="21" declfile="source/whd_chip.h" declline="366" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="whd__chip_8h_1a7060d06fdc161dde5a2195547973c8ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="whd__types_8h_1add62f4b5040a2451e23869d2f9e1ae05" kindref="member">whd_result_t</ref></type>
+        <definition>whd_result_t whd_reset_core</definition>
+        <argsstring>(whd_driver_t whd_driver, device_core_t core_id, uint32_t bits, uint32_t resetbits)</argsstring>
+        <name>whd_reset_core</name>
+        <param>
+          <type>whd_driver_t</type>
+          <declname>whd_driver</declname>
+        </param>
+        <param>
+          <type>device_core_t</type>
+          <declname>core_id</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>bits</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>resetbits</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="367" column="21" declfile="source/whd_chip.h" declline="367" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="whd__chip_8h_1ab8a720a6b7d2e83b1e42dddd545676bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="whd__types_8h_1add62f4b5040a2451e23869d2f9e1ae05" kindref="member">whd_result_t</ref></type>
+        <definition>whd_result_t whd_wlan_armcore_run</definition>
+        <argsstring>(whd_driver_t whd_driver, device_core_t core_id, wlan_core_flag_t core_flag)</argsstring>
+        <name>whd_wlan_armcore_run</name>
+        <param>
+          <type>whd_driver_t</type>
+          <declname>whd_driver</declname>
+        </param>
+        <param>
+          <type>device_core_t</type>
+          <declname>core_id</declname>
+        </param>
+        <param>
+          <type>wlan_core_flag_t</type>
+          <declname>core_flag</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="368" column="21" declfile="source/whd_chip.h" declline="368" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="whd__chip_8h_1ac42bb4989de6116f9eb327396bb1b36c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="whd__types_8h_1add62f4b5040a2451e23869d2f9e1ae05" kindref="member">whd_result_t</ref></type>
+        <definition>whd_result_t whd_device_core_is_up</definition>
+        <argsstring>(whd_driver_t whd_driver, device_core_t core_id)</argsstring>
+        <name>whd_device_core_is_up</name>
+        <param>
+          <type>whd_driver_t</type>
+          <declname>whd_driver</declname>
+        </param>
+        <param>
+          <type>device_core_t</type>
+          <declname>core_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="369" column="21" declfile="source/whd_chip.h" declline="369" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="whd__chip_8h_1a5bb08a0f85c91abff5ca3d88793b2820" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="whd__types_8h_1add62f4b5040a2451e23869d2f9e1ae05" kindref="member">whd_result_t</ref></type>
+        <definition>whd_result_t whd_allow_wlan_bus_to_sleep</definition>
+        <argsstring>(whd_driver_t whd_driver)</argsstring>
+        <name>whd_allow_wlan_bus_to_sleep</name>
+        <param>
+          <type>whd_driver_t</type>
+          <declname>whd_driver</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="372" column="21" declfile="source/whd_chip.h" declline="372" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="whd__chip_8h_1acad6ad316c516fb4c9f83adc377c3b29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="whd__types_8h_1add62f4b5040a2451e23869d2f9e1ae05" kindref="member">whd_result_t</ref></type>
+        <definition>whd_result_t whd_ensure_wlan_bus_is_up</definition>
+        <argsstring>(whd_driver_t whd_driver)</argsstring>
+        <name>whd_ensure_wlan_bus_is_up</name>
+        <param>
+          <type>whd_driver_t</type>
+          <declname>whd_driver</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="373" column="21" declfile="source/whd_chip.h" declline="373" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="whd__chip_8h_1ac5b53d22f42b0305784f154ddf56bf47" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="whd__types_8h_1add62f4b5040a2451e23869d2f9e1ae05" kindref="member">whd_result_t</ref></type>
+        <definition>whd_result_t whd_chip_specific_init</definition>
+        <argsstring>(whd_driver_t whd_driver)</argsstring>
+        <name>whd_chip_specific_init</name>
+        <param>
+          <type>whd_driver_t</type>
+          <declname>whd_driver</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="375" column="21" declfile="source/whd_chip.h" declline="375" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="whd__chip_8h_1acdcee9cab143a31bfd6f4a6a2cae0ad0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="whd__types_8h_1add62f4b5040a2451e23869d2f9e1ae05" kindref="member">whd_result_t</ref></type>
+        <definition>whd_result_t whd_chip_specific_socsram_init</definition>
+        <argsstring>(whd_driver_t whd_driver)</argsstring>
+        <name>whd_chip_specific_socsram_init</name>
+        <param>
+          <type>whd_driver_t</type>
+          <declname>whd_driver</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="376" column="21" declfile="source/whd_chip.h" declline="376" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="whd__chip_8h_1ab5eb5a087c5ef4ba97622f6c069339a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void whd_wifi_peek</definition>
+        <argsstring>(whd_driver_t whd_driver, uint32_t address, uint8_t register_length, uint8_t *value)</argsstring>
+        <name>whd_wifi_peek</name>
+        <param>
+          <type>whd_driver_t</type>
+          <declname>whd_driver</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>address</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>register_length</declname>
+        </param>
+        <param>
+          <type>uint8_t *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="378" column="13" declfile="source/whd_chip.h" declline="378" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="whd__chip_8h_1aeb847cc27c06b3775c20f5a0e3184d79" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void whd_wifi_poke</definition>
+        <argsstring>(whd_driver_t whd_driver, uint32_t address, uint8_t register_length, uint32_t value)</argsstring>
+        <name>whd_wifi_poke</name>
+        <param>
+          <type>whd_driver_t</type>
+          <declname>whd_driver</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>address</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>register_length</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="379" column="13" declfile="source/whd_chip.h" declline="379" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="whd__chip_8h_1a063328ef6f2603db70c0f5472d4e494d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint32_t</type>
+        <definition>uint32_t whd_wifi_get_btc_params</definition>
+        <argsstring>(whd_driver_t whd_driver, uint32_t address, whd_interface_t interface)</argsstring>
+        <name>whd_wifi_get_btc_params</name>
+        <param>
+          <type>whd_driver_t</type>
+          <declname>whd_driver</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>address</declname>
+        </param>
+        <param>
+          <type>whd_interface_t</type>
+          <declname>interface</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="380" column="17" declfile="source/whd_chip.h" declline="380" declcolumn="17"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>2020<sp/>Cypress<sp/>Semiconductor<sp/>Corporation</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>SPDX-License-Identifier:<sp/>Apache-2.0</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>Licensed<sp/>under<sp/>the<sp/>Apache<sp/>License,<sp/>Version<sp/>2.0<sp/>(the<sp/>&quot;License&quot;);</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>you<sp/>may<sp/>not<sp/>use<sp/>this<sp/>file<sp/>except<sp/>in<sp/>compliance<sp/>with<sp/>the<sp/>License.</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>You<sp/>may<sp/>obtain<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>License<sp/>at</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/>http://www.apache.org/licenses/LICENSE-2.0</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>Unless<sp/>required<sp/>by<sp/>applicable<sp/>law<sp/>or<sp/>agreed<sp/>to<sp/>in<sp/>writing,<sp/>software</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>distributed<sp/>under<sp/>the<sp/>License<sp/>is<sp/>distributed<sp/>on<sp/>an<sp/>&quot;AS<sp/>IS&quot;<sp/>BASIS,</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>WITHOUT<sp/>WARRANTIES<sp/>OR<sp/>CONDITIONS<sp/>OF<sp/>ANY<sp/>KIND,<sp/>either<sp/>express<sp/>or<sp/>implied.</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>See<sp/>the<sp/>License<sp/>for<sp/>the<sp/>specific<sp/>language<sp/>governing<sp/>permissions<sp/>and</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>limitations<sp/>under<sp/>the<sp/>License.</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>INCLUDED_WHD_CHIP_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>INCLUDED_WHD_CHIP_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;cyabs_rtos.h&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="comment">/*<sp/>For<sp/>cy_semaphore_t<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="whd_8h" kindref="compound">whd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="whd__wifi__api_8h" kindref="compound">whd_wifi_api.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="comment">/******************************************************</highlight></codeline>
+<codeline lineno="32"><highlight class="comment">*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Constants</highlight></codeline>
+<codeline lineno="33"><highlight class="comment">******************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WHD_WLAN_WAKE_TIMEOUT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(10000)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WHD_SHARED_MEMORY_POLLING_DELAY<sp/>(10)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SICF_CPUHALT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0x0020)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="comment">/******************************************************</highlight></codeline>
+<codeline lineno="39"><highlight class="comment">*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Enumerations</highlight></codeline>
+<codeline lineno="40"><highlight class="comment">******************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>WHD_COUNTRY_AGGREGATE_XA_0<sp/>=<sp/><ref refid="whd__types_8h_1a4ab8a2182e68bb029551aa754bff1861" kindref="member">MK_CNTRY</ref>(</highlight><highlight class="charliteral">&apos;X&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;A&apos;</highlight><highlight class="normal">,<sp/>0),</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>WHD_COUNTRY_AGGREGATE_XT_0<sp/>=<sp/><ref refid="whd__types_8h_1a4ab8a2182e68bb029551aa754bff1861" kindref="member">MK_CNTRY</ref>(</highlight><highlight class="charliteral">&apos;X&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;T&apos;</highlight><highlight class="normal">,<sp/>0),</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>WHD_COUNTRY_AGGREGATE_XV_0<sp/>=<sp/><ref refid="whd__types_8h_1a4ab8a2182e68bb029551aa754bff1861" kindref="member">MK_CNTRY</ref>(</highlight><highlight class="charliteral">&apos;X&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;V&apos;</highlight><highlight class="normal">,<sp/>0),</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>WHD_COUNTRY_AGGREGATE_CUSTOMER<sp/>=<sp/><ref refid="whd__types_8h_1a4ab8a2182e68bb029551aa754bff1861" kindref="member">MK_CNTRY</ref>(</highlight><highlight class="charliteral">&apos;X&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="charliteral">&apos;Z&apos;</highlight><highlight class="normal">,<sp/>278),</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">}<sp/>whd_aggregate_code_t;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Note<sp/>:<sp/>If<sp/>changing<sp/>this,<sp/>core_base_address<sp/>must<sp/>be<sp/>changed<sp/>also<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>WLAN_ARM_CORE<sp/>=<sp/>0,<sp/>SOCRAM_CORE<sp/>=<sp/>1,<sp/>SDIOD_CORE<sp/>=<sp/>2</highlight></codeline>
+<codeline lineno="57"><highlight class="normal">}<sp/>device_core_t;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>WLAN_DOWN,<sp/>WLAN_UP,<sp/>WLAN_OFF</highlight></codeline>
+<codeline lineno="62"><highlight class="normal">}<sp/>wlan_state_t;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>WLAN_CORE_FLAG_NONE,<sp/>WLAN_CORE_FLAG_CPU_HALT,</highlight></codeline>
+<codeline lineno="67"><highlight class="normal">}<sp/>wlan_core_flag_t;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>WHD_AKM_RESERVED<sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>WHD_AKM_8021X<sp/>=<sp/>1,<sp/></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>WHD_AKM_PSK<sp/>=<sp/>2,<sp/></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>WHD_AKM_FT_8021X<sp/>=<sp/>3,<sp/></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>WHD_AKM_FT_PSK<sp/>=<sp/>4,<sp/></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>WHD_AKM_8021X_SHA256<sp/>=<sp/>5,</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>WHD_AKM_PSK_SHA256<sp/>=<sp/>6,</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>WHD_AKM_TDLS<sp/>=<sp/>7,<sp/></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>WHD_AKM_SAE_SHA256<sp/>=<sp/>8,</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>WHD_AKM_FT_SAE_SHA256<sp/>=<sp/>9,</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>WHD_AKM_AP_PEER_KEY_SHA256<sp/>=<sp/>10,</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>WHD_AKM_SUITEB_8021X_HMAC_SHA256<sp/>=<sp/>11,</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>WHD_AKM_SUITEB_8021X_HMAC_SHA384<sp/>=<sp/>12,</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/>WHD_AKM_SUITEB_FT_8021X_HMAC_SHA384<sp/>=<sp/>13,</highlight></codeline>
+<codeline lineno="88"><highlight class="normal">}<sp/>whd_akm_suite_t;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/>WHD_CIPHER_GROUP<sp/>=<sp/>0,<sp/></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/>WHD_CIPHER_WEP_40<sp/>=<sp/>1,<sp/></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>WHD_CIPHER_TKIP<sp/>=<sp/>2,<sp/></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/>WHD_CIPHER_RESERVED<sp/>=<sp/>3,<sp/></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/>WHD_CIPHER_CCMP_128<sp/>=<sp/>4,<sp/></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/>WHD_CIPHER_WEP_104<sp/>=<sp/>5,<sp/></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>WHD_CIPHER_BIP_CMAC_128<sp/>=<sp/>6,<sp/></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/>WHD_CIPHER_GROUP_DISALLOWED<sp/>=<sp/>7,<sp/></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/>WHD_CIPHER_GCMP_128<sp/>=<sp/>8,<sp/></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/>WHD_CIPHER_GCMP_256<sp/>=<sp/>9,<sp/></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/>WHD_CIPHER_CCMP_256<sp/>=<sp/>10,<sp/></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>WHD_CIPHER_BIP_GMAC_128<sp/>=<sp/>11,<sp/></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/>WHD_CIPHER_BIP_GMAC_256<sp/>=<sp/>12,<sp/></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>WHD_CIPHER_BIP_CMAC_256<sp/>=<sp/>13,<sp/></highlight></codeline>
+<codeline lineno="109"><highlight class="normal">}<sp/>whd_80211_cipher_t;</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight><highlight class="comment">/******************************************************</highlight></codeline>
+<codeline lineno="112"><highlight class="comment">*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Structures</highlight></codeline>
+<codeline lineno="113"><highlight class="comment">******************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115" refid="structwhd__chip__info__t" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">whd_chip_info</highlight></codeline>
+<codeline lineno="116"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/>chip_id;</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="whd__types_8h_1a7cd94a03f2e7e6aab7217ed559c7a0ac" kindref="member">whd_bool_t</ref><sp/>save_restore_enable;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal">}<sp/><ref refid="structwhd__chip__info__t" kindref="compound">whd_chip_info_t</ref>;</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="structwhd__wlan__status__t" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/>wlan_state_t<sp/>state;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="whd__types_8h_1a5adb0953a8527552bc47001673830602" kindref="member">whd_country_code_t</ref><sp/>country_code;</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/>whd_aggregate_code_t<sp/>aggregate_code;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>keep_wlan_awake;</highlight></codeline>
+<codeline lineno="128"><highlight class="normal">}<sp/><ref refid="structwhd__wlan__status__t" kindref="compound">whd_wlan_status_t</ref>;</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>pack(1)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>802.11<sp/>Information<sp/>Element<sp/>structures<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Country<sp/>Information<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>COUNTRY_INFO_IE_MINIMUM_LENGTH<sp/>(6)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137" refid="structcountry__chan__info__t" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/>first_chan_num;</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/>num_chans;</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/>max_tx_pwr_level;</highlight></codeline>
+<codeline lineno="142"><highlight class="normal">}<sp/><ref refid="structcountry__chan__info__t" kindref="compound">country_chan_info_t</ref>;</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Structures<sp/>for<sp/>TLVs<sp/>with<sp/>8-bit<sp/>type<sp/>and<sp/>8-bit<sp/>length<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="145" refid="structwhd__tlv8__header__t" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/>type;</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/>length;</highlight></codeline>
+<codeline lineno="149"><highlight class="normal">}<sp/><ref refid="structwhd__tlv8__header__t" kindref="compound">whd_tlv8_header_t</ref>;</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151" refid="structwhd__tlv8__data__t" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/>type;</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/>length;</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/>data[1];</highlight></codeline>
+<codeline lineno="156"><highlight class="normal">}<sp/><ref refid="structwhd__tlv8__data__t" kindref="compound">whd_tlv8_data_t</ref>;</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158" refid="structcountry__info__ie__fixed__portion__t" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structwhd__tlv8__header__t" kindref="compound">whd_tlv8_header_t</ref><sp/>tlv_header;<sp/></highlight><highlight class="comment">/*<sp/>id,<sp/>length<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>ccode[2];<sp/></highlight><highlight class="comment">/*<sp/>dot11CountryString<sp/>MIB<sp/>octet<sp/>1~2,<sp/>two<sp/>letter<sp/>country<sp/>code<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/>env;<sp/></highlight><highlight class="comment">/*<sp/>dot11CountryString<sp/>MIB<sp/>octet<sp/>3,<sp/>indicate<sp/>indoor/outdoor<sp/>environment<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structcountry__chan__info__t" kindref="compound">country_chan_info_t</ref><sp/>country_chan_info[1];<sp/></highlight><highlight class="comment">/*<sp/>At<sp/>least<sp/>one<sp/>country<sp/>channel<sp/>info<sp/>triples<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal">}<sp/><ref refid="structcountry__info__ie__fixed__portion__t" kindref="compound">country_info_ie_fixed_portion_t</ref>;</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Robust<sp/>Secure<sp/>Network<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="167" refid="structrsn__ie__fixed__portion__t" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structwhd__tlv8__header__t" kindref="compound">whd_tlv8_header_t</ref><sp/>tlv_header;<sp/></highlight><highlight class="comment">/*<sp/>id,<sp/>length<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/>version;</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>group_key_suite;<sp/></highlight><highlight class="comment">/*<sp/>See<sp/>whd_80211_cipher_t<sp/>for<sp/>values<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/>pairwise_suite_count;</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>pairwise_suite_list[1];</highlight></codeline>
+<codeline lineno="174"><highlight class="normal">}<sp/><ref refid="structrsn__ie__fixed__portion__t" kindref="compound">rsn_ie_fixed_portion_t</ref>;</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>RSN_IE_MINIMUM_LENGTH<sp/>(8)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178" refid="structvendor__specific__ie__header__t" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="179"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structwhd__tlv8__header__t" kindref="compound">whd_tlv8_header_t</ref><sp/>tlv_header;<sp/></highlight><highlight class="comment">/*<sp/>id,<sp/>length<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/>oui[4];</highlight></codeline>
+<codeline lineno="182"><highlight class="normal">}<sp/><ref refid="structvendor__specific__ie__header__t" kindref="compound">vendor_specific_ie_header_t</ref>;</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>VENDOR_SPECIFIC_IE_MINIMUM_LENGTH<sp/>(4)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>WPA<sp/>IE<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="187" refid="structwpa__ie__fixed__portion__t" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="188"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structvendor__specific__ie__header__t" kindref="compound">vendor_specific_ie_header_t</ref><sp/>vendor_specific_header;</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/>version;</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>multicast_suite;</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/>unicast_suite_count;</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/>unicast_suite_list[1][4];</highlight></codeline>
+<codeline lineno="194"><highlight class="normal">}<sp/><ref refid="structwpa__ie__fixed__portion__t" kindref="compound">wpa_ie_fixed_portion_t</ref>;</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WPA_IE_MINIMUM_LENGTH<sp/>(12)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="197"><highlight class="normal"></highlight></codeline>
+<codeline lineno="198" refid="structakm__suite__portion__t" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="199"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/>akm_suite_count;</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>akm_suite_list[1];</highlight></codeline>
+<codeline lineno="202"><highlight class="normal">}<sp/><ref refid="structakm__suite__portion__t" kindref="compound">akm_suite_portion_t</ref>;</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204" refid="structht__capabilities__ie__t" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="205"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structwhd__tlv8__header__t" kindref="compound">whd_tlv8_header_t</ref><sp/>tlv_header;<sp/></highlight><highlight class="comment">/*<sp/>id,<sp/>length<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/>ht_capabilities_info;</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/>ampdu_parameters;</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/>rx_mcs[10];</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/>rxhighest_supported_data_rate;</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/>tx_supported_mcs_set;</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/>tx_mcs_info[3];</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/>ht_extended_capabilities;</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>transmit_beam_forming_capabilities;</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/>antenna_selection_capabilities;</highlight></codeline>
+<codeline lineno="216"><highlight class="normal">}<sp/><ref refid="structht__capabilities__ie__t" kindref="compound">ht_capabilities_ie_t</ref>;</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>HT_CAPABILITIES_INFO_LDPC_CODING_CAPABILITY<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(1<sp/>&lt;&lt;<sp/><sp/>0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="219"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>HT_CAPABILITIES_INFO_SUPPORTED_CHANNEL_WIDTH_SET<sp/><sp/><sp/>(1<sp/>&lt;&lt;<sp/><sp/>1)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="220"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>HT_CAPABILITIES_INFO_SM_POWER_SAVE_OFFSET<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(1<sp/>&lt;&lt;<sp/><sp/>2)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>HT_CAPABILITIES_INFO_SM_POWER_SAVE_MASK<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(3<sp/>&lt;&lt;<sp/><sp/>2)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>HT_CAPABILITIES_INFO_HT_GREENFIELD<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(1<sp/>&lt;&lt;<sp/><sp/>4)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="223"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>HT_CAPABILITIES_INFO_SHORT_GI_FOR_20MHZ<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(1<sp/>&lt;&lt;<sp/><sp/>5)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="224"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>HT_CAPABILITIES_INFO_SHORT_GI_FOR_40MHZ<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(1<sp/>&lt;&lt;<sp/><sp/>6)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="225"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>HT_CAPABILITIES_INFO_TX_STBC<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(1<sp/>&lt;&lt;<sp/><sp/>7)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>HT_CAPABILITIES_INFO_RX_STBC_OFFSET<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(1<sp/>&lt;&lt;<sp/><sp/>8)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="227"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>HT_CAPABILITIES_INFO_RX_STBC_MASK<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(3<sp/>&lt;&lt;<sp/><sp/>8)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="228"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>HT_CAPABILITIES_INFO_HT_DELAYED_BLOCK_ACK<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(1<sp/>&lt;&lt;<sp/>10)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="229"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>HT_CAPABILITIES_INFO_MAXIMUM_A_MSDU_LENGTH<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(1<sp/>&lt;&lt;<sp/>11)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>HT_CAPABILITIES_INFO_DSSS_CCK_MODE_IN_40MHZ<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(1<sp/>&lt;&lt;<sp/>12)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="231"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>bit<sp/>13<sp/>reserved<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="232"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>HT_CAPABILITIES_INFO_40MHZ_INTOLERANT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(1<sp/>&lt;&lt;<sp/>14)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="233"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>HT_CAPABILITIES_INFO_L_SIG_TXOP_PROTECTION_SUPPORT<sp/>(1<sp/>&lt;&lt;<sp/>15)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="234"><highlight class="normal"></highlight></codeline>
+<codeline lineno="235"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>uint;</highlight></codeline>
+<codeline lineno="236" refid="structhnd__log__t" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="237"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/>uint<sp/>buf;</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/>uint<sp/>buf_size;</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/>uint<sp/>idx;</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/>uint<sp/>out_idx;<sp/></highlight><highlight class="comment">/*<sp/>output<sp/>index<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="242"><highlight class="normal">}<sp/><ref refid="structhnd__log__t" kindref="compound">hnd_log_t</ref>;</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"></highlight></codeline>
+<codeline lineno="244"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CBUF_LEN<sp/>128</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="245"><highlight class="normal"></highlight></codeline>
+<codeline lineno="246" refid="structhnd__cons__t" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="247"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Virtual<sp/>UART</highlight></codeline>
+<codeline lineno="249"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/>When<sp/>there<sp/>is<sp/>no<sp/>UART<sp/>(e.g.<sp/>Quickturn),<sp/>the<sp/>host<sp/>should<sp/>write<sp/>a<sp/>complete</highlight></codeline>
+<codeline lineno="250"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/>input<sp/>line<sp/>directly<sp/>into<sp/>cbuf<sp/>and<sp/>then<sp/>write<sp/>the<sp/>length<sp/>into<sp/>vcons_in.</highlight></codeline>
+<codeline lineno="251"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/>This<sp/>may<sp/>also<sp/>be<sp/>used<sp/>when<sp/>there<sp/>is<sp/>a<sp/>real<sp/>UART<sp/>(at<sp/>risk<sp/>of<sp/>conflicting<sp/>with</highlight></codeline>
+<codeline lineno="252"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/>the<sp/>real<sp/>UART).<sp/><sp/>vcons_out<sp/>is<sp/>currently<sp/>unused.</highlight></codeline>
+<codeline lineno="253"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">volatile</highlight><highlight class="normal"><sp/>uint<sp/>vcons_in;</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">volatile</highlight><highlight class="normal"><sp/>uint<sp/>vcons_out;</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"></highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Output<sp/>(logging)<sp/>buffer</highlight></codeline>
+<codeline lineno="258"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/>Console<sp/>output<sp/>is<sp/>written<sp/>to<sp/>a<sp/>ring<sp/>buffer<sp/>log_buf<sp/>at<sp/>index<sp/>log_idx.</highlight></codeline>
+<codeline lineno="259"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/>The<sp/>host<sp/>may<sp/>read<sp/>the<sp/>output<sp/>when<sp/>it<sp/>sees<sp/>log_idx<sp/>advance.</highlight></codeline>
+<codeline lineno="260"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/>Output<sp/>will<sp/>be<sp/>lost<sp/>if<sp/>the<sp/>output<sp/>wraps<sp/>around<sp/>faster<sp/>than<sp/>the<sp/>host<sp/>polls.</highlight></codeline>
+<codeline lineno="261"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structhnd__log__t" kindref="compound">hnd_log_t</ref><sp/>log;</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"></highlight></codeline>
+<codeline lineno="264"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Console<sp/>input<sp/>line<sp/>buffer</highlight></codeline>
+<codeline lineno="265"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/>Characters<sp/>are<sp/>read<sp/>one<sp/>at<sp/>a<sp/>time<sp/>into<sp/>cbuf<sp/>until<sp/>&lt;CR&gt;<sp/>is<sp/>received,<sp/>then</highlight></codeline>
+<codeline lineno="266"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/>the<sp/>buffer<sp/>is<sp/>processed<sp/>as<sp/>a<sp/>command<sp/>line.<sp/><sp/>Also<sp/>used<sp/>for<sp/>virtual<sp/>UART.</highlight></codeline>
+<codeline lineno="267"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/>uint<sp/>cbuf_idx;</highlight></codeline>
+<codeline lineno="269"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>cbuf[CBUF_LEN];</highlight></codeline>
+<codeline lineno="270"><highlight class="normal">}<sp/><ref refid="structhnd__cons__t" kindref="compound">hnd_cons_t</ref>;</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"></highlight></codeline>
+<codeline lineno="272" refid="structwifi__console__t" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">wifi_console</highlight></codeline>
+<codeline lineno="273"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"><sp/><sp/><sp/><sp/>uint<sp/>count;<sp/></highlight><highlight class="comment">/*<sp/>Poll<sp/>interval<sp/>msec<sp/>counter<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="275"><highlight class="normal"><sp/><sp/><sp/><sp/>uint<sp/>log_addr;<sp/></highlight><highlight class="comment">/*<sp/>Log<sp/>struct<sp/>address<sp/>(fixed)<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structhnd__log__t" kindref="compound">hnd_log_t</ref><sp/>log;<sp/></highlight><highlight class="comment">/*<sp/>Log<sp/>struct<sp/>(host<sp/>copy)<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="277"><highlight class="normal"><sp/><sp/><sp/><sp/>uint<sp/>bufsize;<sp/></highlight><highlight class="comment">/*<sp/>Size<sp/>of<sp/>log<sp/>buffer<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*buf;<sp/></highlight><highlight class="comment">/*<sp/>Log<sp/>buffer<sp/>(host<sp/>copy)<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="279"><highlight class="normal"><sp/><sp/><sp/><sp/>uint<sp/>last;<sp/></highlight><highlight class="comment">/*<sp/>Last<sp/>buffer<sp/>read<sp/>index<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="280"><highlight class="normal">}<sp/><ref refid="structwifi__console__t" kindref="compound">wifi_console_t</ref>;</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"></highlight></codeline>
+<codeline lineno="282" refid="structwlan__shared__t" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="283"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"><sp/><sp/><sp/><sp/>uint<sp/>flags;</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"><sp/><sp/><sp/><sp/>uint<sp/>trap_addr;</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"><sp/><sp/><sp/><sp/>uint<sp/>assert_exp_addr;</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"><sp/><sp/><sp/><sp/>uint<sp/>assert_file_addr;</highlight></codeline>
+<codeline lineno="288"><highlight class="normal"><sp/><sp/><sp/><sp/>uint<sp/>assert_line;</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"><sp/><sp/><sp/><sp/>uint<sp/>console_addr;</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"><sp/><sp/><sp/><sp/>uint<sp/>msgtrace_addr;</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"><sp/><sp/><sp/><sp/>uint<sp/>fwid;</highlight></codeline>
+<codeline lineno="292"><highlight class="normal">}<sp/><ref refid="structwlan__shared__t" kindref="compound">wlan_shared_t</ref>;</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"></highlight></codeline>
+<codeline lineno="294"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Buffer<sp/>size<sp/>to<sp/>be<sp/>allocated<sp/>to<sp/>read<sp/>wlan<sp/>log<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="295"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WLAN_LOG_BUF_LEN<sp/>(4<sp/>*<sp/>1024)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="296"><highlight class="normal"></highlight></codeline>
+<codeline lineno="297"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WHD_IOCTL_LOG_SIZE<sp/>64</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="298"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WHD_IOVAR_STRING_SIZE<sp/>128</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="299"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WHD_MAX_DATA_SIZE<sp/>64</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="300"><highlight class="normal"></highlight></codeline>
+<codeline lineno="301"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WHD_IOCTL_LOG_ADD(x,<sp/>y,<sp/>z)<sp/>whd_ioctl_log_add(x,<sp/>y,<sp/>z)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="302"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WHD_IOCTL_LOG_ADD_EVENT(w,<sp/>x,<sp/>y,<sp/>z)<sp/>whd_ioctl_log_add_event(w,<sp/>x,<sp/>y,<sp/>z)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="303"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WHD_IOCTL_PRINT(x)<sp/>whd_ioctl_print(x)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="304"><highlight class="normal"></highlight></codeline>
+<codeline lineno="305" refid="structwhd__ioctl__log__t" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="306"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="307"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>ioct_log;</highlight></codeline>
+<codeline lineno="308"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/>is_this_event;</highlight></codeline>
+<codeline lineno="309"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/>data[WHD_MAX_DATA_SIZE];</highlight></codeline>
+<codeline lineno="310"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>data_size;</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/>flag;</highlight></codeline>
+<codeline lineno="312"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>reason;</highlight></codeline>
+<codeline lineno="313"><highlight class="normal">}<ref refid="structwhd__ioctl__log__t" kindref="compound">whd_ioctl_log_t</ref>;</highlight></codeline>
+<codeline lineno="314"><highlight class="normal"></highlight></codeline>
+<codeline lineno="315"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>whd_ioctl_log_add(whd_driver_t<sp/><ref refid="structwhd__driver" kindref="compound">whd_driver</ref>,<sp/>uint32_t<sp/>cmd,<sp/>whd_buffer_t<sp/>buffer);</highlight></codeline>
+<codeline lineno="316"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>whd_ioctl_log_add_event(whd_driver_t<sp/><ref refid="structwhd__driver" kindref="compound">whd_driver</ref>,<sp/>uint32_t<sp/>cmd,<sp/>uint16_t<sp/>flag,<sp/>uint32_t<sp/>data);</highlight></codeline>
+<codeline lineno="317"><highlight class="normal"></highlight></codeline>
+<codeline lineno="318"><highlight class="normal"><ref refid="whd__types_8h_1add62f4b5040a2451e23869d2f9e1ae05" kindref="member">whd_result_t</ref><sp/>whd_ioctl_print(whd_driver_t<sp/><ref refid="structwhd__driver" kindref="compound">whd_driver</ref>);</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"></highlight></codeline>
+<codeline lineno="320"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>pack()</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="321"><highlight class="normal"></highlight></codeline>
+<codeline lineno="322" refid="structwhd__internal__info__t" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">whd_internal_info</highlight></codeline>
+<codeline lineno="323"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="324"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structwhd__wlan__status__t" kindref="compound">whd_wlan_status_t</ref><sp/>whd_wlan_status;</highlight></codeline>
+<codeline lineno="325"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structwifi__console__t" kindref="compound">wifi_console_t</ref><sp/>*c;</highlight></codeline>
+<codeline lineno="326"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structwifi__console__t" kindref="compound">wifi_console_t</ref><sp/>console;</highlight></codeline>
+<codeline lineno="327"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structwlan__shared__t" kindref="compound">wlan_shared_t</ref><sp/>sh;</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>console_addr;</highlight></codeline>
+<codeline lineno="329"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__wifijoin_1ga9f8c6096922212981dd2101a17aec471" kindref="member">whd_scan_result_callback_t</ref><sp/>scan_result_callback;</highlight></codeline>
+<codeline lineno="330"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structwhd__scan__result__t" kindref="compound">whd_scan_result_t</ref><sp/>*whd_scan_result_ptr;</highlight></codeline>
+<codeline lineno="331"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>The<sp/>semaphore<sp/>used<sp/>to<sp/>wait<sp/>for<sp/>completion<sp/>of<sp/>a<sp/>join;</highlight></codeline>
+<codeline lineno="332"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>whd_wifi_join_halt<sp/>uses<sp/>this<sp/>to<sp/>release<sp/>waiting<sp/>threads<sp/>(if<sp/>any)<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="333"><highlight class="normal"><sp/><sp/><sp/><sp/>cy_semaphore_t<sp/>*active_join_semaphore;</highlight></codeline>
+<codeline lineno="334"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="whd__types_8h_1a7cd94a03f2e7e6aab7217ed559c7a0ac" kindref="member">whd_bool_t</ref><sp/>active_join_mutex_initted;</highlight></codeline>
+<codeline lineno="335"><highlight class="normal"><sp/><sp/><sp/><sp/>cy_semaphore_t<sp/>active_join_mutex;</highlight></codeline>
+<codeline lineno="336"><highlight class="normal"><sp/><sp/><sp/><sp/>uint<sp/>con_lastpos;</highlight></codeline>
+<codeline lineno="337"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>whd_join_status[3];</highlight></codeline>
+<codeline lineno="338"><highlight class="normal"></highlight></codeline>
+<codeline lineno="339"><highlight class="normal">}<sp/><ref refid="structwhd__internal__info__t" kindref="compound">whd_internal_info_t</ref>;</highlight></codeline>
+<codeline lineno="340"><highlight class="normal"></highlight></codeline>
+<codeline lineno="341"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>pack(1)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="342"><highlight class="normal"></highlight></codeline>
+<codeline lineno="343" refid="structwhd__country__info__t" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="344"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="345"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>abbrev[3];</highlight></codeline>
+<codeline lineno="346"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/>rev;</highlight></codeline>
+<codeline lineno="347"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/>data[64];</highlight></codeline>
+<codeline lineno="348"><highlight class="normal">}<sp/><ref refid="structwhd__country__info__t" kindref="compound">whd_country_info_t</ref>;</highlight></codeline>
+<codeline lineno="349"><highlight class="normal"></highlight></codeline>
+<codeline lineno="350"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>pack()</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="351"><highlight class="normal"></highlight></codeline>
+<codeline lineno="352"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>whd_internal_info_init(whd_driver_t<sp/><ref refid="structwhd__driver" kindref="compound">whd_driver</ref>);</highlight></codeline>
+<codeline lineno="353"><highlight class="normal"></highlight></codeline>
+<codeline lineno="354"><highlight class="normal"></highlight><highlight class="comment">/******************************************************</highlight></codeline>
+<codeline lineno="355"><highlight class="comment">*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Function<sp/>Declarations</highlight></codeline>
+<codeline lineno="356"><highlight class="comment">******************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="357"><highlight class="normal"></highlight></codeline>
+<codeline lineno="358"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>whd_wifi_chip_info_init(whd_driver_t<sp/><ref refid="structwhd__driver" kindref="compound">whd_driver</ref>);</highlight></codeline>
+<codeline lineno="359"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="whd__types_8h_1add62f4b5040a2451e23869d2f9e1ae05" kindref="member">whd_result_t</ref><sp/>whd_wlan_bus_complete_ds_wake(whd_driver_t<sp/><ref refid="structwhd__driver" kindref="compound">whd_driver</ref>,<sp/><ref refid="whd__types_8h_1a7cd94a03f2e7e6aab7217ed559c7a0ac" kindref="member">whd_bool_t</ref><sp/>wake_from_firmware,</highlight></codeline>
+<codeline lineno="360"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint32_t<sp/>wake_event_indication_addr,<sp/>uint32_t<sp/>wake_indication_addr,</highlight></codeline>
+<codeline lineno="361"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint32_t<sp/>sdio_control_addr);</highlight></codeline>
+<codeline lineno="362"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="whd__types_8h_1add62f4b5040a2451e23869d2f9e1ae05" kindref="member">whd_result_t</ref><sp/>whd_wifi_set_custom_country_code(whd_interface_t<sp/>ifp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structwhd__country__info__t" kindref="compound">whd_country_info_t</ref><sp/>*country_code);</highlight></codeline>
+<codeline lineno="363"><highlight class="normal"></highlight></codeline>
+<codeline lineno="364"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Device<sp/>core<sp/>control<sp/>functions<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="365"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="whd__types_8h_1add62f4b5040a2451e23869d2f9e1ae05" kindref="member">whd_result_t</ref><sp/>whd_disable_device_core(whd_driver_t<sp/><ref refid="structwhd__driver" kindref="compound">whd_driver</ref>,<sp/>device_core_t<sp/>core_id,<sp/>wlan_core_flag_t<sp/>core_flag);</highlight></codeline>
+<codeline lineno="366"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="whd__types_8h_1add62f4b5040a2451e23869d2f9e1ae05" kindref="member">whd_result_t</ref><sp/>whd_reset_device_core(whd_driver_t<sp/><ref refid="structwhd__driver" kindref="compound">whd_driver</ref>,<sp/>device_core_t<sp/>core_id,<sp/>wlan_core_flag_t<sp/>core_flag);</highlight></codeline>
+<codeline lineno="367"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="whd__types_8h_1add62f4b5040a2451e23869d2f9e1ae05" kindref="member">whd_result_t</ref><sp/>whd_reset_core(whd_driver_t<sp/><ref refid="structwhd__driver" kindref="compound">whd_driver</ref>,<sp/>device_core_t<sp/>core_id,<sp/>uint32_t<sp/>bits,<sp/>uint32_t<sp/>resetbits);</highlight></codeline>
+<codeline lineno="368"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="whd__types_8h_1add62f4b5040a2451e23869d2f9e1ae05" kindref="member">whd_result_t</ref><sp/>whd_wlan_armcore_run(whd_driver_t<sp/><ref refid="structwhd__driver" kindref="compound">whd_driver</ref>,<sp/>device_core_t<sp/>core_id,<sp/>wlan_core_flag_t<sp/>core_flag);</highlight></codeline>
+<codeline lineno="369"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="whd__types_8h_1add62f4b5040a2451e23869d2f9e1ae05" kindref="member">whd_result_t</ref><sp/>whd_device_core_is_up(whd_driver_t<sp/><ref refid="structwhd__driver" kindref="compound">whd_driver</ref>,<sp/>device_core_t<sp/>core_id);</highlight></codeline>
+<codeline lineno="370"><highlight class="normal"></highlight></codeline>
+<codeline lineno="371"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Chip<sp/>specific<sp/>functions<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="372"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="whd__types_8h_1add62f4b5040a2451e23869d2f9e1ae05" kindref="member">whd_result_t</ref><sp/>whd_allow_wlan_bus_to_sleep(whd_driver_t<sp/><ref refid="structwhd__driver" kindref="compound">whd_driver</ref>);</highlight></codeline>
+<codeline lineno="373"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="whd__types_8h_1add62f4b5040a2451e23869d2f9e1ae05" kindref="member">whd_result_t</ref><sp/>whd_ensure_wlan_bus_is_up(whd_driver_t<sp/><ref refid="structwhd__driver" kindref="compound">whd_driver</ref>);</highlight></codeline>
+<codeline lineno="374"><highlight class="normal"></highlight></codeline>
+<codeline lineno="375"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="whd__types_8h_1add62f4b5040a2451e23869d2f9e1ae05" kindref="member">whd_result_t</ref><sp/>whd_chip_specific_init(whd_driver_t<sp/><ref refid="structwhd__driver" kindref="compound">whd_driver</ref>);</highlight></codeline>
+<codeline lineno="376"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="whd__types_8h_1add62f4b5040a2451e23869d2f9e1ae05" kindref="member">whd_result_t</ref><sp/>whd_chip_specific_socsram_init(whd_driver_t<sp/><ref refid="structwhd__driver" kindref="compound">whd_driver</ref>);</highlight></codeline>
+<codeline lineno="377"><highlight class="normal"></highlight></codeline>
+<codeline lineno="378"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>whd_wifi_peek(whd_driver_t<sp/><ref refid="structwhd__driver" kindref="compound">whd_driver</ref>,<sp/>uint32_t<sp/>address,<sp/>uint8_t<sp/>register_length,<sp/>uint8_t<sp/>*value);</highlight></codeline>
+<codeline lineno="379"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>whd_wifi_poke(whd_driver_t<sp/><ref refid="structwhd__driver" kindref="compound">whd_driver</ref>,<sp/>uint32_t<sp/>address,<sp/>uint8_t<sp/>register_length,<sp/>uint32_t<sp/>value);</highlight></codeline>
+<codeline lineno="380"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>uint32_t<sp/>whd_wifi_get_btc_params(whd_driver_t<sp/><ref refid="structwhd__driver" kindref="compound">whd_driver</ref>,<sp/>uint32_t<sp/>address,<sp/>whd_interface_t<sp/>interface);</highlight></codeline>
+<codeline lineno="381"><highlight class="normal"></highlight></codeline>
+<codeline lineno="382"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="383"><highlight class="normal">}<sp/></highlight><highlight class="comment">/*<sp/>extern<sp/>&quot;C&quot;<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="384"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="385"><highlight class="normal"></highlight></codeline>
+<codeline lineno="386"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>ifndef<sp/>INCLUDED_WHD_CHIP_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="source/whd_chip.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwl__assoc__info__t" kind="struct" language="C++" prot="public">
+    <compoundname>wl_assoc_info_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwl__assoc__info__t_1ab8d0ca7dae3b5e7e52223ad440beaa7a" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t req_len</definition>
+        <argsstring></argsstring>
+        <name>req_len</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="494" column="14" bodyfile="source/whd_wlioctl.h" bodystart="494" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__assoc__info__t_1a66dcaa21887ae1f2ff517b465819ef36" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t resp_len</definition>
+        <argsstring></argsstring>
+        <name>resp_len</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="495" column="14" bodyfile="source/whd_wlioctl.h" bodystart="495" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__assoc__info__t_1a773b39d480759f67926cb18ae2219281" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t flags</definition>
+        <argsstring></argsstring>
+        <name>flags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="496" column="14" bodyfile="source/whd_wlioctl.h" bodystart="496" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__assoc__info__t_1a66c3aa1556b82fdcf03c73f6c2883e58" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="structwl__dot11__assoc__req" kindref="compound">wl_dot11_assoc_req</ref></type>
+        <definition>struct wl_dot11_assoc_req req</definition>
+        <argsstring></argsstring>
+        <name>req</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="497" column="29" bodyfile="source/whd_wlioctl.h" bodystart="497" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__assoc__info__t_1a6e981e2d28ac43e8c0909c19530ec2d0" prot="public" static="no" mutable="no">
+        <type><ref refid="structwl__ether__addr__t" kindref="compound">wl_ether_addr_t</ref></type>
+        <definition>wl_ether_addr_t reassoc_bssid</definition>
+        <argsstring></argsstring>
+        <name>reassoc_bssid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="498" column="21" bodyfile="source/whd_wlioctl.h" bodystart="498" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__assoc__info__t_1a5c1f7131884d190cf38253868cf88b92" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="structwl__dot11__assoc__resp" kindref="compound">wl_dot11_assoc_resp</ref></type>
+        <definition>struct wl_dot11_assoc_resp resp</definition>
+        <argsstring></argsstring>
+        <name>resp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="499" column="30" bodyfile="source/whd_wlioctl.h" bodystart="499" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>wl_assoc_info_t</label>
+        <link refid="structwl__assoc__info__t"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>req</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>reassoc_bssid</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>resp</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>wl_dot11_assoc_req</label>
+        <link refid="structwl__dot11__assoc__req"/>
+      </node>
+      <node id="4">
+        <label>wl_dot11_assoc_resp</label>
+        <link refid="structwl__dot11__assoc__resp"/>
+      </node>
+      <node id="3">
+        <label>wl_ether_addr_t</label>
+        <link refid="structwl__ether__addr__t"/>
+      </node>
+    </collaborationgraph>
+    <location file="source/whd_wlioctl.h" line="492" column="1" bodyfile="source/whd_wlioctl.h" bodystart="493" bodyend="500"/>
+    <listofallmembers>
+      <member refid="structwl__assoc__info__t_1a773b39d480759f67926cb18ae2219281" prot="public" virt="non-virtual"><scope>wl_assoc_info_t</scope><name>flags</name></member>
+      <member refid="structwl__assoc__info__t_1a6e981e2d28ac43e8c0909c19530ec2d0" prot="public" virt="non-virtual"><scope>wl_assoc_info_t</scope><name>reassoc_bssid</name></member>
+      <member refid="structwl__assoc__info__t_1a66c3aa1556b82fdcf03c73f6c2883e58" prot="public" virt="non-virtual"><scope>wl_assoc_info_t</scope><name>req</name></member>
+      <member refid="structwl__assoc__info__t_1ab8d0ca7dae3b5e7e52223ad440beaa7a" prot="public" virt="non-virtual"><scope>wl_assoc_info_t</scope><name>req_len</name></member>
+      <member refid="structwl__assoc__info__t_1a5c1f7131884d190cf38253868cf88b92" prot="public" virt="non-virtual"><scope>wl_assoc_info_t</scope><name>resp</name></member>
+      <member refid="structwl__assoc__info__t_1a66dcaa21887ae1f2ff517b465819ef36" prot="public" virt="non-virtual"><scope>wl_assoc_info_t</scope><name>resp_len</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

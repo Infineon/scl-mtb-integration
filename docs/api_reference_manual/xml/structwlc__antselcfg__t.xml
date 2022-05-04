@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwlc__antselcfg__t" kind="struct" language="C++" prot="public">
+    <compoundname>wlc_antselcfg_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwlc__antselcfg__t_1a729da2e49edc9ed1945188d1eb5b7b3d" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t ant_config[ANT_SELCFG_MAX]</definition>
+        <argsstring>[ANT_SELCFG_MAX]</argsstring>
+        <name>ant_config</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="274" column="13" bodyfile="source/whd_wlioctl.h" bodystart="274" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwlc__antselcfg__t_1a05e58b6d393ce67003a4e2438f4df0cd" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t num_antcfg</definition>
+        <argsstring></argsstring>
+        <name>num_antcfg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="275" column="13" bodyfile="source/whd_wlioctl.h" bodystart="275" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="272" column="1" bodyfile="source/whd_wlioctl.h" bodystart="273" bodyend="276"/>
+    <listofallmembers>
+      <member refid="structwlc__antselcfg__t_1a729da2e49edc9ed1945188d1eb5b7b3d" prot="public" virt="non-virtual"><scope>wlc_antselcfg_t</scope><name>ant_config</name></member>
+      <member refid="structwlc__antselcfg__t_1a05e58b6d393ce67003a4e2438f4df0cd" prot="public" virt="non-virtual"><scope>wlc_antselcfg_t</scope><name>num_antcfg</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

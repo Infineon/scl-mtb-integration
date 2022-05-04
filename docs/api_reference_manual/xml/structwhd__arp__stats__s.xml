@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwhd__arp__stats__s" kind="struct" language="C++" prot="public">
+    <compoundname>whd_arp_stats_s</compoundname>
+    <includes local="no">whd_wlioctl.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwhd__arp__stats__s_1acd99bb05ca015e7d74448acb1deba7ca" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t version</definition>
+        <argsstring></argsstring>
+        <name>version</name>
+        <briefdescription>
+<para>WLAN version <linebreak/>
+ </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3828" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3828" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__arp__stats__s_1abc8290a403b9e8e2c0ad6d48999c1d4c" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t peerage</definition>
+        <argsstring></argsstring>
+        <name>peerage</name>
+        <briefdescription>
+<para>Current peer age-out time <linebreak/>
+ </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3829" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3829" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__arp__stats__s_1a79a4455637410d4e665864f32b45a6b1" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t arpoe</definition>
+        <argsstring></argsstring>
+        <name>arpoe</name>
+        <briefdescription>
+<para>Agent enabled state <linebreak/>
+ </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3830" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3830" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__arp__stats__s_1aca8a6433dae1d6ee219eb22cfa32e477" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t features_enabled</definition>
+        <argsstring></argsstring>
+        <name>features_enabled</name>
+        <briefdescription>
+<para>ARP Feature Flags CY_ARP_OL_AGENT_ENABLE, etc. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3831" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3831" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__arp__stats__s_1ae8dee940ccc3fc7bdf18897671f5051b" prot="public" static="no" mutable="no">
+        <type><ref refid="structarp__ol__stats__t" kindref="compound">arp_ol_stats_t</ref></type>
+        <definition>arp_ol_stats_t stats</definition>
+        <argsstring></argsstring>
+        <name>stats</name>
+        <briefdescription>
+<para>Current stats <linebreak/>
+ </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3832" column="20" bodyfile="source/whd_wlioctl.h" bodystart="3832" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__arp__stats__s_1ad37cbc6fe77b28c08229c1730679b962" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t host_ip_list[ARP_MULTIHOMING_MAX]</definition>
+        <argsstring>[ARP_MULTIHOMING_MAX]</argsstring>
+        <name>host_ip_list</name>
+        <briefdescription>
+<para>host_ip addresses in one call <linebreak/>
+ </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3833" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3833" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>ARP offload statistics. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>arp_ol_stats_t</label>
+        <link refid="structarp__ol__stats__t"/>
+      </node>
+      <node id="1">
+        <label>whd_arp_stats_s</label>
+        <link refid="structwhd__arp__stats__s"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>stats</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="source/whd_wlioctl.h" line="3826" column="1" bodyfile="source/whd_wlioctl.h" bodystart="3827" bodyend="3834"/>
+    <listofallmembers>
+      <member refid="structwhd__arp__stats__s_1a79a4455637410d4e665864f32b45a6b1" prot="public" virt="non-virtual"><scope>whd_arp_stats_s</scope><name>arpoe</name></member>
+      <member refid="structwhd__arp__stats__s_1aca8a6433dae1d6ee219eb22cfa32e477" prot="public" virt="non-virtual"><scope>whd_arp_stats_s</scope><name>features_enabled</name></member>
+      <member refid="structwhd__arp__stats__s_1ad37cbc6fe77b28c08229c1730679b962" prot="public" virt="non-virtual"><scope>whd_arp_stats_s</scope><name>host_ip_list</name></member>
+      <member refid="structwhd__arp__stats__s_1abc8290a403b9e8e2c0ad6d48999c1d4c" prot="public" virt="non-virtual"><scope>whd_arp_stats_s</scope><name>peerage</name></member>
+      <member refid="structwhd__arp__stats__s_1ae8dee940ccc3fc7bdf18897671f5051b" prot="public" virt="non-virtual"><scope>whd_arp_stats_s</scope><name>stats</name></member>
+      <member refid="structwhd__arp__stats__s_1acd99bb05ca015e7d74448acb1deba7ca" prot="public" virt="non-virtual"><scope>whd_arp_stats_s</scope><name>version</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

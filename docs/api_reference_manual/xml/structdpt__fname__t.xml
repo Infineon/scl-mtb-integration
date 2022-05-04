@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structdpt__fname__t" kind="struct" language="C++" prot="public">
+    <compoundname>dpt_fname_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structdpt__fname__t_1a5723e60ffd628510c699eddbce90be23" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t len</definition>
+        <argsstring></argsstring>
+        <name>len</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2961" column="13" bodyfile="source/whd_wlioctl.h" bodystart="2961" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdpt__fname__t_1a8fad29a2476c3a753b8232c8f46b3923" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t name[DPT_FNAME_LEN]</definition>
+        <argsstring>[DPT_FNAME_LEN]</argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2962" column="13" bodyfile="source/whd_wlioctl.h" bodystart="2962" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="2959" column="1" bodyfile="source/whd_wlioctl.h" bodystart="2960" bodyend="2963"/>
+    <listofallmembers>
+      <member refid="structdpt__fname__t_1a5723e60ffd628510c699eddbce90be23" prot="public" virt="non-virtual"><scope>dpt_fname_t</scope><name>len</name></member>
+      <member refid="structdpt__fname__t_1a8fad29a2476c3a753b8232c8f46b3923" prot="public" virt="non-virtual"><scope>dpt_fname_t</scope><name>name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

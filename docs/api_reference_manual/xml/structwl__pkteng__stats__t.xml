@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwl__pkteng__stats__t" kind="struct" language="C++" prot="public">
+    <compoundname>wl_pkteng_stats_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwl__pkteng__stats__t_1a31f1f265f9683f57198af56d73bb15ac" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t lostfrmcnt</definition>
+        <argsstring></argsstring>
+        <name>lostfrmcnt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3272" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3272" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__pkteng__stats__t_1a3fa8cff3d3e49d6926bfb205b94f2499" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t rssi</definition>
+        <argsstring></argsstring>
+        <name>rssi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3273" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3273" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__pkteng__stats__t_1a74ef564e4dfacc5bf7e3d5b51928a035" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t snr</definition>
+        <argsstring></argsstring>
+        <name>snr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3274" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3274" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__pkteng__stats__t_1a7c42b61b6525e1aa754e7237f675fd1c" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t rxpktcnt[NUM_80211_RATES+1]</definition>
+        <argsstring>[NUM_80211_RATES+1]</argsstring>
+        <name>rxpktcnt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3275" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3275" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="3270" column="1" bodyfile="source/whd_wlioctl.h" bodystart="3271" bodyend="3276"/>
+    <listofallmembers>
+      <member refid="structwl__pkteng__stats__t_1a31f1f265f9683f57198af56d73bb15ac" prot="public" virt="non-virtual"><scope>wl_pkteng_stats_t</scope><name>lostfrmcnt</name></member>
+      <member refid="structwl__pkteng__stats__t_1a3fa8cff3d3e49d6926bfb205b94f2499" prot="public" virt="non-virtual"><scope>wl_pkteng_stats_t</scope><name>rssi</name></member>
+      <member refid="structwl__pkteng__stats__t_1a7c42b61b6525e1aa754e7237f675fd1c" prot="public" virt="non-virtual"><scope>wl_pkteng_stats_t</scope><name>rxpktcnt</name></member>
+      <member refid="structwl__pkteng__stats__t_1a74ef564e4dfacc5bf7e3d5b51928a035" prot="public" virt="non-virtual"><scope>wl_pkteng_stats_t</scope><name>snr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

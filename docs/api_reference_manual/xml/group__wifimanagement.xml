@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="group__wifimanagement" kind="group">
     <compoundname>wifimanagement</compoundname>
     <title>WHD Wi-Fi Management API</title>
@@ -10,11 +10,11 @@
         <argsstring>(whd_driver_t whd_driver, whd_interface_t *ifpp)</argsstring>
         <name>whd_wifi_on</name>
         <param>
-          <type><ref refid="whd_8h_1ac45015d82e65db891b463066873eca4f" kindref="member">whd_driver_t</ref></type>
+          <type>whd_driver_t</type>
           <declname>whd_driver</declname>
         </param>
         <param>
-          <type><ref refid="whd_8h_1a2e544c482ddbb690bbb95ce7174e79a0" kindref="member">whd_interface_t</ref> *</type>
+          <type>whd_interface_t *</type>
           <declname>ifpp</declname>
         </param>
         <briefdescription>
@@ -24,7 +24,7 @@
 <para>Initialise Wi-Fi platform Program various WiFi parameters and modes</para>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
-<parametername>whd_driver</parametername>
+<parametername><ref refid="structwhd__driver" kindref="compound">whd_driver</ref></parametername>
 </parameternamelist>
 <parameterdescription>
 <para>Pointer to handle instance of the driver </para>
@@ -45,7 +45,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_wifi_api.h" line="63" column="17" declfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_wifi_api.h" declline="63" declcolumn="17"/>
+        <location file="source/whd_wifi_api.h" line="63" column="17" declfile="source/whd_wifi_api.h" declline="63" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__wifimanagement_1ga422587a9b104a871233a42aceb2141d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -53,7 +53,7 @@
         <argsstring>(whd_interface_t ifp)</argsstring>
         <name>whd_wifi_off</name>
         <param>
-          <type><ref refid="whd_8h_1a2e544c482ddbb690bbb95ce7174e79a0" kindref="member">whd_interface_t</ref></type>
+          <type>whd_interface_t</type>
           <declname>ifp</declname>
         </param>
         <briefdescription>
@@ -80,7 +80,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_wifi_api.h" line="78" column="17" declfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_wifi_api.h" declline="78" declcolumn="17"/>
+        <location file="source/whd_wifi_api.h" line="78" column="17" declfile="source/whd_wifi_api.h" declline="78" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__wifimanagement_1gab7d6e59874922e5646e08e52082e32f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -88,7 +88,7 @@
         <argsstring>(whd_interface_t ifp)</argsstring>
         <name>whd_deinit</name>
         <param>
-          <type><ref refid="whd_8h_1a2e544c482ddbb690bbb95ce7174e79a0" kindref="member">whd_interface_t</ref></type>
+          <type>whd_interface_t</type>
           <declname>ifp</declname>
         </param>
         <briefdescription>
@@ -110,7 +110,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_wifi_api.h" line="86" column="17" declfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_wifi_api.h" declline="86" declcolumn="17"/>
+        <location file="source/whd_wifi_api.h" line="86" column="17" declfile="source/whd_wifi_api.h" declline="86" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__wifimanagement_1ga925da3b1ed914d7bb661d3cb2af50680" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -118,7 +118,7 @@
         <argsstring>(whd_interface_t ifp)</argsstring>
         <name>whd_wifi_set_up</name>
         <param>
-          <type><ref refid="whd_8h_1a2e544c482ddbb690bbb95ce7174e79a0" kindref="member">whd_interface_t</ref></type>
+          <type>whd_interface_t</type>
           <declname>ifp</declname>
         </param>
         <briefdescription>
@@ -140,7 +140,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_wifi_api.h" line="94" column="17" declfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_wifi_api.h" declline="94" declcolumn="17"/>
+        <location file="source/whd_wifi_api.h" line="94" column="17" declfile="source/whd_wifi_api.h" declline="94" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__wifimanagement_1ga412c2d4653a7c36329c6cf78be344336" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -148,7 +148,7 @@
         <argsstring>(whd_interface_t ifp)</argsstring>
         <name>whd_wifi_set_down</name>
         <param>
-          <type><ref refid="whd_8h_1a2e544c482ddbb690bbb95ce7174e79a0" kindref="member">whd_interface_t</ref></type>
+          <type>whd_interface_t</type>
           <declname>ifp</declname>
         </param>
         <briefdescription>
@@ -171,7 +171,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_wifi_api.h" line="105" column="17" declfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_wifi_api.h" declline="105" declcolumn="17"/>
+        <location file="source/whd_wifi_api.h" line="105" column="17" declfile="source/whd_wifi_api.h" declline="105" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="group__wifimanagement_1ga553c009e9f6f856dfe243d745e21bbf9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint32_t</type>
@@ -179,7 +179,7 @@
         <argsstring>(whd_driver_t whd_drv, whd_mac_t *mac_addr, whd_interface_t *ifpp)</argsstring>
         <name>whd_add_secondary_interface</name>
         <param>
-          <type><ref refid="whd_8h_1ac45015d82e65db891b463066873eca4f" kindref="member">whd_driver_t</ref></type>
+          <type>whd_driver_t</type>
           <declname>whd_drv</declname>
         </param>
         <param>
@@ -187,7 +187,7 @@
           <declname>mac_addr</declname>
         </param>
         <param>
-          <type><ref refid="whd_8h_1a2e544c482ddbb690bbb95ce7174e79a0" kindref="member">whd_interface_t</ref> *</type>
+          <type>whd_interface_t *</type>
           <declname>ifpp</declname>
         </param>
         <briefdescription>
@@ -225,13 +225,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_wifi_api.h" line="115" column="17" declfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_wifi_api.h" declline="115" declcolumn="17"/>
+        <location file="source/whd_wifi_api.h" line="115" column="17" declfile="source/whd_wifi_api.h" declline="115" declcolumn="17"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
+<para>Initialisation and other management functions for WHD system. </para>
     </briefdescription>
     <detaileddescription>
-<para>Initialisation and other management functions for WHD system </para>
     </detaileddescription>
   </compounddef>
 </doxygen>

@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwl__txrate__class__t" kind="struct" language="C++" prot="public">
+    <compoundname>wl_txrate_class_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwl__txrate__class__t_1a5a6046b8e192cb5ade41fcf2dfdba344" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t init_rate</definition>
+        <argsstring></argsstring>
+        <name>init_rate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3345" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3345" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__txrate__class__t_1a3cd39516c3eee61ff22d88c43c60c5da" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t min_rate</definition>
+        <argsstring></argsstring>
+        <name>min_rate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3346" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3346" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__txrate__class__t_1a66d5a63e17cf8a7882c267d3cb5baf5b" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t max_rate</definition>
+        <argsstring></argsstring>
+        <name>max_rate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3347" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3347" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="3343" column="1" bodyfile="source/whd_wlioctl.h" bodystart="3344" bodyend="3348"/>
+    <listofallmembers>
+      <member refid="structwl__txrate__class__t_1a5a6046b8e192cb5ade41fcf2dfdba344" prot="public" virt="non-virtual"><scope>wl_txrate_class_t</scope><name>init_rate</name></member>
+      <member refid="structwl__txrate__class__t_1a66d5a63e17cf8a7882c267d3cb5baf5b" prot="public" virt="non-virtual"><scope>wl_txrate_class_t</scope><name>max_rate</name></member>
+      <member refid="structwl__txrate__class__t_1a3cd39516c3eee61ff22d88c43c60c5da" prot="public" virt="non-virtual"><scope>wl_txrate_class_t</scope><name>min_rate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

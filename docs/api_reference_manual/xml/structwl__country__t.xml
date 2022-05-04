@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwl__country__t" kind="struct" language="C++" prot="public">
+    <compoundname>wl_country_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwl__country__t_1a67bd97782fa270180e6644715bac09e8" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char country_abbrev[WLC_CNTRY_BUF_SZ]</definition>
+        <argsstring>[WLC_CNTRY_BUF_SZ]</argsstring>
+        <name>country_abbrev</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="281" column="10" bodyfile="source/whd_wlioctl.h" bodystart="281" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__country__t_1a699fc5d2d76b474150e7a632668c0b65" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t rev</definition>
+        <argsstring></argsstring>
+        <name>rev</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="282" column="13" bodyfile="source/whd_wlioctl.h" bodystart="282" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__country__t_1a9b38b12538f063a0ad1bea69670c102e" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char ccode[WLC_CNTRY_BUF_SZ]</definition>
+        <argsstring>[WLC_CNTRY_BUF_SZ]</argsstring>
+        <name>ccode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="283" column="10" bodyfile="source/whd_wlioctl.h" bodystart="283" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="279" column="1" bodyfile="source/whd_wlioctl.h" bodystart="280" bodyend="284"/>
+    <listofallmembers>
+      <member refid="structwl__country__t_1a9b38b12538f063a0ad1bea69670c102e" prot="public" virt="non-virtual"><scope>wl_country_t</scope><name>ccode</name></member>
+      <member refid="structwl__country__t_1a67bd97782fa270180e6644715bac09e8" prot="public" virt="non-virtual"><scope>wl_country_t</scope><name>country_abbrev</name></member>
+      <member refid="structwl__country__t_1a699fc5d2d76b474150e7a632668c0b65" prot="public" virt="non-virtual"><scope>wl_country_t</scope><name>rev</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

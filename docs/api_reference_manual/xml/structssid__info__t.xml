@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structssid__info__t" kind="struct" language="C++" prot="public">
+    <compoundname>ssid_info_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structssid__info__t_1a6a16e952b4ed12830e45b81612d348c3" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t ssid_len</definition>
+        <argsstring></argsstring>
+        <name>ssid_len</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="92" column="13" bodyfile="source/whd_wlioctl.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structssid__info__t_1a0bc7a3220f0aa0155c10608f3bd1ff54" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t ssid[32]</definition>
+        <argsstring>[32]</argsstring>
+        <name>ssid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="93" column="13" bodyfile="source/whd_wlioctl.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="90" column="1" bodyfile="source/whd_wlioctl.h" bodystart="91" bodyend="94"/>
+    <listofallmembers>
+      <member refid="structssid__info__t_1a0bc7a3220f0aa0155c10608f3bd1ff54" prot="public" virt="non-virtual"><scope>ssid_info_t</scope><name>ssid</name></member>
+      <member refid="structssid__info__t_1a6a16e952b4ed12830e45b81612d348c3" prot="public" virt="non-virtual"><scope>ssid_info_t</scope><name>ssid_len</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

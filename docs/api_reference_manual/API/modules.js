@@ -1,5 +1,6 @@
 var modules =
 [
+    [ "Buffer management", "group__group__bsp__network__buffer.html", "group__group__bsp__network__buffer" ],
     [ "WiFi Initialization", "group__group__bsp__wifi.html", "group__group__bsp__wifi" ],
     [ "WHD Event handling API", "group__event.html", "group__event" ],
     [ "WHD Buffer Interface API", "group__buffif.html", "group__buffif" ],

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structvndr__ie__info__t" kind="struct" language="C++" prot="public">
+    <compoundname>vndr_ie_info_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structvndr__ie__info__t_1ab9b0b940a101920cd30cb4edb6dc8d40" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t pktflag</definition>
+        <argsstring></argsstring>
+        <name>pktflag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1519" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1519" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvndr__ie__info__t_1a2cbd79db2d4f54178d0a3debaff6c447" prot="public" static="no" mutable="no">
+        <type>wl_vndr_ie_t</type>
+        <definition>wl_vndr_ie_t vndr_ie_data</definition>
+        <argsstring></argsstring>
+        <name>vndr_ie_data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1520" column="18" bodyfile="source/whd_wlioctl.h" bodystart="1520" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="1517" column="1" bodyfile="source/whd_wlioctl.h" bodystart="1518" bodyend="1521"/>
+    <listofallmembers>
+      <member refid="structvndr__ie__info__t_1ab9b0b940a101920cd30cb4edb6dc8d40" prot="public" virt="non-virtual"><scope>vndr_ie_info_t</scope><name>pktflag</name></member>
+      <member refid="structvndr__ie__info__t_1a2cbd79db2d4f54178d0a3debaff6c447" prot="public" virt="non-virtual"><scope>vndr_ie_info_t</scope><name>vndr_ie_data</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structhnd__log__t" kind="struct" language="C++" prot="public">
+    <compoundname>hnd_log_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structhnd__log__t_1a81450a4d7e407b287e68e6bf5561d497" prot="public" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint buf</definition>
+        <argsstring></argsstring>
+        <name>buf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="238" column="10" bodyfile="source/whd_chip.h" bodystart="238" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structhnd__log__t_1a0969ee675e0ddb0e5c7faf4b21601937" prot="public" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint buf_size</definition>
+        <argsstring></argsstring>
+        <name>buf_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="239" column="10" bodyfile="source/whd_chip.h" bodystart="239" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structhnd__log__t_1aaad3ed6013757592bb5799e9c46b4a21" prot="public" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint idx</definition>
+        <argsstring></argsstring>
+        <name>idx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="240" column="10" bodyfile="source/whd_chip.h" bodystart="240" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structhnd__log__t_1a8fedb9d2da6099b70098d33876b30c9b" prot="public" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint out_idx</definition>
+        <argsstring></argsstring>
+        <name>out_idx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="241" column="10" bodyfile="source/whd_chip.h" bodystart="241" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_chip.h" line="236" column="1" bodyfile="source/whd_chip.h" bodystart="237" bodyend="242"/>
+    <listofallmembers>
+      <member refid="structhnd__log__t_1a81450a4d7e407b287e68e6bf5561d497" prot="public" virt="non-virtual"><scope>hnd_log_t</scope><name>buf</name></member>
+      <member refid="structhnd__log__t_1a0969ee675e0ddb0e5c7faf4b21601937" prot="public" virt="non-virtual"><scope>hnd_log_t</scope><name>buf_size</name></member>
+      <member refid="structhnd__log__t_1aaad3ed6013757592bb5799e9c46b4a21" prot="public" virt="non-virtual"><scope>hnd_log_t</scope><name>idx</name></member>
+      <member refid="structhnd__log__t_1a8fedb9d2da6099b70098d33876b30c9b" prot="public" virt="non-virtual"><scope>hnd_log_t</scope><name>out_idx</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

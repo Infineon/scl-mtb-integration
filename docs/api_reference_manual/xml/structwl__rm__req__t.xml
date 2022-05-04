@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwl__rm__req__t" kind="struct" language="C++" prot="public">
+    <compoundname>wl_rm_req_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwl__rm__req__t_1af0e644dc6c73e60d65c5dc80ccde981b" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t token</definition>
+        <argsstring></argsstring>
+        <name>token</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="321" column="14" bodyfile="source/whd_wlioctl.h" bodystart="321" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__rm__req__t_1a86988a65e0d3ece7990c032c159786d6" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t count</definition>
+        <argsstring></argsstring>
+        <name>count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="322" column="14" bodyfile="source/whd_wlioctl.h" bodystart="322" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__rm__req__t_1a06694309bdaf1f984dda043747eaed8d" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* cb</definition>
+        <argsstring></argsstring>
+        <name>cb</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="323" column="10" bodyfile="source/whd_wlioctl.h" bodystart="323" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__rm__req__t_1aa2a0fc874870115f7d31aabcbb53ec0b" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* cb_arg</definition>
+        <argsstring></argsstring>
+        <name>cb_arg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="324" column="10" bodyfile="source/whd_wlioctl.h" bodystart="324" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__rm__req__t_1a6d8ea94f89c69d290098bf5df93e3d68" prot="public" static="no" mutable="no">
+        <type><ref refid="structwl__rm__req__elt__t" kindref="compound">wl_rm_req_elt_t</ref></type>
+        <definition>wl_rm_req_elt_t req[1]</definition>
+        <argsstring>[1]</argsstring>
+        <name>req</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="325" column="21" bodyfile="source/whd_wlioctl.h" bodystart="325" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>wl_rm_req_elt_t</label>
+        <link refid="structwl__rm__req__elt__t"/>
+      </node>
+      <node id="1">
+        <label>wl_rm_req_t</label>
+        <link refid="structwl__rm__req__t"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>req</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="source/whd_wlioctl.h" line="319" column="1" bodyfile="source/whd_wlioctl.h" bodystart="320" bodyend="326"/>
+    <listofallmembers>
+      <member refid="structwl__rm__req__t_1a06694309bdaf1f984dda043747eaed8d" prot="public" virt="non-virtual"><scope>wl_rm_req_t</scope><name>cb</name></member>
+      <member refid="structwl__rm__req__t_1aa2a0fc874870115f7d31aabcbb53ec0b" prot="public" virt="non-virtual"><scope>wl_rm_req_t</scope><name>cb_arg</name></member>
+      <member refid="structwl__rm__req__t_1a86988a65e0d3ece7990c032c159786d6" prot="public" virt="non-virtual"><scope>wl_rm_req_t</scope><name>count</name></member>
+      <member refid="structwl__rm__req__t_1a6d8ea94f89c69d290098bf5df93e3d68" prot="public" virt="non-virtual"><scope>wl_rm_req_t</scope><name>req</name></member>
+      <member refid="structwl__rm__req__t_1af0e644dc6c73e60d65c5dc80ccde981b" prot="public" virt="non-virtual"><scope>wl_rm_req_t</scope><name>token</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

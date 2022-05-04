@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwl__p2p__wfds__hash__t" kind="struct" language="C++" prot="public">
+    <compoundname>wl_p2p_wfds_hash_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwl__p2p__wfds__hash__t_1a9ea9f1c36637cefd4883d0f428482e7e" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t advt_id</definition>
+        <argsstring></argsstring>
+        <name>advt_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3548" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3548" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__p2p__wfds__hash__t_1a46007cece4e50f0c2583e91e83b9555c" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t nw_cfg_method</definition>
+        <argsstring></argsstring>
+        <name>nw_cfg_method</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3549" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3549" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__p2p__wfds__hash__t_1ab8c40d225ddf44f7c74893fff8540fe2" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t wfds_hash[6]</definition>
+        <argsstring>[6]</argsstring>
+        <name>wfds_hash</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3550" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3550" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__p2p__wfds__hash__t_1a56d25a144f0be574e7c4e796ccd159ac" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t name_len</definition>
+        <argsstring></argsstring>
+        <name>name_len</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3551" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3551" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__p2p__wfds__hash__t_1ab3cbaf572d2de8b977ae4d0b1d0e4383" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t service_name[MAX_WFDS_SVC_NAME_LEN]</definition>
+        <argsstring>[MAX_WFDS_SVC_NAME_LEN]</argsstring>
+        <name>service_name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3552" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3552" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="3546" column="1" bodyfile="source/whd_wlioctl.h" bodystart="3547" bodyend="3553"/>
+    <listofallmembers>
+      <member refid="structwl__p2p__wfds__hash__t_1a9ea9f1c36637cefd4883d0f428482e7e" prot="public" virt="non-virtual"><scope>wl_p2p_wfds_hash_t</scope><name>advt_id</name></member>
+      <member refid="structwl__p2p__wfds__hash__t_1a56d25a144f0be574e7c4e796ccd159ac" prot="public" virt="non-virtual"><scope>wl_p2p_wfds_hash_t</scope><name>name_len</name></member>
+      <member refid="structwl__p2p__wfds__hash__t_1a46007cece4e50f0c2583e91e83b9555c" prot="public" virt="non-virtual"><scope>wl_p2p_wfds_hash_t</scope><name>nw_cfg_method</name></member>
+      <member refid="structwl__p2p__wfds__hash__t_1ab3cbaf572d2de8b977ae4d0b1d0e4383" prot="public" virt="non-virtual"><scope>wl_p2p_wfds_hash_t</scope><name>service_name</name></member>
+      <member refid="structwl__p2p__wfds__hash__t_1ab8c40d225ddf44f7c74893fff8540fe2" prot="public" virt="non-virtual"><scope>wl_p2p_wfds_hash_t</scope><name>wfds_hash</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structvndr__ie__buf__t" kind="struct" language="C++" prot="public">
+    <compoundname>vndr_ie_buf_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structvndr__ie__buf__t_1a6f22cef915b9dbfad5a39005ad407f8a" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t iecount</definition>
+        <argsstring></argsstring>
+        <name>iecount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1524" column="13" bodyfile="source/whd_wlioctl.h" bodystart="1524" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structvndr__ie__buf__t_1ad82b08cc5ab6ea0a79372fcc4a3d002f" prot="public" static="no" mutable="no">
+        <type><ref refid="structvndr__ie__info__t" kindref="compound">vndr_ie_info_t</ref></type>
+        <definition>vndr_ie_info_t vndr_ie_list[1]</definition>
+        <argsstring>[1]</argsstring>
+        <name>vndr_ie_list</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1525" column="20" bodyfile="source/whd_wlioctl.h" bodystart="1525" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>vndr_ie_buf_t</label>
+        <link refid="structvndr__ie__buf__t"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>vndr_ie_list</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>vndr_ie_info_t</label>
+        <link refid="structvndr__ie__info__t"/>
+      </node>
+    </collaborationgraph>
+    <location file="source/whd_wlioctl.h" line="1522" column="1" bodyfile="source/whd_wlioctl.h" bodystart="1523" bodyend="1526"/>
+    <listofallmembers>
+      <member refid="structvndr__ie__buf__t_1a6f22cef915b9dbfad5a39005ad407f8a" prot="public" virt="non-virtual"><scope>vndr_ie_buf_t</scope><name>iecount</name></member>
+      <member refid="structvndr__ie__buf__t_1ad82b08cc5ab6ea0a79372fcc4a3d002f" prot="public" virt="non-virtual"><scope>vndr_ie_buf_t</scope><name>vndr_ie_list</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

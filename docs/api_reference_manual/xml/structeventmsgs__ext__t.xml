@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structeventmsgs__ext__t" kind="struct" language="C++" prot="public">
+    <compoundname>eventmsgs_ext_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structeventmsgs__ext__t_1ae106cd5a700482b11ccde5ee231f6350" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t ver</definition>
+        <argsstring></argsstring>
+        <name>ver</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="670" column="13" bodyfile="source/whd_wlioctl.h" bodystart="670" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structeventmsgs__ext__t_1a1a5aaa930940857f68f245eeb89506b5" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t command</definition>
+        <argsstring></argsstring>
+        <name>command</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="671" column="13" bodyfile="source/whd_wlioctl.h" bodystart="671" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structeventmsgs__ext__t_1a5723e60ffd628510c699eddbce90be23" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t len</definition>
+        <argsstring></argsstring>
+        <name>len</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="672" column="13" bodyfile="source/whd_wlioctl.h" bodystart="672" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structeventmsgs__ext__t_1ac66823429839b852911ee6f1f11de3c9" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t maxgetsize</definition>
+        <argsstring></argsstring>
+        <name>maxgetsize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="673" column="13" bodyfile="source/whd_wlioctl.h" bodystart="673" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structeventmsgs__ext__t_1a4acef0e207052e62d44f25b6d505c8ba" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t mask[1]</definition>
+        <argsstring>[1]</argsstring>
+        <name>mask</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="674" column="13" bodyfile="source/whd_wlioctl.h" bodystart="674" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="668" column="1" bodyfile="source/whd_wlioctl.h" bodystart="669" bodyend="675"/>
+    <listofallmembers>
+      <member refid="structeventmsgs__ext__t_1a1a5aaa930940857f68f245eeb89506b5" prot="public" virt="non-virtual"><scope>eventmsgs_ext_t</scope><name>command</name></member>
+      <member refid="structeventmsgs__ext__t_1a5723e60ffd628510c699eddbce90be23" prot="public" virt="non-virtual"><scope>eventmsgs_ext_t</scope><name>len</name></member>
+      <member refid="structeventmsgs__ext__t_1a4acef0e207052e62d44f25b6d505c8ba" prot="public" virt="non-virtual"><scope>eventmsgs_ext_t</scope><name>mask</name></member>
+      <member refid="structeventmsgs__ext__t_1ac66823429839b852911ee6f1f11de3c9" prot="public" virt="non-virtual"><scope>eventmsgs_ext_t</scope><name>maxgetsize</name></member>
+      <member refid="structeventmsgs__ext__t_1ae106cd5a700482b11ccde5ee231f6350" prot="public" virt="non-virtual"><scope>eventmsgs_ext_t</scope><name>ver</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

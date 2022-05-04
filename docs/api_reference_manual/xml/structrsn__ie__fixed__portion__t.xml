@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structrsn__ie__fixed__portion__t" kind="struct" language="C++" prot="public">
+    <compoundname>rsn_ie_fixed_portion_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structrsn__ie__fixed__portion__t_1a4a3e80f76a80b2bfce6f269984e58f9b" prot="public" static="no" mutable="no">
+        <type><ref refid="structwhd__tlv8__header__t" kindref="compound">whd_tlv8_header_t</ref></type>
+        <definition>whd_tlv8_header_t tlv_header</definition>
+        <argsstring></argsstring>
+        <name>tlv_header</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="169" column="23" bodyfile="source/whd_chip.h" bodystart="169" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structrsn__ie__fixed__portion__t_1ab6d7b6f8c2ceaba7acda80aaf05f4899" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t version</definition>
+        <argsstring></argsstring>
+        <name>version</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="170" column="14" bodyfile="source/whd_chip.h" bodystart="170" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structrsn__ie__fixed__portion__t_1a62f33d481070bed12c308905669f549a" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t group_key_suite</definition>
+        <argsstring></argsstring>
+        <name>group_key_suite</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="171" column="14" bodyfile="source/whd_chip.h" bodystart="171" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structrsn__ie__fixed__portion__t_1ad2690fae089e803f6df221af3e40d334" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t pairwise_suite_count</definition>
+        <argsstring></argsstring>
+        <name>pairwise_suite_count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="172" column="14" bodyfile="source/whd_chip.h" bodystart="172" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structrsn__ie__fixed__portion__t_1a95ad1314b363700981cfa5a835d79580" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t pairwise_suite_list[1]</definition>
+        <argsstring>[1]</argsstring>
+        <name>pairwise_suite_list</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="173" column="14" bodyfile="source/whd_chip.h" bodystart="173" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>rsn_ie_fixed_portion_t</label>
+        <link refid="structrsn__ie__fixed__portion__t"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>tlv_header</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>whd_tlv8_header_t</label>
+        <link refid="structwhd__tlv8__header__t"/>
+      </node>
+    </collaborationgraph>
+    <location file="source/whd_chip.h" line="167" column="1" bodyfile="source/whd_chip.h" bodystart="168" bodyend="174"/>
+    <listofallmembers>
+      <member refid="structrsn__ie__fixed__portion__t_1a62f33d481070bed12c308905669f549a" prot="public" virt="non-virtual"><scope>rsn_ie_fixed_portion_t</scope><name>group_key_suite</name></member>
+      <member refid="structrsn__ie__fixed__portion__t_1ad2690fae089e803f6df221af3e40d334" prot="public" virt="non-virtual"><scope>rsn_ie_fixed_portion_t</scope><name>pairwise_suite_count</name></member>
+      <member refid="structrsn__ie__fixed__portion__t_1a95ad1314b363700981cfa5a835d79580" prot="public" virt="non-virtual"><scope>rsn_ie_fixed_portion_t</scope><name>pairwise_suite_list</name></member>
+      <member refid="structrsn__ie__fixed__portion__t_1a4a3e80f76a80b2bfce6f269984e58f9b" prot="public" virt="non-virtual"><scope>rsn_ie_fixed_portion_t</scope><name>tlv_header</name></member>
+      <member refid="structrsn__ie__fixed__portion__t_1ab6d7b6f8c2ceaba7acda80aaf05f4899" prot="public" virt="non-virtual"><scope>rsn_ie_fixed_portion_t</scope><name>version</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structtx__inst__power__t" kind="struct" language="C++" prot="public">
+    <compoundname>tx_inst_power_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structtx__inst__power__t_1ada6a1d2bb78d2be90813bd9995932f05" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t txpwr_est_Pout[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>txpwr_est_Pout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1398" column="13" bodyfile="source/whd_wlioctl.h" bodystart="1398" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structtx__inst__power__t_1a4f1da73b8913fef70009f0b59d48bdd0" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t txpwr_est_Pout_gofdm</definition>
+        <argsstring></argsstring>
+        <name>txpwr_est_Pout_gofdm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1399" column="13" bodyfile="source/whd_wlioctl.h" bodystart="1399" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="1396" column="1" bodyfile="source/whd_wlioctl.h" bodystart="1397" bodyend="1400"/>
+    <listofallmembers>
+      <member refid="structtx__inst__power__t_1ada6a1d2bb78d2be90813bd9995932f05" prot="public" virt="non-virtual"><scope>tx_inst_power_t</scope><name>txpwr_est_Pout</name></member>
+      <member refid="structtx__inst__power__t_1a4f1da73b8913fef70009f0b59d48bdd0" prot="public" virt="non-virtual"><scope>tx_inst_power_t</scope><name>txpwr_est_Pout_gofdm</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

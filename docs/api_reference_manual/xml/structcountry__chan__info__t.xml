@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structcountry__chan__info__t" kind="struct" language="C++" prot="public">
+    <compoundname>country_chan_info_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structcountry__chan__info__t_1a84eba786a411b9f30e4c5e57b357902b" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t first_chan_num</definition>
+        <argsstring></argsstring>
+        <name>first_chan_num</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="139" column="13" bodyfile="source/whd_chip.h" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcountry__chan__info__t_1a0be951c389fb22e3b26c6040af1e166e" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t num_chans</definition>
+        <argsstring></argsstring>
+        <name>num_chans</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="140" column="13" bodyfile="source/whd_chip.h" bodystart="140" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcountry__chan__info__t_1ae6c65815d53ebc53752c0769352bb4b2" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t max_tx_pwr_level</definition>
+        <argsstring></argsstring>
+        <name>max_tx_pwr_level</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="141" column="13" bodyfile="source/whd_chip.h" bodystart="141" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_chip.h" line="137" column="1" bodyfile="source/whd_chip.h" bodystart="138" bodyend="142"/>
+    <listofallmembers>
+      <member refid="structcountry__chan__info__t_1a84eba786a411b9f30e4c5e57b357902b" prot="public" virt="non-virtual"><scope>country_chan_info_t</scope><name>first_chan_num</name></member>
+      <member refid="structcountry__chan__info__t_1ae6c65815d53ebc53752c0769352bb4b2" prot="public" virt="non-virtual"><scope>country_chan_info_t</scope><name>max_tx_pwr_level</name></member>
+      <member refid="structcountry__chan__info__t_1a0be951c389fb22e3b26c6040af1e166e" prot="public" virt="non-virtual"><scope>country_chan_info_t</scope><name>num_chans</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

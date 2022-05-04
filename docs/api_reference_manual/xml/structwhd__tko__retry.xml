@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwhd__tko__retry" kind="struct" language="C++" prot="public">
+    <compoundname>whd_tko_retry</compoundname>
+    <includes local="no">whd_wlioctl.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwhd__tko__retry_1a96e5ff234713cc984e0c7235d518ad9a" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t tko_interval</definition>
+        <argsstring></argsstring>
+        <name>tko_interval</name>
+        <briefdescription>
+<para>How often to send (in seconds) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3938" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3938" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__tko__retry_1a57291129d0589daf6dfb959327c7020d" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t tko_retry_count</definition>
+        <argsstring></argsstring>
+        <name>tko_retry_count</name>
+        <briefdescription>
+<para>Max times to retry if original fails. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3939" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3939" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__tko__retry_1a8f5e10f831334f0dbb5dbdf01efdc14b" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t tko_retry_interval</definition>
+        <argsstring></argsstring>
+        <name>tko_retry_interval</name>
+        <briefdescription>
+<para>Wait time between retries (in seconds) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3940" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3940" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Get/Set TKO intervals &amp; retrys. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="3936" column="1" bodyfile="source/whd_wlioctl.h" bodystart="3937" bodyend="3941"/>
+    <listofallmembers>
+      <member refid="structwhd__tko__retry_1a96e5ff234713cc984e0c7235d518ad9a" prot="public" virt="non-virtual"><scope>whd_tko_retry</scope><name>tko_interval</name></member>
+      <member refid="structwhd__tko__retry_1a57291129d0589daf6dfb959327c7020d" prot="public" virt="non-virtual"><scope>whd_tko_retry</scope><name>tko_retry_count</name></member>
+      <member refid="structwhd__tko__retry_1a8f5e10f831334f0dbb5dbdf01efdc14b" prot="public" virt="non-virtual"><scope>whd_tko_retry</scope><name>tko_retry_interval</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

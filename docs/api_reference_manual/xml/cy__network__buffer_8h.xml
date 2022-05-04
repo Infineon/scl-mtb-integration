@@ -1,0 +1,414 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="cy__network__buffer_8h" kind="file" language="C++">
+    <compoundname>cy_network_buffer.h</compoundname>
+    <includes local="no">stdint.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="yes">cy_result.h</includes>
+    <includes refid="whd_8h" local="yes">whd.h</includes>
+    <includes refid="whd__network__types_8h" local="yes">whd_network_types.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>cy_network_buffer.h</label>
+        <link refid="cy__network__buffer_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>whd.h</label>
+        <link refid="whd_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>whd_network_types.h</label>
+        <link refid="whd__network__types_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>whd_types.h</label>
+        <link refid="whd__types_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>cy_result.h</label>
+      </node>
+      <node id="7">
+        <label>cybsp.h</label>
+      </node>
+      <node id="8">
+        <label>cyhal_hw_types.h</label>
+      </node>
+      <node id="3">
+        <label>stdbool.h</label>
+      </node>
+      <node id="2">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="group__group__bsp__network__buffer_1gacdcb08de31442a9e5d1f32b4e99a2de3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="whd__types_8h_1add62f4b5040a2451e23869d2f9e1ae05" kindref="member">whd_result_t</ref></type>
+        <definition>whd_result_t cy_host_buffer_get</definition>
+        <argsstring>(whd_buffer_t *buffer, whd_buffer_dir_t direction, unsigned short size, unsigned long timeout_ms)</argsstring>
+        <name>cy_host_buffer_get</name>
+        <param>
+          <type>whd_buffer_t *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type><ref refid="group__buffif_1ga44a64c51498b204ceef5555209e29452" kindref="member">whd_buffer_dir_t</ref></type>
+          <declname>direction</declname>
+        </param>
+        <param>
+          <type>unsigned short</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>unsigned long</type>
+          <declname>timeout_ms</declname>
+        </param>
+        <briefdescription>
+<para>Allocates a packet buffer. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Attempts to allocate a packet buffer of the size requested. It can do this by allocating a pre-existing packet from a pool, using a static buffer, or by dynamically allocating memory. The method of allocation does not concern WHD, however it must match the way the network stack expects packet buffers to be allocated. Usually WHD requires packet of size of WHD_LINK_MTU which includes the MTU. Refer to <ref refid="whd__types_8h" kindref="compound">whd_types.h</ref> to find the size of WHD_LINK_MTU.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>buffer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: A pointer which receives the allocated packet buffer handle </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>direction</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: Indicates transmit/receive direction that the packet buffer is used for. This may be needed if tx/rx pools are separate. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: The number of bytes to allocate. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>timeout_ms</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Time to wait for a packet buffer to be available</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>: CY_RSLT_SUCCESS or WHD_BUFFER_ALLOC_FAIL if the buffer could not be allocated </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/cy_network_buffer.h" line="62" column="14" declfile="source/cy_network_buffer.h" declline="62" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="group__group__bsp__network__buffer_1gaac05ad889f09b6e8ef43503ba475a21f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void cy_buffer_release</definition>
+        <argsstring>(whd_buffer_t buffer, whd_buffer_dir_t direction)</argsstring>
+        <name>cy_buffer_release</name>
+        <param>
+          <type>whd_buffer_t</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type><ref refid="group__buffif_1ga44a64c51498b204ceef5555209e29452" kindref="member">whd_buffer_dir_t</ref></type>
+          <declname>direction</declname>
+        </param>
+        <briefdescription>
+<para>Releases a packet buffer. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function is used by WHD to indicate that it no longer requires a packet buffer. The buffer can then be released back into a pool for reuse, or the dynamically allocated memory can be freed, according to how the packet was allocated. Returns void since WHD cannot do anything about failures</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>buffer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: The handle of the packet buffer to be released </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>direction</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: Indicates transmit/receive direction that the packet buffer has been used for. This might be needed if tx/rx pools are separate. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/cy_network_buffer.h" line="76" column="6" declfile="source/cy_network_buffer.h" declline="76" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="group__group__bsp__network__buffer_1ga5c044b14f52500d9c41f18be0c3187c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint8_t *</type>
+        <definition>uint8_t * cy_buffer_get_current_piece_data_pointer</definition>
+        <argsstring>(whd_buffer_t buffer)</argsstring>
+        <name>cy_buffer_get_current_piece_data_pointer</name>
+        <param>
+          <type>whd_buffer_t</type>
+          <declname>buffer</declname>
+        </param>
+        <briefdescription>
+<para>Retrieves the current pointer of a packet buffer. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Since packet buffers usually need to be created with space at the front for additional headers, this function allows WHD to get the current &apos;front&apos; location pointer.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>buffer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: The handle of the packet buffer whose pointer is to be retrieved</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>: The packet buffer&apos;s current pointer. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/cy_network_buffer.h" line="88" column="9" declfile="source/cy_network_buffer.h" declline="88" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="group__group__bsp__network__buffer_1ga9890010d1a7246a440477d47dc2c7b2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint16_t</type>
+        <definition>uint16_t cy_buffer_get_current_piece_size</definition>
+        <argsstring>(whd_buffer_t buffer)</argsstring>
+        <name>cy_buffer_get_current_piece_size</name>
+        <param>
+          <type>whd_buffer_t</type>
+          <declname>buffer</declname>
+        </param>
+        <briefdescription>
+<para>Retrieves the size of a packet buffer. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Since packet buffers usually need to be created with space at the front for additional headers, the memory block used to contain a packet buffer will often be larger than the current size of the packet buffer data. This function allows WHD to retrieve the current size of a packet buffer&apos;s data.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>buffer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: The handle of the packet buffer whose size is to be retrieved</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>: The size of the packet buffer. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/cy_network_buffer.h" line="101" column="10" declfile="source/cy_network_buffer.h" declline="101" declcolumn="10"/>
+      </memberdef>
+      <memberdef kind="function" id="group__group__bsp__network__buffer_1gafd58907304a573df160ea12c97199c2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="whd__types_8h_1add62f4b5040a2451e23869d2f9e1ae05" kindref="member">whd_result_t</ref></type>
+        <definition>whd_result_t cy_buffer_set_size</definition>
+        <argsstring>(whd_buffer_t buffer, unsigned short size)</argsstring>
+        <name>cy_buffer_set_size</name>
+        <param>
+          <type>whd_buffer_t</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>unsigned short</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>Sets the current size of a WHD packet. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function sets the current length of a WHD packet buffer</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>buffer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: The packet to be modified </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: The new size of the packet buffer</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>: CY_RSLT_SUCCESS or WHD_PMK_WRONG_LENGTH if the requested size is not valid </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/cy_network_buffer.h" line="112" column="14" declfile="source/cy_network_buffer.h" declline="112" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="group__group__bsp__network__buffer_1gaa284f33e6c96712370302d61d4b7cd58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="whd__types_8h_1add62f4b5040a2451e23869d2f9e1ae05" kindref="member">whd_result_t</ref></type>
+        <definition>whd_result_t cy_buffer_add_remove_at_front</definition>
+        <argsstring>(whd_buffer_t *buffer, int32_t add_remove_amount)</argsstring>
+        <name>cy_buffer_add_remove_at_front</name>
+        <param>
+          <type>whd_buffer_t *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>int32_t</type>
+          <declname>add_remove_amount</declname>
+        </param>
+        <briefdescription>
+<para>Moves the current pointer of a packet buffer. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Since packet buffers usually need to be created with space at the front for additional headers, this function allows WHD to move the current &apos;front&apos; location pointer so that it has space to add headers to transmit packets, and so that the network stack does not see the internal WHD headers on received packets.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>buffer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: A pointer to the handle of the current packet buffer for which the current pointer will be moved. On return this may contain a pointer to a newly allocated packet buffer which has been daisy chained to the front of the given one. This would be the case if the given packet buffer didn&apos;t have enough space at the front. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>add_remove_amount</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: This is the number of bytes to move the current pointer of the packet buffer - a negative value increases the space for headers at the front of the packet, a positive value decreases the space.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>: CY_RSLT_SUCCESS or WHD_PMK_WRONG_LENGTH if the added amount is outside the size of the buffer </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/cy_network_buffer.h" line="133" column="14" declfile="source/cy_network_buffer.h" declline="133" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="group__group__bsp__network__buffer_1ga3299898b9eba8861438225b85f36f528" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void cy_network_process_ethernet_data</definition>
+        <argsstring>(whd_interface_t interface, whd_buffer_t buffer)</argsstring>
+        <name>cy_network_process_ethernet_data</name>
+        <param>
+          <type>whd_interface_t</type>
+          <declname>interface</declname>
+        </param>
+        <param>
+          <type>whd_buffer_t</type>
+          <declname>buffer</declname>
+        </param>
+        <briefdescription>
+<para>Called by WHD to pass received data to the network stack. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Packets received from the Wi-Fi network by WHD are forwarded to by calling function ptr which must be implemented in the network interface. Ethernet headers are present at the start of these packet buffers.</para>
+<para>This function is called asynchronously in the context of the WHD thread whenever new data has arrived. Packet buffers are allocated within WHD, and ownership is transferred to the network stack. The network stack or application is thus responsible for releasing the packet buffers. Most packet buffering systems have a pointer to the &apos;current point&apos; within the packet buffer. When this function is called, the pointer points to the start of the Ethernet header. There is other inconsequential data before the Ethernet header.</para>
+<para>It is preferable that the (whd_network_process_ethernet_data)() function simply puts the received packet on a queue for processing by another thread. This avoids the WHD thread being unnecessarily tied up which would delay other packets being transmitted or received.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>interface</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: The interface on which the packet was received. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>buffer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: Handle of the packet which has just been received. Responsibility for releasing this buffer is transferred from WHD at this point. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/cy_network_buffer.h" line="162" column="6" declfile="source/cy_network_buffer.h" declline="162" declcolumn="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Basic set of APIs for dealing with network packet buffers. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>This is used by SCL for relaying data between the network stack and the network processor.</para>
+<para><simplesect kind="copyright"><para>Copyright 2018-2020 Cypress Semiconductor Corporation SPDX-License-Identifier: Apache-2.0</para>
+</simplesect>
+Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at <verbatim>http://www.apache.org/licenses/LICENSE-2.0
+</verbatim> Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License. </para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdint.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;cy_result.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="whd_8h" kindref="compound">whd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="whd__network__types_8h" kindref="compound">whd_network_types.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(__cplusplus)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><ref refid="whd__types_8h_1add62f4b5040a2451e23869d2f9e1ae05" kindref="member">whd_result_t</ref><sp/><ref refid="group__group__bsp__network__buffer_1gacdcb08de31442a9e5d1f32b4e99a2de3" kindref="member">cy_host_buffer_get</ref>(whd_buffer_t<sp/>*buffer,<sp/><ref refid="group__buffif_1ga44a64c51498b204ceef5555209e29452" kindref="member">whd_buffer_dir_t</ref><sp/>direction,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>size,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>timeout_ms);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__group__bsp__network__buffer_1gaac05ad889f09b6e8ef43503ba475a21f" kindref="member">cy_buffer_release</ref>(whd_buffer_t<sp/>buffer,<sp/><ref refid="group__buffif_1ga44a64c51498b204ceef5555209e29452" kindref="member">whd_buffer_dir_t</ref><sp/>direction);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal">uint8_t<sp/>*<ref refid="group__group__bsp__network__buffer_1ga5c044b14f52500d9c41f18be0c3187c3" kindref="member">cy_buffer_get_current_piece_data_pointer</ref>(whd_buffer_t<sp/>buffer);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal">uint16_t<sp/><ref refid="group__group__bsp__network__buffer_1ga9890010d1a7246a440477d47dc2c7b2b" kindref="member">cy_buffer_get_current_piece_size</ref>(whd_buffer_t<sp/>buffer);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><ref refid="whd__types_8h_1add62f4b5040a2451e23869d2f9e1ae05" kindref="member">whd_result_t</ref><sp/><ref refid="group__group__bsp__network__buffer_1gafd58907304a573df160ea12c97199c2e" kindref="member">cy_buffer_set_size</ref>(whd_buffer_t<sp/>buffer,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>size);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><ref refid="whd__types_8h_1add62f4b5040a2451e23869d2f9e1ae05" kindref="member">whd_result_t</ref><sp/><ref refid="group__group__bsp__network__buffer_1gaa284f33e6c96712370302d61d4b7cd58" kindref="member">cy_buffer_add_remove_at_front</ref>(whd_buffer_t<sp/>*buffer,<sp/>int32_t<sp/>add_remove_amount);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__group__bsp__network__buffer_1ga3299898b9eba8861438225b85f36f528" kindref="member">cy_network_process_ethernet_data</ref>(whd_interface_t<sp/>interface,<sp/>whd_buffer_t<sp/>buffer);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>__cplusplus<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="source/cy_network_buffer.h"/>
+  </compounddef>
+</doxygen>

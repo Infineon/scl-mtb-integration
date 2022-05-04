@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwlan__shared__t" kind="struct" language="C++" prot="public">
+    <compoundname>wlan_shared_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwlan__shared__t_1a660f9db871d26052904976a8bfe8432d" prot="public" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint flags</definition>
+        <argsstring></argsstring>
+        <name>flags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="284" column="10" bodyfile="source/whd_chip.h" bodystart="284" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwlan__shared__t_1aa5c40bd9e4c8b9446c9fa48355cb76cb" prot="public" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint trap_addr</definition>
+        <argsstring></argsstring>
+        <name>trap_addr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="285" column="10" bodyfile="source/whd_chip.h" bodystart="285" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwlan__shared__t_1a122d92f5e7810d1c373eb534facf7dd7" prot="public" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint assert_exp_addr</definition>
+        <argsstring></argsstring>
+        <name>assert_exp_addr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="286" column="10" bodyfile="source/whd_chip.h" bodystart="286" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwlan__shared__t_1ac51bb7d82971b5c16567a71a377bc6f9" prot="public" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint assert_file_addr</definition>
+        <argsstring></argsstring>
+        <name>assert_file_addr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="287" column="10" bodyfile="source/whd_chip.h" bodystart="287" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwlan__shared__t_1a0d8d3c848789347448397b2e17b2fdff" prot="public" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint assert_line</definition>
+        <argsstring></argsstring>
+        <name>assert_line</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="288" column="10" bodyfile="source/whd_chip.h" bodystart="288" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwlan__shared__t_1ae844bf4929d393456965c5bc19ddbb6a" prot="public" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint console_addr</definition>
+        <argsstring></argsstring>
+        <name>console_addr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="289" column="10" bodyfile="source/whd_chip.h" bodystart="289" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwlan__shared__t_1a238861a64a61f0063a63ba00bbf10f66" prot="public" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint msgtrace_addr</definition>
+        <argsstring></argsstring>
+        <name>msgtrace_addr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="290" column="10" bodyfile="source/whd_chip.h" bodystart="290" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwlan__shared__t_1a2cb33e01791d362ec865d9e6b6cc77a0" prot="public" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint fwid</definition>
+        <argsstring></argsstring>
+        <name>fwid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="291" column="10" bodyfile="source/whd_chip.h" bodystart="291" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_chip.h" line="282" column="1" bodyfile="source/whd_chip.h" bodystart="283" bodyend="292"/>
+    <listofallmembers>
+      <member refid="structwlan__shared__t_1a122d92f5e7810d1c373eb534facf7dd7" prot="public" virt="non-virtual"><scope>wlan_shared_t</scope><name>assert_exp_addr</name></member>
+      <member refid="structwlan__shared__t_1ac51bb7d82971b5c16567a71a377bc6f9" prot="public" virt="non-virtual"><scope>wlan_shared_t</scope><name>assert_file_addr</name></member>
+      <member refid="structwlan__shared__t_1a0d8d3c848789347448397b2e17b2fdff" prot="public" virt="non-virtual"><scope>wlan_shared_t</scope><name>assert_line</name></member>
+      <member refid="structwlan__shared__t_1ae844bf4929d393456965c5bc19ddbb6a" prot="public" virt="non-virtual"><scope>wlan_shared_t</scope><name>console_addr</name></member>
+      <member refid="structwlan__shared__t_1a660f9db871d26052904976a8bfe8432d" prot="public" virt="non-virtual"><scope>wlan_shared_t</scope><name>flags</name></member>
+      <member refid="structwlan__shared__t_1a2cb33e01791d362ec865d9e6b6cc77a0" prot="public" virt="non-virtual"><scope>wlan_shared_t</scope><name>fwid</name></member>
+      <member refid="structwlan__shared__t_1a238861a64a61f0063a63ba00bbf10f66" prot="public" virt="non-virtual"><scope>wlan_shared_t</scope><name>msgtrace_addr</name></member>
+      <member refid="structwlan__shared__t_1aa5c40bd9e4c8b9446c9fa48355cb76cb" prot="public" virt="non-virtual"><scope>wlan_shared_t</scope><name>trap_addr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwl__traffic__stats__t" kind="struct" language="C++" prot="public">
+    <compoundname>wl_traffic_stats_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwl__traffic__stats__t_1a9b36626dc275b826b3249e374a34e89b" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t packets</definition>
+        <argsstring></argsstring>
+        <name>packets</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2848" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2848" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__traffic__stats__t_1accacac85be505b95d6c86ab1d7103e47" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t bytes</definition>
+        <argsstring></argsstring>
+        <name>bytes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2849" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2849" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="2846" column="1" bodyfile="source/whd_wlioctl.h" bodystart="2847" bodyend="2850"/>
+    <listofallmembers>
+      <member refid="structwl__traffic__stats__t_1accacac85be505b95d6c86ab1d7103e47" prot="public" virt="non-virtual"><scope>wl_traffic_stats_t</scope><name>bytes</name></member>
+      <member refid="structwl__traffic__stats__t_1a9b36626dc275b826b3249e374a34e89b" prot="public" virt="non-virtual"><scope>wl_traffic_stats_t</scope><name>packets</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

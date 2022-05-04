@@ -1,0 +1,2451 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwl__cnt__ver__six__t" kind="struct" language="C++" prot="public">
+    <compoundname>wl_cnt_ver_six_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1ab6d7b6f8c2ceaba7acda80aaf05f4899" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t version</definition>
+        <argsstring></argsstring>
+        <name>version</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1783" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1783" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a1892eba2086d12ac2b09005aeb09ea3b" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t length</definition>
+        <argsstring></argsstring>
+        <name>length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1784" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1784" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1afe0b852563be4c5eb604000e8f48b30f" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t txframe</definition>
+        <argsstring></argsstring>
+        <name>txframe</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1787" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1787" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a643e40c845915edc6ef663d993d62c02" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t txbyte</definition>
+        <argsstring></argsstring>
+        <name>txbyte</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1788" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1788" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a1343efb571d70efbf08d7e85c1b6298a" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t txretrans</definition>
+        <argsstring></argsstring>
+        <name>txretrans</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1789" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1789" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a99aa45fab2bb93de3b6e67de56a67758" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t txerror</definition>
+        <argsstring></argsstring>
+        <name>txerror</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1790" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1790" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a3b61310e1fe90e9fc57954e7de1f4bfc" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t txctl</definition>
+        <argsstring></argsstring>
+        <name>txctl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1791" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1791" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a47a2b71bb7b42aa55db40d49c7af3eb8" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t txprshort</definition>
+        <argsstring></argsstring>
+        <name>txprshort</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1792" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1792" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1aa2d88a43eb84976d2c85d8efaebff734" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t txserr</definition>
+        <argsstring></argsstring>
+        <name>txserr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1793" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1793" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a0b3cab6e7784cf377ecd7e219ff7b3d3" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t txnobuf</definition>
+        <argsstring></argsstring>
+        <name>txnobuf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1794" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1794" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a14d5ddcf1ab97d6acc62998e3e9b1f70" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t txnoassoc</definition>
+        <argsstring></argsstring>
+        <name>txnoassoc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1795" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1795" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a247c3fa565c2f48dddb73e74b8ff8919" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t txrunt</definition>
+        <argsstring></argsstring>
+        <name>txrunt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1796" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1796" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a26959cacdc8285ee8e203b547feb90ae" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t txchit</definition>
+        <argsstring></argsstring>
+        <name>txchit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1797" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1797" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1abaf77673d885a4daccd2f2d85490e03b" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t txcmiss</definition>
+        <argsstring></argsstring>
+        <name>txcmiss</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1798" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1798" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1aaa1ee6fd672d555ca772602bacde20d1" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t txuflo</definition>
+        <argsstring></argsstring>
+        <name>txuflo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1801" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1801" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a8c72875d6e3584d4860c2d295bd841b1" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t txphyerr</definition>
+        <argsstring></argsstring>
+        <name>txphyerr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1802" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1802" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a90702f7b78017127dae7e01076832e7d" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t txphycrs</definition>
+        <argsstring></argsstring>
+        <name>txphycrs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1803" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1803" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1ac3598e684c3a0907ee753f38a218bd2d" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rxframe</definition>
+        <argsstring></argsstring>
+        <name>rxframe</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1806" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1806" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1ac22fd494d282af79b3ed657be52995e6" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rxbyte</definition>
+        <argsstring></argsstring>
+        <name>rxbyte</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1807" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1807" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1aece5e6392c758b9abc6b1dbb440ed185" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rxerror</definition>
+        <argsstring></argsstring>
+        <name>rxerror</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1808" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1808" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1ad9c55eb3a45fa2b136c2c24d8b00798a" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rxctl</definition>
+        <argsstring></argsstring>
+        <name>rxctl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1809" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1809" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a47c639db2b48f57d4270e6f3d5737a5f" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rxnobuf</definition>
+        <argsstring></argsstring>
+        <name>rxnobuf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1810" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1810" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a638aa5e944cc58b54a258b2d17764b50" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rxnondata</definition>
+        <argsstring></argsstring>
+        <name>rxnondata</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1811" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1811" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1aef2a2196d8679c97b2aad20ecb566db9" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rxbadds</definition>
+        <argsstring></argsstring>
+        <name>rxbadds</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1812" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1812" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a77f0e5c42fa6c0cdd5b4db0aa7a796c6" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rxbadcm</definition>
+        <argsstring></argsstring>
+        <name>rxbadcm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1813" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1813" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1ad8c5ef7cdc73c5a668ee30f4da004f13" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rxfragerr</definition>
+        <argsstring></argsstring>
+        <name>rxfragerr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1814" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1814" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1acece0a1d9b024939c66f6039fe320bb0" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rxrunt</definition>
+        <argsstring></argsstring>
+        <name>rxrunt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1815" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1815" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a7693589074844293ac491dcfdcf0e6b9" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rxgiant</definition>
+        <argsstring></argsstring>
+        <name>rxgiant</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1816" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1816" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a8b7665fc2eebca23d52a70655a2af2ce" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rxnoscb</definition>
+        <argsstring></argsstring>
+        <name>rxnoscb</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1817" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1817" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a2d1c51909f46872382ef7f49104ba949" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rxbadproto</definition>
+        <argsstring></argsstring>
+        <name>rxbadproto</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1818" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1818" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1ad72c415edc8247e39eef1b9fdc5b5681" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rxbadsrcmac</definition>
+        <argsstring></argsstring>
+        <name>rxbadsrcmac</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1819" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1819" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a08bf1845f74855f55533278abcef9731" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rxbadda</definition>
+        <argsstring></argsstring>
+        <name>rxbadda</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1820" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1820" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1ac28998dd0ec4cd28e120460c680c8758" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rxfilter</definition>
+        <argsstring></argsstring>
+        <name>rxfilter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1821" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1821" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a7396806c6c17cf9357ec6e28a8649aba" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rxoflo</definition>
+        <argsstring></argsstring>
+        <name>rxoflo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1824" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1824" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1ad53da414c683d40e578b846df8551420" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rxuflo[NFIFO]</definition>
+        <argsstring>[NFIFO]</argsstring>
+        <name>rxuflo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1825" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1825" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a108554e0b183d6b688a180629b2194b3" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t d11cnt_txrts_off</definition>
+        <argsstring></argsstring>
+        <name>d11cnt_txrts_off</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1827" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1827" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1adf665c998ffa8aa49993a9c176b4f463" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t d11cnt_rxcrc_off</definition>
+        <argsstring></argsstring>
+        <name>d11cnt_rxcrc_off</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1828" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1828" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a6be850604869a9fbc165125ff866e95b" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t d11cnt_txnocts_off</definition>
+        <argsstring></argsstring>
+        <name>d11cnt_txnocts_off</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1829" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1829" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a8b7c4c0a996493e91f7151fdfd136232" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t dmade</definition>
+        <argsstring></argsstring>
+        <name>dmade</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1832" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1832" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a85e83608008c74450a6cf9480dc775e1" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t dmada</definition>
+        <argsstring></argsstring>
+        <name>dmada</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1833" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1833" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1afad5d9f65a5a350c4b3eac1b9145d43f" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t dmape</definition>
+        <argsstring></argsstring>
+        <name>dmape</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1834" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1834" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1aa0110dfcd1a7cfdd3fae2a5676f7901d" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t reset</definition>
+        <argsstring></argsstring>
+        <name>reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1835" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1835" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a3c696bc25c53d7c7e596ede7d4df8940" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t tbtt</definition>
+        <argsstring></argsstring>
+        <name>tbtt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1836" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1836" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1ae942ece29ffbd8a4485b5718207df11a" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t txdmawar</definition>
+        <argsstring></argsstring>
+        <name>txdmawar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1837" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1837" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a4fbc691f1cffda0f7a23b055328e8493" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t pkt_callback_reg_fail</definition>
+        <argsstring></argsstring>
+        <name>pkt_callback_reg_fail</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1838" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1838" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1ac27398748f752a3a02b82fd8dd025664" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t txallfrm</definition>
+        <argsstring></argsstring>
+        <name>txallfrm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1841" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1841" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a0511d901407ca37ce3b80ea7cc4d52bc" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t txrtsfrm</definition>
+        <argsstring></argsstring>
+        <name>txrtsfrm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1844" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1844" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a8b156979918a27e4eaa57e478b5cb156" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t txctsfrm</definition>
+        <argsstring></argsstring>
+        <name>txctsfrm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1845" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1845" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1acc7b43e9227ca7eee270b2224bbd71ff" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t txackfrm</definition>
+        <argsstring></argsstring>
+        <name>txackfrm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1846" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1846" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1af6d0d3f0a56f144375c98490481d121e" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t txdnlfrm</definition>
+        <argsstring></argsstring>
+        <name>txdnlfrm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1847" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1847" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1ab033ad8514f6396f9b5bea18a4b873ff" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t txbcnfrm</definition>
+        <argsstring></argsstring>
+        <name>txbcnfrm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1848" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1848" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a809bb7e14be65208bd3a397e4b3cbd13" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t txfunfl[8]</definition>
+        <argsstring>[8]</argsstring>
+        <name>txfunfl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1849" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1849" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a03f6bba6ae997367379bb5dd91cebcd0" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t txtplunfl</definition>
+        <argsstring></argsstring>
+        <name>txtplunfl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1850" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1850" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a4354eceeff3188d29ac94a21f1ecc5eb" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t txphyerror</definition>
+        <argsstring></argsstring>
+        <name>txphyerror</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1853" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1853" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a932bce897f89294a4420ee5c0d4fa2f6" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rxfrmtoolong</definition>
+        <argsstring></argsstring>
+        <name>rxfrmtoolong</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1856" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1856" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a2d4c90ab0db230ac946c61b9a3806723" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rxfrmtooshrt</definition>
+        <argsstring></argsstring>
+        <name>rxfrmtooshrt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1857" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1857" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1acc791d12a04dfdb9b4ef29d56af10f12" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rxinvmachdr</definition>
+        <argsstring></argsstring>
+        <name>rxinvmachdr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1858" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1858" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1afee56ccb79a76202e734a4f864d1729d" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rxbadfcs</definition>
+        <argsstring></argsstring>
+        <name>rxbadfcs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1861" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1861" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a26aa136504a7205012cbe68090f42aa5" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rxbadplcp</definition>
+        <argsstring></argsstring>
+        <name>rxbadplcp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1862" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1862" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1ad67d721c925db6000195bb7fb5b1c415" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rxcrsglitch</definition>
+        <argsstring></argsstring>
+        <name>rxcrsglitch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1863" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1863" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1ae5f65da0912b9b4f15080a5d57ce9be6" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rxstrt</definition>
+        <argsstring></argsstring>
+        <name>rxstrt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1864" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1864" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1ae92bf6f62abc84a477fa51c22dfd750d" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rxdfrmucastmbss</definition>
+        <argsstring></argsstring>
+        <name>rxdfrmucastmbss</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1867" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1867" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a2d9a405d1ead57acc8f84218fd5766df" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rxmfrmucastmbss</definition>
+        <argsstring></argsstring>
+        <name>rxmfrmucastmbss</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1868" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1868" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a9a35cbb8dd1e17201f83912e43b5798e" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rxcfrmucast</definition>
+        <argsstring></argsstring>
+        <name>rxcfrmucast</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1869" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1869" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a1d78b762f3e323e575c08726c9163e67" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rxrtsucast</definition>
+        <argsstring></argsstring>
+        <name>rxrtsucast</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1870" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1870" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1adb87d121c77b429e612a4da68abcf6d5" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rxctsucast</definition>
+        <argsstring></argsstring>
+        <name>rxctsucast</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1871" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1871" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a3be33d0eee5453795153bd673412256e" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rxackucast</definition>
+        <argsstring></argsstring>
+        <name>rxackucast</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1872" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1872" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1aab8eb53ff9316a5cfb1e94eb6ea26cd9" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rxdfrmocast</definition>
+        <argsstring></argsstring>
+        <name>rxdfrmocast</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1873" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1873" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a26f9b6a32f9a2e98fe5917a9633f3ac3" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rxmfrmocast</definition>
+        <argsstring></argsstring>
+        <name>rxmfrmocast</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1874" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1874" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1add22ffb671c7a1dcb72d536fd0380c70" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rxcfrmocast</definition>
+        <argsstring></argsstring>
+        <name>rxcfrmocast</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1875" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1875" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a7569f2f3a9b69b421cad42c4f64889e6" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rxrtsocast</definition>
+        <argsstring></argsstring>
+        <name>rxrtsocast</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1876" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1876" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a1860422f3cddbe33b3b5e130cb260d6c" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rxctsocast</definition>
+        <argsstring></argsstring>
+        <name>rxctsocast</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1877" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1877" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1afb91a6fb3a667ddd7cc7834586b9fff3" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rxdfrmmcast</definition>
+        <argsstring></argsstring>
+        <name>rxdfrmmcast</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1878" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1878" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1ab47b1207f384dd812db811bc82b9df8a" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rxmfrmmcast</definition>
+        <argsstring></argsstring>
+        <name>rxmfrmmcast</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1879" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1879" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a693d8ac93278606c1c8dffd50cd071e8" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rxcfrmmcast</definition>
+        <argsstring></argsstring>
+        <name>rxcfrmmcast</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1880" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1880" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1ae09712af81f819cc63bc9daea1aa591e" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rxbeaconmbss</definition>
+        <argsstring></argsstring>
+        <name>rxbeaconmbss</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1883" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1883" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1ae2851584d12938305a848a2d52c5b858" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rxdfrmucastobss</definition>
+        <argsstring></argsstring>
+        <name>rxdfrmucastobss</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1884" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1884" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1aab3393be20145694331b56569b5dd7eb" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rxbeaconobss</definition>
+        <argsstring></argsstring>
+        <name>rxbeaconobss</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1887" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1887" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a2f79c9729c68834317869e2e5f611ffb" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rxrsptmout</definition>
+        <argsstring></argsstring>
+        <name>rxrsptmout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1888" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1888" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1abcfb241c2ef9279f37a8c2f5894d54d3" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t bcntxcancl</definition>
+        <argsstring></argsstring>
+        <name>bcntxcancl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1891" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1891" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a9c64226e1917098084975e48551c7979" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rxf0ovfl</definition>
+        <argsstring></argsstring>
+        <name>rxf0ovfl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1892" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1892" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a46f8a144497bec67152160a77a9c4862" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rxf1ovfl</definition>
+        <argsstring></argsstring>
+        <name>rxf1ovfl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1893" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1893" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1adb5d4ef46ee2c6c61ff524c538b6f98c" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rxf2ovfl</definition>
+        <argsstring></argsstring>
+        <name>rxf2ovfl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1894" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1894" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a685987d447b742dcc1150c839e0a4ec9" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t txsfovfl</definition>
+        <argsstring></argsstring>
+        <name>txsfovfl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1895" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1895" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a4a44fcf9d36d68fc65b929aa502f8d7e" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t pmqovfl</definition>
+        <argsstring></argsstring>
+        <name>pmqovfl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1896" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1896" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1ad9b6cab603ca7e563fd50a3e7b2fe819" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rxcgprqfrm</definition>
+        <argsstring></argsstring>
+        <name>rxcgprqfrm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1897" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1897" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a93509c84c279e453e3bd92221a6e5775" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rxcgprsqovfl</definition>
+        <argsstring></argsstring>
+        <name>rxcgprsqovfl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1900" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1900" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a07dfc6e02e9116c1ca5b4348052ee58f" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t txcgprsfail</definition>
+        <argsstring></argsstring>
+        <name>txcgprsfail</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1901" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1901" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1af946fec7f177ead54f3054dd5b5a31f8" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t txcgprssuc</definition>
+        <argsstring></argsstring>
+        <name>txcgprssuc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1904" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1904" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a446c551fb44f1999243e3ba86b2922a5" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t prs_timeout</definition>
+        <argsstring></argsstring>
+        <name>prs_timeout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1905" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1905" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a74ee589c3f33cefe44d3d092b990c265" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rxnack</definition>
+        <argsstring></argsstring>
+        <name>rxnack</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1909" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1909" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a58674b8b96cbad814b4967ae91504eac" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t frmscons</definition>
+        <argsstring></argsstring>
+        <name>frmscons</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1910" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1910" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a3173d0e2507a4ec688345d50739f63d5" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t txnack</definition>
+        <argsstring></argsstring>
+        <name>txnack</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1913" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1913" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a3756b8bc7a5b8b325f79e8bdf54d238f" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t txglitch_nack</definition>
+        <argsstring></argsstring>
+        <name>txglitch_nack</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1914" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1914" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1ab547c5def3af98acb83abd35b0cfae10" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t txburst</definition>
+        <argsstring></argsstring>
+        <name>txburst</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1915" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1915" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a16802a806ca3811ccd8a09641ab4ef00" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t txfrag</definition>
+        <argsstring></argsstring>
+        <name>txfrag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1918" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1918" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1aa3c644c313186d9fadb74e361f8d8859" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t txmulti</definition>
+        <argsstring></argsstring>
+        <name>txmulti</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1919" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1919" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a14b9feeda24973c7455a058c4bec581f" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t txfail</definition>
+        <argsstring></argsstring>
+        <name>txfail</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1920" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1920" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a2d3de30e9b9f564fe9bc1f149c9a7c7d" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t txretry</definition>
+        <argsstring></argsstring>
+        <name>txretry</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1921" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1921" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a3f56fa7deb9d1f17f6e950163d3874ca" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t txretrie</definition>
+        <argsstring></argsstring>
+        <name>txretrie</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1922" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1922" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1aa03ec3f84d788636067e348e3f35fa99" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rxdup</definition>
+        <argsstring></argsstring>
+        <name>rxdup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1923" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1923" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a7aec012dd7a4fc100414b385ef0fa880" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t txrts</definition>
+        <argsstring></argsstring>
+        <name>txrts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1924" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1924" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1ad3f1901abc92c543cc3a260e7a3af85d" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t txnocts</definition>
+        <argsstring></argsstring>
+        <name>txnocts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1925" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1925" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a42f1434a5578d22643a8700c559b971b" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t txnoack</definition>
+        <argsstring></argsstring>
+        <name>txnoack</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1926" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1926" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a981bae5b3c16c5e0c42b8833b1abf6c9" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rxfrag</definition>
+        <argsstring></argsstring>
+        <name>rxfrag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1927" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1927" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1ab12a972410fcbc22b11a7df4495594b9" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rxmulti</definition>
+        <argsstring></argsstring>
+        <name>rxmulti</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1928" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1928" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a893c9facc4fbd0d22aae9beeaac0d06e" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rxcrc</definition>
+        <argsstring></argsstring>
+        <name>rxcrc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1929" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1929" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a67bcfee3205b3003d743a3da7eabfb3e" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t txfrmsnt</definition>
+        <argsstring></argsstring>
+        <name>txfrmsnt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1930" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1930" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a72d66a9430a06063efcfd15e97d0aa0c" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rxundec</definition>
+        <argsstring></argsstring>
+        <name>rxundec</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1931" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1931" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1abbf6c2c95cb80a9fcc087b364803d3d8" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t tkipmicfaill</definition>
+        <argsstring></argsstring>
+        <name>tkipmicfaill</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1934" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1934" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a7f6c772560303e64c6bc8bfb219ffae2" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t tkipcntrmsr</definition>
+        <argsstring></argsstring>
+        <name>tkipcntrmsr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1935" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1935" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1aa6ef5407555ef88e6f145beb81068907" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t tkipreplay</definition>
+        <argsstring></argsstring>
+        <name>tkipreplay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1936" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1936" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1acd278d9cf5c1390da763e3a790a7fbf6" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t ccmpfmterr</definition>
+        <argsstring></argsstring>
+        <name>ccmpfmterr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1937" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1937" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a96397555a8cb1b44e933fb1e116b0304" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t ccmpreplay</definition>
+        <argsstring></argsstring>
+        <name>ccmpreplay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1938" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1938" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1abd4f121c659764153bbfc6adb48c309b" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t ccmpundec</definition>
+        <argsstring></argsstring>
+        <name>ccmpundec</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1939" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1939" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a8e14d1bdea3677a5a545688ecccc1e2c" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t fourwayfail</definition>
+        <argsstring></argsstring>
+        <name>fourwayfail</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1940" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1940" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1aa273a763a89f39c652885c7fc39cdaeb" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t wepundec</definition>
+        <argsstring></argsstring>
+        <name>wepundec</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1941" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1941" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a4d34ef4e828c96eae621db2496452d7f" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t wepicverr</definition>
+        <argsstring></argsstring>
+        <name>wepicverr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1942" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1942" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a79e90853cdb105562094d800ea94e28c" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t decsuccess</definition>
+        <argsstring></argsstring>
+        <name>decsuccess</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1943" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1943" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1aa311e45514f0b4947134ba715a9cafbf" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t tkipicverr</definition>
+        <argsstring></argsstring>
+        <name>tkipicverr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1944" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1944" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a55ba671d1c87677e4e27b986b39f8292" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t wepexcluded</definition>
+        <argsstring></argsstring>
+        <name>wepexcluded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1945" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1945" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a1ca0a7fd77074c24226ca99f5b53e0b3" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rxundec_mcst</definition>
+        <argsstring></argsstring>
+        <name>rxundec_mcst</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1947" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1947" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a0f029547e854e93e035a15f6e2c383ff" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t tkipmicfaill_mcst</definition>
+        <argsstring></argsstring>
+        <name>tkipmicfaill_mcst</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1950" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1950" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a611e7d9ccbbf7a3e7d4ebf0b960a4bfb" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t tkipcntrmsr_mcst</definition>
+        <argsstring></argsstring>
+        <name>tkipcntrmsr_mcst</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1951" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1951" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1ac9ed5a7271a664f5ef6abb7256e0dc88" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t tkipreplay_mcst</definition>
+        <argsstring></argsstring>
+        <name>tkipreplay_mcst</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1952" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1952" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a3387e5109d98b11a2bb7156207d199a9" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t ccmpfmterr_mcst</definition>
+        <argsstring></argsstring>
+        <name>ccmpfmterr_mcst</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1953" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1953" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a488741ffd0ea4916441bb5de6f79300d" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t ccmpreplay_mcst</definition>
+        <argsstring></argsstring>
+        <name>ccmpreplay_mcst</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1954" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1954" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1aac19dd66aa5eb5a8740e82ee2a97ea50" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t ccmpundec_mcst</definition>
+        <argsstring></argsstring>
+        <name>ccmpundec_mcst</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1955" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1955" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1ad1d12d3b390a27f84b0c2dfe8ad3771d" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t fourwayfail_mcst</definition>
+        <argsstring></argsstring>
+        <name>fourwayfail_mcst</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1956" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1956" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a510a0dda40840ac9036671ed50a469ad" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t wepundec_mcst</definition>
+        <argsstring></argsstring>
+        <name>wepundec_mcst</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1957" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1957" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a0006b1c11000786cb54ac9f870989162" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t wepicverr_mcst</definition>
+        <argsstring></argsstring>
+        <name>wepicverr_mcst</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1958" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1958" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a86a1072fdc9442bdb1b590fc4511cf30" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t decsuccess_mcst</definition>
+        <argsstring></argsstring>
+        <name>decsuccess_mcst</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1959" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1959" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1aec72ebbebb2763f86c561a8c4eff1451" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t tkipicverr_mcst</definition>
+        <argsstring></argsstring>
+        <name>tkipicverr_mcst</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1960" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1960" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a407541e2f51bab2d2fd2a1195198d54f" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t wepexcluded_mcst</definition>
+        <argsstring></argsstring>
+        <name>wepexcluded_mcst</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1961" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1961" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a7fe23cc351f87a20c29045b813f98286" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t txchanrej</definition>
+        <argsstring></argsstring>
+        <name>txchanrej</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1963" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1963" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a432f7a002e0698d69001e8c04f4e41ab" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t txexptime</definition>
+        <argsstring></argsstring>
+        <name>txexptime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1964" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1964" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a3f8742521345553087901c5789970c50" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t psmwds</definition>
+        <argsstring></argsstring>
+        <name>psmwds</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1965" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1965" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1ad77dc902db6e213382312512b09f1825" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t phywatchdog</definition>
+        <argsstring></argsstring>
+        <name>phywatchdog</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1966" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1966" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a11cdc9a60f2136a606a339364ae1bb16" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t prq_entries_handled</definition>
+        <argsstring></argsstring>
+        <name>prq_entries_handled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1969" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1969" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a3ac17e676f14dc64021964c5cdcea257" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t prq_undirected_entries</definition>
+        <argsstring></argsstring>
+        <name>prq_undirected_entries</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1970" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1970" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1abf024c829d37e5305ac9de020c95f186" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t prq_bad_entries</definition>
+        <argsstring></argsstring>
+        <name>prq_bad_entries</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1971" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1971" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a1a51cd36e7eef50958f6ad6d4dff823f" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t atim_suppress_count</definition>
+        <argsstring></argsstring>
+        <name>atim_suppress_count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1972" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1972" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a48cf2d736120a38270c8b576775443a6" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t bcn_template_not_ready</definition>
+        <argsstring></argsstring>
+        <name>bcn_template_not_ready</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1973" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1973" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1af095caea81e2230beb0358e58e85a067" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t bcn_template_not_ready_done</definition>
+        <argsstring></argsstring>
+        <name>bcn_template_not_ready_done</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1974" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1974" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1ad2d507ac6e7c76fc91d006cc3c51699a" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t late_tbtt_dpc</definition>
+        <argsstring></argsstring>
+        <name>late_tbtt_dpc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1975" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1975" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a9b020d32f19d909fd3c3100bb51c628b" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rx1mbps</definition>
+        <argsstring></argsstring>
+        <name>rx1mbps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1978" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1978" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1adb744c539f1677b342ac84cce8194dd2" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rx2mbps</definition>
+        <argsstring></argsstring>
+        <name>rx2mbps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1979" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1979" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a5303785bbee424a5333c9fbe9cd6e885" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rx5mbps5</definition>
+        <argsstring></argsstring>
+        <name>rx5mbps5</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1980" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1980" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a40173811a9732ee55e687d2e71091e15" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rx6mbps</definition>
+        <argsstring></argsstring>
+        <name>rx6mbps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1981" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1981" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1ac701c46efcae3e87a8729e16e9520bf6" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rx9mbps</definition>
+        <argsstring></argsstring>
+        <name>rx9mbps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1982" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1982" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1aab2473aef900a83a2bca670b663666e5" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rx11mbps</definition>
+        <argsstring></argsstring>
+        <name>rx11mbps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1983" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1983" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1ac192e87ebdd94ad27de26e03a294215d" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rx12mbps</definition>
+        <argsstring></argsstring>
+        <name>rx12mbps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1984" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1984" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1aa01811ccf51d5f65bc5aec3f512a1fb3" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rx18mbps</definition>
+        <argsstring></argsstring>
+        <name>rx18mbps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1985" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1985" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a84dd5934cc1efe4310041d4338585dfd" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rx24mbps</definition>
+        <argsstring></argsstring>
+        <name>rx24mbps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1986" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1986" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1ad063ecc25a0ee47c0f898e7c68c1e86d" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rx36mbps</definition>
+        <argsstring></argsstring>
+        <name>rx36mbps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1987" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1987" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a7954b5de3f440f20010e4fd65f5f692b" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rx48mbps</definition>
+        <argsstring></argsstring>
+        <name>rx48mbps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1988" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1988" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1afa2bafe53a53383cc0675337f89cd044" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rx54mbps</definition>
+        <argsstring></argsstring>
+        <name>rx54mbps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1989" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1989" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1aed4fd2a51d19724e5a522f48bb7b90d3" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rx108mbps</definition>
+        <argsstring></argsstring>
+        <name>rx108mbps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1990" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1990" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a7c7dc85edab6a521017ab48bc3846809" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rx162mbps</definition>
+        <argsstring></argsstring>
+        <name>rx162mbps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1991" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1991" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a424cf9c8fa482554bf42680fd9003b0d" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rx216mbps</definition>
+        <argsstring></argsstring>
+        <name>rx216mbps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1992" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1992" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a37f0884a0d30219c25561c5af29ecfbf" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rx270mbps</definition>
+        <argsstring></argsstring>
+        <name>rx270mbps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1993" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1993" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a2d3b9a1fdadacb3913f391f36cec661d" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rx324mbps</definition>
+        <argsstring></argsstring>
+        <name>rx324mbps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1994" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1994" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a0f436b03db854ed8dc49eda974a4c4df" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rx378mbps</definition>
+        <argsstring></argsstring>
+        <name>rx378mbps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1995" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1995" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a04004d7d667a4a40cb85682cf324c7ef" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rx432mbps</definition>
+        <argsstring></argsstring>
+        <name>rx432mbps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1996" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1996" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a1b05545a9ab14f106ec589d0747c6cb4" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rx486mbps</definition>
+        <argsstring></argsstring>
+        <name>rx486mbps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1997" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1997" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a877c380f4893d17ce14c4941aa4bd791" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rx540mbps</definition>
+        <argsstring></argsstring>
+        <name>rx540mbps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1998" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1998" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1ac96f9afd23ad1aaba1e3b4bb0114ac3b" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t pktengrxducast</definition>
+        <argsstring></argsstring>
+        <name>pktengrxducast</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2001" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2001" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1aa3c14fb93f45998c909c9db7ff84ce91" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t pktengrxdmcast</definition>
+        <argsstring></argsstring>
+        <name>pktengrxdmcast</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2002" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2002" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a987e487263b83c62483393e269876c2a" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rfdisable</definition>
+        <argsstring></argsstring>
+        <name>rfdisable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2004" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2004" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1adab638ac8d29b9c4c64dcda0b7707ac6" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t bphy_rxcrsglitch</definition>
+        <argsstring></argsstring>
+        <name>bphy_rxcrsglitch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2005" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2005" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1ac273b0d3f70cb38f9e2fbfe4286e3e8b" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t txmpdu_sgi</definition>
+        <argsstring></argsstring>
+        <name>txmpdu_sgi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2007" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2007" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a97548605ec9d2b0aa9635c90975bb244" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rxmpdu_sgi</definition>
+        <argsstring></argsstring>
+        <name>rxmpdu_sgi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2008" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2008" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1aacdd71099a8a96a658380fcddb916c4d" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t txmpdu_stbc</definition>
+        <argsstring></argsstring>
+        <name>txmpdu_stbc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2009" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2009" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__ver__six__t_1a3673f74b4e4386636377fc03dd9ee615" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rxmpdu_stbc</definition>
+        <argsstring></argsstring>
+        <name>rxmpdu_stbc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2010" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2010" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="1781" column="1" bodyfile="source/whd_wlioctl.h" bodystart="1782" bodyend="2011"/>
+    <listofallmembers>
+      <member refid="structwl__cnt__ver__six__t_1a1a51cd36e7eef50958f6ad6d4dff823f" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>atim_suppress_count</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a48cf2d736120a38270c8b576775443a6" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>bcn_template_not_ready</name></member>
+      <member refid="structwl__cnt__ver__six__t_1af095caea81e2230beb0358e58e85a067" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>bcn_template_not_ready_done</name></member>
+      <member refid="structwl__cnt__ver__six__t_1abcfb241c2ef9279f37a8c2f5894d54d3" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>bcntxcancl</name></member>
+      <member refid="structwl__cnt__ver__six__t_1adab638ac8d29b9c4c64dcda0b7707ac6" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>bphy_rxcrsglitch</name></member>
+      <member refid="structwl__cnt__ver__six__t_1acd278d9cf5c1390da763e3a790a7fbf6" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>ccmpfmterr</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a3387e5109d98b11a2bb7156207d199a9" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>ccmpfmterr_mcst</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a96397555a8cb1b44e933fb1e116b0304" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>ccmpreplay</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a488741ffd0ea4916441bb5de6f79300d" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>ccmpreplay_mcst</name></member>
+      <member refid="structwl__cnt__ver__six__t_1abd4f121c659764153bbfc6adb48c309b" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>ccmpundec</name></member>
+      <member refid="structwl__cnt__ver__six__t_1aac19dd66aa5eb5a8740e82ee2a97ea50" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>ccmpundec_mcst</name></member>
+      <member refid="structwl__cnt__ver__six__t_1adf665c998ffa8aa49993a9c176b4f463" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>d11cnt_rxcrc_off</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a6be850604869a9fbc165125ff866e95b" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>d11cnt_txnocts_off</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a108554e0b183d6b688a180629b2194b3" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>d11cnt_txrts_off</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a79e90853cdb105562094d800ea94e28c" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>decsuccess</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a86a1072fdc9442bdb1b590fc4511cf30" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>decsuccess_mcst</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a85e83608008c74450a6cf9480dc775e1" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>dmada</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a8b7c4c0a996493e91f7151fdfd136232" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>dmade</name></member>
+      <member refid="structwl__cnt__ver__six__t_1afad5d9f65a5a350c4b3eac1b9145d43f" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>dmape</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a8e14d1bdea3677a5a545688ecccc1e2c" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>fourwayfail</name></member>
+      <member refid="structwl__cnt__ver__six__t_1ad1d12d3b390a27f84b0c2dfe8ad3771d" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>fourwayfail_mcst</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a58674b8b96cbad814b4967ae91504eac" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>frmscons</name></member>
+      <member refid="structwl__cnt__ver__six__t_1ad2d507ac6e7c76fc91d006cc3c51699a" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>late_tbtt_dpc</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a1892eba2086d12ac2b09005aeb09ea3b" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>length</name></member>
+      <member refid="structwl__cnt__ver__six__t_1ad77dc902db6e213382312512b09f1825" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>phywatchdog</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a4fbc691f1cffda0f7a23b055328e8493" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>pkt_callback_reg_fail</name></member>
+      <member refid="structwl__cnt__ver__six__t_1aa3c14fb93f45998c909c9db7ff84ce91" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>pktengrxdmcast</name></member>
+      <member refid="structwl__cnt__ver__six__t_1ac96f9afd23ad1aaba1e3b4bb0114ac3b" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>pktengrxducast</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a4a44fcf9d36d68fc65b929aa502f8d7e" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>pmqovfl</name></member>
+      <member refid="structwl__cnt__ver__six__t_1abf024c829d37e5305ac9de020c95f186" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>prq_bad_entries</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a11cdc9a60f2136a606a339364ae1bb16" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>prq_entries_handled</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a3ac17e676f14dc64021964c5cdcea257" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>prq_undirected_entries</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a446c551fb44f1999243e3ba86b2922a5" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>prs_timeout</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a3f8742521345553087901c5789970c50" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>psmwds</name></member>
+      <member refid="structwl__cnt__ver__six__t_1aa0110dfcd1a7cfdd3fae2a5676f7901d" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>reset</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a987e487263b83c62483393e269876c2a" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rfdisable</name></member>
+      <member refid="structwl__cnt__ver__six__t_1aed4fd2a51d19724e5a522f48bb7b90d3" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rx108mbps</name></member>
+      <member refid="structwl__cnt__ver__six__t_1aab2473aef900a83a2bca670b663666e5" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rx11mbps</name></member>
+      <member refid="structwl__cnt__ver__six__t_1ac192e87ebdd94ad27de26e03a294215d" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rx12mbps</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a7c7dc85edab6a521017ab48bc3846809" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rx162mbps</name></member>
+      <member refid="structwl__cnt__ver__six__t_1aa01811ccf51d5f65bc5aec3f512a1fb3" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rx18mbps</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a9b020d32f19d909fd3c3100bb51c628b" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rx1mbps</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a424cf9c8fa482554bf42680fd9003b0d" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rx216mbps</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a84dd5934cc1efe4310041d4338585dfd" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rx24mbps</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a37f0884a0d30219c25561c5af29ecfbf" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rx270mbps</name></member>
+      <member refid="structwl__cnt__ver__six__t_1adb744c539f1677b342ac84cce8194dd2" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rx2mbps</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a2d3b9a1fdadacb3913f391f36cec661d" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rx324mbps</name></member>
+      <member refid="structwl__cnt__ver__six__t_1ad063ecc25a0ee47c0f898e7c68c1e86d" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rx36mbps</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a0f436b03db854ed8dc49eda974a4c4df" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rx378mbps</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a04004d7d667a4a40cb85682cf324c7ef" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rx432mbps</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a1b05545a9ab14f106ec589d0747c6cb4" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rx486mbps</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a7954b5de3f440f20010e4fd65f5f692b" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rx48mbps</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a877c380f4893d17ce14c4941aa4bd791" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rx540mbps</name></member>
+      <member refid="structwl__cnt__ver__six__t_1afa2bafe53a53383cc0675337f89cd044" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rx54mbps</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a5303785bbee424a5333c9fbe9cd6e885" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rx5mbps5</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a40173811a9732ee55e687d2e71091e15" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rx6mbps</name></member>
+      <member refid="structwl__cnt__ver__six__t_1ac701c46efcae3e87a8729e16e9520bf6" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rx9mbps</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a3be33d0eee5453795153bd673412256e" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rxackucast</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a77f0e5c42fa6c0cdd5b4db0aa7a796c6" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rxbadcm</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a08bf1845f74855f55533278abcef9731" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rxbadda</name></member>
+      <member refid="structwl__cnt__ver__six__t_1aef2a2196d8679c97b2aad20ecb566db9" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rxbadds</name></member>
+      <member refid="structwl__cnt__ver__six__t_1afee56ccb79a76202e734a4f864d1729d" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rxbadfcs</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a26aa136504a7205012cbe68090f42aa5" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rxbadplcp</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a2d1c51909f46872382ef7f49104ba949" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rxbadproto</name></member>
+      <member refid="structwl__cnt__ver__six__t_1ad72c415edc8247e39eef1b9fdc5b5681" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rxbadsrcmac</name></member>
+      <member refid="structwl__cnt__ver__six__t_1ae09712af81f819cc63bc9daea1aa591e" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rxbeaconmbss</name></member>
+      <member refid="structwl__cnt__ver__six__t_1aab3393be20145694331b56569b5dd7eb" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rxbeaconobss</name></member>
+      <member refid="structwl__cnt__ver__six__t_1ac22fd494d282af79b3ed657be52995e6" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rxbyte</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a693d8ac93278606c1c8dffd50cd071e8" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rxcfrmmcast</name></member>
+      <member refid="structwl__cnt__ver__six__t_1add22ffb671c7a1dcb72d536fd0380c70" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rxcfrmocast</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a9a35cbb8dd1e17201f83912e43b5798e" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rxcfrmucast</name></member>
+      <member refid="structwl__cnt__ver__six__t_1ad9b6cab603ca7e563fd50a3e7b2fe819" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rxcgprqfrm</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a93509c84c279e453e3bd92221a6e5775" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rxcgprsqovfl</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a893c9facc4fbd0d22aae9beeaac0d06e" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rxcrc</name></member>
+      <member refid="structwl__cnt__ver__six__t_1ad67d721c925db6000195bb7fb5b1c415" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rxcrsglitch</name></member>
+      <member refid="structwl__cnt__ver__six__t_1ad9c55eb3a45fa2b136c2c24d8b00798a" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rxctl</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a1860422f3cddbe33b3b5e130cb260d6c" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rxctsocast</name></member>
+      <member refid="structwl__cnt__ver__six__t_1adb87d121c77b429e612a4da68abcf6d5" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rxctsucast</name></member>
+      <member refid="structwl__cnt__ver__six__t_1afb91a6fb3a667ddd7cc7834586b9fff3" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rxdfrmmcast</name></member>
+      <member refid="structwl__cnt__ver__six__t_1aab8eb53ff9316a5cfb1e94eb6ea26cd9" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rxdfrmocast</name></member>
+      <member refid="structwl__cnt__ver__six__t_1ae92bf6f62abc84a477fa51c22dfd750d" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rxdfrmucastmbss</name></member>
+      <member refid="structwl__cnt__ver__six__t_1ae2851584d12938305a848a2d52c5b858" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rxdfrmucastobss</name></member>
+      <member refid="structwl__cnt__ver__six__t_1aa03ec3f84d788636067e348e3f35fa99" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rxdup</name></member>
+      <member refid="structwl__cnt__ver__six__t_1aece5e6392c758b9abc6b1dbb440ed185" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rxerror</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a9c64226e1917098084975e48551c7979" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rxf0ovfl</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a46f8a144497bec67152160a77a9c4862" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rxf1ovfl</name></member>
+      <member refid="structwl__cnt__ver__six__t_1adb5d4ef46ee2c6c61ff524c538b6f98c" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rxf2ovfl</name></member>
+      <member refid="structwl__cnt__ver__six__t_1ac28998dd0ec4cd28e120460c680c8758" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rxfilter</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a981bae5b3c16c5e0c42b8833b1abf6c9" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rxfrag</name></member>
+      <member refid="structwl__cnt__ver__six__t_1ad8c5ef7cdc73c5a668ee30f4da004f13" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rxfragerr</name></member>
+      <member refid="structwl__cnt__ver__six__t_1ac3598e684c3a0907ee753f38a218bd2d" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rxframe</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a932bce897f89294a4420ee5c0d4fa2f6" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rxfrmtoolong</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a2d4c90ab0db230ac946c61b9a3806723" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rxfrmtooshrt</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a7693589074844293ac491dcfdcf0e6b9" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rxgiant</name></member>
+      <member refid="structwl__cnt__ver__six__t_1acc791d12a04dfdb9b4ef29d56af10f12" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rxinvmachdr</name></member>
+      <member refid="structwl__cnt__ver__six__t_1ab47b1207f384dd812db811bc82b9df8a" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rxmfrmmcast</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a26f9b6a32f9a2e98fe5917a9633f3ac3" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rxmfrmocast</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a2d9a405d1ead57acc8f84218fd5766df" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rxmfrmucastmbss</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a97548605ec9d2b0aa9635c90975bb244" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rxmpdu_sgi</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a3673f74b4e4386636377fc03dd9ee615" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rxmpdu_stbc</name></member>
+      <member refid="structwl__cnt__ver__six__t_1ab12a972410fcbc22b11a7df4495594b9" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rxmulti</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a74ee589c3f33cefe44d3d092b990c265" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rxnack</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a47c639db2b48f57d4270e6f3d5737a5f" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rxnobuf</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a638aa5e944cc58b54a258b2d17764b50" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rxnondata</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a8b7665fc2eebca23d52a70655a2af2ce" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rxnoscb</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a7396806c6c17cf9357ec6e28a8649aba" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rxoflo</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a2f79c9729c68834317869e2e5f611ffb" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rxrsptmout</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a7569f2f3a9b69b421cad42c4f64889e6" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rxrtsocast</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a1d78b762f3e323e575c08726c9163e67" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rxrtsucast</name></member>
+      <member refid="structwl__cnt__ver__six__t_1acece0a1d9b024939c66f6039fe320bb0" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rxrunt</name></member>
+      <member refid="structwl__cnt__ver__six__t_1ae5f65da0912b9b4f15080a5d57ce9be6" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rxstrt</name></member>
+      <member refid="structwl__cnt__ver__six__t_1ad53da414c683d40e578b846df8551420" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rxuflo</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a72d66a9430a06063efcfd15e97d0aa0c" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rxundec</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a1ca0a7fd77074c24226ca99f5b53e0b3" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>rxundec_mcst</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a3c696bc25c53d7c7e596ede7d4df8940" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>tbtt</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a7f6c772560303e64c6bc8bfb219ffae2" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>tkipcntrmsr</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a611e7d9ccbbf7a3e7d4ebf0b960a4bfb" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>tkipcntrmsr_mcst</name></member>
+      <member refid="structwl__cnt__ver__six__t_1aa311e45514f0b4947134ba715a9cafbf" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>tkipicverr</name></member>
+      <member refid="structwl__cnt__ver__six__t_1aec72ebbebb2763f86c561a8c4eff1451" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>tkipicverr_mcst</name></member>
+      <member refid="structwl__cnt__ver__six__t_1abbf6c2c95cb80a9fcc087b364803d3d8" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>tkipmicfaill</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a0f029547e854e93e035a15f6e2c383ff" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>tkipmicfaill_mcst</name></member>
+      <member refid="structwl__cnt__ver__six__t_1aa6ef5407555ef88e6f145beb81068907" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>tkipreplay</name></member>
+      <member refid="structwl__cnt__ver__six__t_1ac9ed5a7271a664f5ef6abb7256e0dc88" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>tkipreplay_mcst</name></member>
+      <member refid="structwl__cnt__ver__six__t_1acc7b43e9227ca7eee270b2224bbd71ff" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>txackfrm</name></member>
+      <member refid="structwl__cnt__ver__six__t_1ac27398748f752a3a02b82fd8dd025664" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>txallfrm</name></member>
+      <member refid="structwl__cnt__ver__six__t_1ab033ad8514f6396f9b5bea18a4b873ff" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>txbcnfrm</name></member>
+      <member refid="structwl__cnt__ver__six__t_1ab547c5def3af98acb83abd35b0cfae10" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>txburst</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a643e40c845915edc6ef663d993d62c02" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>txbyte</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a07dfc6e02e9116c1ca5b4348052ee58f" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>txcgprsfail</name></member>
+      <member refid="structwl__cnt__ver__six__t_1af946fec7f177ead54f3054dd5b5a31f8" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>txcgprssuc</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a7fe23cc351f87a20c29045b813f98286" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>txchanrej</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a26959cacdc8285ee8e203b547feb90ae" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>txchit</name></member>
+      <member refid="structwl__cnt__ver__six__t_1abaf77673d885a4daccd2f2d85490e03b" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>txcmiss</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a3b61310e1fe90e9fc57954e7de1f4bfc" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>txctl</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a8b156979918a27e4eaa57e478b5cb156" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>txctsfrm</name></member>
+      <member refid="structwl__cnt__ver__six__t_1ae942ece29ffbd8a4485b5718207df11a" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>txdmawar</name></member>
+      <member refid="structwl__cnt__ver__six__t_1af6d0d3f0a56f144375c98490481d121e" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>txdnlfrm</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a99aa45fab2bb93de3b6e67de56a67758" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>txerror</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a432f7a002e0698d69001e8c04f4e41ab" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>txexptime</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a14b9feeda24973c7455a058c4bec581f" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>txfail</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a16802a806ca3811ccd8a09641ab4ef00" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>txfrag</name></member>
+      <member refid="structwl__cnt__ver__six__t_1afe0b852563be4c5eb604000e8f48b30f" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>txframe</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a67bcfee3205b3003d743a3da7eabfb3e" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>txfrmsnt</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a809bb7e14be65208bd3a397e4b3cbd13" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>txfunfl</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a3756b8bc7a5b8b325f79e8bdf54d238f" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>txglitch_nack</name></member>
+      <member refid="structwl__cnt__ver__six__t_1ac273b0d3f70cb38f9e2fbfe4286e3e8b" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>txmpdu_sgi</name></member>
+      <member refid="structwl__cnt__ver__six__t_1aacdd71099a8a96a658380fcddb916c4d" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>txmpdu_stbc</name></member>
+      <member refid="structwl__cnt__ver__six__t_1aa3c644c313186d9fadb74e361f8d8859" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>txmulti</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a3173d0e2507a4ec688345d50739f63d5" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>txnack</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a42f1434a5578d22643a8700c559b971b" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>txnoack</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a14d5ddcf1ab97d6acc62998e3e9b1f70" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>txnoassoc</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a0b3cab6e7784cf377ecd7e219ff7b3d3" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>txnobuf</name></member>
+      <member refid="structwl__cnt__ver__six__t_1ad3f1901abc92c543cc3a260e7a3af85d" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>txnocts</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a90702f7b78017127dae7e01076832e7d" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>txphycrs</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a8c72875d6e3584d4860c2d295bd841b1" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>txphyerr</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a4354eceeff3188d29ac94a21f1ecc5eb" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>txphyerror</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a47a2b71bb7b42aa55db40d49c7af3eb8" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>txprshort</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a1343efb571d70efbf08d7e85c1b6298a" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>txretrans</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a3f56fa7deb9d1f17f6e950163d3874ca" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>txretrie</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a2d3de30e9b9f564fe9bc1f149c9a7c7d" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>txretry</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a7aec012dd7a4fc100414b385ef0fa880" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>txrts</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a0511d901407ca37ce3b80ea7cc4d52bc" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>txrtsfrm</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a247c3fa565c2f48dddb73e74b8ff8919" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>txrunt</name></member>
+      <member refid="structwl__cnt__ver__six__t_1aa2d88a43eb84976d2c85d8efaebff734" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>txserr</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a685987d447b742dcc1150c839e0a4ec9" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>txsfovfl</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a03f6bba6ae997367379bb5dd91cebcd0" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>txtplunfl</name></member>
+      <member refid="structwl__cnt__ver__six__t_1aaa1ee6fd672d555ca772602bacde20d1" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>txuflo</name></member>
+      <member refid="structwl__cnt__ver__six__t_1ab6d7b6f8c2ceaba7acda80aaf05f4899" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>version</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a55ba671d1c87677e4e27b986b39f8292" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>wepexcluded</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a407541e2f51bab2d2fd2a1195198d54f" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>wepexcluded_mcst</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a4d34ef4e828c96eae621db2496452d7f" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>wepicverr</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a0006b1c11000786cb54ac9f870989162" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>wepicverr_mcst</name></member>
+      <member refid="structwl__cnt__ver__six__t_1aa273a763a89f39c652885c7fc39cdaeb" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>wepundec</name></member>
+      <member refid="structwl__cnt__ver__six__t_1a510a0dda40840ac9036671ed50a469ad" prot="public" virt="non-virtual"><scope>wl_cnt_ver_six_t</scope><name>wepundec_mcst</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

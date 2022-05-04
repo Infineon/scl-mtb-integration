@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwhd__chip__info__t" kind="struct" language="C++" prot="public">
+    <compoundname>whd_chip_info_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwhd__chip__info__t_1ad71c9cb65f80b0cdb4243cb46c32ad73" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t chip_id</definition>
+        <argsstring></argsstring>
+        <name>chip_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="117" column="14" bodyfile="source/whd_chip.h" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__chip__info__t_1a0807f242ff66f85cb76ac2283ac31a4b" prot="public" static="no" mutable="no">
+        <type><ref refid="whd__types_8h_1a7cd94a03f2e7e6aab7217ed559c7a0ac" kindref="member">whd_bool_t</ref></type>
+        <definition>whd_bool_t save_restore_enable</definition>
+        <argsstring></argsstring>
+        <name>save_restore_enable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_chip.h" line="118" column="16" bodyfile="source/whd_chip.h" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_chip.h" line="115" column="1" bodyfile="source/whd_chip.h" bodystart="116" bodyend="120"/>
+    <listofallmembers>
+      <member refid="structwhd__chip__info__t_1ad71c9cb65f80b0cdb4243cb46c32ad73" prot="public" virt="non-virtual"><scope>whd_chip_info_t</scope><name>chip_id</name></member>
+      <member refid="structwhd__chip__info__t_1a0807f242ff66f85cb76ac2283ac31a4b" prot="public" virt="non-virtual"><scope>whd_chip_info_t</scope><name>save_restore_enable</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

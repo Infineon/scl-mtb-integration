@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwl__dload__data" kind="struct" language="C++" prot="public">
+    <compoundname>wl_dload_data</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwl__dload__data_1adbcb4f0111725357699179f5d05cccd2" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t flag</definition>
+        <argsstring></argsstring>
+        <name>flag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3716" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3716" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__dload__data_1a4fe15d68257c1832d002cd8e2d6b3b70" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t dload_type</definition>
+        <argsstring></argsstring>
+        <name>dload_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3717" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3717" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__dload__data_1a96bbf959016e4411c9e6b9812a8be60a" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t len</definition>
+        <argsstring></argsstring>
+        <name>len</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3718" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3718" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__dload__data_1a85b7a7f21b6108b69872839e2509cd67" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t crc</definition>
+        <argsstring></argsstring>
+        <name>crc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3719" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3719" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__dload__data_1aa86e1085c6a16f60258f29c9d5fc2144" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t data[1]</definition>
+        <argsstring>[1]</argsstring>
+        <name>data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3720" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3720" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="3714" column="1" bodyfile="source/whd_wlioctl.h" bodystart="3715" bodyend="3721"/>
+    <listofallmembers>
+      <member refid="structwl__dload__data_1a85b7a7f21b6108b69872839e2509cd67" prot="public" virt="non-virtual"><scope>wl_dload_data</scope><name>crc</name></member>
+      <member refid="structwl__dload__data_1aa86e1085c6a16f60258f29c9d5fc2144" prot="public" virt="non-virtual"><scope>wl_dload_data</scope><name>data</name></member>
+      <member refid="structwl__dload__data_1a4fe15d68257c1832d002cd8e2d6b3b70" prot="public" virt="non-virtual"><scope>wl_dload_data</scope><name>dload_type</name></member>
+      <member refid="structwl__dload__data_1adbcb4f0111725357699179f5d05cccd2" prot="public" virt="non-virtual"><scope>wl_dload_data</scope><name>flag</name></member>
+      <member refid="structwl__dload__data_1a96bbf959016e4411c9e6b9812a8be60a" prot="public" virt="non-virtual"><scope>wl_dload_data</scope><name>len</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

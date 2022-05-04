@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwl__clm__dload__info" kind="struct" language="C++" prot="public">
+    <compoundname>wl_clm_dload_info</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwl__clm__dload__info_1ac7fc4d4c35b9aca21951903e79cd1530" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t ds_id</definition>
+        <argsstring></argsstring>
+        <name>ds_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3726" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3726" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__clm__dload__info_1abc077307112fb6e2abe911089918df64" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t clm_total_len</definition>
+        <argsstring></argsstring>
+        <name>clm_total_len</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3727" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3727" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__clm__dload__info_1a447d820d174e62b7a19144ac9a734fb3" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t num_chunks</definition>
+        <argsstring></argsstring>
+        <name>num_chunks</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3728" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3728" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__clm__dload__info_1a161c2332dc59166e19b8caeb49a5b049" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t chunk_len</definition>
+        <argsstring></argsstring>
+        <name>chunk_len</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3729" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3729" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__clm__dload__info_1a17be5f532b6afbdabb653ef0bba5cb9a" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t chunk_offset</definition>
+        <argsstring></argsstring>
+        <name>chunk_offset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3730" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3730" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__clm__dload__info_1a6befa82f0c6223df019bdf495019330e" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t data_chunk[1]</definition>
+        <argsstring>[1]</argsstring>
+        <name>data_chunk</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3731" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3731" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="3724" column="1" bodyfile="source/whd_wlioctl.h" bodystart="3725" bodyend="3732"/>
+    <listofallmembers>
+      <member refid="structwl__clm__dload__info_1a161c2332dc59166e19b8caeb49a5b049" prot="public" virt="non-virtual"><scope>wl_clm_dload_info</scope><name>chunk_len</name></member>
+      <member refid="structwl__clm__dload__info_1a17be5f532b6afbdabb653ef0bba5cb9a" prot="public" virt="non-virtual"><scope>wl_clm_dload_info</scope><name>chunk_offset</name></member>
+      <member refid="structwl__clm__dload__info_1abc077307112fb6e2abe911089918df64" prot="public" virt="non-virtual"><scope>wl_clm_dload_info</scope><name>clm_total_len</name></member>
+      <member refid="structwl__clm__dload__info_1a6befa82f0c6223df019bdf495019330e" prot="public" virt="non-virtual"><scope>wl_clm_dload_info</scope><name>data_chunk</name></member>
+      <member refid="structwl__clm__dload__info_1ac7fc4d4c35b9aca21951903e79cd1530" prot="public" virt="non-virtual"><scope>wl_clm_dload_info</scope><name>ds_id</name></member>
+      <member refid="structwl__clm__dload__info_1a447d820d174e62b7a19144ac9a734fb3" prot="public" virt="non-virtual"><scope>wl_clm_dload_info</scope><name>num_chunks</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

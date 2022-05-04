@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwl__action__obss__coex__req__t" kind="struct" language="C++" prot="public">
+    <compoundname>wl_action_obss_coex_req_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwl__action__obss__coex__req__t_1a3b5693c71298b922c6188573f2474227" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t info</definition>
+        <argsstring></argsstring>
+        <name>info</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3391" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3391" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__action__obss__coex__req__t_1abea371f9030e15a5d2a4c181576833d8" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t num</definition>
+        <argsstring></argsstring>
+        <name>num</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3392" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3392" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__action__obss__coex__req__t_1a7362c6a4c221b0dfd9a87b8223be9f76" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t ch_list[1]</definition>
+        <argsstring>[1]</argsstring>
+        <name>ch_list</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3393" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3393" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="3389" column="1" bodyfile="source/whd_wlioctl.h" bodystart="3390" bodyend="3394"/>
+    <listofallmembers>
+      <member refid="structwl__action__obss__coex__req__t_1a7362c6a4c221b0dfd9a87b8223be9f76" prot="public" virt="non-virtual"><scope>wl_action_obss_coex_req_t</scope><name>ch_list</name></member>
+      <member refid="structwl__action__obss__coex__req__t_1a3b5693c71298b922c6188573f2474227" prot="public" virt="non-virtual"><scope>wl_action_obss_coex_req_t</scope><name>info</name></member>
+      <member refid="structwl__action__obss__coex__req__t_1abea371f9030e15a5d2a4c181576833d8" prot="public" virt="non-virtual"><scope>wl_action_obss_coex_req_t</scope><name>num</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

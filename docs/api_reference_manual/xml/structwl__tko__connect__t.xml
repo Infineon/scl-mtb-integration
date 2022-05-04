@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwl__tko__connect__t" kind="struct" language="C++" prot="public">
+    <compoundname>wl_tko_connect_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwl__tko__connect__t_1aae5a12e607d0f782506d9e6ec6179c64" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t index</definition>
+        <argsstring></argsstring>
+        <name>index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3888" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3888" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__tko__connect__t_1a71a922029259098b202a0587f532120e" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t ip_addr_type</definition>
+        <argsstring></argsstring>
+        <name>ip_addr_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3889" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3889" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__tko__connect__t_1a7c8171cd15cb1f99e0a352fef95750e3" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t local_port</definition>
+        <argsstring></argsstring>
+        <name>local_port</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3890" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3890" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__tko__connect__t_1a78f55417df3c5a6ab11ece9f724e595e" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t remote_port</definition>
+        <argsstring></argsstring>
+        <name>remote_port</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3891" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3891" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__tko__connect__t_1aeec4aecca32d3b57c9881d3bfa70a07d" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t local_seq</definition>
+        <argsstring></argsstring>
+        <name>local_seq</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3892" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3892" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__tko__connect__t_1a602921effa3f97a83e62c3088a0f7e54" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t remote_seq</definition>
+        <argsstring></argsstring>
+        <name>remote_seq</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3893" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3893" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__tko__connect__t_1ab77bea1ec00a9dd9614a529a058e61fe" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t request_len</definition>
+        <argsstring></argsstring>
+        <name>request_len</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3894" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3894" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__tko__connect__t_1ae9b68e20f9c350669b62e3a775ad2288" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t response_len</definition>
+        <argsstring></argsstring>
+        <name>response_len</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3895" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3895" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__tko__connect__t_1aa86e1085c6a16f60258f29c9d5fc2144" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t data[1]</definition>
+        <argsstring>[1]</argsstring>
+        <name>data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3896" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3896" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="3886" column="1" bodyfile="source/whd_wlioctl.h" bodystart="3887" bodyend="3909"/>
+    <listofallmembers>
+      <member refid="structwl__tko__connect__t_1aa86e1085c6a16f60258f29c9d5fc2144" prot="public" virt="non-virtual"><scope>wl_tko_connect_t</scope><name>data</name></member>
+      <member refid="structwl__tko__connect__t_1aae5a12e607d0f782506d9e6ec6179c64" prot="public" virt="non-virtual"><scope>wl_tko_connect_t</scope><name>index</name></member>
+      <member refid="structwl__tko__connect__t_1a71a922029259098b202a0587f532120e" prot="public" virt="non-virtual"><scope>wl_tko_connect_t</scope><name>ip_addr_type</name></member>
+      <member refid="structwl__tko__connect__t_1a7c8171cd15cb1f99e0a352fef95750e3" prot="public" virt="non-virtual"><scope>wl_tko_connect_t</scope><name>local_port</name></member>
+      <member refid="structwl__tko__connect__t_1aeec4aecca32d3b57c9881d3bfa70a07d" prot="public" virt="non-virtual"><scope>wl_tko_connect_t</scope><name>local_seq</name></member>
+      <member refid="structwl__tko__connect__t_1a78f55417df3c5a6ab11ece9f724e595e" prot="public" virt="non-virtual"><scope>wl_tko_connect_t</scope><name>remote_port</name></member>
+      <member refid="structwl__tko__connect__t_1a602921effa3f97a83e62c3088a0f7e54" prot="public" virt="non-virtual"><scope>wl_tko_connect_t</scope><name>remote_seq</name></member>
+      <member refid="structwl__tko__connect__t_1ab77bea1ec00a9dd9614a529a058e61fe" prot="public" virt="non-virtual"><scope>wl_tko_connect_t</scope><name>request_len</name></member>
+      <member refid="structwl__tko__connect__t_1ae9b68e20f9c350669b62e3a775ad2288" prot="public" virt="non-virtual"><scope>wl_tko_connect_t</scope><name>response_len</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

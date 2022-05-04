@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwl__tko__t" kind="struct" language="C++" prot="public">
+    <compoundname>wl_tko_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwl__tko__t_1a8baec403f59577a052af8bdbba64b164" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t subcmd_id</definition>
+        <argsstring></argsstring>
+        <name>subcmd_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3855" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3855" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__tko__t_1a8aed22e2c7b283705ec82e0120515618" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t len</definition>
+        <argsstring></argsstring>
+        <name>len</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3856" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3856" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__tko__t_1aa86e1085c6a16f60258f29c9d5fc2144" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t data[1]</definition>
+        <argsstring>[1]</argsstring>
+        <name>data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3857" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3857" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="3853" column="1" bodyfile="source/whd_wlioctl.h" bodystart="3854" bodyend="3858"/>
+    <listofallmembers>
+      <member refid="structwl__tko__t_1aa86e1085c6a16f60258f29c9d5fc2144" prot="public" virt="non-virtual"><scope>wl_tko_t</scope><name>data</name></member>
+      <member refid="structwl__tko__t_1a8aed22e2c7b283705ec82e0120515618" prot="public" virt="non-virtual"><scope>wl_tko_t</scope><name>len</name></member>
+      <member refid="structwl__tko__t_1a8baec403f59577a052af8bdbba64b164" prot="public" virt="non-virtual"><scope>wl_tko_t</scope><name>subcmd_id</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

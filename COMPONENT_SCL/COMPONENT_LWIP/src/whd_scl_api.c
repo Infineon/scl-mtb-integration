@@ -200,7 +200,7 @@ void whd_network_send_ethernet_data(whd_interface_t ifp, whd_buffer_t buffer)
     scl_tx_buffer_from_lwip.buffer = buffer;
     scl_tx_buffer_from_lwip.size = scl_buffer_get_current_piece_size(buffer);
     scl_network_send_ethernet_data(scl_tx_buffer_from_lwip);
-    scl_buffer_release(buffer,0);
+    scl_buffer_release(buffer,SCL_NETWORK_TX);
 }
 
 whd_result_t whd_management_set_event_handler(whd_interface_t ifp, const whd_event_num_t *event_nums,
@@ -396,6 +396,45 @@ uint32_t whd_wifi_scan(whd_interface_t ifp,
 
 whd_interface_t whd_get_primary_interface(whd_driver_t whd_driver) {
     return (whd_interface_t)WHD_STA_ROLE;
+}
+
+whd_result_t whd_wifi_get_fwcap(whd_interface_t ifp, uint32_t *value)
+{
+    *value = (1 << WHD_FWCAP_SAE_EXT);
+    return WHD_SUCCESS;
+}
+
+whd_result_t whd_wifi_send_auth_frame(whd_interface_t ifp, whd_auth_params_t *auth_params)
+{
+    return WHD_SUCCESS;
+}
+
+whd_result_t whd_wifi_set_auth_status(whd_interface_t ifp, whd_auth_req_status_t *params)
+{
+    return WHD_SUCCESS;
+}
+
+whd_result_t whd_wifi_set_pmk(whd_interface_t ifp, const uint8_t *security_key, uint8_t key_length)
+{
+    return WHD_SUCCESS;
+}
+
+whd_result_t whd_wifi_set_pmksa(whd_interface_t ifp, const pmkid_t *pmkid)
+{
+    return WHD_SUCCESS;
+}
+
+uint32_t whd_wifi_external_auth_request(whd_interface_t ifp,
+                                               whd_auth_result_callback_t callback,
+                                               void *result_ptr,
+                                               void *user_data)
+{
+    return WHD_SUCCESS;
+}
+
+uint32_t whd_wifi_stop_external_auth_request(whd_interface_t ifp)
+{
+    return WHD_SUCCESS;
 }
 
 /* APIs to be supported in future */

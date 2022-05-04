@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwl__keep__alive__pkt__t" kind="struct" language="C++" prot="public">
+    <compoundname>wl_keep_alive_pkt_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwl__keep__alive__pkt__t_1a67798d7358bbe819f22dc4c08019a78b" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t period_msec</definition>
+        <argsstring></argsstring>
+        <name>period_msec</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3192" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3192" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__keep__alive__pkt__t_1a55990999e160ec20ac0d2b0c8ce8a4ce" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t len_bytes</definition>
+        <argsstring></argsstring>
+        <name>len_bytes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3193" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3193" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__keep__alive__pkt__t_1aa86e1085c6a16f60258f29c9d5fc2144" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t data[1]</definition>
+        <argsstring>[1]</argsstring>
+        <name>data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3194" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3194" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="3190" column="1" bodyfile="source/whd_wlioctl.h" bodystart="3191" bodyend="3195"/>
+    <listofallmembers>
+      <member refid="structwl__keep__alive__pkt__t_1aa86e1085c6a16f60258f29c9d5fc2144" prot="public" virt="non-virtual"><scope>wl_keep_alive_pkt_t</scope><name>data</name></member>
+      <member refid="structwl__keep__alive__pkt__t_1a55990999e160ec20ac0d2b0c8ce8a4ce" prot="public" virt="non-virtual"><scope>wl_keep_alive_pkt_t</scope><name>len_bytes</name></member>
+      <member refid="structwl__keep__alive__pkt__t_1a67798d7358bbe819f22dc4c08019a78b" prot="public" virt="non-virtual"><scope>wl_keep_alive_pkt_t</scope><name>period_msec</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

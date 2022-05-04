@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwl__pfn__t" kind="struct" language="C++" prot="public">
+    <compoundname>wl_pfn_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwl__pfn__t_1aaaaae1f2460665bebebe634c22a382da" prot="public" static="no" mutable="no">
+        <type><ref refid="structwlc__ssid__t" kindref="compound">wlc_ssid_t</ref></type>
+        <definition>wlc_ssid_t ssid</definition>
+        <argsstring></argsstring>
+        <name>ssid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3133" column="16" bodyfile="source/whd_wlioctl.h" bodystart="3133" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__pfn__t_1ae51934333edd3a61c06a695837f30595" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t flags</definition>
+        <argsstring></argsstring>
+        <name>flags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3134" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__pfn__t_1ab74ea731836cfb5b8d9dfe43a2536722" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t infra</definition>
+        <argsstring></argsstring>
+        <name>infra</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3135" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__pfn__t_1a976c10c2369f5a967e307a2544210c92" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t auth</definition>
+        <argsstring></argsstring>
+        <name>auth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3136" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3136" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__pfn__t_1a8614b76aabaa08d5c1c8553754dd78d7" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t wpa_auth</definition>
+        <argsstring></argsstring>
+        <name>wpa_auth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3137" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3137" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__pfn__t_1a8180bf500195a3f4e4069bec9ed6a69a" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t wsec</definition>
+        <argsstring></argsstring>
+        <name>wsec</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3138" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3138" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>wl_pfn_t</label>
+        <link refid="structwl__pfn__t"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>ssid</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>wlc_ssid_t</label>
+        <link refid="structwlc__ssid__t"/>
+      </node>
+    </collaborationgraph>
+    <location file="source/whd_wlioctl.h" line="3131" column="1" bodyfile="source/whd_wlioctl.h" bodystart="3132" bodyend="3139"/>
+    <listofallmembers>
+      <member refid="structwl__pfn__t_1a976c10c2369f5a967e307a2544210c92" prot="public" virt="non-virtual"><scope>wl_pfn_t</scope><name>auth</name></member>
+      <member refid="structwl__pfn__t_1ae51934333edd3a61c06a695837f30595" prot="public" virt="non-virtual"><scope>wl_pfn_t</scope><name>flags</name></member>
+      <member refid="structwl__pfn__t_1ab74ea731836cfb5b8d9dfe43a2536722" prot="public" virt="non-virtual"><scope>wl_pfn_t</scope><name>infra</name></member>
+      <member refid="structwl__pfn__t_1aaaaae1f2460665bebebe634c22a382da" prot="public" virt="non-virtual"><scope>wl_pfn_t</scope><name>ssid</name></member>
+      <member refid="structwl__pfn__t_1a8614b76aabaa08d5c1c8553754dd78d7" prot="public" virt="non-virtual"><scope>wl_pfn_t</scope><name>wpa_auth</name></member>
+      <member refid="structwl__pfn__t_1a8180bf500195a3f4e4069bec9ed6a69a" prot="public" virt="non-virtual"><scope>wl_pfn_t</scope><name>wsec</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

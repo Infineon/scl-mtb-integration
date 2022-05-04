@@ -1,0 +1,281 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwl__radar__args__t" kind="struct" language="C++" prot="public">
+    <compoundname>wl_radar_args_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwl__radar__args__t_1a700e4e1886a5394f511372bed8334a0f" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t npulses</definition>
+        <argsstring></argsstring>
+        <name>npulses</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1297" column="13" bodyfile="source/whd_wlioctl.h" bodystart="1297" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__radar__args__t_1a9f7cbc11b4fef3bd4cf62269d7b8fc0e" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t ncontig</definition>
+        <argsstring></argsstring>
+        <name>ncontig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1298" column="13" bodyfile="source/whd_wlioctl.h" bodystart="1298" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__radar__args__t_1a052eb3cc7e03ee86ffb6f4f12f2c4afc" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t min_pw</definition>
+        <argsstring></argsstring>
+        <name>min_pw</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1299" column="13" bodyfile="source/whd_wlioctl.h" bodystart="1299" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__radar__args__t_1ac9940c26b21d1af94710de8ebb553748" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t max_pw</definition>
+        <argsstring></argsstring>
+        <name>max_pw</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1300" column="13" bodyfile="source/whd_wlioctl.h" bodystart="1300" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__radar__args__t_1a4bc7fb4c77979a5752e885a452f2e550" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t thresh0</definition>
+        <argsstring></argsstring>
+        <name>thresh0</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1301" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1301" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__radar__args__t_1a6b3895a262a86556abb82de46e69d21d" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t thresh1</definition>
+        <argsstring></argsstring>
+        <name>thresh1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1302" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1302" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__radar__args__t_1a15e1f87cbc70601e7bb67d5e48f2f73d" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t blank</definition>
+        <argsstring></argsstring>
+        <name>blank</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1303" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1303" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__radar__args__t_1af4616cfdc4761b2f490faff1bbca3125" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t fmdemodcfg</definition>
+        <argsstring></argsstring>
+        <name>fmdemodcfg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1304" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1304" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__radar__args__t_1a9a78c04214746defe13369ce21110445" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t npulses_lp</definition>
+        <argsstring></argsstring>
+        <name>npulses_lp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1305" column="13" bodyfile="source/whd_wlioctl.h" bodystart="1305" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__radar__args__t_1add2255e9833793c860571426b7b5c674" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t min_pw_lp</definition>
+        <argsstring></argsstring>
+        <name>min_pw_lp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1306" column="13" bodyfile="source/whd_wlioctl.h" bodystart="1306" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__radar__args__t_1a79555f698c8fc24f44f768526f99db10" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t max_pw_lp</definition>
+        <argsstring></argsstring>
+        <name>max_pw_lp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1307" column="13" bodyfile="source/whd_wlioctl.h" bodystart="1307" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__radar__args__t_1ae2b229b3055e54b8f832dd3468f75f4c" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t min_fm_lp</definition>
+        <argsstring></argsstring>
+        <name>min_fm_lp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1308" column="13" bodyfile="source/whd_wlioctl.h" bodystart="1308" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__radar__args__t_1abb5d8fb4499c0afff5a3422e20b01b90" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t max_deltat_lp</definition>
+        <argsstring></argsstring>
+        <name>max_deltat_lp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1309" column="13" bodyfile="source/whd_wlioctl.h" bodystart="1309" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__radar__args__t_1a95f0b0a65443c7d8ba2e86b2f529678f" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t min_deltat</definition>
+        <argsstring></argsstring>
+        <name>min_deltat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1310" column="13" bodyfile="source/whd_wlioctl.h" bodystart="1310" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__radar__args__t_1a2cc685ff8b8866b760d63815e64931ab" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t max_deltat</definition>
+        <argsstring></argsstring>
+        <name>max_deltat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1311" column="13" bodyfile="source/whd_wlioctl.h" bodystart="1311" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__radar__args__t_1a736bccc346d27abc50ab2694879892f7" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t autocorr</definition>
+        <argsstring></argsstring>
+        <name>autocorr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1312" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1312" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__radar__args__t_1a3c2123f90fca0d062ea6ee36667898cb" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t st_level_time</definition>
+        <argsstring></argsstring>
+        <name>st_level_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1313" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1313" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__radar__args__t_1a914558082f50609ef1c548058314b89e" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t t2_min</definition>
+        <argsstring></argsstring>
+        <name>t2_min</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1314" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1314" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__radar__args__t_1acd99bb05ca015e7d74448acb1deba7ca" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t version</definition>
+        <argsstring></argsstring>
+        <name>version</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1315" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1315" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="1295" column="1" bodyfile="source/whd_wlioctl.h" bodystart="1296" bodyend="1316"/>
+    <listofallmembers>
+      <member refid="structwl__radar__args__t_1a736bccc346d27abc50ab2694879892f7" prot="public" virt="non-virtual"><scope>wl_radar_args_t</scope><name>autocorr</name></member>
+      <member refid="structwl__radar__args__t_1a15e1f87cbc70601e7bb67d5e48f2f73d" prot="public" virt="non-virtual"><scope>wl_radar_args_t</scope><name>blank</name></member>
+      <member refid="structwl__radar__args__t_1af4616cfdc4761b2f490faff1bbca3125" prot="public" virt="non-virtual"><scope>wl_radar_args_t</scope><name>fmdemodcfg</name></member>
+      <member refid="structwl__radar__args__t_1a2cc685ff8b8866b760d63815e64931ab" prot="public" virt="non-virtual"><scope>wl_radar_args_t</scope><name>max_deltat</name></member>
+      <member refid="structwl__radar__args__t_1abb5d8fb4499c0afff5a3422e20b01b90" prot="public" virt="non-virtual"><scope>wl_radar_args_t</scope><name>max_deltat_lp</name></member>
+      <member refid="structwl__radar__args__t_1ac9940c26b21d1af94710de8ebb553748" prot="public" virt="non-virtual"><scope>wl_radar_args_t</scope><name>max_pw</name></member>
+      <member refid="structwl__radar__args__t_1a79555f698c8fc24f44f768526f99db10" prot="public" virt="non-virtual"><scope>wl_radar_args_t</scope><name>max_pw_lp</name></member>
+      <member refid="structwl__radar__args__t_1a95f0b0a65443c7d8ba2e86b2f529678f" prot="public" virt="non-virtual"><scope>wl_radar_args_t</scope><name>min_deltat</name></member>
+      <member refid="structwl__radar__args__t_1ae2b229b3055e54b8f832dd3468f75f4c" prot="public" virt="non-virtual"><scope>wl_radar_args_t</scope><name>min_fm_lp</name></member>
+      <member refid="structwl__radar__args__t_1a052eb3cc7e03ee86ffb6f4f12f2c4afc" prot="public" virt="non-virtual"><scope>wl_radar_args_t</scope><name>min_pw</name></member>
+      <member refid="structwl__radar__args__t_1add2255e9833793c860571426b7b5c674" prot="public" virt="non-virtual"><scope>wl_radar_args_t</scope><name>min_pw_lp</name></member>
+      <member refid="structwl__radar__args__t_1a9f7cbc11b4fef3bd4cf62269d7b8fc0e" prot="public" virt="non-virtual"><scope>wl_radar_args_t</scope><name>ncontig</name></member>
+      <member refid="structwl__radar__args__t_1a700e4e1886a5394f511372bed8334a0f" prot="public" virt="non-virtual"><scope>wl_radar_args_t</scope><name>npulses</name></member>
+      <member refid="structwl__radar__args__t_1a9a78c04214746defe13369ce21110445" prot="public" virt="non-virtual"><scope>wl_radar_args_t</scope><name>npulses_lp</name></member>
+      <member refid="structwl__radar__args__t_1a3c2123f90fca0d062ea6ee36667898cb" prot="public" virt="non-virtual"><scope>wl_radar_args_t</scope><name>st_level_time</name></member>
+      <member refid="structwl__radar__args__t_1a914558082f50609ef1c548058314b89e" prot="public" virt="non-virtual"><scope>wl_radar_args_t</scope><name>t2_min</name></member>
+      <member refid="structwl__radar__args__t_1a4bc7fb4c77979a5752e885a452f2e550" prot="public" virt="non-virtual"><scope>wl_radar_args_t</scope><name>thresh0</name></member>
+      <member refid="structwl__radar__args__t_1a6b3895a262a86556abb82de46e69d21d" prot="public" virt="non-virtual"><scope>wl_radar_args_t</scope><name>thresh1</name></member>
+      <member refid="structwl__radar__args__t_1acd99bb05ca015e7d74448acb1deba7ca" prot="public" virt="non-virtual"><scope>wl_radar_args_t</scope><name>version</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

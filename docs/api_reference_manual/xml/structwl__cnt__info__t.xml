@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwl__cnt__info__t" kind="struct" language="C++" prot="public">
+    <compoundname>wl_cnt_info_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwl__cnt__info__t_1ab6d7b6f8c2ceaba7acda80aaf05f4899" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t version</definition>
+        <argsstring></argsstring>
+        <name>version</name>
+        <briefdescription>
+<para>see definition of WL_CNT_T_VERSION </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1553" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1553" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__info__t_1a4e022dc73ace09877bb33285b22a8425" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t datalen</definition>
+        <argsstring></argsstring>
+        <name>datalen</name>
+        <briefdescription>
+<para>length of data including all paddings. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1554" column="14" bodyfile="source/whd_wlioctl.h" bodystart="1554" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__cnt__info__t_1aa86e1085c6a16f60258f29c9d5fc2144" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t data[1]</definition>
+        <argsstring>[1]</argsstring>
+        <name>data</name>
+        <briefdescription>
+<para>variable length payload: 1 or more bcm_xtlv_t type of tuples. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>each tuple is padded to multiple of 4 bytes. &apos;datalen&apos; field of this structure includes all paddings. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1555" column="13" bodyfile="source/whd_wlioctl.h" bodystart="1555" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="1551" column="1" bodyfile="source/whd_wlioctl.h" bodystart="1552" bodyend="1560"/>
+    <listofallmembers>
+      <member refid="structwl__cnt__info__t_1aa86e1085c6a16f60258f29c9d5fc2144" prot="public" virt="non-virtual"><scope>wl_cnt_info_t</scope><name>data</name></member>
+      <member refid="structwl__cnt__info__t_1a4e022dc73ace09877bb33285b22a8425" prot="public" virt="non-virtual"><scope>wl_cnt_info_t</scope><name>datalen</name></member>
+      <member refid="structwl__cnt__info__t_1ab6d7b6f8c2ceaba7acda80aaf05f4899" prot="public" virt="non-virtual"><scope>wl_cnt_info_t</scope><name>version</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

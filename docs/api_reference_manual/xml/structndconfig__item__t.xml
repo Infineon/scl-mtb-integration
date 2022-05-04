@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structndconfig__item__t" kind="struct" language="C++" prot="public">
+    <compoundname>ndconfig_item_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structndconfig__item__t_1a421d42b9db3713f70e0409eb9f7f07ea" prot="public" static="no" mutable="no">
+        <type>int8_t *</type>
+        <definition>int8_t* name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1186" column="12" bodyfile="source/whd_wlioctl.h" bodystart="1186" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structndconfig__item__t_1a13623f1d68513495c21f8b061b1a5aec" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* param</definition>
+        <argsstring></argsstring>
+        <name>param</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="1187" column="10" bodyfile="source/whd_wlioctl.h" bodystart="1187" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="1184" column="1" bodyfile="source/whd_wlioctl.h" bodystart="1185" bodyend="1188"/>
+    <listofallmembers>
+      <member refid="structndconfig__item__t_1a421d42b9db3713f70e0409eb9f7f07ea" prot="public" virt="non-virtual"><scope>ndconfig_item_t</scope><name>name</name></member>
+      <member refid="structndconfig__item__t_1a13623f1d68513495c21f8b061b1a5aec" prot="public" virt="non-virtual"><scope>ndconfig_item_t</scope><name>param</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

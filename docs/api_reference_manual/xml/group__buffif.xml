@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="group__buffif" kind="group">
     <compoundname>buffif</compoundname>
     <title>WHD Buffer Interface API</title>
@@ -32,13 +32,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_network_types.h" line="47" column="1" bodyfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_network_types.h" bodystart="46" bodyend="50"/>
+        <location file="source/whd_network_types.h" line="47" column="1" bodyfile="source/whd_network_types.h" bodystart="48" bodyend="51"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
+<para>Allows WHD to perform buffer related operations like, allocating, releasing, retrieving the current pointer of and size of a packet buffer. </para>
     </briefdescription>
     <detaileddescription>
-<para>Allows WHD to perform buffer related operations like, allocating, releasing, retrieving the current pointer of and size of a packet buffer. </para>
     </detaileddescription>
   </compounddef>
 </doxygen>

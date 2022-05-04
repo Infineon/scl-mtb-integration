@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwl__pfn__scanresult__t" kind="struct" language="C++" prot="public">
+    <compoundname>wl_pfn_scanresult_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwl__pfn__scanresult__t_1acd99bb05ca015e7d74448acb1deba7ca" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t version</definition>
+        <argsstring></argsstring>
+        <name>version</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3080" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3080" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__pfn__scanresult__t_1ade20423e91627f07e610924cb0081623" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t status</definition>
+        <argsstring></argsstring>
+        <name>status</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3081" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3081" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__pfn__scanresult__t_1a86988a65e0d3ece7990c032c159786d6" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t count</definition>
+        <argsstring></argsstring>
+        <name>count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3082" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3082" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__pfn__scanresult__t_1ad5b9cc8e1307e4b36ffb2938c0ada903" prot="public" static="no" mutable="no">
+        <type><ref refid="structwl__pfn__net__info__t" kindref="compound">wl_pfn_net_info_t</ref></type>
+        <definition>wl_pfn_net_info_t netinfo</definition>
+        <argsstring></argsstring>
+        <name>netinfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3083" column="23" bodyfile="source/whd_wlioctl.h" bodystart="3083" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__pfn__scanresult__t_1a2536ce1c0d85ca7758e7ec39b8ed0c32" prot="public" static="no" mutable="no">
+        <type><ref refid="structwl__bss__info__t" kindref="compound">wl_bss_info_t</ref></type>
+        <definition>wl_bss_info_t bss_info</definition>
+        <argsstring></argsstring>
+        <name>bss_info</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3084" column="19" bodyfile="source/whd_wlioctl.h" bodystart="3084" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="5">
+        <label>whd_mac_t</label>
+        <link refid="structwhd__mac__t"/>
+      </node>
+      <node id="4">
+        <label>wl_bss_info_t</label>
+        <link refid="structwl__bss__info__t"/>
+        <childnode refid="5" relation="usage">
+          <edgelabel>BSSID</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>wl_pfn_net_info_t</label>
+        <link refid="structwl__pfn__net__info__t"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>pfnsubnet</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>wl_pfn_scanresult_t</label>
+        <link refid="structwl__pfn__scanresult__t"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>netinfo</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>bss_info</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>wl_pfn_subnet_info_t</label>
+        <link refid="structwl__pfn__subnet__info__t"/>
+      </node>
+    </collaborationgraph>
+    <location file="source/whd_wlioctl.h" line="3078" column="1" bodyfile="source/whd_wlioctl.h" bodystart="3079" bodyend="3085"/>
+    <listofallmembers>
+      <member refid="structwl__pfn__scanresult__t_1a2536ce1c0d85ca7758e7ec39b8ed0c32" prot="public" virt="non-virtual"><scope>wl_pfn_scanresult_t</scope><name>bss_info</name></member>
+      <member refid="structwl__pfn__scanresult__t_1a86988a65e0d3ece7990c032c159786d6" prot="public" virt="non-virtual"><scope>wl_pfn_scanresult_t</scope><name>count</name></member>
+      <member refid="structwl__pfn__scanresult__t_1ad5b9cc8e1307e4b36ffb2938c0ada903" prot="public" virt="non-virtual"><scope>wl_pfn_scanresult_t</scope><name>netinfo</name></member>
+      <member refid="structwl__pfn__scanresult__t_1ade20423e91627f07e610924cb0081623" prot="public" virt="non-virtual"><scope>wl_pfn_scanresult_t</scope><name>status</name></member>
+      <member refid="structwl__pfn__scanresult__t_1acd99bb05ca015e7d74448acb1deba7ca" prot="public" virt="non-virtual"><scope>wl_pfn_scanresult_t</scope><name>version</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

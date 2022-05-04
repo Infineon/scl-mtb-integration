@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwme__tx__params__s" kind="struct" language="C++" prot="public">
+    <compoundname>wme_tx_params_s</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwme__tx__params__s_1a1ef4a19e68d66e4b683a4111e289b5d0" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t short_retry</definition>
+        <argsstring></argsstring>
+        <name>short_retry</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="536" column="13" bodyfile="source/whd_wlioctl.h" bodystart="536" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwme__tx__params__s_1a4800b70c9eccff265b0a9b5f58e542e5" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t short_fallback</definition>
+        <argsstring></argsstring>
+        <name>short_fallback</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="537" column="13" bodyfile="source/whd_wlioctl.h" bodystart="537" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwme__tx__params__s_1a4524636e96ee214586413af9fa08ffe9" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t long_retry</definition>
+        <argsstring></argsstring>
+        <name>long_retry</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="538" column="13" bodyfile="source/whd_wlioctl.h" bodystart="538" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwme__tx__params__s_1af683af502e959815e04a891d897c7795" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t long_fallback</definition>
+        <argsstring></argsstring>
+        <name>long_fallback</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="539" column="13" bodyfile="source/whd_wlioctl.h" bodystart="539" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwme__tx__params__s_1a7e90c4de0c7432987f070da0b655a268" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t max_rate</definition>
+        <argsstring></argsstring>
+        <name>max_rate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="540" column="14" bodyfile="source/whd_wlioctl.h" bodystart="540" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="534" column="1" bodyfile="source/whd_wlioctl.h" bodystart="535" bodyend="541"/>
+    <listofallmembers>
+      <member refid="structwme__tx__params__s_1af683af502e959815e04a891d897c7795" prot="public" virt="non-virtual"><scope>wme_tx_params_s</scope><name>long_fallback</name></member>
+      <member refid="structwme__tx__params__s_1a4524636e96ee214586413af9fa08ffe9" prot="public" virt="non-virtual"><scope>wme_tx_params_s</scope><name>long_retry</name></member>
+      <member refid="structwme__tx__params__s_1a7e90c4de0c7432987f070da0b655a268" prot="public" virt="non-virtual"><scope>wme_tx_params_s</scope><name>max_rate</name></member>
+      <member refid="structwme__tx__params__s_1a4800b70c9eccff265b0a9b5f58e542e5" prot="public" virt="non-virtual"><scope>wme_tx_params_s</scope><name>short_fallback</name></member>
+      <member refid="structwme__tx__params__s_1a1ef4a19e68d66e4b683a4111e289b5d0" prot="public" virt="non-virtual"><scope>wme_tx_params_s</scope><name>short_retry</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwl__escan__result__t" kind="struct" language="C++" prot="public">
+    <compoundname>wl_escan_result_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwl__escan__result__t_1a3a92b3e6d105dee4dd0b5ac8eefeb219" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t buflen</definition>
+        <argsstring></argsstring>
+        <name>buflen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="169" column="14" bodyfile="source/whd_wlioctl.h" bodystart="169" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__escan__result__t_1acd99bb05ca015e7d74448acb1deba7ca" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t version</definition>
+        <argsstring></argsstring>
+        <name>version</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="170" column="14" bodyfile="source/whd_wlioctl.h" bodystart="170" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__escan__result__t_1af5ad6a3d0cac3dc74737a956f1ea063e" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t sync_id</definition>
+        <argsstring></argsstring>
+        <name>sync_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="171" column="14" bodyfile="source/whd_wlioctl.h" bodystart="171" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__escan__result__t_1a24e05e51ef62a65e5ce5e7acc6e9ce1b" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t bss_count</definition>
+        <argsstring></argsstring>
+        <name>bss_count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="172" column="14" bodyfile="source/whd_wlioctl.h" bodystart="172" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__escan__result__t_1a8572eb12eb74c0d994e385ee24cbdb61" prot="public" static="no" mutable="no">
+        <type><ref refid="structwl__bss__info__t" kindref="compound">wl_bss_info_t</ref></type>
+        <definition>wl_bss_info_t bss_info[1]</definition>
+        <argsstring>[1]</argsstring>
+        <name>bss_info</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="173" column="19" bodyfile="source/whd_wlioctl.h" bodystart="173" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>whd_mac_t</label>
+        <link refid="structwhd__mac__t"/>
+      </node>
+      <node id="2">
+        <label>wl_bss_info_t</label>
+        <link refid="structwl__bss__info__t"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>BSSID</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>wl_escan_result_t</label>
+        <link refid="structwl__escan__result__t"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>bss_info</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="source/whd_wlioctl.h" line="167" column="1" bodyfile="source/whd_wlioctl.h" bodystart="168" bodyend="174"/>
+    <listofallmembers>
+      <member refid="structwl__escan__result__t_1a24e05e51ef62a65e5ce5e7acc6e9ce1b" prot="public" virt="non-virtual"><scope>wl_escan_result_t</scope><name>bss_count</name></member>
+      <member refid="structwl__escan__result__t_1a8572eb12eb74c0d994e385ee24cbdb61" prot="public" virt="non-virtual"><scope>wl_escan_result_t</scope><name>bss_info</name></member>
+      <member refid="structwl__escan__result__t_1a3a92b3e6d105dee4dd0b5ac8eefeb219" prot="public" virt="non-virtual"><scope>wl_escan_result_t</scope><name>buflen</name></member>
+      <member refid="structwl__escan__result__t_1af5ad6a3d0cac3dc74737a956f1ea063e" prot="public" virt="non-virtual"><scope>wl_escan_result_t</scope><name>sync_id</name></member>
+      <member refid="structwl__escan__result__t_1acd99bb05ca015e7d74448acb1deba7ca" prot="public" virt="non-virtual"><scope>wl_escan_result_t</scope><name>version</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

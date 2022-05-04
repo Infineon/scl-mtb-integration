@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwme__max__bandwidth__t" kind="struct" language="C++" prot="public">
+    <compoundname>wme_max_bandwidth_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwme__max__bandwidth__t_1a1a83569bf88b230d2244dcde1cb4f788" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t ac[AC_COUNT]</definition>
+        <argsstring>[AC_COUNT]</argsstring>
+        <name>ac</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3005" column="14" bodyfile="source/whd_wlioctl.h" bodystart="3005" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="3003" column="1" bodyfile="source/whd_wlioctl.h" bodystart="3004" bodyend="3006"/>
+    <listofallmembers>
+      <member refid="structwme__max__bandwidth__t_1a1a83569bf88b230d2244dcde1cb4f788" prot="public" virt="non-virtual"><scope>wme_max_bandwidth_t</scope><name>ac</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

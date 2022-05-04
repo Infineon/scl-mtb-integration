@@ -1,10 +1,19 @@
 var searchData=
 [
-  ['data_829',['data',['../structwhd__wep__key__t.html#a6460a21fbea84550b8bf9c7ce257e4ed',1,'whd_wep_key_t']]],
-  ['datalen_830',['datalen',['../structwhd__event__msg.html#a20ef2f8b0dc25d28c0c76be72919a60a',1,'whd_event_msg']]],
-  ['destination_5faddress_831',['destination_address',['../structwhd__event__ether__header__t.html#aecece25a401285d039a6f30991dad78e',1,'whd_event_ether_header_t']]],
-  ['dev_5fgpio_5fsel_832',['dev_gpio_sel',['../structwhd__oob__config__t.html#a2d83d43c26f20c82203b65cef7cf9d2f',1,'whd_oob_config_t']]],
-  ['dtim_833',['dtim',['../structwhd__listen__interval__t.html#a011e406e7bba2200194b90d308ea2e82',1,'whd_listen_interval_t']]],
-  ['dtim_5fperiod_834',['dtim_period',['../structwl__bss__info__t.html#a2817cb129e69f6ce5a24dfb2dd8706cc',1,'wl_bss_info_t']]],
-  ['duty_5fcycle_835',['duty_cycle',['../structwhd__btc__lescan__params__t.html#ad0362052c89424bf11eb63b726b05182',1,'whd_btc_lescan_params_t']]]
+  ['d11cnt_5frxcrc_5foff_0',['d11cnt_rxcrc_off',['../structwl__cnt__ver__30__t.html#adf665c998ffa8aa49993a9c176b4f463',1,'wl_cnt_ver_30_t']]],
+  ['d11cnt_5ftxnocts_5foff_1',['d11cnt_txnocts_off',['../structwl__cnt__ver__30__t.html#a6be850604869a9fbc165125ff866e95b',1,'wl_cnt_ver_30_t']]],
+  ['d11cnt_5ftxrts_5foff_2',['d11cnt_txrts_off',['../structwl__cnt__ver__30__t.html#a108554e0b183d6b688a180629b2194b3',1,'wl_cnt_ver_30_t']]],
+  ['data_3',['data',['../structwhd__wep__key__t.html#a6460a21fbea84550b8bf9c7ce257e4ed',1,'whd_wep_key_t::data()'],['../structwl__cnt__info__t.html#aa86e1085c6a16f60258f29c9d5fc2144',1,'wl_cnt_info_t::data()'],['../structwhd__tko__connect.html#aa86e1085c6a16f60258f29c9d5fc2144',1,'whd_tko_connect::data()']]],
+  ['datalen_4',['datalen',['../structwhd__event__msg.html#a20ef2f8b0dc25d28c0c76be72919a60a',1,'whd_event_msg::datalen()'],['../structwl__cnt__info__t.html#a4e022dc73ace09877bb33285b22a8425',1,'wl_cnt_info_t::datalen()']]],
+  ['decsuccess_5',['decsuccess',['../structwl__cnt__ver__30__t.html#a79e90853cdb105562094d800ea94e28c',1,'wl_cnt_ver_30_t']]],
+  ['decsuccess_5fmcst_6',['decsuccess_mcst',['../structwl__cnt__ver__30__t.html#a86a1072fdc9442bdb1b590fc4511cf30',1,'wl_cnt_ver_30_t']]],
+  ['destination_5faddress_7',['destination_address',['../structwhd__event__ether__header__t.html#aecece25a401285d039a6f30991dad78e',1,'whd_event_ether_header_t']]],
+  ['dev_5fgpio_5fsel_8',['dev_gpio_sel',['../structwhd__oob__config__t.html#a2d83d43c26f20c82203b65cef7cf9d2f',1,'whd_oob_config_t']]],
+  ['dma_5fhang_9',['dma_hang',['../structwl__cnt__ver__30__t.html#a274cfd3dac7e70627cbd5ef2f0826fd1',1,'wl_cnt_ver_30_t']]],
+  ['dmada_10',['dmada',['../structwl__cnt__ver__30__t.html#a85e83608008c74450a6cf9480dc775e1',1,'wl_cnt_ver_30_t']]],
+  ['dmade_11',['dmade',['../structwl__cnt__ver__30__t.html#a8b7c4c0a996493e91f7151fdfd136232',1,'wl_cnt_ver_30_t']]],
+  ['dmape_12',['dmape',['../structwl__cnt__ver__30__t.html#afad5d9f65a5a350c4b3eac1b9145d43f',1,'wl_cnt_ver_30_t']]],
+  ['dtim_13',['dtim',['../structwhd__listen__interval__t.html#a011e406e7bba2200194b90d308ea2e82',1,'whd_listen_interval_t']]],
+  ['dtim_5fperiod_14',['dtim_period',['../structwl__bss__info__t.html#a2817cb129e69f6ce5a24dfb2dd8706cc',1,'wl_bss_info_t']]],
+  ['duty_5fcycle_15',['duty_cycle',['../structwhd__btc__lescan__params__t.html#ad0362052c89424bf11eb63b726b05182',1,'whd_btc_lescan_params_t']]]
 ];

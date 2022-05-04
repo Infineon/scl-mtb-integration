@@ -1,0 +1,207 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="whd__endian_8h" kind="file" language="C++">
+    <compoundname>whd_endian.h</compoundname>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="whd__endian_8h_1a7cd57d876062160d9846dff1b9b8d4e7" prot="public" static="no">
+        <name>SWAP16</name>
+        <param><defname>val</defname></param>
+        <initializer>    ( (uint16_t)( ( ( (uint16_t)(val) &amp; (uint16_t)0x00ffU ) &lt;&lt; 8 ) | \
+                  ( ( (uint16_t)(val) &amp; (uint16_t)0xff00U ) &gt;&gt; 8 ) ) )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_endian.h" line="33" column="9" bodyfile="source/whd_endian.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="whd__endian_8h_1a3ac1f3035b3d202ec2ebd65ff3c937ee" prot="public" static="no">
+        <name>SWAP32</name>
+        <param><defname>val</defname></param>
+        <initializer>    ( (uint32_t)( ( ( (uint32_t)(val) &amp; (uint32_t)0x000000ffU ) &lt;&lt; 24 ) | \
+                  ( ( (uint32_t)(val) &amp; (uint32_t)0x0000ff00U ) &lt;&lt;  8 ) | \
+                  ( ( (uint32_t)(val) &amp; (uint32_t)0x00ff0000U ) &gt;&gt;  8 ) | \
+                  ( ( (uint32_t)(val) &amp; (uint32_t)0xff000000U ) &gt;&gt; 24 ) ) )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_endian.h" line="38" column="9" bodyfile="source/whd_endian.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="whd__endian_8h_1ac3d71ce6af85cb2dd0f026e5dd376e6f" prot="public" static="no">
+        <name>htod32</name>
+        <param><defname>i</defname></param>
+        <initializer>(i)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_endian.h" line="54" column="9" bodyfile="source/whd_endian.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="whd__endian_8h_1a14aa54f9776a9ad9ba3257fb2af6133e" prot="public" static="no">
+        <name>htod16</name>
+        <param><defname>i</defname></param>
+        <initializer>(i)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_endian.h" line="55" column="9" bodyfile="source/whd_endian.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="whd__endian_8h_1a50a4fce63f272a4fbc55a167505ab688" prot="public" static="no">
+        <name>dtoh32</name>
+        <param><defname>i</defname></param>
+        <initializer>(i)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_endian.h" line="56" column="9" bodyfile="source/whd_endian.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="whd__endian_8h_1ab6ac38ee78e89fae4fd58d71a8afdd68" prot="public" static="no">
+        <name>dtoh16</name>
+        <param><defname>i</defname></param>
+        <initializer>(i)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_endian.h" line="57" column="9" bodyfile="source/whd_endian.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="whd__endian_8h_1a3c5a24e46ccccb596d517e393e65babd" prot="public" static="no">
+        <name>hton16</name>
+        <param><defname>i</defname></param>
+        <initializer>SWAP16(i)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_endian.h" line="58" column="9" bodyfile="source/whd_endian.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="whd__endian_8h_1ac958fbbb7f2877b45751c36b07e8dcbc" prot="public" static="no">
+        <name>hton32</name>
+        <param><defname>i</defname></param>
+        <initializer>SWAP32(i)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_endian.h" line="59" column="9" bodyfile="source/whd_endian.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="whd__endian_8h_1afffe2817ad6e0fa28d1cf900e2731753" prot="public" static="no">
+        <name>ntoh16</name>
+        <param><defname>i</defname></param>
+        <initializer>SWAP16(i)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_endian.h" line="60" column="9" bodyfile="source/whd_endian.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="whd__endian_8h_1a541e78f67c7938d318e85f4e3723f0d6" prot="public" static="no">
+        <name>ntoh32</name>
+        <param><defname>i</defname></param>
+        <initializer>SWAP32(i)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_endian.h" line="61" column="9" bodyfile="source/whd_endian.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>2021,<sp/>Cypress<sp/>Semiconductor<sp/>Corporation<sp/>(an<sp/>Infineon<sp/>company)</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>SPDX-License-Identifier:<sp/>Apache-2.0</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>Licensed<sp/>under<sp/>the<sp/>Apache<sp/>License,<sp/>Version<sp/>2.0<sp/>(the<sp/>&quot;License&quot;);</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>you<sp/>may<sp/>not<sp/>use<sp/>this<sp/>file<sp/>except<sp/>in<sp/>compliance<sp/>with<sp/>the<sp/>License.</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>You<sp/>may<sp/>obtain<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>License<sp/>at</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/>http://www.apache.org/licenses/LICENSE-2.0</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>Unless<sp/>required<sp/>by<sp/>applicable<sp/>law<sp/>or<sp/>agreed<sp/>to<sp/>in<sp/>writing,<sp/>software</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>distributed<sp/>under<sp/>the<sp/>License<sp/>is<sp/>distributed<sp/>on<sp/>an<sp/>&quot;AS<sp/>IS&quot;<sp/>BASIS,</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>WITHOUT<sp/>WARRANTIES<sp/>OR<sp/>CONDITIONS<sp/>OF<sp/>ANY<sp/>KIND,<sp/>either<sp/>express<sp/>or<sp/>implied.</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>See<sp/>the<sp/>License<sp/>for<sp/>the<sp/>specific<sp/>language<sp/>governing<sp/>permissions<sp/>and</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>limitations<sp/>under<sp/>the<sp/>License.</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/>Byte<sp/>order<sp/>utilities</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/>This<sp/>file<sp/>by<sp/>default<sp/>provides<sp/>proper<sp/>behavior<sp/>on<sp/>little-endian<sp/>architectures.</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*<sp/>On<sp/>big-endian<sp/>architectures,<sp/>IL_BIGENDIAN<sp/>should<sp/>be<sp/>defined.</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>INCLUDED_WHD_ENDIAN_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>INCLUDED_WHD_ENDIAN_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Reverse<sp/>the<sp/>bytes<sp/>in<sp/>a<sp/>16-bit<sp/>value<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SWAP16(val)<sp/>\</highlight></codeline>
+<codeline lineno="34"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>(<sp/>(uint16_t)(<sp/>(<sp/>(<sp/>(uint16_t)(val)<sp/>&amp;<sp/>(uint16_t)0x00ffU<sp/>)<sp/>&lt;&lt;<sp/>8<sp/>)<sp/>|<sp/>\</highlight></codeline>
+<codeline lineno="35"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(<sp/>(<sp/>(uint16_t)(val)<sp/>&amp;<sp/>(uint16_t)0xff00U<sp/>)<sp/>&gt;&gt;<sp/>8<sp/>)<sp/>)<sp/>)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Reverse<sp/>the<sp/>bytes<sp/>in<sp/>a<sp/>32-bit<sp/>value<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SWAP32(val)<sp/>\</highlight></codeline>
+<codeline lineno="39"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>(<sp/>(uint32_t)(<sp/>(<sp/>(<sp/>(uint32_t)(val)<sp/>&amp;<sp/>(uint32_t)0x000000ffU<sp/>)<sp/>&lt;&lt;<sp/>24<sp/>)<sp/>|<sp/>\</highlight></codeline>
+<codeline lineno="40"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(<sp/>(<sp/>(uint32_t)(val)<sp/>&amp;<sp/>(uint32_t)0x0000ff00U<sp/>)<sp/>&lt;&lt;<sp/><sp/>8<sp/>)<sp/>|<sp/>\</highlight></codeline>
+<codeline lineno="41"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(<sp/>(<sp/>(uint32_t)(val)<sp/>&amp;<sp/>(uint32_t)0x00ff0000U<sp/>)<sp/>&gt;&gt;<sp/><sp/>8<sp/>)<sp/>|<sp/>\</highlight></codeline>
+<codeline lineno="42"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(<sp/>(<sp/>(uint32_t)(val)<sp/>&amp;<sp/>(uint32_t)0xff000000U<sp/>)<sp/>&gt;&gt;<sp/>24<sp/>)<sp/>)<sp/>)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>IL_BIGENDIAN</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>htod32(i)<sp/>SWAP32(i)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>htod16(i)<sp/>SWAP16(i)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>dtoh32(i)<sp/>SWAP32(i)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>dtoh16(i)<sp/>SWAP16(i)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>hton16(i)<sp/>(i)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>hton32(i)<sp/>(i)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>ntoh16(i)<sp/>(i)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>ntoh32(i)<sp/>(i)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="preprocessor">#else<sp/></highlight><highlight class="comment">/*<sp/>IL_BIGENDIAN<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>htod32(i)<sp/>(i)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>htod16(i)<sp/>(i)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>dtoh32(i)<sp/>(i)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>dtoh16(i)<sp/>(i)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>hton16(i)<sp/>SWAP16(i)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>hton32(i)<sp/>SWAP32(i)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>ntoh16(i)<sp/>SWAP16(i)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>ntoh32(i)<sp/>SWAP32(i)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>IL_BIGENDIAN<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal">}<sp/></highlight><highlight class="comment">/*<sp/>extern<sp/>&quot;C&quot;<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>INCLUDED_WHD_ENDIAN_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="source/whd_endian.h"/>
+  </compounddef>
+</doxygen>

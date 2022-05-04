@@ -1,0 +1,239 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwhd__phyrate__counters__t" kind="struct" language="C++" prot="public">
+    <compoundname>whd_phyrate_counters_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwhd__phyrate__counters__t_1a9b020d32f19d909fd3c3100bb51c628b" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rx1mbps</definition>
+        <argsstring></argsstring>
+        <name>rx1mbps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2503" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2503" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__phyrate__counters__t_1adb744c539f1677b342ac84cce8194dd2" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rx2mbps</definition>
+        <argsstring></argsstring>
+        <name>rx2mbps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2504" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2504" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__phyrate__counters__t_1a5303785bbee424a5333c9fbe9cd6e885" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rx5mbps5</definition>
+        <argsstring></argsstring>
+        <name>rx5mbps5</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2505" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2505" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__phyrate__counters__t_1a40173811a9732ee55e687d2e71091e15" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rx6mbps</definition>
+        <argsstring></argsstring>
+        <name>rx6mbps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2506" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2506" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__phyrate__counters__t_1ac701c46efcae3e87a8729e16e9520bf6" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rx9mbps</definition>
+        <argsstring></argsstring>
+        <name>rx9mbps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2507" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2507" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__phyrate__counters__t_1aab2473aef900a83a2bca670b663666e5" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rx11mbps</definition>
+        <argsstring></argsstring>
+        <name>rx11mbps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2508" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2508" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__phyrate__counters__t_1ac192e87ebdd94ad27de26e03a294215d" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rx12mbps</definition>
+        <argsstring></argsstring>
+        <name>rx12mbps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2509" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2509" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__phyrate__counters__t_1aa01811ccf51d5f65bc5aec3f512a1fb3" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rx18mbps</definition>
+        <argsstring></argsstring>
+        <name>rx18mbps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2510" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2510" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__phyrate__counters__t_1a84dd5934cc1efe4310041d4338585dfd" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rx24mbps</definition>
+        <argsstring></argsstring>
+        <name>rx24mbps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2511" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2511" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__phyrate__counters__t_1ad063ecc25a0ee47c0f898e7c68c1e86d" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rx36mbps</definition>
+        <argsstring></argsstring>
+        <name>rx36mbps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2512" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2512" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__phyrate__counters__t_1a7954b5de3f440f20010e4fd65f5f692b" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rx48mbps</definition>
+        <argsstring></argsstring>
+        <name>rx48mbps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2513" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2513" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__phyrate__counters__t_1afa2bafe53a53383cc0675337f89cd044" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rx54mbps</definition>
+        <argsstring></argsstring>
+        <name>rx54mbps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2514" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2514" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__phyrate__counters__t_1aed4fd2a51d19724e5a522f48bb7b90d3" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rx108mbps</definition>
+        <argsstring></argsstring>
+        <name>rx108mbps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2515" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2515" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__phyrate__counters__t_1a7c7dc85edab6a521017ab48bc3846809" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rx162mbps</definition>
+        <argsstring></argsstring>
+        <name>rx162mbps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2516" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2516" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__phyrate__counters__t_1a424cf9c8fa482554bf42680fd9003b0d" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rx216mbps</definition>
+        <argsstring></argsstring>
+        <name>rx216mbps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2517" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2517" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwhd__phyrate__counters__t_1a37f0884a0d30219c25561c5af29ecfbf" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t rx270mbps</definition>
+        <argsstring></argsstring>
+        <name>rx270mbps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="2518" column="14" bodyfile="source/whd_wlioctl.h" bodystart="2518" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="2501" column="1" bodyfile="source/whd_wlioctl.h" bodystart="2502" bodyend="2519"/>
+    <listofallmembers>
+      <member refid="structwhd__phyrate__counters__t_1aed4fd2a51d19724e5a522f48bb7b90d3" prot="public" virt="non-virtual"><scope>whd_phyrate_counters_t</scope><name>rx108mbps</name></member>
+      <member refid="structwhd__phyrate__counters__t_1aab2473aef900a83a2bca670b663666e5" prot="public" virt="non-virtual"><scope>whd_phyrate_counters_t</scope><name>rx11mbps</name></member>
+      <member refid="structwhd__phyrate__counters__t_1ac192e87ebdd94ad27de26e03a294215d" prot="public" virt="non-virtual"><scope>whd_phyrate_counters_t</scope><name>rx12mbps</name></member>
+      <member refid="structwhd__phyrate__counters__t_1a7c7dc85edab6a521017ab48bc3846809" prot="public" virt="non-virtual"><scope>whd_phyrate_counters_t</scope><name>rx162mbps</name></member>
+      <member refid="structwhd__phyrate__counters__t_1aa01811ccf51d5f65bc5aec3f512a1fb3" prot="public" virt="non-virtual"><scope>whd_phyrate_counters_t</scope><name>rx18mbps</name></member>
+      <member refid="structwhd__phyrate__counters__t_1a9b020d32f19d909fd3c3100bb51c628b" prot="public" virt="non-virtual"><scope>whd_phyrate_counters_t</scope><name>rx1mbps</name></member>
+      <member refid="structwhd__phyrate__counters__t_1a424cf9c8fa482554bf42680fd9003b0d" prot="public" virt="non-virtual"><scope>whd_phyrate_counters_t</scope><name>rx216mbps</name></member>
+      <member refid="structwhd__phyrate__counters__t_1a84dd5934cc1efe4310041d4338585dfd" prot="public" virt="non-virtual"><scope>whd_phyrate_counters_t</scope><name>rx24mbps</name></member>
+      <member refid="structwhd__phyrate__counters__t_1a37f0884a0d30219c25561c5af29ecfbf" prot="public" virt="non-virtual"><scope>whd_phyrate_counters_t</scope><name>rx270mbps</name></member>
+      <member refid="structwhd__phyrate__counters__t_1adb744c539f1677b342ac84cce8194dd2" prot="public" virt="non-virtual"><scope>whd_phyrate_counters_t</scope><name>rx2mbps</name></member>
+      <member refid="structwhd__phyrate__counters__t_1ad063ecc25a0ee47c0f898e7c68c1e86d" prot="public" virt="non-virtual"><scope>whd_phyrate_counters_t</scope><name>rx36mbps</name></member>
+      <member refid="structwhd__phyrate__counters__t_1a7954b5de3f440f20010e4fd65f5f692b" prot="public" virt="non-virtual"><scope>whd_phyrate_counters_t</scope><name>rx48mbps</name></member>
+      <member refid="structwhd__phyrate__counters__t_1afa2bafe53a53383cc0675337f89cd044" prot="public" virt="non-virtual"><scope>whd_phyrate_counters_t</scope><name>rx54mbps</name></member>
+      <member refid="structwhd__phyrate__counters__t_1a5303785bbee424a5333c9fbe9cd6e885" prot="public" virt="non-virtual"><scope>whd_phyrate_counters_t</scope><name>rx5mbps5</name></member>
+      <member refid="structwhd__phyrate__counters__t_1a40173811a9732ee55e687d2e71091e15" prot="public" virt="non-virtual"><scope>whd_phyrate_counters_t</scope><name>rx6mbps</name></member>
+      <member refid="structwhd__phyrate__counters__t_1ac701c46efcae3e87a8729e16e9520bf6" prot="public" virt="non-virtual"><scope>whd_phyrate_counters_t</scope><name>rx9mbps</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="group__event" kind="group">
     <compoundname>event</compoundname>
     <title>WHD Event handling API</title>
       <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="group__event_1ga9c74af353c83a8f77097acbc65362b07" prot="public" static="no">
+      <memberdef kind="typedef" id="group__event_1ga140bef247bc6273b94a0408caa4edfb8" prot="public" static="no">
         <type>void *(*</type>
-        <definition>typedef void*(* whd_event_handler_t) (whd_interface_t ifp, const whd_event_header_t *event_header, const uint8_t *event_data, void *handler_user_data)</definition>
+        <definition>typedef void *(* whd_event_handler_t) (whd_interface_t ifp, const whd_event_header_t *event_header, const uint8_t *event_data, void *handler_user_data)</definition>
         <argsstring>)(whd_interface_t ifp, const whd_event_header_t *event_header, const uint8_t *event_data, void *handler_user_data)</argsstring>
         <name>whd_event_handler_t</name>
         <briefdescription>
@@ -50,7 +50,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" line="187" column="9" bodyfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" bodystart="187" bodyend="-1"/>
+        <location file="source/whd_events.h" line="186" column="9" bodyfile="source/whd_events.h" bodystart="186" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
@@ -60,7 +60,7 @@
         <argsstring>(whd_interface_t ifp, const uint32_t *event_type, whd_event_handler_t handler_func, void *handler_user_data, uint16_t *event_index)</argsstring>
         <name>whd_wifi_set_event_handler</name>
         <param>
-          <type><ref refid="whd_8h_1a2e544c482ddbb690bbb95ce7174e79a0" kindref="member">whd_interface_t</ref></type>
+          <type>whd_interface_t</type>
           <declname>ifp</declname>
         </param>
         <param>
@@ -68,7 +68,7 @@
           <declname>event_type</declname>
         </param>
         <param>
-          <type><ref refid="group__event_1ga9c74af353c83a8f77097acbc65362b07" kindref="member">whd_event_handler_t</ref></type>
+          <type><ref refid="group__event_1ga140bef247bc6273b94a0408caa4edfb8" kindref="member">whd_event_handler_t</ref></type>
           <declname>handler_func</declname>
         </param>
         <param>
@@ -133,13 +133,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" line="209" column="10" declfile="C:/sprint/scl_scl_mtb_integration_review/scl_doxygen_documentation/inc/whd_events.h" declline="209" declcolumn="10"/>
+        <location file="source/whd_events.h" line="208" column="10" declfile="source/whd_events.h" declline="208" declcolumn="10"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
+<para>Functions that allow user applications to receive event callbacks and set event handlers. </para>
     </briefdescription>
     <detaileddescription>
-<para>Functions that allow user applications to receive event callbacks and set event handlers </para>
     </detaileddescription>
   </compounddef>
 </doxygen>

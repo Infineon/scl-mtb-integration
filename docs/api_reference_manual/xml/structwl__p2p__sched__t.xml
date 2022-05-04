@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwl__p2p__sched__t" kind="struct" language="C++" prot="public">
+    <compoundname>wl_p2p_sched_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwl__p2p__sched__t_1a1d127017fb298b889f4ba24752d08b8e" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3526" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3526" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__p2p__sched__t_1aa90f0d42f4f210203fb37502590a7bdb" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t action</definition>
+        <argsstring></argsstring>
+        <name>action</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3527" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3527" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__p2p__sched__t_1a1df02ff5cc3412fa44ecb6aaaa31d29e" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t option</definition>
+        <argsstring></argsstring>
+        <name>option</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3528" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3528" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__p2p__sched__t_1ab1806535a951673b08bff0095ce53850" prot="public" static="no" mutable="no">
+        <type><ref refid="structwl__p2p__sched__desc__t" kindref="compound">wl_p2p_sched_desc_t</ref></type>
+        <definition>wl_p2p_sched_desc_t desc[1]</definition>
+        <argsstring>[1]</argsstring>
+        <name>desc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3529" column="25" bodyfile="source/whd_wlioctl.h" bodystart="3529" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>wl_p2p_sched_desc_t</label>
+        <link refid="structwl__p2p__sched__desc__t"/>
+      </node>
+      <node id="1">
+        <label>wl_p2p_sched_t</label>
+        <link refid="structwl__p2p__sched__t"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>desc</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="source/whd_wlioctl.h" line="3524" column="1" bodyfile="source/whd_wlioctl.h" bodystart="3525" bodyend="3530"/>
+    <listofallmembers>
+      <member refid="structwl__p2p__sched__t_1aa90f0d42f4f210203fb37502590a7bdb" prot="public" virt="non-virtual"><scope>wl_p2p_sched_t</scope><name>action</name></member>
+      <member refid="structwl__p2p__sched__t_1ab1806535a951673b08bff0095ce53850" prot="public" virt="non-virtual"><scope>wl_p2p_sched_t</scope><name>desc</name></member>
+      <member refid="structwl__p2p__sched__t_1a1df02ff5cc3412fa44ecb6aaaa31d29e" prot="public" virt="non-virtual"><scope>wl_p2p_sched_t</scope><name>option</name></member>
+      <member refid="structwl__p2p__sched__t_1a1d127017fb298b889f4ba24752d08b8e" prot="public" virt="non-virtual"><scope>wl_p2p_sched_t</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

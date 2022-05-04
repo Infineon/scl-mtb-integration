@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structwl__tko__status__t" kind="struct" language="C++" prot="public">
+    <compoundname>wl_tko_status_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structwl__tko__status__t_1a20302e2c99a60d3f612dba57e3f6333b" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t count</definition>
+        <argsstring></argsstring>
+        <name>count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3928" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3928" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structwl__tko__status__t_1a592cc8a37fc8c9c881f021e0f67abb62" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t status[1]</definition>
+        <argsstring>[1]</argsstring>
+        <name>status</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/whd_wlioctl.h" line="3931" column="13" bodyfile="source/whd_wlioctl.h" bodystart="3931" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/whd_wlioctl.h" line="3926" column="1" bodyfile="source/whd_wlioctl.h" bodystart="3927" bodyend="3934"/>
+    <listofallmembers>
+      <member refid="structwl__tko__status__t_1a20302e2c99a60d3f612dba57e3f6333b" prot="public" virt="non-virtual"><scope>wl_tko_status_t</scope><name>count</name></member>
+      <member refid="structwl__tko__status__t_1a592cc8a37fc8c9c881f021e0f67abb62" prot="public" virt="non-virtual"><scope>wl_tko_status_t</scope><name>status</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
